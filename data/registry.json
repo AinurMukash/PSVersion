@@ -1,0 +1,23 @@
+[
+  {
+    "enbek_id": 19,
+    "code": "I56101010",
+    "title": "Индустрия питания",
+    "version": 2,
+    "status": "active"
+  },
+  {
+    "enbek_id": 25,
+    "code": "R90011002",
+    "title": "Артист драматического театра и кино",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "enbek_id": 27,
+    "code": "N79120012",
+    "title": "Оформление миграционной документации",
+    "version": 2,
+    "status": "active"
+  }
+]

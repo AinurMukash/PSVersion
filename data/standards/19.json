@@ -1,0 +1,86 @@
+{
+  "schema_version": "1",
+  "enbek_id": 19,
+  "code": "I56101010",
+  "title": "Индустрия питания",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Индустрия питания (общественного питания) – отрасль экономики, имеющая специфические особенности и закономерности, которые находят свое выражение в выполняемых предприятиями функциях – производства, реализации, организации потребления и досуга",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "I",
+    "section_name": "Предоставление услуг по проживанию и питанию",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "56101",
+    "subclass_name": "Деятельность ресторанов и предоставление услуг по доставке продуктов питания, за исключением деятельности объектов, находящихся на придорожной полосе"
+  },
+  "professions": [
+    {
+      "name": "Директор (заведующий) организации общественного питания",
+      "ork_level": 6
+    },
+    {
+      "name": "Заведующий производством",
+      "ork_level": 5
+    },
+    {
+      "name": "Шеф-повар",
+      "ork_level": 4
+    },
+    {
+      "name": "Шеф-кондитер",
+      "ork_level": 4
+    },
+    {
+      "name": "Менеджер ресторана",
+      "ork_level": 4
+    },
+    {
+      "name": "Метрдотель",
+      "ork_level": 3
+    },
+    {
+      "name": "Калькулятор",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "I",
+        "56101"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/19",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/19/download"
+  },
+  "hashes": {
+    "metadata_sha256": "5aeb3c79f28f9a5dfbf7593499d6dc54a42595249d3be5f4183bf29ce4144b3a",
+    "pdf_sha256": "71ae89f99b57e2ae4eb6937d82dec42f07bbb2a564eba381d03a4d4bd8c4d267",
+    "normalized_sha256": "0ff2bf4699bb8db4a133a098283e957d67b1ed2ecfc5fd465edf0b8b6ef2b3c4"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:20:13Z",
+    "last_seen_at": "2026-09-15T11:21:54Z",
+    "last_changed_at": "2026-09-15T11:20:13Z"
+  }
+}

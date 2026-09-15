@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-15T11:21:54Z",
+  "finished_at": "2026-09-15T11:21:56Z",
+  "status": "success",
+  "bootstrap": false,
+  "total": 3,
+  "new": 0,
+  "updated": 0,
+  "unchanged": 3,
+  "missing": 0,
+  "removed": 0,
+  "events_count": 0
+}
