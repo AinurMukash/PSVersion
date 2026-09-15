@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 562,
+  "code": "C25620034",
+  "title": "Монтаж технологического оборудования",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Монтаж технологического оборудования для обеспечения деятельности и выпуска продукции на промышленных предприятиях.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Монтажник технологического оборудования и связанных с ним конструкций",
+      "ork_level": 2
+    },
+    {
+      "name": "Монтажник технологического оборудования и связанных с ним конструкций",
+      "ork_level": 3
+    },
+    {
+      "name": "Монтажник технологического оборудования и связанных с ним конструкций",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/562",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/562/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1d13caf4bb6541c793e4de7b95c5698192193c676c4a9fdcbda7ba7367148154",
+    "pdf_sha256": "7971d276c4afb4f84eeb9598db71e78921b8bf84b02bb71b9f39f3e8aecd8e82",
+    "normalized_sha256": "3ab909fc33613d5bc3e33898c9dcbf9f5be9662775c8601b467fbffbc0e72820"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

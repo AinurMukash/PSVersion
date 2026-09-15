@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 353,
+  "code": "O84230007",
+  "title": "Судебно-экспертное психолого-филологическое исследование",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "Профессиональный стандарт \"Судебно-экспертное психолого-филологическое исследование\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной психолого-филологической экспертизы и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебные эксперт",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/353",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/353/download"
+  },
+  "hashes": {
+    "metadata_sha256": "19a624c4c48374d7bef4a864a45510a72614e5ef1942b5d75da08c5739c72af8",
+    "pdf_sha256": "44d5679a77c72c3756faeb27e8db307eb0dfb48f0b6151f8ffa8e901e9833068",
+    "normalized_sha256": "c99aec6b5004552a2426287f46cdd7875a6b40573c4dce74e620edf38e40c9d1"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1251,
+  "code": "D35130064",
+  "title": "Реализация и сбыт электрической энергией",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», применяется в организациях энергетической отрасли, осуществляющих реализацию и сбыт электрической энергии, и устанавливает требования к содержанию трудовой деятельности, квалификациям работников, формированию образовательных программ, признанию профессиональных квалификаций, а также применению в системе управления персоналом.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "D",
+    "section_name": "Снабжение электроэнергией, газом, паром, горячей водой и  кондиционированным воздухом",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "35130",
+    "subclass_name": "Распределение электроэнергии"
+  },
+  "professions": [
+    {
+      "name": "Оператор по работе с потребителями",
+      "ork_level": 2
+    },
+    {
+      "name": "Электромонтер по эксплуатации электросчетчиков",
+      "ork_level": 3
+    },
+    {
+      "name": "Контролер по электрической энергии",
+      "ork_level": 3
+    },
+    {
+      "name": "Контролер по электрической энергии",
+      "ork_level": 2
+    },
+    {
+      "name": "Техник-электрик",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "D",
+        "35130"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1251",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1251/download"
+  },
+  "hashes": {
+    "metadata_sha256": "acb77fa64e10b0daefd647acf88c2e8b9f0b42472105b19333dd81f5b54389d2",
+    "pdf_sha256": "73d3c6947b328a016b5876c811d4730838c6f86158bd57e37eaabd89aa242fc7",
+    "normalized_sha256": "91061d54177bd978bcb93cc23bf1728a4d657e2c90e6b5a24a18cc10a82811d9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1",
+  "enbek_id": 94,
+  "code": "A01240003",
+  "title": "Деятельность питомников",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Деятельность питомников",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01240",
+    "subclass_name": "Выращивание семечковых и косточковых плодов"
+  },
+  "professions": [
+    {
+      "name": "Агроном (средней квалификации)",
+      "ork_level": 5
+    },
+    {
+      "name": "Заведующий питомником",
+      "ork_level": 7
+    },
+    {
+      "name": "Супервайзер (бригадир) питомника",
+      "ork_level": 4
+    },
+    {
+      "name": "Лаборант семенной лаборатории",
+      "ork_level": 5
+    },
+    {
+      "name": "Рабочий по уборке урожая",
+      "ork_level": 2
+    },
+    {
+      "name": "Рабочий по выращиванию и использованию пестицидов",
+      "ork_level": 4
+    },
+    {
+      "name": "Фермер в садоводстве и питомниководстве",
+      "ork_level": 4
+    },
+    {
+      "name": "Семеновод",
+      "ork_level": 4
+    },
+    {
+      "name": "Агроном-почвовед",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01240"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/94",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/94/download"
+  },
+  "hashes": {
+    "metadata_sha256": "c03de96eaf29fa0abeef98894c3e0e0e9c5fc5ec5a1219558ffa27605d6d6d68",
+    "pdf_sha256": "4739162cc9a221d6ebfc0b7825da1aa66873e4e97ed9a1330f3687740f2f1d18",
+    "normalized_sha256": "d3fe0124d31e3afd45f05435208899ec3d2745a39a466dd6398bab34a0b5ee21"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

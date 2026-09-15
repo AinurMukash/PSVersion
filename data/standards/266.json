@@ -1,0 +1,84 @@
+{
+  "schema_version": "1",
+  "enbek_id": 266,
+  "code": "M69205050",
+  "title": "Бухгалтер",
+  "government_body": "Министерство финансов Республики Казахстан",
+  "description": "Профессиональный стандарт разработан в соответствии со статьей 5 Закона Республики Казахстан \"О профессиональных квалификациях\", устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 3,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "69202",
+    "subclass_name": "Деятельность в области составления счетов и бухгалтерского учета"
+  },
+  "professions": [
+    {
+      "name": "Бухгалтеры",
+      "ork_level": 4
+    },
+    {
+      "name": "Бухгалтеры",
+      "ork_level": 5
+    },
+    {
+      "name": "Руководитель по бухгалтерскому учету (главный бухгалтер)",
+      "ork_level": 7
+    },
+    {
+      "name": "Бухгалтеры",
+      "ork_level": 3
+    },
+    {
+      "name": "Бухгалтеры",
+      "ork_level": 6
+    },
+    {
+      "name": "Директор финансовый",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "69202"
+      ],
+      "government_body": "Министерство финансов Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/266",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/266/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1a66b5e4498e49276a9f174218778a5364a0f2821cd6e3106e4d8fe218bc3334",
+    "pdf_sha256": "ff9407f19cc3bebbaa1617702cddd1ca5c5a1d2ca832f4b91dc8af0f66f527bd",
+    "normalized_sha256": "f11ef4939f7429eedcacacbec8d7203f4ce83c50618a57c34a80f9368520e53d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

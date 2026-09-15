@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1291,
+  "code": "M74909099",
+  "title": "Экспертиза промышленной безопасности для объектов угольных шахт",
+  "government_body": "Министерство по чрезвычайным ситуациям Республики Казахстан",
+  "description": "Профессиональный стандарт разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях» и применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки специалистов и предназначены для использования широким кругом пользователей объектов угольных шахт.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-04-02",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "74909",
+    "subclass_name": "Иная профессиональная, научная и техническая деятельность, не включенная в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Специалист по освидетельствованию технических устройств объектов угольных шахт",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по обследованию технических устройств объектов угольных шахт",
+      "ork_level": 5
+    },
+    {
+      "name": "Эксперт в сфере промышленной безопасности объектов угольных шахт",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "74909"
+      ],
+      "government_body": "Министерство по чрезвычайным ситуациям Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1291",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1291/download"
+  },
+  "hashes": {
+    "metadata_sha256": "467f895d983d09f419e9de066643a7ace8edf7b57798bcd2eccb5902bf3ec8d0",
+    "pdf_sha256": "cc06860896b54c0ddb7c199b7c6e6201940b7a1a4a4ff04418fa2a183f50a77d",
+    "normalized_sha256": "844180ca06bd62c243a04a7ae454fc566781d731667233b8aceb0bc4221d80eb"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

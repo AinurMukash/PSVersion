@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 257,
+  "code": "O84230001",
+  "title": "Судебная молекулярно-генетическая экспертиза/исследование",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "В соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" разработан профессиональный стандарт \"Судебная молекулярно-генетическая экспертиза\" предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной молекулярно-генетической экспертизы в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Лаборант (средней квалификации)",
+      "ork_level": 4
+    },
+    {
+      "name": "Санитар судебно-экспертный",
+      "ork_level": 2
+    },
+    {
+      "name": "Судебные эксперты, врач-судебно-медицинский эксперт",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        2,
+        4,
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/257",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/257/download"
+  },
+  "hashes": {
+    "metadata_sha256": "540360142b5fa7f60ae5531566147583d4a181805ad1edaad6cbddd3796796e3",
+    "pdf_sha256": "fe61a537a3fff49d1e75f1fd834712aaf946e44ecc58773ea303962ce1157ac8",
+    "normalized_sha256": "17d702055ca064e08d407357c49d3d99a6c51f0d5ed6ce6c3a7b03e989baee73"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

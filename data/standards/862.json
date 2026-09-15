@@ -1,0 +1,86 @@
+{
+  "schema_version": "1",
+  "enbek_id": 862,
+  "code": "B06100015",
+  "title": "Эксплуатация нефтегазовых скважин",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профстандарт \"Эксплуатация нефтегазовых скважин\" устанавливает требования к профессиональным навыкам специалистов, занимающихся оперативной эксплуатацией нефтегазовых скважин. Он включает в себя навыки по обеспечению непрерывной работы скважин, контролю технологических параметров и оборудования, а также проведению профилактических и ремонтных работ.",
+  "version": 3,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "06100",
+    "subclass_name": "Добыча сырой нефти и попутного газа"
+  },
+  "professions": [
+    {
+      "name": "Начальник участка (добывающая промышленность)",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер по добыче нефти и газа",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по обеспечению целостности скважин",
+      "ork_level": 6
+    },
+    {
+      "name": "Мастер по добыче нефти, газа и конденсата",
+      "ork_level": 5
+    },
+    {
+      "name": "Оператор по добыче нефти и газа",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор пульта управления в добыче нефти и газа",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист компрессорных установок (помощник)",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "06100"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "year": 2024,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/862",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/862/download"
+  },
+  "hashes": {
+    "metadata_sha256": "497bcbb6ea29ecae59dbf4be754bc505cdbdd437322954372d9ee0509e5cbe98",
+    "pdf_sha256": "98c89e34222c4e057bfc2a181f3fe27d9bbf23569f58bd86ca188c8dd06d6f14",
+    "normalized_sha256": "6d9983f5f2f888bb9e26794291f2baaca5cb8bfe0558b495462d46e6834d17a9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

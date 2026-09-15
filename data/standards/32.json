@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 32,
+  "code": "R90011007",
+  "title": "Режиссёр музыкального театра",
+  "government_body": null,
+  "description": "Театральная деятельность; деятельность, способствующая проведению культурно-зрелищных мероприятий",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-20",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90011",
+    "subclass_name": "Театральная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Режиссер музыкального театра",
+      "ork_level": 6
+    },
+    {
+      "name": "Режиссер музыкального театра",
+      "ork_level": 7
+    },
+    {
+      "name": "Режиссер музыкального театра",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90011"
+      ],
+      "government_body": null,
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/32",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/32/download"
+  },
+  "hashes": {
+    "metadata_sha256": "053b08a015fd9f5a7884db7a16e61f1cec72215ec5bd759d33c85daf238deb64",
+    "pdf_sha256": "a50e418f613d01408379d152e66bb3ff87dfc0547faa6c3dc8e2e91fc42fcdb4",
+    "normalized_sha256": "558f2dea3f657f6cf32c6c6a30f368a9ea7b25050fa71af2269d8d2ce4073543"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

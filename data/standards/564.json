@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 564,
+  "code": "C25620035",
+  "title": "3D печать металлических и пластмассовых изделий",
+  "government_body": "Комитет индустриального развития Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Производство металлических и пластмассовых изделий методами 3D печати",
+  "version": 1,
+  "year": 2019,
+  "revision_date": null,
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Оператор по 3D печати",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер по 3D печати",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "Комитет индустриального развития Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        5
+      ],
+      "year": 2019,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/564",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/564/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2ab29511f1f6960b387c38e175a44d0e5840a6116d3c3a528210323694a63357",
+    "pdf_sha256": "8a7c6950121902948600a205b2b72c5fb439c37feb3cb7782b686c4ab9622e4b",
+    "normalized_sha256": "a7d8a63344910877d90e74d5d129db681eb738c2659d8261fa226dea49b5c1a7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1",
+  "enbek_id": 927,
+  "code": "H52211057",
+  "title": "Техническое обслуживание и ремонт устройств электроснабжения тяговой подстанции (ТП)",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности по техническому обслуживанию и ремонту устройств электроснабжения ТП.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52211",
+    "subclass_name": "Эксплуатация железных дорог"
+  },
+  "professions": [
+    {
+      "name": "Электромонтер тяговой подстанции",
+      "ork_level": 3
+    },
+    {
+      "name": "Электромеханик тяговой подстанции (дежурный)",
+      "ork_level": 5
+    },
+    {
+      "name": "Начальник тяговой подстанции",
+      "ork_level": 5
+    },
+    {
+      "name": "Старший электромеханик тяговой подстанции",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52211"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        3,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/927",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/927/download"
+  },
+  "hashes": {
+    "metadata_sha256": "fdc7763ace1e086eb07d6c3db2d4b2ec146d343884d12de22d6b39d3f7f06cfb",
+    "pdf_sha256": "f9a526366edfcd2608ff782cb08e668ab4ffb92361e0daaeb460e7e5c37fd5f0",
+    "normalized_sha256": "a7a6d31c784bf8616df41ffa6d8c4ab017d08ce695538495a40b7d084818133e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

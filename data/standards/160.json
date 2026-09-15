@@ -1,0 +1,80 @@
+{
+  "schema_version": "1",
+  "enbek_id": 160,
+  "code": "N79120014",
+  "title": "Предоставление услуг менеджера туризма",
+  "government_body": "Объединение юридических лиц «Казахстанская туристская ассоциация»;",
+  "description": "Предоставление туристских услуг по различным видам туризма",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-11-15",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "79120",
+    "subclass_name": "Деятельность туристских операторов"
+  },
+  "professions": [
+    {
+      "name": "Менеджер этнотуризма",
+      "ork_level": 4
+    },
+    {
+      "name": "Менеджер агротуризма",
+      "ork_level": 4
+    },
+    {
+      "name": "Менеджер медицинского и доступного туризма",
+      "ork_level": 4
+    },
+    {
+      "name": "Менеджер по продвижению туристских продуктов через интернет",
+      "ork_level": 4
+    },
+    {
+      "name": "Менеджер безопасного туризма",
+      "ork_level": 6
+    },
+    {
+      "name": "Менеджер экологического туризма",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "79120"
+      ],
+      "government_body": "Объединение юридических лиц «Казахстанская туристская ассоциация»;",
+      "ork_levels": [
+        4,
+        6
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/160",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/160/download"
+  },
+  "hashes": {
+    "metadata_sha256": "bf362fd6f88e80feb32e5672209fc939f040743ef9d00903bebec89faeec19b0",
+    "pdf_sha256": "773afe0a4fa616aaa87f903feb68b1874bbc5c03f25e97e2064f61b5240e3e12",
+    "normalized_sha256": "2e5df7fdad31e5899f329c198382871fd916323c5384220ec64909ed2c00a9f9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

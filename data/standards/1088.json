@@ -1,0 +1,87 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1088,
+  "code": "C19100076",
+  "title": "Управление коксохимическим процессом",
+  "government_body": "«Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Организация и выполнение работ в коксохимическом производстве",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "19100",
+    "subclass_name": "Производство продукции коксовых печей"
+  },
+  "professions": [
+    {
+      "name": "Машинист барабанного охладителя",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист коксопогрузочной машины",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист коксовых машин",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист крана склада сульфата",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист установки сухого тушения кокса",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист электровоза тушильного вагона",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист газодувных машин",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист насосных установок",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "19100"
+      ],
+      "government_body": "«Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1088",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1088/download"
+  },
+  "hashes": {
+    "metadata_sha256": "bb4edccb4ac072c486cdfff943ee5a9f2c010d201c7cf37960c3e1db6bcb807e",
+    "pdf_sha256": "44719e4981135b5d73ed5e50bf82ec71f0e6557fb784d89461e97035ecbb43f2",
+    "normalized_sha256": "743c91827666e58388719d955efbb12b143c6c8c537915a4848a02d5c1765523"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

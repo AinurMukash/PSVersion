@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1147,
+  "code": "C24310069",
+  "title": "Холодное волочение",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Изготовление труб, проволоки, прутков различного диаметра и листов путем холодного волочения",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24310",
+    "subclass_name": "Холодное волочение"
+  },
+  "professions": [
+    {
+      "name": "Волочильщик труб",
+      "ork_level": 3
+    },
+    {
+      "name": "Волочильщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Волочильщик цветных металлов",
+      "ork_level": 3
+    },
+    {
+      "name": "Волочильщик проволоки",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24310"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1147",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1147/download"
+  },
+  "hashes": {
+    "metadata_sha256": "71f96f5450a5d8365b1e13a369297320bf05a443e850bafeb043b67e4dfead2d",
+    "pdf_sha256": "05f683f0c68687675aea25609d5475bd2c3eaefaef1a5b7cf63d577c90d723c9",
+    "normalized_sha256": "72436767a134846f19f210606bb5da7262a17dbad1935fee3cdb61765c1d2fc3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

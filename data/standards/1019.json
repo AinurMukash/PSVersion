@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1019,
+  "code": "C25620044",
+  "title": "Ремонт технологического оборудования",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Обеспечение сохранения технических параметров и работоспособности различных узлов и механизмов, оборудования, агрегатов и машин путем технического обслуживания и ремонта в соответствии с нормативно-технической документацией",
+  "version": 1,
+  "year": 2019,
+  "revision_date": "2022-01-01",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Слесарь-ремонтник",
+      "ork_level": 2
+    },
+    {
+      "name": "Слесарь-ремонтник",
+      "ork_level": 3
+    },
+    {
+      "name": "Слесарь-ремонтник",
+      "ork_level": 4
+    },
+    {
+      "name": "Сервис инженер",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "year": 2019,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1019",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1019/download"
+  },
+  "hashes": {
+    "metadata_sha256": "fbb5b67cad0706942f8ce1e471230bbd28c63aec2b8cec671da2259fbf1cb4ea",
+    "pdf_sha256": "185a3ec9dafbc52d06f823fa6d25e83ac3e8fc70055e06aea161dccaefc22b2d",
+    "normalized_sha256": "75ab6aacf049b9efacb6b80653e90676feb067743d59b914ecbf181db74964b1"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

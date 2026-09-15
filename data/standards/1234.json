@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1234,
+  "code": "D35130019",
+  "title": "Прогноз потребления электроэнергии и мощности",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Прогноз потребления электроэнергии и мощности» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в энергетических организациях и на предприятиях.",
+  "version": 3,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "D",
+    "section_name": "Снабжение электроэнергией, газом, паром, горячей водой и  кондиционированным воздухом",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "35130",
+    "subclass_name": "Распределение электроэнергии"
+  },
+  "professions": [
+    {
+      "name": "Инженер-электрик",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по учету и распределению электроэнергии",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "D",
+        "35130"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2025,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1234",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1234/download"
+  },
+  "hashes": {
+    "metadata_sha256": "07d5b09043a467f500bbb79a04fe2fcb63aca54f7e7ca0ede86768d389a55c87",
+    "pdf_sha256": "cc5e6efefdf7b9e0df1bbc0e93da8872880f2e5741c1d1adc9b0381685ed9683",
+    "normalized_sha256": "24c9b93253f35f8e989df03b46832787f6dae78e7311f80cb20c02fd41398865"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 67,
+  "code": "R90030013",
+  "title": "Художник-скульптор",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "Деятельность скульпторов, художников, художников-мультипликаторов, граверов, офортистов и т.д., работающих индивидуально",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-20",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90030",
+    "subclass_name": "Художественное и литературное творчество"
+  },
+  "professions": [
+    {
+      "name": "Художник-скульптор",
+      "ork_level": 7
+    },
+    {
+      "name": "Художник-скульптор",
+      "ork_level": 8
+    },
+    {
+      "name": "Художник-скульптор",
+      "ork_level": 4
+    },
+    {
+      "name": "Художник-скульптур",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90030"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/67",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/67/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a3f0108ee2244f9cfc46dee297a6254057261cb97166739f1cc1a443d56d8d17",
+    "pdf_sha256": "d36ab3c50227eb2c79f759106a01e085ecd652fa4d5db06336797174a29db545",
+    "normalized_sha256": "e35c0a6ffbe7ccea881543d1359d31b0104441e5be804692accff9736fde237b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

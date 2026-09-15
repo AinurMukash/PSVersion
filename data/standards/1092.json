@@ -1,0 +1,79 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1092,
+  "code": "B05101035",
+  "title": "Добыча угля открытым способом",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Разработка месторождений угля открытым способом",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "05101",
+    "subclass_name": "Добыча каменного угля открытым способом"
+  },
+  "professions": [
+    {
+      "name": "Машинист буровой установки",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист вибропогрузочной установки",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист конвейера",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист дробильных установок горных работ",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист штабелеформирующей машины",
+      "ork_level": 3
+    },
+    {
+      "name": "Дорожно-путевой рабочий",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "05101"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1092",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1092/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6c23daabe512c7f55a0fe3821f9c50b94af93b6cf57e3fec8b2c262437d3198b",
+    "pdf_sha256": "044213e1ccf65f85aea42cc974597d2d1837e33b705fb561a3d55cddd89e4522",
+    "normalized_sha256": "a5cbb705b5a81006be66af95f9d4a36773533deda5e840499ffe660a2b0309d5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

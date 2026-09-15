@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 580,
+  "code": "J62011025",
+  "title": "Управление архитектурой компьютерных систем",
+  "government_body": "Министерство труда и социальной защиты населения Республики Казахстан",
+  "description": "Управление информационными ресурсами, организация эксплуатации,  модернизация  автоматизированных систем, создание архитектуры инфраструктуры компьютерных систем,  контроль и сопровождение, обеспечение функционирования программных и аппаратных средств, средств информационного взаимодействия предприятия.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Администратор системы автоматизации",
+      "ork_level": 5
+    },
+    {
+      "name": "Администратор системы автоматизации",
+      "ork_level": 6
+    },
+    {
+      "name": "Архитектор информационных систем",
+      "ork_level": 6
+    },
+    {
+      "name": "Архитектор информационных систем",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Министерство труда и социальной защиты населения Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/580",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/580/download"
+  },
+  "hashes": {
+    "metadata_sha256": "03ea7b70ad39291d7065d1be36633e03915497e0d405fd633b54060234e44976",
+    "pdf_sha256": "bd5309c4c42c8b5d2bf2350cfcf14f9d00363e78757d809be53f217cbafaa4ee",
+    "normalized_sha256": "10cb875248f99b309f3c72c2cc3c8dad7339f6985b0c347a9c5d180c52d5f38d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

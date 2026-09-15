@@ -1,0 +1,85 @@
+{
+  "schema_version": "1",
+  "enbek_id": 686,
+  "code": "A01161022",
+  "title": "Заготовка хлопка-сырца и первичная переработка хлопка",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Приведено описание профессий, которые относятся к сфере хлопководства, занимающихся организацией и исполнением работ при заготовке хлопка-сырца и первичной переработке хлопка.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01161",
+    "subclass_name": "Выращивание хлопка-сырца"
+  },
+  "professions": [
+    {
+      "name": "Оператор джинного оборудования",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор линтерного оборудования",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор сушильного оборудования текстильного производства",
+      "ork_level": 3
+    },
+    {
+      "name": "Прессовщик сырья и волокна",
+      "ork_level": 3
+    },
+    {
+      "name": "Лаборант контроля процесса обработки волокнистых материалов",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер по контролю качества",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-технолог",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01161"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        3,
+        4,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/686",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/686/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9f9a5bc5d49f2839c2382f4f4b380b326905ff0726440141c88b2d92837eab6a",
+    "pdf_sha256": "3731c8d025448afbf2f85f6f8f15c4bde0ad619746c39a220c2f6240ed922f99",
+    "normalized_sha256": "16342428f33fbdfe31dd564a752afe2c6009192400b50d15562435195bb80894"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

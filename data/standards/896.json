@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 896,
+  "code": "H52240046",
+  "title": "Погрузка и разгрузка грузов или багажа пассажиров независимо от вида транспорта",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний к рабочим и специалистам, занятым в организации и осуществлении погрузочно-разгрузочных работ на транспорте",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52240",
+    "subclass_name": "Транспортная обработка грузов"
+  },
+  "professions": [
+    {
+      "name": "Специалист по организации механизированных погрузочно-разгрузочных работ",
+      "ork_level": 5
+    },
+    {
+      "name": "Машинист крана",
+      "ork_level": 4
+    },
+    {
+      "name": "Оператор загрузочной и разгрузочной установки на транспорте",
+      "ork_level": 3
+    },
+    {
+      "name": "Грузчик",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52240"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/896",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/896/download"
+  },
+  "hashes": {
+    "metadata_sha256": "004a2101b535e7a24b490f9518562591efec035a772d6cd800f33e3a5d2becee",
+    "pdf_sha256": "e49ca0b5bd0fdac8cc2e2bdccc4d454f4c186b9a4cf944074867bcc571b15b3f",
+    "normalized_sha256": "df0c3134b58c99b3b517a81ff486370d96fddca48564c680804220ae617f9982"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

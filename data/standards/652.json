@@ -1,0 +1,76 @@
+{
+  "schema_version": "1",
+  "enbek_id": 652,
+  "code": "H52219037",
+  "title": "Диагностирование, техническое обслуживание и ремонт прочих автотранспортных средств",
+  "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности услуг по техническому обслуживанию и ремонту автотранспортных средств, в том числе осуществление субъектом организации и реализации мер по диагностированию автотранспортных средств для оценки технического состояния и остаточного ресурса до очередного ремонта.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52219",
+    "subclass_name": "Прочая вспомогательная деятельность  сухопутного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Механик по ремонту транспорта",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по диагностике технического состояния автотранспортных средств",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по ремонту и техническому сервису машин",
+      "ork_level": 4
+    },
+    {
+      "name": "Слесарь-электрик по ремонту электрооборудования",
+      "ork_level": 4
+    },
+    {
+      "name": "Слесарь по ремонту аккумуляторов и электроаппаратуры",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52219"
+      ],
+      "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/652",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/652/download"
+  },
+  "hashes": {
+    "metadata_sha256": "294b7e3fec6d9dde4df6de2ab1b5deb91886dfb19431f755f3e4e04ba4fb9895",
+    "pdf_sha256": "bac1107be3c695ec02f5e8de881215c2bf8de4a1dc3862f18d9e69e5d454d4fc",
+    "normalized_sha256": "4d0b1d7cebc05faedadcb23e6b376281725ad65900ea7c10252e3d84f30c7e27"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

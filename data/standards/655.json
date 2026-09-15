@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 655,
+  "code": "H49311034",
+  "title": "Перевозки пассажиров и багажа автобусами",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности услуг по перевозке пассажиров и багажа автобусами.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49311",
+    "subclass_name": "Перевозки автобусами"
+  },
+  "professions": [
+    {
+      "name": "Водитель автобуса",
+      "ork_level": 2
+    },
+    {
+      "name": "Руководитель (начальник автоколонны)",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49311"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        2,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/655",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/655/download"
+  },
+  "hashes": {
+    "metadata_sha256": "4eb5fc6b3dfbf50272fad1794f1e8d4fd8431358bbe62e1f60a04f951988a7ae",
+    "pdf_sha256": "176935ce95f1b7b6d573a3e3107f206a4cc7d6fb16def8a388fbe48388eb3b72",
+    "normalized_sha256": "27f0a6e2becdbe74e1025471dba787348ae7b7ec46c1eb0b42391027c607a117"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

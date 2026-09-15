@@ -1,0 +1,86 @@
+{
+  "schema_version": "1",
+  "enbek_id": 101,
+  "code": "A01410013",
+  "title": "Селекционная деятельность (племенное дело) в животноводстве",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Организация деятельности племенного хозяйства, занимающиеся разведением племенного поголовья сельскохозяйственных животных и птиц, а именно разведение, воспроизводство, выращивание ремонтного молодняка и птиц.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01410",
+    "subclass_name": "Разведение крупного рогатого скота молочного направления"
+  },
+  "professions": [
+    {
+      "name": "Квалифицированный рабочий в животноводстве",
+      "ork_level": 4
+    },
+    {
+      "name": "Оператор по искусственному осеменению животных и птицы",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник-осеменатор в животноводстве",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник по племенному делу",
+      "ork_level": 5
+    },
+    {
+      "name": "Ветеринарный фельдшер-лаборант",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер-исследователь",
+      "ork_level": 6
+    },
+    {
+      "name": "Заведующий пунктом искусственного осеменения",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01410"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/101",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/101/download"
+  },
+  "hashes": {
+    "metadata_sha256": "619342db0862c9a8d5f4346ce67b7dfc22fb8378144211b44502b0497442436c",
+    "pdf_sha256": "e2c990d7b9d4ad35a3c36f8b989f2fae8a6a84ec3edf86e7fc9f0b167f113563",
+    "normalized_sha256": "a53ad5a6fdabc8040f093d65264e62a13a29dcb988fa1ef552864ea29a42df1b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

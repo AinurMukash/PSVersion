@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 933,
+  "code": "H52219108",
+  "title": "Деятельность учебных организаций по подготовке водителей транспортных средств",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+  "description": "ПС включает требования функций, профессиональных задач, умений и знаний профессий к специалистам по подготовке кандидатов в водители транспортных средств соответствующей категории",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52219",
+    "subclass_name": "Прочая вспомогательная деятельность  сухопутного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Мастер производственного обучения в области транспортных услуг",
+      "ork_level": 4
+    },
+    {
+      "name": "Мастер обучения вождению во время образовательного процесса",
+      "ork_level": 4
+    },
+    {
+      "name": "Преподаватель учебной организации по подготовке водителей ТС",
+      "ork_level": 5
+    },
+    {
+      "name": "Менеджер учебной организации по подготовке водителей ТС",
+      "ork_level": 5
+    },
+    {
+      "name": "Руководитель учебной организации по подготовке водителей транспортных средств",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52219"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/933",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/933/download"
+  },
+  "hashes": {
+    "metadata_sha256": "f11c917ec13806fc03cadc5eb997b787f648db31f92071406be9bf5b4ba4592d",
+    "pdf_sha256": "1ad7a16fbc7ea68e24e45cae0956794fcfa8f2bb46230038de217dbdfdca6f4e",
+    "normalized_sha256": "dd43f8c9f56146f395625d048ae9873deb2fef5c149dbb8d9c8a4b24a03bf34e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

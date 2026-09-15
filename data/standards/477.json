@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 477,
+  "code": "R91012036",
+  "title": "Библиотекарь-реставратор",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Библиотекарь-реставратор\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-01",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь-реставратор",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/477",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/477/download"
+  },
+  "hashes": {
+    "metadata_sha256": "100a42a54f1f7adaf5c2937479dd67e37efc1a1bfac68afdb26d0c5beecabba2",
+    "pdf_sha256": "26fb66cea21974501a1e421246f2f44227f03d84f6955c3164c9cbecedb9a875",
+    "normalized_sha256": "d23fa279b372439e65d3a170f05771f296903826f12d0958a5957e8715e87847"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

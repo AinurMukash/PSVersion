@@ -1,0 +1,112 @@
+{
+  "schema_version": "1",
+  "enbek_id": 149,
+  "code": "C24200009",
+  "title": "Производство труб, трубопроводов, профилей, фитингов из стали",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Изготовление стальных труб, трубопроводов, профилей, фитингов",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24200",
+    "subclass_name": "Производство труб, трубок, полых профилей, фитингов из стали"
+  },
+  "professions": [
+    {
+      "name": "Калибровщик труб на прессе",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист формовочной машины",
+      "ork_level": 3
+    },
+    {
+      "name": "Прессовщик горячих труб",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор поста управления стана горячего проката труб",
+      "ork_level": 3
+    },
+    {
+      "name": "Трубопрокатчик",
+      "ork_level": 3
+    },
+    {
+      "name": "Гратосъемщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Волочильщик труб",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик трубоформовочного стана",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик стана печной сварки труб",
+      "ork_level": 3
+    },
+    {
+      "name": "Заливщик-труболитейщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Изолировщик труб на линии",
+      "ork_level": 3
+    },
+    {
+      "name": "Резчик труб и заготовок",
+      "ork_level": 3
+    },
+    {
+      "name": "Нагревальщик металла",
+      "ork_level": 3
+    },
+    {
+      "name": "Прессовщик на испытании труб и баллонов",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24200"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/149",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/149/download"
+  },
+  "hashes": {
+    "metadata_sha256": "aa409c2870a9d8c25a42715b3fe57a29e3cfd56f7643a434d3d5a864fd2d2c65",
+    "pdf_sha256": "67e1d5629ef7393398372c5f48375c4c160e30988328e8971a80e47913384814",
+    "normalized_sha256": "81976a12089a12383162222e2a80c3e54d7cd1f2b0a82a730ff2a03ffef576f7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

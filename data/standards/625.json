@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 625,
+  "code": "J62011013",
+  "title": "Системный аналитик",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "1)\tобеспечение единого понимания профессиональных компетенций системного аналитика и информирование заинтересованных сторон общества;\n2)\tопределение целей и содержания программ профессионального обучения;\n3)\tописание профессиональных компетенций системного аналитика в проектировании и осуществлении профессиональной деятельности;\n4)\tразвитие системы профессиональной переподготовки и повышения квалификации системного аналитика;\n5)\tустановление и оценка уровней квалификационных требований и трудовых функций системного аналитика;\n6)\tуправление изменениями и адаптация содержания собственной профессиональной деятельности.",
+  "version": 3,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Системный аналитик",
+      "ork_level": 4
+    },
+    {
+      "name": "Системный аналитик",
+      "ork_level": 5
+    },
+    {
+      "name": "Системный аналитик",
+      "ork_level": 6
+    },
+    {
+      "name": "Системный аналитик",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/625",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/625/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1c2bcead9aa4c026fcc826a698dc9fe7cfe75c76c8b6d01a8e460687700cce81",
+    "pdf_sha256": "65b52095b123ed75eceb7ee9d32964296cf7137458ad2c212cb50814fcbbb5cd",
+    "normalized_sha256": "432d9dbc5aad47a27ad6db147c20521af5a5c95fd2b1c722dea4a489b57040a3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

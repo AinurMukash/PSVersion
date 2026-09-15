@@ -1,0 +1,75 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1000,
+  "code": "M71122029",
+  "title": "Вспомогательные работы на геологоразведочных работах",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Выполнение вспомогательных работ при проведении геологоразведочных работ",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Рабочий",
+      "ork_level": 2
+    },
+    {
+      "name": "Рабочий",
+      "ork_level": 2
+    },
+    {
+      "name": "Рабочий",
+      "ork_level": 2
+    },
+    {
+      "name": "Рабочий",
+      "ork_level": 2
+    },
+    {
+      "name": "Рабочий",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        2
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1000",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1000/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9e1f53e8b9aa60e4067e36b529771e2585ccb48aebf321df4d39266c98fe507a",
+    "pdf_sha256": "cadec7c980b3fa71d0ff40149def065492ed5983941c885dde7dc55e67ebd9e4",
+    "normalized_sha256": "336393a167e4f587c12ef38695430e543dec75f6b1be0d2418e39b1e1e3dca0a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

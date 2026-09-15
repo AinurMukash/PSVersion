@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 991,
+  "code": "M71122034",
+  "title": "Инженерно-геологические исследования (инженерный геолог)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Изучение геологического строения и состава участков недр в целях определения их особенностей и пригодности для создания инфраструктурных объектов",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Техник инженерной геологии",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист инженерной геологии",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер инженерной геологии",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший инженерный геолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный инженерный геолог",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/991",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/991/download"
+  },
+  "hashes": {
+    "metadata_sha256": "850f17004f05f9bf5b61250727280f31d307fd1a6bf348855df5a1caaf4b56e8",
+    "pdf_sha256": "d9e5e378e8dce18b37be827980d41753b8778858622cbd558d5b94c27f2b5366",
+    "normalized_sha256": "b8ff00a3c91a9fa44824f4d4e312be2be1357a0f4b1e3160f1c894d0ef40ba12"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "enbek_id": 57,
+  "code": "N79120006",
+  "title": "Предоставление экскурсионных услуг",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Сопровождение отдельных лиц или группы туристов в поездках, при осмотре достопримечательностей, проведение экскурсий различной тематики",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "79120",
+    "subclass_name": "Деятельность туристских операторов"
+  },
+  "professions": [
+    {
+      "name": "Организатор путешествий (экскурсий)",
+      "ork_level": 6
+    },
+    {
+      "name": "Гид (экскурсовод)",
+      "ork_level": 4
+    },
+    {
+      "name": "Сопровождающий в путешествиях",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "79120"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        4,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/57",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/57/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1bba3f9329c151570fe0982f93375ead9b955f883b4ac83e49daa24112f8aa95",
+    "pdf_sha256": "2ed0bbc51906192d1a052f85e73094c06fb60628b7899ad76c21dbf7e0434a86",
+    "normalized_sha256": "f2df7907b585ef4ec0812764aec5465d1c0d8ff26c008dcb2b0c797f2169331a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1197,
+  "code": "D35111020",
+  "title": "Эксплуатация и ремонт вспомогательного оборудования ТЭЦ",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Эксплуатация и ремонт вспомогательного оборудования ТЭЦ» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в энергетических организациях и на предприятиях",
+  "version": 1,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "D",
+    "section_name": "Снабжение электроэнергией, газом, паром, горячей водой и  кондиционированным воздухом",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "35111",
+    "subclass_name": "Производство электроэнергии тепловыми электростанциями"
+  },
+  "professions": [
+    {
+      "name": "Моторист на топливоподаче",
+      "ork_level": 3
+    },
+    {
+      "name": "Моторист автоматизированной топливоподачи",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "D",
+        "35111"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        3
+      ],
+      "year": 2025,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1197",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1197/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6d0c1092254cd30af336d81fa4a0486f1faf562be941670973356083690590ea",
+    "pdf_sha256": "f96e6f00601c21eb247628d2808930f27befd71b072ee3ea5ca86015ac8421db",
+    "normalized_sha256": "1b4cea2d0d3dd5c9ee7bcd842e55fa46c84ba9b04d8b991e52294694faa58d86"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

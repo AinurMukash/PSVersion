@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 162,
+  "code": "C20301013",
+  "title": "Производство красок, лаков и аналогичных красящих веществ, типографской краски и мастики",
+  "government_body": null,
+  "description": "Обеспечение безопасного промышленного  производства красок, лаков и аналогичных красящих веществ, покрывающих составов, типографской краски и мастики.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-21",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "20301",
+    "subclass_name": "Производство красок, лаков, эмалей и минеральных пигментов для них"
+  },
+  "professions": [
+    {
+      "name": "Аппаратчик-лаковар",
+      "ork_level": 3
+    },
+    {
+      "name": "Аппаратчик получения лаков и эмалей на полимеризационных смолах",
+      "ork_level": 3
+    },
+    {
+      "name": "Аппаратчик производства синтетических красителей",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник по проектированию химических технологий",
+      "ork_level": 4
+    },
+    {
+      "name": "Технолог, синтетические материалы",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "20301"
+      ],
+      "government_body": null,
+      "ork_levels": [
+        3,
+        4,
+        5
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/162",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/162/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6a31cd141303da4f72e857eb37843bd563afaa659effebcb99940739e156be1c",
+    "pdf_sha256": "81522f9e4f966dfb7725b250e0d9a1951723f7b9baf5fef544de68431c96713b",
+    "normalized_sha256": "d93a8a7f5f093457f4ee1cdd5592abc4bbb6157f7149353ceae107909332af78"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

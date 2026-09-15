@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1517,
+  "code": "M71127073",
+  "title": "Энергетический аудит (Энергоаудит)",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Энергоаудит проводится в целях оценки возможности и потенциала энергосбережения, определения возможностей повышения энергоэффективности, оценки затрат на реализацию мероприятий по энергосбережению и повышению энергоэффективности, подготовки заключения по энергосбережению и повышению энергоэффективности или технического отчета по энергосбережению и повышению энергоэффективности",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71127",
+    "subclass_name": "Деятельность по предоставлению инженерно-технических консультаций"
+  },
+  "professions": [
+    {
+      "name": "Энергоаудитор",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71127"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1517",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1517/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9106f72333f14c5e0c08f79db5b95adc622e01920ba63e54be7812c5a897ab46",
+    "pdf_sha256": "3f095af7276e2e0f1454fcfd888e407f6c6e2f9c17ab3029846db89deedfa18f",
+    "normalized_sha256": "e6b7a4d0bad9196a46032cdce7ac94e33e2fe49f49d50f61aa0e287ed9a883a9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

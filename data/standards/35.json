@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 35,
+  "code": "I55101002",
+  "title": "Управление отелем",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Управление отелем - руководство всеми подразделениями отеля: службами по бронированию мест, приему и размещению гостей, организации телефонной и информационной службы, сервисными подразделениями, рестораном, салонами красоты и т.д. Управляющий должен обеспечить постояльцам комфортные условия пребывания под крышей отеля и желание вернуться вновь, владельцу отеля - высокий доход, а служащим — удовольствие от работы под его началом.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "I",
+    "section_name": "Предоставление услуг по проживанию и питанию",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "55101",
+    "subclass_name": "Предоставление услуг гостиницами с ресторанами, за исключением гостиниц, находящихся на придорожной полосе"
+  },
+  "professions": [
+    {
+      "name": "Исполнительный директор гостиничного учреждения",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "I",
+        "55101"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/35",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/35/download"
+  },
+  "hashes": {
+    "metadata_sha256": "54e15c51b36500cd61ddec5281bf6d2ec712d02eeb42049e928d2e885563eb1a",
+    "pdf_sha256": "16fff79caee9a204ad399ee03c4a3c3b868a99c3897dcf864dc6ca61052a6330",
+    "normalized_sha256": "2b3f2b9f9af6d7cfdbd302442f9e3c8b361173d069154a2eaacc4c93bb16b854"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

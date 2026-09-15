@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 642,
+  "code": "F41201040",
+  "title": "Управление жилыми и нежилыми зданиями",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования пользователями в сфере управления многоквартирными жилыми домами и нежилыми зданиями, состоящих из отдельных зданий и помещений общественного назначения, встроенно-пристроенных и встроенных в жилые здания.",
+  "version": 3,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "41201",
+    "subclass_name": "Строительство жилых зданий"
+  },
+  "professions": [
+    {
+      "name": "Управляющий зданиями, многоквартирным домом",
+      "ork_level": 6
+    },
+    {
+      "name": "Управляющий многоквартирным жилым домом",
+      "ork_level": 5
+    },
+    {
+      "name": "Хаус-мастер",
+      "ork_level": 3
+    },
+    {
+      "name": "Менеджер по управлению жилыми и нежилыми зданиями",
+      "ork_level": 5
+    },
+    {
+      "name": "Управляющий многоквартирным жилым домом",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "41201"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2024,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/642",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/642/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b1dc2b519d0b04c4c4c1449c6191cbadfc15fac6a5c18b614c3d985f3705e78d",
+    "pdf_sha256": "e0436bac122aa70d253ecb54e7a0fdb07496eac94304bdc0b287afc0f258881e",
+    "normalized_sha256": "453ae174bc5c61a33ac952307d8df079ef50d845c376130e5f13314951b6314c"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

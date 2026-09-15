@@ -1,0 +1,87 @@
+{
+  "schema_version": "1",
+  "enbek_id": 100,
+  "code": "A01111012",
+  "title": "Выращивание бобовых и масличных культур",
+  "government_body": "«Комплекс агропромышленных ассоциаций»",
+  "description": "Производство сельхозтоваропроизводителями зернобобовых и масличных культур. Организация и выполнение агротехнических мероприятий (подготовка семенного ложа, подготовка семенного материала к высеву, уход за насаждениями) направленных на повышение урожайности сельскохозяйственных культур на основе соблюдения научных рекомендаций по внесению минеральных и органических удобрений, листовой обработки посевом, севообороту и обновления семенного материала.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01111",
+    "subclass_name": "Выращивание зерновых и зернобобовых культур, включая семеноводство"
+  },
+  "professions": [
+    {
+      "name": "Оператор линии протравливания семян",
+      "ork_level": 3
+    },
+    {
+      "name": "Фермер специализирующийся на выращивании различных сельскохозяйственных культур",
+      "ork_level": 4
+    },
+    {
+      "name": "Полевод",
+      "ork_level": 4
+    },
+    {
+      "name": "Рабочий по выращиванию и использованию пестицидов",
+      "ork_level": 4
+    },
+    {
+      "name": "Главный агроном",
+      "ork_level": 8
+    },
+    {
+      "name": "Агрохимик",
+      "ork_level": 6
+    },
+    {
+      "name": "Почвовед (средней квалификации)",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01111"
+      ],
+      "government_body": "«Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/100",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/100/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d91e311214aff0ab27b695357b652d71037639f199ffb0cfbf961fda03b59cc6",
+    "pdf_sha256": "c0f62cb0a471425374a625bf970bf6b2183d9840148e8a4a865228e8ce442a07",
+    "normalized_sha256": "e69ebfdca70eae1f4ace260abeae8d65120b39fe8961be2007bc1b5ea10e30f4"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

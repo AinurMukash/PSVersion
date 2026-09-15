@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1416,
+  "code": "M71128109",
+  "title": "Метролог",
+  "government_body": "Министерство торговли и интеграции Республики Казахстан",
+  "description": "Профессиональный стандарт «Метролог» (далее – профессиональный стандарт) разработан в соответствии со статей 5 Закона Республики Казахстан «О профессиональных квалификациях» и предназначен для определения уровней квалификаций, необходимых для осуществления работниками определенного вида профессиональной деятельности, в том числе выполнения определенных трудовых функций, а также для применения при разработке образовательных программ организаций высшего, послевузовского, технического и профессионального образования.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-10-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71128",
+    "subclass_name": "Деятельность в области технического регулирования, стандартизации, метрологии и оценки соответствия"
+  },
+  "professions": [
+    {
+      "name": "Инженер по метрологии",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по метрологии",
+      "ork_level": 5
+    },
+    {
+      "name": "Главный метролог",
+      "ork_level": 7
+    },
+    {
+      "name": "Техник по метрологии",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71128"
+      ],
+      "government_body": "Министерство торговли и интеграции Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1416",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1416/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a945149b0a7548e41ebb4c2077b0435eae7d6d439c8320e63ddca4b7b7bca4e7",
+    "pdf_sha256": "11451a05abd339c955c402036a55764c917507390c7f371fe289da8b37de1fc2",
+    "normalized_sha256": "50b0f75afb535375e35d9571014a119b257164b6aa28b6a666bc5145f35d96fe"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

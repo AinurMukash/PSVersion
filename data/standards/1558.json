@@ -1,0 +1,98 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1558,
+  "code": "B06100060",
+  "title": "Управление производством добычи нефти и газа",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "ПС \"Управление производством добычи нефти и газа\" применяется в сфере нефтегазовой промышленности и определяет требования к компетенциям специалистов, управляющих процессами добычи нефти и газа.",
+  "version": 4,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "06100",
+    "subclass_name": "Добыча сырой нефти и попутного газа"
+  },
+  "professions": [
+    {
+      "name": "Начальник инженерно-технической службы (нефть)",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по планированию добычи и анализу производственных показателей",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по производственным операциям (нефть)",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник управления (добывающая промышленность)",
+      "ork_level": 7
+    },
+    {
+      "name": "Главный инженер (добывающая промышленность)",
+      "ork_level": 8
+    },
+    {
+      "name": "Диспетчер центральной инженерно-технологической службы",
+      "ork_level": 5
+    },
+    {
+      "name": "Главный геофизик*",
+      "ork_level": 8
+    },
+    {
+      "name": "Главный геолог*",
+      "ork_level": 8
+    },
+    {
+      "name": "Начальник смены (добывающая промышленность)",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник участка (добывающая промышленность)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "06100"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2025,
+      "version": 4,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1558",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1558/download"
+  },
+  "hashes": {
+    "metadata_sha256": "c2bdfeab89acf82e384b466a7639ab80a37a15491011518434a8658b2c4160d1",
+    "pdf_sha256": "16889bd18df61fc7ae69c81fb65ac3521f2ee2d85f27589b20a38a0121e2e4d8",
+    "normalized_sha256": "2887cc5da62e79ac0b9a5477833dd53afd593931b482f2d048888aca515227ed"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

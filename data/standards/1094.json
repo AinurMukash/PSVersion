@@ -1,0 +1,124 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1094,
+  "code": "C24200075",
+  "title": "Производство горячего проката",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Производство труб горячим прокатом",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24200",
+    "subclass_name": "Производство труб, трубок, полых профилей, фитингов из стали"
+  },
+  "professions": [
+    {
+      "name": "Ковшевой",
+      "ork_level": 3
+    },
+    {
+      "name": "Нагревальщик металла",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор машины непрерывного литья заготовок",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор поста управления стана горячей прокатки",
+      "ork_level": 3
+    },
+    {
+      "name": "Подручный сталевара электропечи",
+      "ork_level": 3
+    },
+    {
+      "name": "Пультовщик электроплавильной печи",
+      "ork_level": 3
+    },
+    {
+      "name": "Разливщик стали",
+      "ork_level": 3
+    },
+    {
+      "name": "Сталевар электропечи",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик обкатной машины",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик калибровочного стана",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик стана горячей прокатки",
+      "ork_level": 3
+    },
+    {
+      "name": "Лудильщик электролитическим способом",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист загрузочных механизмов",
+      "ork_level": 3
+    },
+    {
+      "name": "Термист проката на горячем участке работ",
+      "ork_level": 3
+    },
+    {
+      "name": "Штабелировщик металла",
+      "ork_level": 2
+    },
+    {
+      "name": "Уборщик горячего металла",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24200"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1094",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1094/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d23266df6ee41451de2b13d814443f6ed010b1ccce1e93004269aff9cb3b7146",
+    "pdf_sha256": "a3483ef6014dcef792347a61c8f00dab806e0cfd7e2253aacbeef97a5147eeb2",
+    "normalized_sha256": "c8c81b4c5b937246cdcb01dd553e3bfe174b792e95c1e3ea6a4b40cccf298e0f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

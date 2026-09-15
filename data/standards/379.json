@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 379,
+  "code": "R93110042",
+  "title": "Спортсмен",
+  "government_body": "Министерство туризма и спорта Республики Казахстан",
+  "description": "профессиональный стандарт \"Спортсмен\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\", в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений задач в области физической культуры и спорта в организациях и на предприятиях, применяется в области Министерства туризма и спорта Республики Казахстан.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "93110",
+    "subclass_name": "Эксплуатация спортивных сооружений"
+  },
+  "professions": [
+    {
+      "name": "Спортсмен",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "93110"
+      ],
+      "government_body": "Министерство туризма и спорта Республики Казахстан",
+      "ork_levels": [
+        5
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/379",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/379/download"
+  },
+  "hashes": {
+    "metadata_sha256": "f9f680d3f6f6039463c218e92aa97a03184dafed04d71b681b67280ab392ab34",
+    "pdf_sha256": "4f3d22ce770ce837c45b00a1921af7c632301c4ba608edbac2d2c7b765bf7d77",
+    "normalized_sha256": "f676d0728d75793b53864196bf7ac1d8595d609055132165589c620f06b9a52f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

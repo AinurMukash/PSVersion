@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 954,
+  "code": "F43121045",
+  "title": "Земляные работы на стройплощадке",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан,",
+  "description": "Профессиональный стандарт разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования широким кругом пользователей.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43121",
+    "subclass_name": "Земляные работы"
+  },
+  "professions": [
+    {
+      "name": "Оператор землеройной и траншейной машины",
+      "ork_level": 2
+    },
+    {
+      "name": "Землекоп вручную",
+      "ork_level": 1
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43121"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан,",
+      "ork_levels": [
+        1,
+        2
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/954",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/954/download"
+  },
+  "hashes": {
+    "metadata_sha256": "728b82529a7d2baae474613a8ec7db93f49ddcd6d02a38c9e2fc1053c917fbb9",
+    "pdf_sha256": "add9c769ca98e9b5e60fe63dc64bc8a6ad51fe406388e5afc4b115ea03c65ac1",
+    "normalized_sha256": "df001eb47f9ff172058986fe466790dc39a6f69e0c1fab023f08390c380bc605"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

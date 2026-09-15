@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1333,
+  "code": "H52231094",
+  "title": "Метеорологическое обеспечение полетов воздушных судов",
+  "government_body": "Министерство транспорта Республики Казахстан",
+  "description": "Профессиональный стандарт \"Метеорологическое обеспечение полетов воздушных судов\" разработан в соответствии со статьей 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и устанавливает требования к руководителям организаций и специалистам, осуществляющим деятельность в области метеорологического обеспечения гражданской авиации.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52231",
+    "subclass_name": "Регулирование использования воздушного пространства"
+  },
+  "professions": [
+    {
+      "name": "Инженер-приборист",
+      "ork_level": 6
+    },
+    {
+      "name": "Техник-метеоролог",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер-метеоролог",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник метеорологической службы",
+      "ork_level": 6
+    },
+    {
+      "name": "Первые руководители учреждений, организаций и предприятий",
+      "ork_level": 8
+    },
+    {
+      "name": "Техник-приборист",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52231"
+      ],
+      "government_body": "Министерство транспорта Республики Казахстан",
+      "ork_levels": [
+        4,
+        6,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1333",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1333/download"
+  },
+  "hashes": {
+    "metadata_sha256": "990904eaec047e9ab6c357ded50d5580a5aedf42a1bd711041e98aaf01b2b0d1",
+    "pdf_sha256": "605a4c91ad52b1ec6ad10c1730be0e8703d4a5b16def399d90fc709703ecca70",
+    "normalized_sha256": "987ef5e8ae06a83d8d7c7e539c2510b7f6652a8a5d33a1f1cbac36684f47917b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

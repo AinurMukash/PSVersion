@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 431,
+  "code": "F43123020",
+  "title": "Сварочные работы",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт «Сварочные работы» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, осуществляющих деятельность в сфере строительства.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43123",
+    "subclass_name": "Специальные работы в грунтах"
+  },
+  "professions": [
+    {
+      "name": "Сварщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Сварщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Сварщик",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43123"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/431",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/431/download"
+  },
+  "hashes": {
+    "metadata_sha256": "0793f08a8b47ee8c8ae37a26f5a94233e277cf8a84201a7ca7318ff11b56fb8a",
+    "pdf_sha256": "cfbb17d2717c5d542112aecac752d0742133fc26fa6c74be0def8d77a8ff41ec",
+    "normalized_sha256": "063926db4de75281ec17133e4eac71488078bd1b4c7e5f8d87a12b6458b61f7d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "1",
+  "enbek_id": 143,
+  "code": "A01431009",
+  "title": "Разведение лошадей молочного направления",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Разведение лошадей молочного направления, воспроизводство племенных и продуктивных лошадей, выращивание жеребят и ремонтного молодняка, производство лошадей молочного направления",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01431",
+    "subclass_name": "Разведение лошадей"
+  },
+  "professions": [
+    {
+      "name": "Конюх",
+      "ork_level": 1
+    },
+    {
+      "name": "Коневод",
+      "ork_level": 4
+    },
+    {
+      "name": "Бригадир животноводческих комплексов и ферм",
+      "ork_level": 4
+    },
+    {
+      "name": "Зоотехник государственной заводской конюшни",
+      "ork_level": 5
+    },
+    {
+      "name": "Ветеринарный фельдшер",
+      "ork_level": 5
+    },
+    {
+      "name": "Главный зоотехник",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01431"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/143",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/143/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e6ee7094678a7aa8adc76de5f08bf92792718d12fb5eff584cde53735ce28b9d",
+    "pdf_sha256": "fc98ab2519bd9f557ac6cc13828d803716a496b8efae17cb89ab709290405f1d",
+    "normalized_sha256": "466eb88aa887b6edc947370536fcf5e4d927d014863235b2cbc8e21baa72831d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

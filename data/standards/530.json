@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 530,
+  "code": "R91012053",
+  "title": "Библиотекарь-тифлопедагог",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Библиотекарь-тифлопедагог\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь-тифлопедагог",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/530",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/530/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6060350b1f523efad310264c7ab705f64eb89e0fbf579edfd0a342331c00d9c9",
+    "pdf_sha256": "369a28050f491e77da25b08a72b98cad3a41d0773fa70eff45b4451e73c5be02",
+    "normalized_sha256": "ae958aa7cecabdc52668507dfb69e12e460fb938b486647f3382dcfdfc8e24a0"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

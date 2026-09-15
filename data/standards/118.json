@@ -1,0 +1,106 @@
+{
+  "schema_version": "1",
+  "enbek_id": 118,
+  "code": "J62090011",
+  "title": "Специалисты-профессионалы по безопасности информационной инфраструктуры и ИТ",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Обеспечение безопасности информации в компьютерных системах и сетях в условиях существования угроз их информационной\nбезопасности",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-05",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62099",
+    "subclass_name": "Другие виды деятельности в области информационных технологий и информационных систем, не включенные в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Администратор по информационной безопасности",
+      "ork_level": 5
+    },
+    {
+      "name": "Аудитор по информационной безопасности",
+      "ork_level": 6
+    },
+    {
+      "name": "Аудитор по информационной безопасности",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер по защите информации",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер по защите информации",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по защите информации",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по безопасности сервисов",
+      "ork_level": 5
+    },
+    {
+      "name": "Специалист по безопасности сервисов",
+      "ork_level": 6
+    },
+    {
+      "name": "Администратор по информационной безопасности",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист по информационной безопасности",
+      "ork_level": 5
+    },
+    {
+      "name": "Специалист по информационной безопасности",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по информационной безопасности",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62099"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/118",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/118/download"
+  },
+  "hashes": {
+    "metadata_sha256": "047613d41b1c487a4ba79a459612d4a783d82a2bfcafbf6e52c2a75370bda961",
+    "pdf_sha256": "4fabee5afdcbd5c21eba4ac54b656aadb64fdef41c04f2ebca68c5a4be8c3032",
+    "normalized_sha256": "269790596084305c921009aa4568f1e64f60a2a3515400ca1b6be89fe832a548"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

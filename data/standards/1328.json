@@ -1,0 +1,82 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1328,
+  "code": "H52231085",
+  "title": "Технический контроль и надзор",
+  "government_body": "Министерство транспорта Республики Казахстан",
+  "description": "Профессиональный стандарт \"Технический контроль и надзор\" разработан в соответствии со статьей 5 Закона Республики Казахстан \"О профессиональных квалификациях\", и определяет критерии деятельности руководителей и специалистов, осуществляющих задачи сертификации, контроля и надзора в области обеспечения безопасности полетов, авиационной безопасности и соблюдения стандартов в авиационной отрасли.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52231",
+    "subclass_name": "Регулирование использования воздушного пространства"
+  },
+  "professions": [
+    {
+      "name": "Руководители (управляющие) специализированных воздушных транспортных подразделений",
+      "ork_level": 7
+    },
+    {
+      "name": "Менеджер по летным стандартам",
+      "ork_level": 5
+    },
+    {
+      "name": "Первые руководители учреждений, организаций и предприятий",
+      "ork_level": 8
+    },
+    {
+      "name": "Инспектор по авиационной безопасности",
+      "ork_level": 6
+    },
+    {
+      "name": "Менеджер авиационной безопасности",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер-инспектор по безопасности полетов",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52231"
+      ],
+      "government_body": "Министерство транспорта Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1328",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1328/download"
+  },
+  "hashes": {
+    "metadata_sha256": "725916d2af0b15b8a18fd1446cac473c69f2d64d403bb887560fea438c35f715",
+    "pdf_sha256": "ba9d0ff7a83179bae1e773bf33d2bade27248aa8493c89941793cd08a38e5c0e",
+    "normalized_sha256": "25648c022dbcad4950d8732a89e1fafd9dcf6240090e536473b811a0aa368c56"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

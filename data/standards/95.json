@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 95,
+  "code": "A01210011",
+  "title": "Виноградарство",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Закладка и выращивание винного и столовых сортов винограда в плодопитомниках, виноградниках с целью увеличения и сохранения отечественной сельскохозяйственной продукции при обеспечении соответствия техническим регламентам и стандартам качества.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01210",
+    "subclass_name": "Выращивание винограда"
+  },
+  "professions": [
+    {
+      "name": "Плодопитомниковод",
+      "ork_level": 4
+    },
+    {
+      "name": "Виноградарь-винодел",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник по сельскохозяйственной технике",
+      "ork_level": 5
+    },
+    {
+      "name": "Агроном-виноградарь",
+      "ork_level": 6
+    },
+    {
+      "name": "Виноградарь",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01210"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/95",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/95/download"
+  },
+  "hashes": {
+    "metadata_sha256": "57d030f044f7e1d49c7f3db47bc5aaa7c074dde9266a820d76e04fa58f231c88",
+    "pdf_sha256": "af7238897d4c74459c63cf01f4a6f726cc0c2827655cf161bc443ae2e2868db6",
+    "normalized_sha256": "007f59271ff16e40923fa0e01f33dce5539a2b8ee2ded4a53ddf7b7d2756817f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

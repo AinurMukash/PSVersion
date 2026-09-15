@@ -1,0 +1,90 @@
+{
+  "schema_version": "1",
+  "enbek_id": 885,
+  "code": "H49200062",
+  "title": "Контроль проверки качества локомотивов после ремонта",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Организация и контроль качества ремонта, технического и сервисного обслуживания локомотивов, а также расследование причин выхода из строя локомотивов в пути следования и рекламационной работы.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49200",
+    "subclass_name": "Деятельность грузового железнодорожного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Слесарь по ремонту подвижного состава",
+      "ork_level": 3
+    },
+    {
+      "name": "Начальник контроля ремонта локомотивов",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник базы запаса локомотивного депо",
+      "ork_level": 6
+    },
+    {
+      "name": "Ведущий инженер контроля ремонта локомотивов",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший приемщик локомотивов локомотивного депо",
+      "ork_level": 5
+    },
+    {
+      "name": "Приемщик локомотивов (локомотивного депо)",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник (паспортист по замерам и учету)",
+      "ork_level": 4
+    },
+    {
+      "name": "Экипировщик локомотивов песком и водой",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49200"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/885",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/885/download"
+  },
+  "hashes": {
+    "metadata_sha256": "eebb5863c00462f969d985033cd3da6b051df06dcd7a43836b24b4f55fe98747",
+    "pdf_sha256": "4c084051a312ad4b18de3e074d45f7e2a0ecc98d9178228f54ededa24a9f91ca",
+    "normalized_sha256": "33b31ea78fdeda2485c9e1330fc8b4a61abdf5423fc03570f4cadc210c8bca66"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

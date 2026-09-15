@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 506,
+  "code": "R91012099",
+  "title": "Библиотекарь-энтомолог",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Библиотекарь-энтомолог\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-13",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь-энтомолог",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/506",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/506/download"
+  },
+  "hashes": {
+    "metadata_sha256": "376ef5f484406dced3875d8fba1ecdfa41f0295d41da1fbe388d310186a87f64",
+    "pdf_sha256": "1ad6b16e766b450f9a43d05d487b7bcbfecf2ca4e0a371c94fe1f537a702111c",
+    "normalized_sha256": "652a7e969d0d61482b406c7d59c1161522df53ef0a11fa499b3f7268e460379f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 90,
+  "code": "G46431001",
+  "title": "Оптовая торговля непродовольственными товарами потребительского назначения",
+  "government_body": "Министерство торговли и интеграции Республики Казахстан",
+  "description": "Деятельность по продаже оптовых партий непродовольственных товаров потребительского назначения. Выполнение работ и оказание услуг торговли покупателям для последующей перепродажи товаров или их профессионального использования. Решение вопросов, связанных с регулированием трудовых отношений и обеспечением эффективной системы управления персоналом в различных организациях оптовой торговли непродовольственными товарами потребительского назначения.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "G",
+    "section_name": "Оптовая и розничная торговля; ремонт автомобилей и мотоциклов",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "46431",
+    "subclass_name": "Оптовая торговля бытовыми электротоварами"
+  },
+  "professions": [
+    {
+      "name": "Торговый представитель по продаже технических товаров",
+      "ork_level": 3
+    },
+    {
+      "name": "Специалист по продажам технических товаров",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "G",
+        "46431"
+      ],
+      "government_body": "Министерство торговли и интеграции Республики Казахстан",
+      "ork_levels": [
+        3,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/90",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/90/download"
+  },
+  "hashes": {
+    "metadata_sha256": "610b1d5e08fa4b3f9ff18d037ee9da7bcb40a5666f8e32ada80bdba22ae89551",
+    "pdf_sha256": "612ef6464dc10664b5dff902694c2a9576416c192632100436ca472fdb7eb285",
+    "normalized_sha256": "4a2c90a19f2d4a7a98b101cc7e80d6b7ccfba57f0564d5faabce6b8cdaa45b39"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

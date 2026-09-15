@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 671,
+  "code": "F42212038",
+  "title": "Строительство водоочистных сооружений",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Профессиональный стандарт «Строительство водоочистных сооружений» определяет требования к уровню квалификации, профессионального образования и содержанию специалистов, занимающихся строительством объектов гражданского строительства: сооружений для очистки природных вод, резервуаров для хранения воды, насосных станций, включая их ремонт.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "42212",
+    "subclass_name": "Строительство трубопроводов для систем водоснабжения и канализации"
+  },
+  "professions": [
+    {
+      "name": "Монтажник механического оборудования гидротехнических сооружений",
+      "ork_level": 2
+    },
+    {
+      "name": "Техник по наладке и испытаниям",
+      "ork_level": 5
+    },
+    {
+      "name": "Мастер очистной станции водопровода",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженеры по строительству систем водоснабжения и канализации",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный инженер (в строительсве)",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "42212"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/671",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/671/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1d3d8cf1313127cf684fdedebafa8187d901c71a21888a4e866fd4fc54f65014",
+    "pdf_sha256": "8d2f04eee0d521abbfb5360997c5f40ddf604481c19a2fbf3ff7320b33b7dfa0",
+    "normalized_sha256": "4498d05bc5aea95b3c6ce3f4b181c44e2c48d35236ef873a8fb1550e6d7dac9e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

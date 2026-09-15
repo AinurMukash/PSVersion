@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "enbek_id": 647,
+  "code": "J59110020",
+  "title": "Постпроизводственный этап изготовления кинофильмов, видео и телевизионных программ",
+  "government_body": "ТОО «Оркен Медиа»",
+  "description": "Пост производственный этап изготовления кинофильмов, видео и телевизионных программ включает пост производственную деятельность, такие как создание и обработку видеоматериала, монтаж, создание субтитров.\nНа все профессии, описанные в данном стандарте, распространяются следующие требования по знаниям: правила и нормы охраны труда, техники безопасности, производственной санитарии и противопожарной защиты, правила документационного обеспечения и деловой переписки, этика деловых отношений, грамотная устная и письменная речь на государственном и русском языках, использование офисного программного обеспечения.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": null,
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "59110",
+    "subclass_name": "Деятельность по производству кино-, видеофильмов и телевизионных программ"
+  },
+  "professions": [
+    {
+      "name": "Монтажер вещания",
+      "ork_level": 5
+    },
+    {
+      "name": "Телеоператор",
+      "ork_level": 6
+    },
+    {
+      "name": "Изготовитель субтитров",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "59110"
+      ],
+      "government_body": "ТОО «Оркен Медиа»",
+      "ork_levels": [
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/647",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/647/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2328f07538d6b23e35eefe3c15f9615ded0394c168331714176837e00854bd96",
+    "pdf_sha256": "5878414cb444bd0cf44a680615c871b5bd76ce78299529280ce82fb64200c8ba",
+    "normalized_sha256": "de8e8a4f364b737c95809437b157a53b0742149617ba658d54b9d48928a43695"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

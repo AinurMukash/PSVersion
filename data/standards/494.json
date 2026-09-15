@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 494,
+  "code": "R91020077",
+  "title": "Музейный смотритель",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Музейный смотритель\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91020",
+    "subclass_name": "Деятельность музеев"
+  },
+  "professions": [
+    {
+      "name": "Музейный смотритель",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        4
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/494",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/494/download"
+  },
+  "hashes": {
+    "metadata_sha256": "52646fa0dee4dc31b17558a3f11de9e3094260e81b5312949675e00680072193",
+    "pdf_sha256": "32d6427320ae4031e39820ce7e0564e7fc9bec4fddf4531b1b0c8b545096e2dd",
+    "normalized_sha256": "853b92632e7a52e4c006bdd63f77713e72121e44f062a3594c49c55aa4359d08"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

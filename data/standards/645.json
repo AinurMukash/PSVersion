@@ -1,0 +1,98 @@
+{
+  "schema_version": "1",
+  "enbek_id": 645,
+  "code": "J60100031",
+  "title": "Радиовещание",
+  "government_body": "ТОО «Оркен Медиа»",
+  "description": "Передача по радио неограниченному числу слушателей речи, музыки и другой звуковой информации в радиоэфире.\nНа все профессии, описанные в данном стандарте, распространяются общие требования к знаниям:\nправила и нормы охраны труда, техники безопасности, производственной санитарии и противопожарной защиты, правила документационного обеспечения управления и деловой переписки, этика деловых отношений, грамотная устная и письменная речь на государственном и русском языках, использование офисного программного обеспечения",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-01-01",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "60100",
+    "subclass_name": "Радиовещание"
+  },
+  "professions": [
+    {
+      "name": "Диктор редакции радиовещания",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный администратор (по созданию программ и телерадиовещания)",
+      "ork_level": 8
+    },
+    {
+      "name": "Продюсер телевизионных/радионовостей",
+      "ork_level": 7
+    },
+    {
+      "name": "Режиссер радиовещания",
+      "ork_level": 7
+    },
+    {
+      "name": "Радиоведущий",
+      "ork_level": 6
+    },
+    {
+      "name": "Координатор по связям с государственными органами",
+      "ork_level": 6
+    },
+    {
+      "name": "Консультант по работе с мультимедийными изданиями",
+      "ork_level": 6
+    },
+    {
+      "name": "Сценарист",
+      "ork_level": 6
+    },
+    {
+      "name": "Ассистент оператора",
+      "ork_level": 5
+    },
+    {
+      "name": "Музыкальный редактор",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "60100"
+      ],
+      "government_body": "ТОО «Оркен Медиа»",
+      "ork_levels": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/645",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/645/download"
+  },
+  "hashes": {
+    "metadata_sha256": "62b1dba9fca8f754106549e1af1ff473506c0c347617fc6bc3b6f4132a2b318b",
+    "pdf_sha256": "d580a389ba2f42e886e2b23f63321858319aaacf0e14074f83ee8f25ff9d14f8",
+    "normalized_sha256": "4fe844bc99bd1f6959281d517f2d546ef8e34d257e1601db2803f58f92e54132"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

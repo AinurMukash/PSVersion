@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "enbek_id": 627,
+  "code": "E37000004",
+  "title": "Очистка сточных вод",
+  "government_body": "Министерство водных ресурсов и ирригации Республики Казахстан",
+  "description": "Очистка сточных вод, монтаж, наладка, испытание, ремонт и техническое обслуживание очистных сооружений сточных вод; разработка и освоение новых сооружений, оборудования, технологических процессов и исследований, и разработок в области естественных и технических наук.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-01-01",
+  "oked": {
+    "section_code": "E",
+    "section_name": "Водоснабжение; сбор, обработка и удаление отходов, деятельность по ликвидации загрязнений",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "37000",
+    "subclass_name": "Сбор и обработка сточных вод"
+  },
+  "professions": [
+    {
+      "name": "Заведующий очистными сооружениями",
+      "ork_level": 7
+    },
+    {
+      "name": "Оператор очистных сооружений",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист насосных установок",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник по эксплуатации сетей и сооружений водопроводно-канализационного хозяйства",
+      "ork_level": 5
+    },
+    {
+      "name": "Заведующий лабораторией",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер по очистке сточных вод",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "E",
+        "37000"
+      ],
+      "government_body": "Министерство водных ресурсов и ирригации Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/627",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/627/download"
+  },
+  "hashes": {
+    "metadata_sha256": "64ebe79c7a0109d01ecd3b6de84c3f440d2942655369c539b0c948992a6d8303",
+    "pdf_sha256": "221f4f296171ff797a2fc4883ead02b65ddd5e7c8d6a85f3b04422457c840f90",
+    "normalized_sha256": "af776acb3ef9328f7a7f1f85a2b505442c195a7af73832a1653bc4cb15075863"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

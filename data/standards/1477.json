@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1477,
+  "code": "J62011080",
+  "title": "Тестирование программного обеспечения",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Профессиональный стандарт «Тестирование программного обеспечения» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-01-01",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Специалист по тестированию приложений",
+      "ork_level": 4
+    },
+    {
+      "name": "QA – Инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "QA – Инженер",
+      "ork_level": 7
+    },
+    {
+      "name": "Специалист по тестированию приложений",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1477",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1477/download"
+  },
+  "hashes": {
+    "metadata_sha256": "c6542b3098a88267023676f1b46d3436ce08c937c69727a388d2c9cdb1166d9b",
+    "pdf_sha256": "baf568666ee1c1ddf428544654d8afe94cbf89c920ab9c5becf39b68d837ced5",
+    "normalized_sha256": "0b630ef5c43e60a908b1950b99cbc83ce85f39dbf044c66cf3a3e22125e8403c"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

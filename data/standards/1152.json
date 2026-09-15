@@ -1,0 +1,129 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1152,
+  "code": "B07291033",
+  "title": "Обогащение твёрдых полезных ископаемых",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Комплекс процессов направленные на максимальное извлечение твёрдых полезных ископаемых от основной руды",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-01",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "07291",
+    "subclass_name": "Добыча и обогащение алюминийсодержащего сырья"
+  },
+  "professions": [
+    {
+      "name": "Аппаратчик обогащения твёрдых полезных ископаемых",
+      "ork_level": 3
+    },
+    {
+      "name": "Аппаратчик сгустителей",
+      "ork_level": 3
+    },
+    {
+      "name": "Доводчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Доводчик концентратов с высоким содержанием твердых полезных ископаемых",
+      "ork_level": 2
+    },
+    {
+      "name": "Оператор пульта управления",
+      "ork_level": 3
+    },
+    {
+      "name": "Контролер продукции обогащения",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист мельницы по обработке и обогащению руды и горных пород",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист установок обогащения и брикетирования",
+      "ork_level": 3
+    },
+    {
+      "name": "Флотатор",
+      "ork_level": 3
+    },
+    {
+      "name": "Концентраторщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Фильтровальщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Растворщик реагентов",
+      "ork_level": 3
+    },
+    {
+      "name": "Регулировщик хвостового хозяйства",
+      "ork_level": 3
+    },
+    {
+      "name": "Шламовщик-бассейнщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Дозировщик реагентов",
+      "ork_level": 3
+    },
+    {
+      "name": "Обработчик вторичных шламов",
+      "ork_level": 2
+    },
+    {
+      "name": "Шлиховщик",
+      "ork_level": 1
+    },
+    {
+      "name": "Шлюзовщик",
+      "ork_level": 1
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "07291"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        1,
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1152",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1152/download"
+  },
+  "hashes": {
+    "metadata_sha256": "efaaf2a9f46a8aa91b26ecec1351f72709bf2c2470ef68a356ea0a6120c10504",
+    "pdf_sha256": "34445a51a5b88ad2a1fb6c520e3892666eaab6bab18c9e2cbd4deb390f743ff8",
+    "normalized_sha256": "32859befa0617cb03d2fea946b31645abfa0d125a89cb670068c416e8adfbdd3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

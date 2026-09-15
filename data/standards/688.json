@@ -1,0 +1,94 @@
+{
+  "schema_version": "1",
+  "enbek_id": 688,
+  "code": "M74300065",
+  "title": "Переводчик",
+  "government_body": "Министерство науки и высшего образования Республики Казахстан",
+  "description": "Профессиональный стандарт \"Переводчик\" разработан в соответствии со статьей 5 Закона Республики Казахстан \"О профессиональных квалификациях\", устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования, и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-12-01",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "74300",
+    "subclass_name": "Деятельность по устному и письменному переводу"
+  },
+  "professions": [
+    {
+      "name": "Переводчик (письменный)",
+      "ork_level": 6
+    },
+    {
+      "name": "Переводчик устной речи",
+      "ork_level": 4
+    },
+    {
+      "name": "Аудиодескриптор",
+      "ork_level": 6
+    },
+    {
+      "name": "Переводчик устной речи",
+      "ork_level": 6
+    },
+    {
+      "name": "Переводчик устной речи",
+      "ork_level": 5
+    },
+    {
+      "name": "Переводчик (письменный)",
+      "ork_level": 5
+    },
+    {
+      "name": "Редактор контрольный переводов",
+      "ork_level": 7
+    },
+    {
+      "name": "Переводчик (письменный)",
+      "ork_level": 4
+    },
+    {
+      "name": "Переводчик-дактилолог",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "74300"
+      ],
+      "government_body": "Министерство науки и высшего образования Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/688",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/688/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a8cbf59eb314fdcff3079ea77f9c1aa1c6a30129369426e22acd8a4e235e6e00",
+    "pdf_sha256": "7861464ac895e27b04d9534cc85b270b8243f29400b4047c613e341028f4a332",
+    "normalized_sha256": "aa1d4c9d8ca1b14fc3625811e336208c0a2201be542d427c1d830cbfe4c659c4"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

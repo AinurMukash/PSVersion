@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 751,
+  "code": "C25610049",
+  "title": "Работа на электроэрозионных проволочно-вырезных станках",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Работа на электроэрозионных проволочно-вырезных станках предполагает обеспечение требуемого качества поверхностей, изготовленных на электроэрозионных проволочно-вырезных станках посредством электроискровой резки электропроводных материалов, начиная с алюминия и меди и заканчивая графитом и поликристаллическим алмазом",
+  "version": 1,
+  "year": 2019,
+  "revision_date": "2026-08-07",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Электроэрозионист",
+      "ork_level": 2
+    },
+    {
+      "name": "Электроэрозионист",
+      "ork_level": 3
+    },
+    {
+      "name": "Электроэрозионист",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2019,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/751",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/751/download"
+  },
+  "hashes": {
+    "metadata_sha256": "82b5a65c9b5b55db0ddb31123a50c993f49e026fb4afbbd48c4d787952e075b7",
+    "pdf_sha256": "194311ccdfc9d045dfaffc8075afcd1914303893b9ea634f49a0d2a5b7777154",
+    "normalized_sha256": "27e589d8234d8b00064a51204430d8efce7ad7502c87c51d32bafe0fe8c346d2"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

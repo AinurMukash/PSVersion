@@ -1,0 +1,86 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1499,
+  "code": "A02400036",
+  "title": "Лесное дело",
+  "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+  "description": "Профессиональный стандарт «Лесное дело» (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях»  и предназначен для формирования образовательных программ, в том числе обучения персонала на предприятиях, сертификации работников и выпускников организации образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-12-28",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "02400",
+    "subclass_name": "Услуги, связанные с лесоводство и лесозаготовками"
+  },
+  "professions": [
+    {
+      "name": "Вальщик леса",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник-таксатор",
+      "ork_level": 5
+    },
+    {
+      "name": "Трелевщик",
+      "ork_level": 4
+    },
+    {
+      "name": "Чокеровщик",
+      "ork_level": 4
+    },
+    {
+      "name": "Лесник (государственный инспектор по охране леса)",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер лесного хозяйства",
+      "ork_level": 6
+    },
+    {
+      "name": "Мастер леса (участковый государственный инспектор по охране леса)",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "02400"
+      ],
+      "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1499",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1499/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b635f5c5515fb298e85dfe3b08d2f44c548cd6538774bcb3e51d7f1b2756aba2",
+    "pdf_sha256": "880a50b6690d018ce5a850093f8871a23294ca5ac6b4a0f180dbbbc39dce3dae",
+    "normalized_sha256": "0967a6e621bc95869f1050ba6dee5be01f66c68f1c18c4c2ee34581145db1662"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 384,
+  "code": "F43291009",
+  "title": "Рабочие по изоляционным работам",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт «Рабочие по изоляционным работам» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, осуществляющих деятельность в сфере строительства.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43291",
+    "subclass_name": "Изоляционные работы"
+  },
+  "professions": [
+    {
+      "name": "Изолировщик, звукоизоляция",
+      "ork_level": 2
+    },
+    {
+      "name": "Изолировщик, звукоизоляция",
+      "ork_level": 3
+    },
+    {
+      "name": "Изолировщик, звукоизоляция",
+      "ork_level": 4
+    },
+    {
+      "name": "Огнеупорщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Огнеупорщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Огнеупорщик",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43291"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/384",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/384/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a83aca1218df07768bb3c26439cdb3b808009f96b18e8837514683fd87ca3b9e",
+    "pdf_sha256": "33c53682300ad0ac1946fc417f7a857d5b160145454e42e3583f300465e33548",
+    "normalized_sha256": "2f81a7806cb0c045fdacff5172dbea837a4713033e944992f8d48412752da0af"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

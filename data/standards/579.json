@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 579,
+  "code": "I55101015",
+  "title": "Осуществление взаимодействия с гостями",
+  "government_body": "Министерство туризма и спорта Республики Казахстан",
+  "description": "Основная задача специалиста по связям с гостями – управление потоками информации между гостиницей и гостями, создание положительного образа гостиницы в сознании гостей, в также других заинтересованных сторон",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "I",
+    "section_name": "Предоставление услуг по проживанию и питанию",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "55101",
+    "subclass_name": "Предоставление услуг гостиницами с ресторанами, за исключением гостиниц, находящихся на придорожной полосе"
+  },
+  "professions": [
+    {
+      "name": "Менеджер по связям с гостями",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "I",
+        "55101"
+      ],
+      "government_body": "Министерство туризма и спорта Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/579",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/579/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d49787d107f1d4b94beea1f7a0e2421cec7b7d067c44ac8fff44030debc2707e",
+    "pdf_sha256": "e307786c289266028d625e58cbc71e5ed3a7319bbc57de96d4b7b504c1251303",
+    "normalized_sha256": "ba7c8b53bad635e8bc7774f46a4ff0fa11d9d246e82ab7a7d288d579c3cf2cc2"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

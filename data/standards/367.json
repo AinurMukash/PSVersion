@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 367,
+  "code": "O84230010",
+  "title": "Судебно-экспертное исследование волокнистых материалов и изделий из них",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "Профессиональный стандарт \"Судебно-экспертное исследование волокнистых материалов и изделий из них\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебно-экспертного исследования волокнистых материалов и изделий из них и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Судебный эксперт",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/367",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/367/download"
+  },
+  "hashes": {
+    "metadata_sha256": "4ca44738cfadb5d073deb635fcbdb81e15fff504e1cbbd7e32c5480003e45fda",
+    "pdf_sha256": "0d5e2293295ee28929f1683add150ecfb3165a5a8eff7b44e2df20b7ea6eccbb",
+    "normalized_sha256": "218aeacd125b5ede47290b91acf42ecceb271507e743a8f8bac9e69ca601781b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

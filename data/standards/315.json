@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 315,
+  "code": "O84230024",
+  "title": "Судебно-экспертное религиоведческое исследование",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "Профессиональный стандарт \"Судебная религиоведческая экспертиза\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной религиоведческой экспертизы и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебные эксперты",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/315",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/315/download"
+  },
+  "hashes": {
+    "metadata_sha256": "5faba28ad363d94bdeaa885ac617885c14fabacddcdf442c512b1d0dce5b09d6",
+    "pdf_sha256": "305ea4274bb1217dd66254c3d6e5a28937bdc06737c177d484d7b440adf4fe3d",
+    "normalized_sha256": "518d94dfd642b9f1eb0e961ecb56b930ff239028ff8fe7addfb50d0772f948fc"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

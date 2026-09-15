@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 469,
+  "code": "R90012048",
+  "title": "Дирижер (по видам)",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Дирижер (по видам)\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90012",
+    "subclass_name": "Концертная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Дирижер",
+      "ork_level": 4
+    },
+    {
+      "name": "Дирижер (по видам)",
+      "ork_level": 6
+    },
+    {
+      "name": "Дирижер",
+      "ork_level": 7
+    },
+    {
+      "name": "Дирижер",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/469",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/469/download"
+  },
+  "hashes": {
+    "metadata_sha256": "ff601b4dd2a2c3385c43d543eab9538ad7bb7c79047944cfe37de1db9b8c58d9",
+    "pdf_sha256": "86dc9ff7df99c62ac6b080b8ddcc4bad45e8718fa9e03b6c1809b8cc68ad306b",
+    "normalized_sha256": "b385218add76bcaa1f8cb9dd1f7042a84f72395ae618ecc3c17bd7622c547bdc"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

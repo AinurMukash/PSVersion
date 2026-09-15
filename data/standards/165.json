@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 165,
+  "code": "C20149015",
+  "title": "Производство прочих основных органических химических веществ",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Обеспечение переработки химического сырья и промышленного  производства химической продукции, отнесенных к прочим основным органическим химическим веществам",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-21",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "20149",
+    "subclass_name": "Производство прочих основных органических химических веществ, не включенных в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Аппаратчик гидролиза",
+      "ork_level": 3
+    },
+    {
+      "name": "Аппаратчик на приготовлении смесей и растворов",
+      "ork_level": 3
+    },
+    {
+      "name": "Аппаратчик алкилирования",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник-лаборант, химическое производство",
+      "ork_level": 4
+    },
+    {
+      "name": "Технолог, химия",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "20149"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/165",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/165/download"
+  },
+  "hashes": {
+    "metadata_sha256": "8ab6a3aac5a56e76762cd6cc6d611c19d9c351fffcd7b6f6d5b4b94d28df792b",
+    "pdf_sha256": "aa08d0c261d15a86ae0d764bcddb3f9a94c1f6cf74b2423e910898e7660a7ea0",
+    "normalized_sha256": "acd3c8fdb542daef06dfa00155d9dbbea39832c0bfc246fe5e8735ca5e571d5a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

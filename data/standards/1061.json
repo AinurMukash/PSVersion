@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1061,
+  "code": "M71122043",
+  "title": "Геологическое моделирование (Специалист по геологическому моделированию)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Разработка моделей древних осадочных бассейнов, месторождений, участков недр и геологических структур по результатам полевых и камеральных работ",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Специалист (геолог) по геологическому моделированию",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер (геолог) по геологическому моделированию",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший специалист (геолог) по геологическому моделированию",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный специалист (геолог) по геологическому моделированию",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1061",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1061/download"
+  },
+  "hashes": {
+    "metadata_sha256": "489b130c66ff182f1fa37a780e495be976b8dbdd33575705fba3f657df2d0ca4",
+    "pdf_sha256": "8397bfd5d25977211c56401b75d793045b154b9b7061f6eeb55703cb135b94db",
+    "normalized_sha256": "d2feb1c656f055e11b704aee613247d51dd78d1017d54007d9f5d0c1f7e38793"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

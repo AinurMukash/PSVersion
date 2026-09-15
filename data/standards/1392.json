@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1392,
+  "code": "C11070136",
+  "title": "Производство напитков",
+  "government_body": "Министерство сельского хозяйства Республики Казахстан",
+  "description": "Профессиональный стандарт «Производство напитков» устанавливает требования к квалификации работников, которые занимаются производством напитков. Этот стандарт применяется в организациях и предприятиях, занимающихся разработкой, производством, упаковкой, хранением и реализацией напитков, имеет широкое применение в организациях пищевой промышленности, а также в организациях, занимающихся распределением и продажей напитков.",
+  "version": 2,
+  "year": 2024,
+  "revision_date": "2028-01-01",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "11070",
+    "subclass_name": "Производство безалкогольных напитков, минеральных вод и других вод в бутылках"
+  },
+  "professions": [
+    {
+      "name": "Упаковщик-фасовщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Наладчик оборудования в производстве пищевой продукции",
+      "ork_level": 3
+    },
+    {
+      "name": "Микробиолог, контроль качества",
+      "ork_level": 4
+    },
+    {
+      "name": "Мастер цеха (обрабатывающая промышленность)",
+      "ork_level": 4
+    },
+    {
+      "name": "Генеральный директор",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженеры-технологи пищевого производства",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "11070"
+      ],
+      "government_body": "Министерство сельского хозяйства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "year": 2024,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1392",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1392/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9ae33054b794df5733c56453f548b46b958e815c842db9e02c59b6b2354c39d7",
+    "pdf_sha256": "d7011e6c17bf713ac12c29c14dbcaaa8a71767ee935cfb4211cf6bdc86d617d2",
+    "normalized_sha256": "3726288fc60ec63b57a7816fcef71a9e72d996d77e2495a651b4a2042671a451"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

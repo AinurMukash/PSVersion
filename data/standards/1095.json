@@ -1,0 +1,108 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1095,
+  "code": "H52220083",
+  "title": "Обслуживание судоходной обстановки (судоводитель-мастер пути)",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Судовождение на уровне управления, эксплуатации судов внутреннего водного плавания и обслуживание судоходной обстановки",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52220",
+    "subclass_name": "Вспомогательная деятельность водного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Матрос-монтёр обстановки",
+      "ork_level": 1
+    },
+    {
+      "name": "Моторист-рулевой – монтёр обстановки",
+      "ork_level": 2
+    },
+    {
+      "name": "Старший моторист-рулевой – монтёр обстановки",
+      "ork_level": 3
+    },
+    {
+      "name": "Начальник службы эксплуатации участка",
+      "ork_level": 6
+    },
+    {
+      "name": "Третий помощник капитана-мастер пути",
+      "ork_level": 4
+    },
+    {
+      "name": "Второй помощник капитана-мастер пути",
+      "ork_level": 4
+    },
+    {
+      "name": "Первый помощник капитана-мастер пути",
+      "ork_level": 4
+    },
+    {
+      "name": "Капитан судна – мастер пути",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по путевым работам",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по путевым работам",
+      "ork_level": 6
+    },
+    {
+      "name": "Капитан-наставник",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник службы эксплуатации пути",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52220"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1095",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1095/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7c7448a7cb71c8b93f405f4c81d5f9c7719bde9aca42a7829ab06b1e61bb2929",
+    "pdf_sha256": "8351c8f058c958bbd6e2ecb3864addeb8ef31caeb4db7788fcac882a046174c5",
+    "normalized_sha256": "9c7d74897ccad95678b671fa62f2441ad2822bea15108fe16ae9ccd78b860300"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

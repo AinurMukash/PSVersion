@@ -1,0 +1,87 @@
+{
+  "schema_version": "1",
+  "enbek_id": 97,
+  "code": "A01131015",
+  "title": "Выращивание овощей и картофеля",
+  "government_body": "Министерство сельского хозяйства Республики Казахстан",
+  "description": "- выращивание традиционных листовых и черешковых овощей.\n- выращивание традиционных плодовых овощных культур.\n- выращивание традиционных корнеплодов, клубнеплодов и луковичных овощей. \n- выращивание грибов и трюфелей\n- выращивание прочих видов малораспространенных овощей.  \n- выращивание семян овощных культур",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01131",
+    "subclass_name": "Выращивание картофеля и посадочного материала"
+  },
+  "professions": [
+    {
+      "name": "Квалифицированный рабочий по выращиванию овощей в открытом и закрытом грунте",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник-плодоовощевод",
+      "ork_level": 4
+    },
+    {
+      "name": "Семеновод",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник по сельскохозяйственной технике",
+      "ork_level": 5
+    },
+    {
+      "name": "Агроном",
+      "ork_level": 6
+    },
+    {
+      "name": "Агроном-почвовед",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный агроном",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01131"
+      ],
+      "government_body": "Министерство сельского хозяйства Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/97",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/97/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7553cf0b49052ba46d02ad3f5281dc91631fccbc45dc346a85ff3f8b3128a9e9",
+    "pdf_sha256": "37f3917d85d168c4b922c4ff50e35a938ebccc423b1f60cd1017ae000539663f",
+    "normalized_sha256": "e3c9a1acf15bc2978adba81802b6e3da45b1b23c47300916da1b28df3d62f5c1"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

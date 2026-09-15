@@ -1,0 +1,105 @@
+{
+  "schema_version": "1",
+  "enbek_id": 145,
+  "code": "C24530008",
+  "title": "Литье металлов",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Производство слитков, полуфабрикатов и изделий из металлов и сплавов различными методами выплавки и литья в формы",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24540",
+    "subclass_name": "Литье прочих цветных металлов"
+  },
+  "professions": [
+    {
+      "name": "Плавильщик металла на вакуумных печах",
+      "ork_level": 3
+    },
+    {
+      "name": "Плавильщик металла и сплавов",
+      "ork_level": 3
+    },
+    {
+      "name": "Литейщик вакуумного, центробежно-вакуумного и центробежного литья",
+      "ork_level": 3
+    },
+    {
+      "name": "Литейщик металлов и сплавов",
+      "ork_level": 3
+    },
+    {
+      "name": "Литейщик методом направленной кристаллизации",
+      "ork_level": 3
+    },
+    {
+      "name": "Литейщик на машинах для литья под давлением",
+      "ork_level": 3
+    },
+    {
+      "name": "Заливщик металла",
+      "ork_level": 3
+    },
+    {
+      "name": "Завальщик шихты в вагранки и печи",
+      "ork_level": 2
+    },
+    {
+      "name": "Заварщик отливок",
+      "ork_level": 2
+    },
+    {
+      "name": "Чистильщик металла, отливок, изделий и деталей",
+      "ork_level": 2
+    },
+    {
+      "name": "Обмазчик ковшей",
+      "ork_level": 1
+    },
+    {
+      "name": "Сортировщик отливок",
+      "ork_level": 1
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24540"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        1,
+        2,
+        3
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/145",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/145/download"
+  },
+  "hashes": {
+    "metadata_sha256": "415d5a1b2e4af560f2267b60b4c5f34f602ffbc5219a13eb36710d42a4d1bc65",
+    "pdf_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "normalized_sha256": "7a91689e143c67b241eda9e2c7b1717c62698f15401de2bb5c6d381d54ab93ac"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

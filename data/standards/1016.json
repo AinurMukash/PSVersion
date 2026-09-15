@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1016,
+  "code": "M71122026",
+  "title": "Буровые работы (Буровик)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Проведение комплекса работ по бурению скважин, предназначенных для изучения геологического строения, наблюдений за вскрываемыми подземными водами и отбора проб грунта и подземных вод для лабораторных исследований",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Техник по бурению",
+      "ork_level": 4
+    },
+    {
+      "name": "Буровик-специалист",
+      "ork_level": 5
+    },
+    {
+      "name": "Буровик-инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший буровик",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный буровик",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1016",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1016/download"
+  },
+  "hashes": {
+    "metadata_sha256": "f40bd4be43bdf69e81e611a02dd061f334e2829180d00ef3fb4f23b0c081a735",
+    "pdf_sha256": "634cec8d3fae18257789fce232e7ba8b8882ff6149b8ba86849cf9a11c6bdec6",
+    "normalized_sha256": "d91d7c19cbef8d75d7aa8d046cdef34350d940cb33353d2e3689e46223f52517"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

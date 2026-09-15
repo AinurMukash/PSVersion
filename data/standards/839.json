@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 839,
+  "code": "C25620041",
+  "title": "Работа на станках с ЧПУ",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Программирование, наладка и эксплуатация станков с ЧПУ\nОбеспечение требуемого качества поверхностей деталей, изготовленных на станках с ЧПУ",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-09-01",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Оператор станков с программным управлением",
+      "ork_level": 4
+    },
+    {
+      "name": "Наладчик станков и манипуляторов с программным управлением",
+      "ork_level": 4
+    },
+    {
+      "name": "Оператор станков с программным управлением",
+      "ork_level": 2
+    },
+    {
+      "name": "Оператор станков с программным управлением",
+      "ork_level": 3
+    },
+    {
+      "name": "Наладчик станков и манипуляторов с программным управлением",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/839",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/839/download"
+  },
+  "hashes": {
+    "metadata_sha256": "fa2f77b27b27002d1b48765d2bed0f77fdacb1a57b46ca231c98fc64e5ea3d73",
+    "pdf_sha256": "41ab4625fe4468471d42958e71c676bffa07d48d763b8dfc36bde7ebb65ad78e",
+    "normalized_sha256": "908bfcd10019ad57b3ed8f31af7a3f1a754bf9e919bc32311b88a1d06b6657dc"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

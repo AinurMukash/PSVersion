@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 425,
+  "code": "F42211003",
+  "title": "Рабочие по укладке труб",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт «Рабочие по укладке труб» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, осуществляющих деятельность в сфере строительства.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "42211",
+    "subclass_name": "Строительство нефтяных и газовых магистральных трубопроводов"
+  },
+  "professions": [
+    {
+      "name": "Трубопроводчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Трубопроводчик",
+      "ork_level": 3
+    },
+    {
+      "name": "Трубопроводчик",
+      "ork_level": 4
+    },
+    {
+      "name": "Укладчик труб",
+      "ork_level": 2
+    },
+    {
+      "name": "Укладчик труб",
+      "ork_level": 3
+    },
+    {
+      "name": "Укладчик труб",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "42211"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/425",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/425/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a0cbf863b6440cc3477172381b19a0aa2acc9d03e6a89b6f96056e7240c985c6",
+    "pdf_sha256": "dc553797f420ebf0e18a7df1e6989e83f16283f1b6a4955137e920ecb7e148c6",
+    "normalized_sha256": "5fd13f27e7b139e9e9ae159fc4c32bdbacc41d084f177b369e00bd6a7948e2b5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

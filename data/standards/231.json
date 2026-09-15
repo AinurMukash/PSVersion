@@ -1,0 +1,105 @@
+{
+  "schema_version": "1",
+  "enbek_id": 231,
+  "code": "C25620021",
+  "title": "Резка металлов",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт \"Резка металлов\" разработан в соответствии со статьей 5 Закона Республики Казахстан \"О профессиональных квалификациях\", устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, осуществляющих деятельность в сфере машиностроения.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Газорезчик",
+      "ork_level": 3
+    },
+    {
+      "name": "Резчик холодного металла",
+      "ork_level": 2
+    },
+    {
+      "name": "Резчик металла на ножницах и прессах",
+      "ork_level": 2
+    },
+    {
+      "name": "Резчик металла на ножницах и прессах",
+      "ork_level": 3
+    },
+    {
+      "name": "Резчик труб и заготовок",
+      "ork_level": 3
+    },
+    {
+      "name": "Резчик на пилах, ножовках и станках",
+      "ork_level": 3
+    },
+    {
+      "name": "Газорезчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Резчик на пилах, ножовках и станках",
+      "ork_level": 2
+    },
+    {
+      "name": "Резчик труб и заготовок",
+      "ork_level": 2
+    },
+    {
+      "name": "Газорезчик",
+      "ork_level": 4
+    },
+    {
+      "name": "Резчик холодного металла",
+      "ork_level": 4
+    },
+    {
+      "name": "Резчик холодного металла",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/231",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/231/download"
+  },
+  "hashes": {
+    "metadata_sha256": "eb4cc0e84395ea8bd56968a09390a86c20461e045903eb6fcae5d3cfcf667e5d",
+    "pdf_sha256": "65b31c0a2c3ed795f0cc5e8a85f9de70bb097bd79c0a80970b7e93cb19e018b4",
+    "normalized_sha256": "7ff592da78ac957546d0dc9ff377bbd27e0a29fc5603ffc622fe7d13bce37e44"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1018,
+  "code": "C25620057",
+  "title": "Заточные работы",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Выполнение комплекса работ по заточке режущего инструмента.\nОбеспечение качества и производительности заточки режущего инструмента на заточных станках.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2023-01-01",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Заточник",
+      "ork_level": 2
+    },
+    {
+      "name": "Заточник",
+      "ork_level": 3
+    },
+    {
+      "name": "Заточник",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник-технолог по заточным работам",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1018",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1018/download"
+  },
+  "hashes": {
+    "metadata_sha256": "028e97d14cf8900643400a34dbf3fe0bfa18d5f7074f583a09c8099ad585de45",
+    "pdf_sha256": "1957b081b80a1bccec3cd0806e19974c83a65106a6c9c6d784a5da749215245a",
+    "normalized_sha256": "681916b315baf3326c9919986e266603a73469f2606360e6e904c7ae0daf1881"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

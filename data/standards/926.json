@@ -1,0 +1,72 @@
+{
+  "schema_version": "1",
+  "enbek_id": 926,
+  "code": "H52219118",
+  "title": "Организация профессиональной подготовки персонала, участвующего в автомобильных грузовых перевозках",
+  "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Организация профессиональной подготовки персонала, участвующего в автомобильных грузовых перевозках",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52219",
+    "subclass_name": "Прочая вспомогательная деятельность  сухопутного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Руководитель Учебного центра подготовки персонала, участвующего в автомобильных грузовых перевозках",
+      "ork_level": 6
+    },
+    {
+      "name": "Методист Учебного центра подготовки персонала, участвующего в автомобильных грузовых перевозках",
+      "ork_level": 4
+    },
+    {
+      "name": "Преподаватель Учебного центра по подготовке персонала, участвующего в автомобильных грузовых перевозках",
+      "ork_level": 4
+    },
+    {
+      "name": "Мастер производственного обучения вождению Учебного центра по подготовке персонала, участвующего в автомобильных грузовых перевозках",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52219"
+      ],
+      "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/926",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/926/download"
+  },
+  "hashes": {
+    "metadata_sha256": "78e7a754e78ab8f35e3ed36251bae6c8173587ac26df598af84d1229e02540bd",
+    "pdf_sha256": "92c06f1d08acd84fdff5e1ab065af2df5daba046825905df5cb89cb13760576b",
+    "normalized_sha256": "7917b3222e473b9da19dba9110b51b05df06d6fc052a0aab1c06db01009c5bda"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

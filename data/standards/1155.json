@@ -1,0 +1,109 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1155,
+  "code": "C24530068",
+  "title": "Формовка литья",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Изготовление деталей из расплавленного металла разливкой в различные литейные формы и модели.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24530",
+    "subclass_name": "Литье легких металлов"
+  },
+  "professions": [
+    {
+      "name": "Формовщик машинной формовки",
+      "ork_level": 3
+    },
+    {
+      "name": "Формовщик по выплавляемым моделям",
+      "ork_level": 3
+    },
+    {
+      "name": "Формовщик ручной формовки",
+      "ork_level": 3
+    },
+    {
+      "name": "Модельщик выплавляемых моделей",
+      "ork_level": 3
+    },
+    {
+      "name": "Модельщик гипсовых моделей",
+      "ork_level": 3
+    },
+    {
+      "name": "Модельщик по деревянным моделям",
+      "ork_level": 3
+    },
+    {
+      "name": "Модельщик по металлическим моделям",
+      "ork_level": 3
+    },
+    {
+      "name": "Модельщик по моделям из эпоксидных смол",
+      "ork_level": 3
+    },
+    {
+      "name": "Стерженщик машинной формовки",
+      "ork_level": 3
+    },
+    {
+      "name": "Стерженщик ручной формовки",
+      "ork_level": 3
+    },
+    {
+      "name": "Сборщик форм",
+      "ork_level": 2
+    },
+    {
+      "name": "Сушильщик стержней, форм и формовочных материалов",
+      "ork_level": 2
+    },
+    {
+      "name": "Опылитель форм и металла серным порошком",
+      "ork_level": 1
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24530"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        1,
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1155",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1155/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e79485340012f320703dab24803b6ee7d545286ce92a4af374d6856418531eb6",
+    "pdf_sha256": "265f6d3bf71aefc7bf19b145339da334d1959df7b406a7a8166228ec78ce080f",
+    "normalized_sha256": "bd2b492c47ece9aa22dfe3927088c44ab7e8bfcf6dd690041a1993b1df83e602"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

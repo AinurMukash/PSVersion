@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1209,
+  "code": "C25113084",
+  "title": "Производство строительных конструкций и изделий из алюминия и алюминиевых сплавов",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт является основой для разработки образовательных программ, курсов повышения квалификации и системы аттестации специалистов в области производства строительных конструкций и изделий из алюминия и алюминиевых сплавов. Он также способствует повышению эффективности производства, обеспечивая высокий уровень профессионализма и качества выпускаемой продукции.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25113",
+    "subclass_name": "Производство строительных конструкций и изделий из алюминия и алюминиевых сплавов"
+  },
+  "professions": [
+    {
+      "name": "Литейщик цветных металлов",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник-технолог (общий профиль)",
+      "ork_level": 5
+    },
+    {
+      "name": "Литейщик цветных металлов",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25113"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        5
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1209",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1209/download"
+  },
+  "hashes": {
+    "metadata_sha256": "81ae3dc2fdb51ac3409742af60d99e07608a328063b200b11e1e16538e2da107",
+    "pdf_sha256": "aa9df78bf635428cd3676ca2abaf1d3b1b63370fe64c2a3dd081a2c8a26c5683",
+    "normalized_sha256": "6edc90b226122b8a427043ee762aae456535101d218fab454abaf000f8f44fdc"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

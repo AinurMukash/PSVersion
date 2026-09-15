@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 982,
+  "code": "M71122037",
+  "title": "Петрофизические исследования (Петрофизик)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Изучение физических свойств горных пород",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Техник-петрофизик",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист-петрофизик",
+      "ork_level": 5
+    },
+    {
+      "name": "Петрофизик-инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший петрофизик",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный петрофизик",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/982",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/982/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b26d5f3b1617cdf522fb376aea0aadd256f688834dd86aff84acd64253285551",
+    "pdf_sha256": "9234e538b2169bcac374d67203c90f60902b39acbd91d59b20a591647078fec4",
+    "normalized_sha256": "3067d52940d5ee4d7eef1879ee827b3c93bc788df8aa7557c18fa1a7c3273d4b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "1",
+  "enbek_id": 131,
+  "code": "A01111005",
+  "title": "Производство зерновых культур",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Регулирование производства зерновых культур включает обеспечение применения новых инновационных методов с применением автоматизированных механизмов по обработке почвы, посадке, ухаживания за посевами, прополки, орошения, обработки различными биологическими и химическими препаратами с целью сохранности урожая, а также осуществление диагностики полей с посевами зерновых культур.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01111",
+    "subclass_name": "Выращивание зерновых и зернобобовых культур, включая семеноводство"
+  },
+  "professions": [
+    {
+      "name": "Оператор линии замачивания семян",
+      "ork_level": 3
+    },
+    {
+      "name": "Рабочий по защите растений",
+      "ork_level": 4
+    },
+    {
+      "name": "Квалифицированный сельскохозяйственный рабочий (смешанные культуры)",
+      "ork_level": 3
+    },
+    {
+      "name": "Бригадир специализирующийся на выращивании различных сельскохозяйственных культур",
+      "ork_level": 4
+    },
+    {
+      "name": "Фермер по выращиванию хлебных злаков",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник-агроном по выращиванию полевых культур",
+      "ork_level": 5
+    },
+    {
+      "name": "Техники по карантину растений",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по внедрению новой техники и технологии",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01111"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/131",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/131/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b6652ec11e58c088a415dcef92a81aa3500b34943aa60a0f277f31d64da39495",
+    "pdf_sha256": "60bc461aeac40c8bfbfbf343c72014057b650e3f9c0fd23e82beb2d1fe91e459",
+    "normalized_sha256": "71449a7357d83d85f07dbb4516db3cddcbee11e3c83d72b6d68c9e2a0b74e279"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

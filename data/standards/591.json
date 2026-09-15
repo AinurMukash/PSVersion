@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 591,
+  "code": "M74909008",
+  "title": "Классификация и обеспечение технической безопасности судов водного транспорта (Регистр судоходства)",
+  "government_body": "Министерство транспорта Республики Казахстан",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам по осуществлению технического наблюдения за соблюдением требований технической безопасности при постройке, обновлении, переоборудовании, модернизации, ремонте и эксплуатации судов.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "74909",
+    "subclass_name": "Иная профессиональная, научная и техническая деятельность, не включенная в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Инженер по техническому надзору за палубными маломерными судами",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "74909"
+      ],
+      "government_body": "Министерство транспорта Республики Казахстан",
+      "ork_levels": [
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/591",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/591/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7c67905431c9f8aa6a8a5bf9bfbb36d91e3e38434d12fed469983f9858439e86",
+    "pdf_sha256": "ca608fcab24ee130d713a2a8510360efd67824edfe4f926cffe11391872e5f0f",
+    "normalized_sha256": "3e9105da96dbb7320cbf9c2b59f20bdfe45079b74a2b8d581ba264cab232ef87"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

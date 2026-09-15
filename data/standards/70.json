@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 70,
+  "code": "C24530018",
+  "title": "Литье под давлением",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Получение изделий и полуфабрикатов заданной формы и свойств из цветных металлов и сплавов методами литья под давлением.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24530",
+    "subclass_name": "Литье легких металлов"
+  },
+  "professions": [
+    {
+      "name": "Литейщик на машинах для литья под давлением",
+      "ork_level": 4
+    },
+    {
+      "name": "Литейщик на машинах для литья под давлением",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24530"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        3,
+        4
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/70",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/70/download"
+  },
+  "hashes": {
+    "metadata_sha256": "498894a5db4cfb7ea8d5c8db3cca8a4a3470f8777d9f11c70d8751e3ffe3af04",
+    "pdf_sha256": "477e72635bdff04f29c44607011331c76b0ef2135791a91c0a2005be7f402325",
+    "normalized_sha256": "ee1fbf6daa760b9ef29debf8af29827c53fbe3c147962c345731a08818b6f01c"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

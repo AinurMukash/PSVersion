@@ -1,0 +1,75 @@
+{
+  "schema_version": "1",
+  "enbek_id": 974,
+  "code": "M71122038",
+  "title": "Сопровождение лабораторных работ",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Проведение работ по подготовке проб, ее регистрации и проведению испытаний и обработки результатов",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Промывальщик геологических проб",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор геологического оборудования",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор геофизического оборудования",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор гидрогеологического оборудования",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор компьютерного оборудования",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/974",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/974/download"
+  },
+  "hashes": {
+    "metadata_sha256": "79243fc87fc182ee0f82bc5d4e5a2a70f7376889ac095024ead397cad8140397",
+    "pdf_sha256": "b2c9d2db39f9fdd022c8de7085af21a9d7cff2e88645863b7066185384546c0f",
+    "normalized_sha256": "093ecea2abb34660e3a6586f76157a4e57a274cbc8f1c31d359e274b415ed343"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

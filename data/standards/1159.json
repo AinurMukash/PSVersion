@@ -1,0 +1,93 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1159,
+  "code": "F41201033",
+  "title": "Обслуживание зданий",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Профессиональный стандарт разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования широким кругом пользователей.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "41201",
+    "subclass_name": "Строительство жилых зданий"
+  },
+  "professions": [
+    {
+      "name": "Механик здания",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник по государственному техническому обследованию объектов недвижимости",
+      "ork_level": 5
+    },
+    {
+      "name": "Мастер по ремонту и строительству сооружений",
+      "ork_level": 4
+    },
+    {
+      "name": "Мастер по техническому обслуживанию сооружений",
+      "ork_level": 4
+    },
+    {
+      "name": "Рабочий по техническому содержанию и ремонту высотных частей зданий",
+      "ork_level": 3
+    },
+    {
+      "name": "Рабочий по комплексному обслуживанию и ремонту зданий",
+      "ork_level": 3
+    },
+    {
+      "name": "Слесарь строительный",
+      "ork_level": 3
+    },
+    {
+      "name": "Чистильщик фасадов",
+      "ork_level": 3
+    },
+    {
+      "name": "Полотер",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "41201"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1159",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1159/download"
+  },
+  "hashes": {
+    "metadata_sha256": "ec73b2314584f6a01940ea74eb0b2911e72bc5b89bcb14efd7868beac38cf2f2",
+    "pdf_sha256": "21e7d6cc3cce0c55498038d63f8094986950d89944e5f08b23b7fa66df32d0d1",
+    "normalized_sha256": "2c97ce6a07fe5342e35c2d94dee2150d670f6244c8c12b98795108ab014bef58"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1058,
+  "code": "F41100043",
+  "title": "Разработка строительных проектов",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Разработка строительных проектов включает разработку проектов по строительству жилых и нежилых зданий посредством объединения финансовых, технических средств и людских ресурсов для реализации проекта с целью дальнейшей продажи.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "41100",
+    "subclass_name": "Разработка строительных проектов"
+  },
+  "professions": [
+    {
+      "name": "Техник-конструктор",
+      "ork_level": 5
+    },
+    {
+      "name": "Сметчик",
+      "ork_level": 5
+    },
+    {
+      "name": "Специалист по автоматизированным системам",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-сметчик",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер пожарно-охранной сигнализации",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-конструктор",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный конструктор проекта (в строительстве)",
+      "ork_level": 7
+    },
+    {
+      "name": "Главный инженер проекта (в строительстве)",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "41100"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1058",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1058/download"
+  },
+  "hashes": {
+    "metadata_sha256": "8772ede85b318bc1d0c47f1a24318f8363b62e90f2ceca461dda4e0170ad9391",
+    "pdf_sha256": "38530a6630841c5bf54bb00fe6bed09f71ce85bd576bce390c3385e10391ef31",
+    "normalized_sha256": "80883843ba0ed3f65f17c7c4cc14b9faf87b0eb14c3223600f17968153ae12ff"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

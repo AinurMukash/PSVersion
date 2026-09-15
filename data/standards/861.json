@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 861,
+  "code": "B09100020",
+  "title": "Цементирование скважин",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Цементирование скважин» применяется в нефтегазовой промышленности для обеспечения безопасности и эффективности процесса бурения и эксплуатации скважин. Экономическая деятельность в этой области включает в себя бурение новых скважин, ремонт и обслуживание существующих, а также разработку технологий и материалов для оптимизации процесса цементирования.",
+  "version": 3,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "09100",
+    "subclass_name": "Предоставление услуг, способствующих добыче нефти и природного газа"
+  },
+  "professions": [
+    {
+      "name": "Инженер по заливке скважин",
+      "ork_level": 6
+    },
+    {
+      "name": "Оператор по цементажу скважин",
+      "ork_level": 2
+    },
+    {
+      "name": "Оператор-моторист станции контроля цементажа",
+      "ork_level": 3
+    },
+    {
+      "name": "Моторист цементировочного агрегата",
+      "ork_level": 3
+    },
+    {
+      "name": "Моторист цементо-пескосмесительного агрегата",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "09100"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        6
+      ],
+      "year": 2024,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/861",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/861/download"
+  },
+  "hashes": {
+    "metadata_sha256": "755c7656f608da03d10f805cdb2e14ad484b54d4e612ce209dc090672b1114bf",
+    "pdf_sha256": "02fb3d3abb31432021b1e307e680ee3251e831f412f4abc410c042fafccf8726",
+    "normalized_sha256": "1c5f13a75abd8491ff07703404177f73e1534546972ccecbdc1db70bd02d2a71"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

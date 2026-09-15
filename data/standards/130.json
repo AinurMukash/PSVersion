@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "enbek_id": 130,
+  "code": "A01460017",
+  "title": "Разведение и выращивание свиней",
+  "government_body": null,
+  "description": "Приведено описание 6 профессий, которые относятся к сфере разведения и выращивания свиней, занимающихся осеменением, получением приплода, доращиванием и откормом свиней. Описывается использование автоматизации и механизации в процессе выращивания свиней, технологических особенностей ветеринарных и зоотехнических процедур. Приведено описание работ по содержанию и уходу за холостыми и супоросными свиноматками, хряками- производителями, поросятами-отъемышами, ремонтным молодняком и свиньями на откорме.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01460",
+    "subclass_name": "Разведение свиней"
+  },
+  "professions": [
+    {
+      "name": "Оператор свиноводческих комплексов и механизированных ферм",
+      "ork_level": 2
+    },
+    {
+      "name": "Оператор по искусственному осеменению животных и птицы",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор по ветеринарной обработке животных",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник по племенному делу",
+      "ork_level": 4
+    },
+    {
+      "name": "Зоотехник",
+      "ork_level": 5
+    },
+    {
+      "name": "Ветеринарный врач",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01460"
+      ],
+      "government_body": null,
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/130",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/130/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e77427327fe5753643caf512d3ef5de60cf070adade75cfe9bfb32ca2906716f",
+    "pdf_sha256": "690b28cc71cb243c4dbdf6a02d0346b4a705dbd6e40f74ca48ed60cb12dc916f",
+    "normalized_sha256": "109ac74217fa3f548224cd80c779a6ebbb850fe2aa79d7f665c4b493722c8b55"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

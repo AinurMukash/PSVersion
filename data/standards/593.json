@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 593,
+  "code": "H50100017",
+  "title": "Организация и контроль безопасной эксплуатации морского флота",
+  "government_body": "Министерство транспорта Республики Казахстан",
+  "description": "Руководство безаварийной эксплуатацией морских судов, безопасностью мореплавания (судовождения) и исполнения на судах требований международных конвенции ИМО, а также контроль за жизнедеятельностью экипажей судов в организациях морского транспорта.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "50100",
+    "subclass_name": "Деятельность морского и прибрежного пассажирского транспорта"
+  },
+  "professions": [
+    {
+      "name": "Инженер по обработке и размещению грузов",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "50100"
+      ],
+      "government_body": "Министерство транспорта Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/593",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/593/download"
+  },
+  "hashes": {
+    "metadata_sha256": "fdb928e5e206c934ac5ef382db1da33e7c12f9640d3e25863b5a507a205186fc",
+    "pdf_sha256": "89178c602fa3d70078152a5cafe60028500bfea7a92849dbdcf6aff809074e5d",
+    "normalized_sha256": "84c3f0566b6a4519c298908b572a37c5b02cf8f14bd97a1d69f4237d97348fa6"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

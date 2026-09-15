@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1599,
+  "code": "B09100054",
+  "title": "Приготовление промывочных жидкостей",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Приготовление промывочных жидкостей» имеет значительное значение в нефтегазовой отрасли, где очистка и подготовка различных оборудований и поверхностей играют критическую роль в обеспечении безопасности и эффективности процессов добычи, транспортировки и переработки нефти и газа. Профессиональный стандарт «Приготовление промывочных жидкостей» применяется в области разведке и добыче нефти и газа Республики Казахстан.",
+  "version": 4,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "09100",
+    "subclass_name": "Предоставление услуг, способствующих добыче нефти и природного газа"
+  },
+  "professions": [
+    {
+      "name": "Инженер по борьбе с аварийными разливами нефти и нефтепродуктов в море",
+      "ork_level": 6
+    },
+    {
+      "name": "3.2. Машинист вакуумной установки",
+      "ork_level": 3
+    },
+    {
+      "name": "3.1. Машинист вакуумной установки",
+      "ork_level": 3
+    },
+    {
+      "name": "Лаборант-коллектор",
+      "ork_level": 3
+    },
+    {
+      "name": "Приготовитель бурового раствора",
+      "ork_level": 2
+    },
+    {
+      "name": "Инженер по буровым растворам",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "09100"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        6
+      ],
+      "year": 2025,
+      "version": 4,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1599",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1599/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1b9c0a31487ce80f383b928bc59ac2ef19b54dd4bf4dcb5fda038d3f940701ed",
+    "pdf_sha256": "a1430d224e50ddfef192e74223400a45f973180a2b5470900d716633110d9644",
+    "normalized_sha256": "2f4fc07ec555581e830d23bb53e6670ba8d9aa080116cb8f8669e5b8cddafc54"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

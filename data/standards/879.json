@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 879,
+  "code": "B06100024",
+  "title": "Технология добычи нефти и газа",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Технология добычи нефти и газа» применяется в нефтегазовой промышленности для оптимизации процессов добычи энергоносителей. Область его применения охватывает различные аспекты добычи, включая исследование месторождений, проектирование и эксплуатацию скважин, а также применение современных технологий для увеличения производительности и эффективности добычи. Экономическая деятельность в этой области включает в себя инвестирование в исследование и разработку месторождений, бурение и оборудование скважин, а также мониторинг и оптимизацию процессов добычи для максимизации выручки от добычи нефти и газа.",
+  "version": 3,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "06100",
+    "subclass_name": "Добыча сырой нефти и попутного газа"
+  },
+  "professions": [
+    {
+      "name": "Главный технолог (добывающая промышленность)",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер-технолог (общий профиль)",
+      "ork_level": 6
+    },
+    {
+      "name": "Техник-технолог (общий профиль)",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "06100"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        4,
+        6,
+        7
+      ],
+      "year": 2024,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/879",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/879/download"
+  },
+  "hashes": {
+    "metadata_sha256": "41256c90510b0b7f8f8bba2ef147cf49a7a90205aa827c6763d68aa5ae64b9f2",
+    "pdf_sha256": "6decbe0a54c8e3a3f211ffdb4bee86703f2f04d47ab2eeb1e261d8c426dceca0",
+    "normalized_sha256": "5e2f7f12326c98d8b158aadb1ea3d4ca24f8981489a7689459c0ca6d07e53ccf"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

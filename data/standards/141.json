@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 141,
+  "code": "G47191005",
+  "title": "Прочая розничная торговля в неспециализированных магазинах",
+  "government_body": "Ассоциация торговых предприятий Казахстана",
+  "description": "Розничная торговля в неспециализированных магазинах включает розничную торговлю большим ассортиментом товаров из которых, продукты питания, напитки или табачные изделия не преобладают",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "G",
+    "section_name": "Оптовая и розничная торговля; ремонт автомобилей и мотоциклов",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "47191",
+    "subclass_name": "Прочая розничная торговля в неспециализированных магазинах, являющихся торговыми объектами, с торговой площадью менее 2000 кв.м"
+  },
+  "professions": [
+    {
+      "name": "Руководитель (в коммерческой деятельности)",
+      "ork_level": 7
+    },
+    {
+      "name": "Инспектор торговый",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "G",
+        "47191"
+      ],
+      "government_body": "Ассоциация торговых предприятий Казахстана",
+      "ork_levels": [
+        5,
+        7
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/141",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/141/download"
+  },
+  "hashes": {
+    "metadata_sha256": "61860e4c8e9284db82b94226bb206fd4752bbd0fc72b7f6cb461f6274095b82d",
+    "pdf_sha256": "e58f557e2b6746d7d676f55eb5b17450afc4d593650bce973fabff98b9f64e99",
+    "normalized_sha256": "bdb2de6abd2b2cbd803f622bfc06b6bff4f4d69df6499c472b9e70a5c511e26e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

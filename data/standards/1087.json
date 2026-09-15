@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1087,
+  "code": "G45111009",
+  "title": "Контроль за техническим состоянием автомобильного транспорта",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Деятельность по внутреннему техническому контролю на автомобильном транспорте. Включает предупреждение  допуска  к  работе технически неисправных автотранспортных средств и обеспечение соответствия технического состояния и оборудования транспортных средств требованиям безопасности дорожного движения",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "G",
+    "section_name": "Оптовая и розничная торговля; ремонт автомобилей и мотоциклов",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "45111",
+    "subclass_name": "Оптовая торговля автомобилями и легкими автотранспортными средствами"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела технического контроля",
+      "ork_level": 6
+    },
+    {
+      "name": "Механик-контролер",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по эксплуатации и ремонту автотранспорта",
+      "ork_level": 5
+    },
+    {
+      "name": "Контролер технического состояния автотранспортных средств",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "G",
+        "45111"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1087",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1087/download"
+  },
+  "hashes": {
+    "metadata_sha256": "dd27ddad92c45b3f13ef98566970bb27e66ea23d40151e86024205e6ab86b91c",
+    "pdf_sha256": "6922fbf3c03cf97664b620a1da18d24b983c6547b58e4f4ddd4d391a0d987f0d",
+    "normalized_sha256": "e60ab59f0292d226d8d4ec040b2d1c566ca8e21f589bf12b79dae39c4c444ec4"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

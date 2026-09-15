@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "enbek_id": 672,
+  "code": "J63120015",
+  "title": "Деятельность веб-порталов",
+  "government_body": "ТОО «Оркен Медиа»",
+  "description": "Публикация контента в текстовом, видео, аудио, графическом виде в интернете.\nНа все профессии, описанные в данном стандарте, распространяются общие требования к знаниям:\nправила и нормы охраны труда, техники безопасности, производственной санитарии и противопожарной защиты., правила документационного обеспечения управления и деловой переписки, этика деловых отношений, грамотная устная и письменная речь на государственном и русском языках, использование офисного программного обеспечения.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": null,
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "63120",
+    "subclass_name": "Деятельность веб-порталов"
+  },
+  "professions": [
+    {
+      "name": "Обозреватель",
+      "ork_level": 6
+    },
+    {
+      "name": "Координатор по связям с государственными органами",
+      "ork_level": 6
+    },
+    {
+      "name": "Консультант по работе с мультимедийными изданиями",
+      "ork_level": 6
+    },
+    {
+      "name": "Сценарист",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "63120"
+      ],
+      "government_body": "ТОО «Оркен Медиа»",
+      "ork_levels": [
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/672",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/672/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d9333b50060eae90cf5874bb424aca2aee3f33d7ddbaf0d364bbea11f9772178",
+    "pdf_sha256": "36a8d792f1bc8e49510583ac91b11f54450bd6b1fadd80071c71cc2238e79995",
+    "normalized_sha256": "f04ce4cce582643deb5839be8e7283365a685cda99d30d9880fe7b818c77f615"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

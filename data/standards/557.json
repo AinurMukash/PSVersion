@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 557,
+  "code": "M69109007",
+  "title": "Деятельность по экспертизе объектов промышленной собственности",
+  "government_body": "Министерство труда и социальной защиты населения Республики Казахстан",
+  "description": "Профессиональный стандарт \"Деятельность по экспертизе объектов промышленной собственности\" предназначен для формирования образовательных программ, в том числе для обучения персонала на предприятиях, для сертификации работников и выпускников образовательных учреждений, для решения широкого круга задач в области управления персоналом.",
+  "version": 1,
+  "year": 2014,
+  "revision_date": "2017-01-01",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "69109",
+    "subclass_name": "Прочая деятельность в области права"
+  },
+  "professions": [
+    {
+      "name": "Инженер-эксперт по проведению экспертизы в области промышленной собственности",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "69109"
+      ],
+      "government_body": "Министерство труда и социальной защиты населения Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2014,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/557",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/557/download"
+  },
+  "hashes": {
+    "metadata_sha256": "4dba46d8b16b121430c18d50ceb1c13e4a41fc6ab6dda7717d027f62e79852ab",
+    "pdf_sha256": "cdc084af9f2258edc713b13fd8083e4aa82c28bdbe6c5ede806ff987c3ff22d3",
+    "normalized_sha256": "5e1932f8d01d420b0f66d59be726c5941d55af32143cbd3819a0a968a29cdad2"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

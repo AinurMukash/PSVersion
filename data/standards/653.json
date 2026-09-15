@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 653,
+  "code": "H49320036",
+  "title": "Перевозка пассажиров и багажа такси",
+  "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к деятельности такси",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49320",
+    "subclass_name": "Деятельность такси"
+  },
+  "professions": [
+    {
+      "name": "Главный механик таксопарка",
+      "ork_level": 5
+    },
+    {
+      "name": "Менеджер таксопарка",
+      "ork_level": 5
+    },
+    {
+      "name": "Главный инженер таксопарка",
+      "ork_level": 6
+    },
+    {
+      "name": "Водитель такси",
+      "ork_level": 3
+    },
+    {
+      "name": "Инженер по безопасности движения",
+      "ork_level": 5
+    },
+    {
+      "name": "Руководитель (управляющий) (на транспорте)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49320"
+      ],
+      "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        3,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/653",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/653/download"
+  },
+  "hashes": {
+    "metadata_sha256": "06601a9e973ad79d4afa121b040d9c0b152426a30c0cdac35512a65da611f86b",
+    "pdf_sha256": "39c32e5c12e5485ee82571570e292430b750ac239b0329dd10be9ed75dbfd2a0",
+    "normalized_sha256": "5441c2d2437c3b4ba94d1ceb254f978d81a69380fc40f79eec11206791b1e666"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

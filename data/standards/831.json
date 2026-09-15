@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 831,
+  "code": "C25620096",
+  "title": "Нанесение гальванических покрытий",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Выполнение работ по нанесению на детали и изделия защитных, защитно-декоративных и специальных покрытий методом гальваностегии и гальванопластики, а также нанесение окисных покрытий химическим и электрохимическим способами.\nСоздание защитных, защитно-декоративных и специальных покрытий методом гальваностегии и гальванопластики, нанесение окисных покрытий химическим и электрохимическим способами, восстановление поврежденных деталей, а также получение точных копий деталей методом гальванопластики.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": null,
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Гальваник",
+      "ork_level": 2
+    },
+    {
+      "name": "Гальваник",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/831",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/831/download"
+  },
+  "hashes": {
+    "metadata_sha256": "30a473601b4ab26456bbbf4776bc5480f7a6add29032c68bed8dd8f90dde4197",
+    "pdf_sha256": "a896bb5e87b59f855c0c14be654c6311c04652caab329433c7e3cfc1469b9032",
+    "normalized_sha256": "6d56a8839dd33bf06af0ef563c7db57860f001953350af380002f14d5969d2b7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

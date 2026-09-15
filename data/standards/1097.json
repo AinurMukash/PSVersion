@@ -1,0 +1,72 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1097,
+  "code": "H52211082",
+  "title": "Диспетчерское регулирование движения поездов",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Организация и управление движением поездов на железнодорожном транспорте",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52211",
+    "subclass_name": "Эксплуатация железных дорог"
+  },
+  "professions": [
+    {
+      "name": "Диспетчер поездной",
+      "ork_level": 4
+    },
+    {
+      "name": "Диспетчер по регулированию вагонного парка",
+      "ork_level": 4
+    },
+    {
+      "name": "Диспетчер локомотивный дорожный",
+      "ork_level": 4
+    },
+    {
+      "name": "Старший диспетчер по управлению перевозками на направлении",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52211"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        4,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1097",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1097/download"
+  },
+  "hashes": {
+    "metadata_sha256": "3e03866f198a072c138bd95eb3192883da4ec4f9295cb7947864864dd5c38a64",
+    "pdf_sha256": "de471d0a36a6095944d7de64b70dd4f437ed619c129e7822a687c5a13863e69f",
+    "normalized_sha256": "67c9e8f5b3ee221cde53877fd380156e33d3c1a69f9061208d74cca82ee136ea"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

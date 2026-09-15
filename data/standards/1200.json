@@ -1,0 +1,93 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1200,
+  "code": "N78100024",
+  "title": "Содействие занятости",
+  "government_body": "Министерство труда и социальной защиты населения Республики Казахстан",
+  "description": "Профессиональный стандарт устанавливает общие требования к знаниям, умениям, навыкам, уровням квалификаций к профессиям (занятиям) в области профессиональной деятельности \"Содействие занятости\".",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-06-10",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "78100",
+    "subclass_name": "Деятельность агентств по трудоустройству"
+  },
+  "professions": [
+    {
+      "name": "Руководитель службы занятости",
+      "ork_level": 6
+    },
+    {
+      "name": "Руководитель структурного подразделения службы занятости",
+      "ork_level": 5
+    },
+    {
+      "name": "Специалист по содействию занятости",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист по взаимодействию с работодателями",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист по профессиональной подготовке",
+      "ork_level": 4
+    },
+    {
+      "name": "Аналитик рынка труда",
+      "ork_level": 6
+    },
+    {
+      "name": "Консультант по трудоустройству",
+      "ork_level": 4
+    },
+    {
+      "name": "Консультант по социальной работе",
+      "ork_level": 4
+    },
+    {
+      "name": "Ассистент по социальной работе",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "78100"
+      ],
+      "government_body": "Министерство труда и социальной защиты населения Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1200",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1200/download"
+  },
+  "hashes": {
+    "metadata_sha256": "5d32912569bac102c38795511f006ef5235a278dfbd0876719fdf742d1209ce6",
+    "pdf_sha256": "f2329595d28c8b35f0a331c249f5eb4b26f4d4747729be9e174e5a52892b5fab",
+    "normalized_sha256": "59c4e2c8fbe6c87599fe2850ed6bb9857d2586c523483ad4362185c92ea9c7f9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

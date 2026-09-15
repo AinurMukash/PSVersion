@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1013,
+  "code": "M71122027",
+  "title": "Палеонтологические исследования (Палеонтолог)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Проведение поисков органических остатков в горных породах, их диагностика, выявление условий жизни и возраста",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Палеонтолог-специалист",
+      "ork_level": 5
+    },
+    {
+      "name": "Палеонтолог-инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший палеонтолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный палеонтолог",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1013",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1013/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d935ed773dc44736884f8fe591948c3531c761c14afeb624b22881e05c2210ab",
+    "pdf_sha256": "0990adcb704efb8e0c1bf1d94839ca704a0947d6280103b79dc686b9a45bb8f2",
+    "normalized_sha256": "dec4a69978266f1e35ff2e8cbd3a4004489f91cb009084cb53ab0dcf01a935bc"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

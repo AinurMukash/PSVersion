@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1223,
+  "code": "C33125059",
+  "title": "Эксплуатация машин и оборудования в промышленности",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "профессиональный стандарт «Эксплуатация машин и оборудования в промышленности» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, осуществляющих деятельность в сфере обрабатывающей промышленности",
+  "version": 2,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "33125",
+    "subclass_name": "Ремонт и техническое обслуживание прочих машин и оборудования специального назначения"
+  },
+  "professions": [
+    {
+      "name": "Техник-механик (общий профиль)",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник-механик (общий профиль)",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "33125"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        4,
+        5
+      ],
+      "year": 2024,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1223",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1223/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a9b17037f89b65de613936f486f38c980caf960c6f2cfcaaa90918c002912598",
+    "pdf_sha256": "daa0bb41c21747b79685d2f8f1546524cbc4bef5281bde1a0296bdf5e0b218b9",
+    "normalized_sha256": "f66a66999e2bc57ab1d5855e1246e4e92bfecf18cfefff3d52c73f025bbe5f63"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

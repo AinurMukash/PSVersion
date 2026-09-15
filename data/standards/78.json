@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 78,
+  "code": "I55101006",
+  "title": "Организация и контроль работы официантов",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Организация и контроль работы официантов – деятельность по управлению работой официантов и повышение качества обслуживания",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "I",
+    "section_name": "Предоставление услуг по проживанию и питанию",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "55101",
+    "subclass_name": "Предоставление услуг гостиницами с ресторанами, за исключением гостиниц, находящихся на придорожной полосе"
+  },
+  "professions": [
+    {
+      "name": "Заведующий залом (ресторана, кафе и др.)",
+      "ork_level": 6
+    },
+    {
+      "name": "Супервайзер официантов",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "I",
+        "55101"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        3,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/78",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/78/download"
+  },
+  "hashes": {
+    "metadata_sha256": "11034f1b81ba0051ab8f28b3cd2531451bec3f73c33cd6a58558fe661051b077",
+    "pdf_sha256": "e254907a88693fd11ef971deeb3717770c517ebb65c5d913ee6652f87de6f09c",
+    "normalized_sha256": "557a86c3d6bae0a77805b1984f1862379f8a57aed66d28923f1a72e3008130a3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

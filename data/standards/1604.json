@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1604,
+  "code": "S96090012",
+  "title": "Аварийно-диспетчерская служба",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования широким кругом пользователей.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-10-18",
+  "oked": {
+    "section_code": "S",
+    "section_name": "Предоставление прочих видов услуг",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "96090",
+    "subclass_name": "Предоставление прочих индивидуальных услуг, не включенных в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Диспетчер (коммунальной службы)",
+      "ork_level": 5
+    },
+    {
+      "name": "Слесарь аварийно-восстановительных работ**",
+      "ork_level": 3
+    },
+    {
+      "name": "Мастер аварийно-восстановительного пункта",
+      "ork_level": 5
+    },
+    {
+      "name": "Диспетчер (общий профиль)",
+      "ork_level": 4
+    },
+    {
+      "name": "Слесарь аварийно-восстановительных работ",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "S",
+        "96090"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1604",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1604/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d1878dc04d31c84df6995488b868144ac39ee6135cd448f80a824fbae33bfc12",
+    "pdf_sha256": "a5bb2cc3e413d29348ba4fd0692c0ba8838d993756a45da2948285d1c5bf0138",
+    "normalized_sha256": "a6b530bb49e028ecaffd6c2fd81e87d951f23b883015ddc00c2d7e4747252134"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

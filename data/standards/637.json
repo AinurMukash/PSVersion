@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 637,
+  "code": "D35111010",
+  "title": "Эксплуатация компрессорных установок тепловой электростанции",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Обслуживание и экономичная работа компрессорного оборудования тепловых электростанций.\nНаряду с требованиями к теоретическим и практическим знаниям, содержащимся в разделе \"знания\", работник должен знать: правила и нормы по охране труда, производственной санитарии и противопожарной безопасности, правила пользования средствами индивидуальной защиты, требования, предъявляемые к качеству выполняемых работ (услуг), к рациональной организации труда на рабочем месте, производственную сигнализацию.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "D",
+    "section_name": "Снабжение электроэнергией, газом, паром, горячей водой и  кондиционированным воздухом",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "35111",
+    "subclass_name": "Производство электроэнергии тепловыми электростанциями"
+  },
+  "professions": [
+    {
+      "name": "Операторы компрессорных установок",
+      "ork_level": 3
+    },
+    {
+      "name": "Мастер участка по эксплуатации компрессорных установок",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "D",
+        "35111"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        3,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/637",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/637/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b80b85899e48f175d21a4f4d57e2e6a3c26fa99574639a97f50f36ee231d267f",
+    "pdf_sha256": "436cd88e1ea29291cf80a50b35caab21d5533e8eacebf5052471eefb08f6d2f7",
+    "normalized_sha256": "80b7e30e396ec301011620d27ffd81d409670a6fa0a0b836302c50498f376959"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

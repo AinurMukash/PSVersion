@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 600,
+  "code": "H52292015",
+  "title": "Контрольно-ревизионная деятельность",
+  "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности услуг по осуществлению контрольно-ревизионной деятельности",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52292",
+    "subclass_name": "Технический надзор на транспорте"
+  },
+  "professions": [
+    {
+      "name": "Руководитель контрольно-линейной службы",
+      "ork_level": 5
+    },
+    {
+      "name": "Контролер-ревизор",
+      "ork_level": 3
+    },
+    {
+      "name": "Кондуктор пассажирского транспорта",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52292"
+      ],
+      "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/600",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/600/download"
+  },
+  "hashes": {
+    "metadata_sha256": "65e39f2a1131fad099280ad4786e81d2b02f62b1b5f73656190f8fa7a149d048",
+    "pdf_sha256": "d2c00ad44dc5465d9599606094d1bd82ee3fdba8b68764681f2d3802f52c0f0c",
+    "normalized_sha256": "1f6b92b08b2b1720da2316878862d9611361f6f2e305187f5b1aa057f52297b7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

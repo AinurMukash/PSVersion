@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 605,
+  "code": "H49390038",
+  "title": "Диспетчерское управление движением пассажирского транспорта",
+  "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности услуг по диспетчерскому обслуживанию движением пассажирского транспорта",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49390",
+    "subclass_name": "Деятельность  прочего пассажирского сухопутного транспорта, не включенного в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Главный диспетчер (руководитель отдела)",
+      "ork_level": 4
+    },
+    {
+      "name": "Диспетчер по движению пассажирского транспорта",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49390"
+      ],
+      "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/605",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/605/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7c84209e143e314ba3243a6f97075c16e41cee67ecaaa8494b4e254cd761df10",
+    "pdf_sha256": "ff63e99458fb83a21050e7119a33414ae9ea78d5d616c33a5079bf23a55bb26b",
+    "normalized_sha256": "c0a1cf4707f65a8e3702d8a73e99ae3b1880864b69426ed1f15cd1549f53b47e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

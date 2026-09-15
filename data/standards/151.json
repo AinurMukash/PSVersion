@@ -1,0 +1,150 @@
+{
+  "schema_version": "1",
+  "enbek_id": 151,
+  "code": "C24420010",
+  "title": "Производство цветных металлов",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Плавка цветных металлов, литьё в формы и изготовление деталей, порошков",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24440",
+    "subclass_name": "Производство меди"
+  },
+  "professions": [
+    {
+      "name": "Плавильщик бариевого электролита",
+      "ork_level": 3
+    },
+    {
+      "name": "Анодчик в производстве алюминия",
+      "ork_level": 2
+    },
+    {
+      "name": "Плавильщик электронно-лучевой плавки",
+      "ork_level": 3
+    },
+    {
+      "name": "Разливщик цветных металлов и сплавов",
+      "ork_level": 3
+    },
+    {
+      "name": "Литейщик цветных металлов",
+      "ork_level": 3
+    },
+    {
+      "name": "Катодчик",
+      "ork_level": 3
+    },
+    {
+      "name": "Конвертерщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Выливщик-заливщик металла",
+      "ork_level": 3
+    },
+    {
+      "name": "Загрузчик щелочи",
+      "ork_level": 2
+    },
+    {
+      "name": "Конденсаторщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Приемщик драгоценных металлов и сырья",
+      "ork_level": 2
+    },
+    {
+      "name": "Раймовщик дистилляционных печей",
+      "ork_level": 2
+    },
+    {
+      "name": "Репульпаторщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Фрезеровщик слитков",
+      "ork_level": 3
+    },
+    {
+      "name": "Печевой иодидного рафинирования",
+      "ork_level": 3
+    },
+    {
+      "name": "Печевой на вельцпечах",
+      "ork_level": 3
+    },
+    {
+      "name": "Печевой по восстановлению термическим способом",
+      "ork_level": 3
+    },
+    {
+      "name": "Обработчик матричных листов",
+      "ork_level": 1
+    },
+    {
+      "name": "Плавильщик меди",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник литейщик",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник по аффинажу драгоценных металлов",
+      "ork_level": 4
+    },
+    {
+      "name": "Шихтовщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Бригадир на отделке, сортировке, приемке, сдаче, пакетировке и упаковке металла и готовой продукции",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24440"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/151",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/151/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a807a2133c100c7f2c34bd149b853af4c2ffcaceeff5893ba27eafe8de1a1923",
+    "pdf_sha256": "910f5f70f7e7ab074399e65905b7a348a0c2d9cb483c335d6ca40219c83fe75a",
+    "normalized_sha256": "2c895ddd8ea89c336f80ccab3a4d862434d42da1831dd20af5399d1e19ed2613"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

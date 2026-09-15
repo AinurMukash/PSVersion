@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1613,
+  "code": "M71122096",
+  "title": "Геммолог",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт определяет работу в области геологической разведки, добычи, обработки и экспертизы драгоценных и полудрагоценных камней",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Геммолог",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1613",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1613/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e031f451cf6dd9e6463ef6db46f2da72ca03cf7632733660bd152d836cddef42",
+    "pdf_sha256": "4c4ce8eb6df84b9024754dee4fec21574eed08179b1b92cdad01c34e6ce08650",
+    "normalized_sha256": "3ab6677f357eb2b8b28e354bc39b742a4493498f4164ec28567e08bca60611b5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

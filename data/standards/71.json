@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 71,
+  "code": "C24530019",
+  "title": "Литье по выплавляемым моделям",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Литье металла, осуществляемое заливкой литейной формы, изготовленной по выплавляемой модели",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24530",
+    "subclass_name": "Литье легких металлов"
+  },
+  "professions": [
+    {
+      "name": "Формовщик по выплавляемым моделям",
+      "ork_level": 2
+    },
+    {
+      "name": "Формовщик по выплавляемым моделям",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24530"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/71",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/71/download"
+  },
+  "hashes": {
+    "metadata_sha256": "87d36fabec6636697da0cf774a1a23e4aabc4152c5efd36d541f7e5e0509114e",
+    "pdf_sha256": "57f54f5d7c05238db50b6e3d0d7a7b66fd57e8f9147c6955c355147b7d7075f7",
+    "normalized_sha256": "0eb310517eed355cfe586801b450b170d99544d7431408982c7b61e86a76b906"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

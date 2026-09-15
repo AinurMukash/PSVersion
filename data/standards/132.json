@@ -1,0 +1,91 @@
+{
+  "schema_version": "1",
+  "enbek_id": 132,
+  "code": "A01132006",
+  "title": "Производство тепличных овощей и ягод",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Выращивание листовых и черенковых овощей, овощных культур, корнеплодов, луковичных овощей, грибов, земляники садовой и др. ягодных культур, семян овощных и бахчевых культур для теплиц.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01132",
+    "subclass_name": "Выращивание овощей, их семян и рассады"
+  },
+  "professions": [
+    {
+      "name": "Оператор оборудования закрытого грунта",
+      "ork_level": 3
+    },
+    {
+      "name": "Квалифицированный рабочий по выращиванию овощей в открытом и закрытом грунте",
+      "ork_level": 4
+    },
+    {
+      "name": "Рабочий по защите растений",
+      "ork_level": 4
+    },
+    {
+      "name": "Работник гидропонного предприятия",
+      "ork_level": 4
+    },
+    {
+      "name": "Агроном отделения (бригады, сельскохозяйственного участка, фермы, цеха) (средней квалификации)",
+      "ork_level": 5
+    },
+    {
+      "name": "Агрохимик (средней квалификации)",
+      "ork_level": 5
+    },
+    {
+      "name": "Агроном",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный агроном",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01132"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/132",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/132/download"
+  },
+  "hashes": {
+    "metadata_sha256": "50858122d944474bafa96f0ee1300264128dbb7a94d778c72f8fe5df56590303",
+    "pdf_sha256": "7e8507f28cdf8c29d58edc9c5cc297d7c8bed99cf03abdd8f5e14029c06fec48",
+    "normalized_sha256": "66518b2bbf849cbcb420943cb266f7470d792f6514b2428ac469735a5316e6c2"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

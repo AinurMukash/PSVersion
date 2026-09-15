@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 126,
+  "code": "J59130001",
+  "title": "Деятельность по распространению кинофильмов, видео и телевизионных программ",
+  "government_body": "ТОО «Оркен Медиа»",
+  "description": "Деятельность по распространению кинофильмов, видео и телевизионных программ охватывает распространение и продвижение фильмов, видео и телевизионных программ в СМИ.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-21",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "59130",
+    "subclass_name": "Деятельность по распространению кино-, видеофильмов и телевизионных программ"
+  },
+  "professions": [
+    {
+      "name": "Корректор",
+      "ork_level": 5
+    },
+    {
+      "name": "Консультант по работе с мультимедийными изданиями",
+      "ork_level": 6
+    },
+    {
+      "name": "Редактор программ",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "59130"
+      ],
+      "government_body": "ТОО «Оркен Медиа»",
+      "ork_levels": [
+        5,
+        6,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/126",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/126/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2b22425080040eae9c28602ef7254516220bba4d492cf5fa84d07992e0fefc02",
+    "pdf_sha256": "976f7a1649d4f4eca0ca4d1790e041733596ecf7e662c2af7defe3333ec31d06",
+    "normalized_sha256": "38921be3d44ee837bc78f7eac4b34778cf51103fb0425985bf8fa761d6e01df1"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

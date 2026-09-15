@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1157,
+  "code": "F42990032",
+  "title": "Менеджер производства в строительстве",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяй-ства Министерства индустрии и инфраструктурного развития Рес-публики Казахстан",
+  "description": "Профессиональный стандарт  определяет требования к уровню квалификации, профессионального образования специалистов, занимающихся  строительством",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "42990",
+    "subclass_name": "Строительство прочих инженерных сооружений, не включенных в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Мастер участка (ремонтно-строительных работ)",
+      "ork_level": 7
+    },
+    {
+      "name": "Производитель работ (прораб)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "42990"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяй-ства Министерства индустрии и инфраструктурного развития Рес-публики Казахстан",
+      "ork_levels": [
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1157",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1157/download"
+  },
+  "hashes": {
+    "metadata_sha256": "c428f255222cf7a5d9b6fd67b2e511b6371c0feb3a53643b71c9f0a7129cf72f",
+    "pdf_sha256": "88101542adad68cc90d86057ca3321b01ba0970010ddbf7ae9544e458086cbc8",
+    "normalized_sha256": "5ddb37ef42373e6afe88c00f05f5a3f423b21323ed1c13248f15f9e717cdcc6e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

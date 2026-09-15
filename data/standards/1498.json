@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1498,
+  "code": "B07291039",
+  "title": "Digital-технолог в горно-металлургических предприятиях",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт «Digital-технолог в горно-металлургических предприятиях» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях» и может применяться при формировании требований к соискателю для приема на работу, формировании образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования, а также для решения широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "07291",
+    "subclass_name": "Добыча и обогащение алюминийсодержащего сырья"
+  },
+  "professions": [
+    {
+      "name": "Digital-технолог в горно-металлургических предприятиях",
+      "ork_level": 6
+    },
+    {
+      "name": "Digital-технолог в горно-металлургических предприятиях",
+      "ork_level": 4
+    },
+    {
+      "name": "Digital-технолог в горно-металлургических предприятиях",
+      "ork_level": 5
+    },
+    {
+      "name": "Digital-технолог в горно-металлургических предприятиях",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "07291"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1498",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1498/download"
+  },
+  "hashes": {
+    "metadata_sha256": "ba373d40ee9bb7b470c90412ba19158246b56fc52af143fa1517b814519b7d34",
+    "pdf_sha256": "a8153bbf60e1636c86d405e4aca848b718be158c67f8320438e79a2bd05593cf",
+    "normalized_sha256": "f8bd3232ac8b095ad90089dd30e6588425d3c973e8fb4f0a60f5aee02a93ea61"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

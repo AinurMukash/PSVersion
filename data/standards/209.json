@@ -1,0 +1,101 @@
+{
+  "schema_version": "1",
+  "enbek_id": 209,
+  "code": "F41100010",
+  "title": "Проектирование и дизайн",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт \"Проектирование и дизайн\" разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования широким кругом пользователей.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "41100",
+    "subclass_name": "Разработка строительных проектов"
+  },
+  "professions": [
+    {
+      "name": "Главный дизайнер проекта (в строительстве)",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер проектировщик (зданий)",
+      "ork_level": 6
+    },
+    {
+      "name": "Архитектор",
+      "ork_level": 6
+    },
+    {
+      "name": "Архитектор проектировщик",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-озеленитель",
+      "ork_level": 6
+    },
+    {
+      "name": "Техник-проектировщик",
+      "ork_level": 5
+    },
+    {
+      "name": "Проектировщик с навыком использования генеративного дизайна",
+      "ork_level": 6
+    },
+    {
+      "name": "Виртуальный проектировщик",
+      "ork_level": 6
+    },
+    {
+      "name": "Проектировщик «умного дома»",
+      "ork_level": 6
+    },
+    {
+      "name": "Аналитик по обработке больших данных (общий профиль)",
+      "ork_level": 6
+    },
+    {
+      "name": "Цифровой проектировщик (специалист BIM)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "41100"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/209",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/209/download"
+  },
+  "hashes": {
+    "metadata_sha256": "cce765e421f5abbea8b170ef45c9f0f7c2f39771973f59180279c2c8d086bc3b",
+    "pdf_sha256": "89ba2e057851023516b850d79af653f21c58d2e71cc563a3888d3af378ae3b01",
+    "normalized_sha256": "614cf86e1216747875175f28e30a4b555f52a28d20bd58303fcb0f54ed5ec1e3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

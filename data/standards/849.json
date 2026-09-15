@@ -1,0 +1,76 @@
+{
+  "schema_version": "1",
+  "enbek_id": 849,
+  "code": "H49200066",
+  "title": "Управление и контроль безопасности движения на железнодорожном транспорте",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Осуществляет  контроль за организацией работы по обеспечению  безопасности  движения поездов и охране труда;  работой ревизоров по безопасности  в вопросах безопасности движения на железнодорожном транспорте. Предупреждение нарушения норм безопасности движения.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49200",
+    "subclass_name": "Деятельность грузового железнодорожного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Региональный главный ревизор по безопасности движения",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник  службы/отдела  безопасности движения на железнодорожном транспорте",
+      "ork_level": 6
+    },
+    {
+      "name": "Региональный ревизор по безопасности движения (по хозяйствам)",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный специалист/инженер по безопасности движения (по уровням)",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-технолог по безопасности движения/Инспектор",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49200"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        4,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/849",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/849/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1417333ef642a70e513ea4e784527b3e11e6ac3ff99fd7c5dc023d20156de8c1",
+    "pdf_sha256": "a5f2c5783aca73debfda00dcbd2e6472bad9cd5590fa2d74f177594ef269555d",
+    "normalized_sha256": "a3b6fa5a467e1bfb258b3e5cf900d000d88b167382fb513218e0cecc4a6d675b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

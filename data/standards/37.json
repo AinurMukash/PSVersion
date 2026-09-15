@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "enbek_id": 37,
+  "code": "N79900001",
+  "title": "Организация деловых мероприятий в сфере туризма (фестивалей, выставок, форумов, инфотуров)",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Организация бизнес-событий, охватывающих обширные слои деловой общественности и направленных на развитие туризма",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "79900",
+    "subclass_name": "Прочие услуги по бронированию и сопутствующая деятельность"
+  },
+  "professions": [
+    {
+      "name": "Руководитель-организатор",
+      "ork_level": 6
+    },
+    {
+      "name": "Менеджер по организации деловых мероприятий",
+      "ork_level": 6
+    },
+    {
+      "name": "Организатор мероприятий",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "79900"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/37",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/37/download"
+  },
+  "hashes": {
+    "metadata_sha256": "c58e88db331eed9ebe674d4d4f32ed3c924ead3fa418ceab2b59f497fd99ea00",
+    "pdf_sha256": "b4c9001a87965809d134533d82ae334f38cec1ad5355d1ffb55ed688f277f7d5",
+    "normalized_sha256": "d40de88c658bba47452e8cc85cff894f0330e308a6b969c2539af5e02f49fc6e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

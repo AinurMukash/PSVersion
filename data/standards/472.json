@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 472,
+  "code": "R91012088",
+  "title": "Библиотекарь по базам данных и сетям",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Библиотекарь по базам данных и сетям\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-01",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь по базам данных и сетям",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/472",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/472/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a1a1696974cb5eb94a42db66fe27c9d158a954a84acde7d6cbce952ed562f0ae",
+    "pdf_sha256": "7f556238dafb036e69caa596faa4e4f7ced9d16672ddfd73b33c3665e7347edd",
+    "normalized_sha256": "d3418baadceac4d6a40ae19195f83acfe3fa60020a2537bc125d93418cb7e78e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

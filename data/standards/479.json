@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 479,
+  "code": "R91020085",
+  "title": "Методист экскурсионной деятельности музея",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Методист экскурсионной деятельности музея\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91020",
+    "subclass_name": "Деятельность музеев"
+  },
+  "professions": [
+    {
+      "name": "Экскурсовод",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/479",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/479/download"
+  },
+  "hashes": {
+    "metadata_sha256": "04ab56b69d0abeae6b6a5e6c62ff6d3bb5d9e757c4cb5a2e793c84609a3eeee7",
+    "pdf_sha256": "e2e42b3a1d24d230d5a819d68e440171cf6cf5e64e1d7b5611776bf789a53f80",
+    "normalized_sha256": "435dac774df9a9fe7f58db1991a8d73b76a064337a9b65edb8d7c982cc356428"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

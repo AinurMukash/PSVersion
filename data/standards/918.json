@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 918,
+  "code": "H52219041",
+  "title": "Логистика пассажирских перевозок",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Деятельность по удовлетворению потребностей пассажиров в качественных пассажирских перевозках",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52219",
+    "subclass_name": "Прочая вспомогательная деятельность  сухопутного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Начальник службы пассажирских перевозок",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по организации пассажирских перевозок",
+      "ork_level": 5
+    },
+    {
+      "name": "Диспетчер пассажирских перевозок",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист по проведению обследований пассажиропотоков",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист по развитию инфраструктуры пассажирского транспорта",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52219"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/918",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/918/download"
+  },
+  "hashes": {
+    "metadata_sha256": "543a704440fe8422d8336aee8a7c490fadf28b52f282da05c4838896ad8a59ab",
+    "pdf_sha256": "6b1037e7f1f1bbc00c5e35f1d26232fb7a324a3bf9df238cb983fb2112ed2091",
+    "normalized_sha256": "eaf05d6082ec5526d619212e684419fc12f2116db7e8126573b2763bbde09794"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

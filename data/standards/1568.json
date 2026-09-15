@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1568,
+  "code": "H49500142",
+  "title": "Управление транспортом газа",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Управление транспортом газа» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях» и применяется в сфере магистрального транспорта газа для признания профессиональной квалификации работников, определения содержания труда, проведения независимой оценки квалификаций и решения задач кадрового и производственного планирования.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49500",
+    "subclass_name": "Деятельность трубопроводного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Инженер по организации управления производством",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер на производстве",
+      "ork_level": 6
+    },
+    {
+      "name": "Диспетчер магистральных трубопроводов",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по учету газа",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49500"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1568",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1568/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9ff4a28e68e6b49fda9ebb72bffbe05b1605d140f6f1249345ddeaaf4cfbae6a",
+    "pdf_sha256": "7a863c1e283233770a926858f0a0afdaa6faa7d4a7bd4fd0ce03d2f209b59c95",
+    "normalized_sha256": "4029e3ca2a9148cded9db8b62c365559f3dd8d066541ee61ac251c2bd0c8d7a3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

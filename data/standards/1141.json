@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1141,
+  "code": "C24200070",
+  "title": "Холодная формовка или вальцовка",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Изготовление труб различного диаметра методом холодной формовки или вальцовки",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24200",
+    "subclass_name": "Производство труб, трубок, полых профилей, фитингов из стали"
+  },
+  "professions": [
+    {
+      "name": "Вальцовщик стана холодного проката",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик трубоформовочного стана",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик обкатной машины",
+      "ork_level": 3
+    },
+    {
+      "name": "Вальцовщик калибровочного стана",
+      "ork_level": 3
+    },
+    {
+      "name": "Резчик труб и заготовок",
+      "ork_level": 3
+    },
+    {
+      "name": "Электросварщик труб на стане",
+      "ork_level": 3
+    },
+    {
+      "name": "Электросварщик листов и лент",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24200"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1141",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1141/download"
+  },
+  "hashes": {
+    "metadata_sha256": "44568de1baf9eae17ea66e2024b0edeb29919a789de70da8a7d4f3eeede19a89",
+    "pdf_sha256": "99d6462a1808c8c6aff2e36b1bc899b3724cbf4bdc1e86b7808d09e87a052c36",
+    "normalized_sha256": "3f82df7bf1d95275baeeba28c50fc1d76dc49e5bd4ee0569da881db12452cacb"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

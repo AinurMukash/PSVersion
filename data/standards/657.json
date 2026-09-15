@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 657,
+  "code": "A03120028",
+  "title": "Пресноводное рыбоводство",
+  "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+  "description": "Пресноводное рыбоводство включает процессы отлова производителей рыб, получение и инкубацию икры, подращивание личинок, выращивание мальков, сеголеток рыб (рыбопосадочного материала) и товарное выращивание рыбы в рыбоводных хозяйствах различных типов: озерно-товарные, прудовые, садковые, индустриальные.",
+  "version": null,
+  "year": 2023,
+  "revision_date": "2026-07-28",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "03120",
+    "subclass_name": "Пресноводное рыболовство"
+  },
+  "professions": [
+    {
+      "name": "Рабочий рыбного хозяйства",
+      "ork_level": 2
+    },
+    {
+      "name": "Рыбовод",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер-рыбовод",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный рыбовод",
+      "ork_level": 8
+    },
+    {
+      "name": "Руководитель (управляющий, заведующий) в рыбном хозяйстве",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "03120"
+      ],
+      "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+      "ork_levels": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "year": 2023,
+      "version": null,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/657",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/657/download"
+  },
+  "hashes": {
+    "metadata_sha256": "de33f816a320a481c7b9f7619a8e79cbb8deab35d256f842fa205eecbe43c962",
+    "pdf_sha256": "c3eaefa6c8005dcc19d92d075f58c6396d42e242a1096969406e0297ff8ce6b0",
+    "normalized_sha256": "269cbaa67fe950bf7c1ec4ffb437b24e7cc8361f4f8caf9d4a8a50ccbfe8c38d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

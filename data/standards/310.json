@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 310,
+  "code": "O84230006",
+  "title": "Судебная видеофонографическая экспертиза",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "Профессиональный стандарт \"Судебная видеофонографическая экспертиза\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной видеофонографической экспертизы и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебные эксперты",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/310",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/310/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2a77598699dd89beb96042f27099e488d048be4c21a6e034ca9549e4512f8602",
+    "pdf_sha256": "34904ebd765f05f6a0df4e2422cd8abb00ad8d95f77a0ca8e80de2f3f8cda55d",
+    "normalized_sha256": "115690dfe5b4a688d61c89f7acb71cd38f8c1251c7b5111529622949f7c7006a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 168,
+  "code": "R90011004",
+  "title": "Артист разговорного жанра",
+  "government_body": "ГККП «Музыкальный театр юного зрителя» акимата города Астаны",
+  "description": "Театральная деятельность:\n- постановка и показ театральных представлений, оперных спектаклей: деятельность театральных трупп.",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-20",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90011",
+    "subclass_name": "Театральная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Артист разговорного жанра",
+      "ork_level": 4
+    },
+    {
+      "name": "Артист разговорного жанра",
+      "ork_level": 6
+    },
+    {
+      "name": "Артист разговорного жанра",
+      "ork_level": 7
+    },
+    {
+      "name": "Артист разговорного жанра",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90011"
+      ],
+      "government_body": "ГККП «Музыкальный театр юного зрителя» акимата города Астаны",
+      "ork_levels": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/168",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/168/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6de9118eb3d03ea422a510147e3fb092314c403f542eb221ca9da8f4acf724b0",
+    "pdf_sha256": "857eb3c30955ce7d51fd6a4954e8f74ff206a8a637f98661dea20f38edc6309e",
+    "normalized_sha256": "8c5774e2ea1ce245f1fc7a7af5f533269b34d7476563c202a32c8d810dd8f289"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

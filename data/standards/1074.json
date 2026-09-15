@@ -1,0 +1,128 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1074,
+  "code": "C19100082",
+  "title": "Коксохимическое производство",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Организация и выполнение работ в коксохимическом производстве",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "19100",
+    "subclass_name": "Производство продукции коксовых печей"
+  },
+  "professions": [
+    {
+      "name": "Газовщик коксовых печей",
+      "ork_level": 3
+    },
+    {
+      "name": "Люковой",
+      "ork_level": 3
+    },
+    {
+      "name": "Загрузчик-выгрузчик термоантрацитовых печей",
+      "ork_level": 3
+    },
+    {
+      "name": "Сортировщик кокса",
+      "ork_level": 3
+    },
+    {
+      "name": "Барильетчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Варщик торфомассы",
+      "ork_level": 2
+    },
+    {
+      "name": "Дверевой",
+      "ork_level": 2
+    },
+    {
+      "name": "Заливщик кокса",
+      "ork_level": 2
+    },
+    {
+      "name": "Кабинщик-кантовщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Коксоочиститель",
+      "ork_level": 2
+    },
+    {
+      "name": "Коксоразгрузчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Прессовщик нафталина",
+      "ork_level": 2
+    },
+    {
+      "name": "Прессовщик торфоплит",
+      "ork_level": 2
+    },
+    {
+      "name": "Разливщик химической продукции",
+      "ork_level": 2
+    },
+    {
+      "name": "Рамповщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Скрубберщик-насосчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Тоннельщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Тоннельщик-моторист скипового подъемника",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "19100"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1074",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1074/download"
+  },
+  "hashes": {
+    "metadata_sha256": "506a42031fc45927ae4ddcc71836f041c28c3a5e56b06a92f4870d7b4bd68936",
+    "pdf_sha256": "35773e012e874e443e715417b25634b3310e5a2677e7cea26d139e7bbd652ab4",
+    "normalized_sha256": "d8770d4e0a7456285d4a2e9bd98d1e1891507fb59176eeaec9153d14d022ae11"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

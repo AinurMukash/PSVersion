@@ -1,0 +1,82 @@
+{
+  "schema_version": "1",
+  "enbek_id": 663,
+  "code": "F41201049",
+  "title": "Монтаж и эксплуатация систем газоснабжения",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "ПС  определяет требования к уровню квалификации, профессионального образования специалистов, занимающихся монтажом, эксплуатацией оборудования систем газоснабжения и осуществляющих контроль качества данных видов деятельности.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "41201",
+    "subclass_name": "Строительство жилых зданий"
+  },
+  "professions": [
+    {
+      "name": "Помощник руководителя (газоснабжающие организации)",
+      "ork_level": 5
+    },
+    {
+      "name": "Машинист средств малой механизации",
+      "ork_level": 3
+    },
+    {
+      "name": "Наладчик контрольно-измерительных приборов и систем автоматики",
+      "ork_level": 4
+    },
+    {
+      "name": "Начальник производственного отдела",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по надзору",
+      "ork_level": 5
+    },
+    {
+      "name": "Слесарь строительный",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "41201"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/663",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/663/download"
+  },
+  "hashes": {
+    "metadata_sha256": "5695a740815f0cdafccdccd712305e655a1baa3fddf7b49e895d7c6e1eb40e76",
+    "pdf_sha256": "1e942a54bac979fd56bb0daef656b1e91a590d614516d46d14d60ea4636a631e",
+    "normalized_sha256": "9cf48f2bf20d7515bbe5cf5504d4234faa8215e46f1455c8ee0b829871e99c04"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

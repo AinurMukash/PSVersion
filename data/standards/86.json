@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 86,
+  "code": "A01133001",
+  "title": "Выращивание сахарной свеклы и ее семян",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Возделывание сахарной свеклы для повышения эффективности интенсификации продуктового свеклосахарного подкомплекса РК.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01133",
+    "subclass_name": "Выращивание сахарной свеклы и ее семян"
+  },
+  "professions": [
+    {
+      "name": "Работник по борьбе с сорняками",
+      "ork_level": 3
+    },
+    {
+      "name": "Свекловод",
+      "ork_level": 4
+    },
+    {
+      "name": "Семеновод",
+      "ork_level": 4
+    },
+    {
+      "name": "Оператор по обслуживанию и эксплуатации дождевальной техники",
+      "ork_level": 3
+    },
+    {
+      "name": "Инженер по сельскохозяйственной технике",
+      "ork_level": 6
+    },
+    {
+      "name": "Агроном по семеноводству (средней квалификации)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01133"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        3,
+        4,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/86",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/86/download"
+  },
+  "hashes": {
+    "metadata_sha256": "096c796c0de1a68c4d696141fa46c60be3ba410db6c197013bd9899be0817b1c",
+    "pdf_sha256": "5e50db1475532253fdfda3fff8c69a73f76d78fcadbab2027d5681c8cc6bf5a9",
+    "normalized_sha256": "2d361d525d996bcfb0d821bfa1b60aff1ddd02d8efbf5f824d014c052fb0a940"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

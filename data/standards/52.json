@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 52,
+  "code": "N79120009",
+  "title": "Организация туристских услуг в сфере въездного и внутреннего туризма",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Оказание туристских услуг, организация и проведение туров внутри страны для иностранных и внутренних туристов",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "79120",
+    "subclass_name": "Деятельность туристских операторов"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела въездного и внутреннего туризма",
+      "ork_level": 7
+    },
+    {
+      "name": "Туристический оператор",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "79120"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/52",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/52/download"
+  },
+  "hashes": {
+    "metadata_sha256": "aaaa12b8abda17f38c1811acf82c158a2b135714fe58b2b518224820aa8abcd0",
+    "pdf_sha256": "9b61c2d58cae0ba3721667d56ba4c21748cfff4598a6b75a3924fbc259d1c895",
+    "normalized_sha256": "7864686bf56c1e520f099d1d28225409ff22c502277afd7a73e226843b24fcbb"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

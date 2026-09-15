@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1654,
+  "code": "G46909017",
+  "title": "Деятельность по торговому обслуживанию в оптовой и розничной торговле",
+  "government_body": "Министерство торговли и интеграции Республики Казахстан",
+  "description": "Профессиональный стандарт применяется для установления требований к квалификации, знаниям и навыкам работников, участвующих в организации и осуществлении торговой деятельности в различных форматах и типах торговых предприятий — магазинах, супермаркетах, рынках, киосках, а также в сфере уличной торговли продовольственными и непродовольственными товарами",
+  "version": 1,
+  "year": 2026,
+  "revision_date": "2029-12-31",
+  "oked": {
+    "section_code": "G",
+    "section_name": "Оптовая и розничная торговля; ремонт автомобилей и мотоциклов",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "46909",
+    "subclass_name": "Оптовая торговля широким ассортиментом товаров без какой-либо конкретизации"
+  },
+  "professions": [
+    {
+      "name": "Бригадир в магазине",
+      "ork_level": 4
+    },
+    {
+      "name": "Продавец магазинов",
+      "ork_level": 3
+    },
+    {
+      "name": "Агент по продажам",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "G",
+        "46909"
+      ],
+      "government_body": "Министерство торговли и интеграции Республики Казахстан",
+      "ork_levels": [
+        3,
+        4
+      ],
+      "year": 2026,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1654",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1654/download"
+  },
+  "hashes": {
+    "metadata_sha256": "df29555e9be772a7a78c096634f64ecf6d227f0b1371904ed4b5ab829119f010",
+    "pdf_sha256": "31a689d7895696f4dac37d8074ab9649f449b19be2391c50583e959b2fdd9df8",
+    "normalized_sha256": "db2d95354e66caec7f2d1580dc8a4e543271e015c06762ec33bec06776f2bb5b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

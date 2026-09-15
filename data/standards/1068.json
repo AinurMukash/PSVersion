@@ -1,0 +1,88 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1068,
+  "code": "B05102037",
+  "title": "Добыча угля подземным способом",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Разработка месторождения лигнита (бурого угля) подземным способом",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "05102",
+    "subclass_name": "Добыча каменного угля подземным способом"
+  },
+  "professions": [
+    {
+      "name": "Горномонтажник подземный",
+      "ork_level": 3
+    },
+    {
+      "name": "Горнорабочий",
+      "ork_level": 3
+    },
+    {
+      "name": "Горнорабочий очистного забоя",
+      "ork_level": 3
+    },
+    {
+      "name": "Горнорабочий по ремонту горных выработок",
+      "ork_level": 3
+    },
+    {
+      "name": "Проходчик",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист горных выемочных машин",
+      "ork_level": 3
+    },
+    {
+      "name": "Забойщик на отбойных молотках",
+      "ork_level": 2
+    },
+    {
+      "name": "Лентовой уборщик",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "05102"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1068",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1068/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6b8b3b4543163b7e87a89740898ba84003ceb9a7e0330987a09017a673fd3e85",
+    "pdf_sha256": "e6efd8a1924ffe5d4e33f83ca4035b2a46a27a43fe3f01f35fad15b7db3cdbda",
+    "normalized_sha256": "e2d4e410051caa5180d9c56b59ef858729d1bff575cf1eb23d363e947317b58a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

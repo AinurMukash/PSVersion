@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 685,
+  "code": "A01611023",
+  "title": "Обводнение пастбищ",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Рациональное использование пастбищ с учетом состояния водных источников и обоснование схемы обводнения, обслуживания, эксплуатации и восстановления мелиоративных систем в отгонных пастбищах.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01611",
+    "subclass_name": "Деятельность, способствующая растениеводству, кроме эксплуатации оросительных систем"
+  },
+  "professions": [
+    {
+      "name": "Инженер-гидрогеолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Техник-гидрогеолог",
+      "ork_level": 4
+    },
+    {
+      "name": "Техник-ирригатор",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер-мелиоратор",
+      "ork_level": 6
+    },
+    {
+      "name": "Руководители подразделений в водном хозяйстве",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01611"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/685",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/685/download"
+  },
+  "hashes": {
+    "metadata_sha256": "3144a49a34453f2a4c607417d20d4fb5ed2b8c39c8955023c84344cc022620cf",
+    "pdf_sha256": "a3e83c6f6fa5935633787ba7b1a520fa5f86c5b87008d5df6d95359e9025791b",
+    "normalized_sha256": "0b071e6d6e6a0548f11d1bda63d5b00a01f12ec7996da67033c0ae25eb6366f3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

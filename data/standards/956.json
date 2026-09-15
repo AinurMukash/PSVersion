@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 956,
+  "code": "F43291044",
+  "title": "Изоляционные работы",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Профессиональный стандарт разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования широким кругом пользователей.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43291",
+    "subclass_name": "Изоляционные работы"
+  },
+  "professions": [
+    {
+      "name": "Изолировщик на термоизоляции",
+      "ork_level": 2
+    },
+    {
+      "name": "Изолировщик на термоизоляции",
+      "ork_level": 3
+    },
+    {
+      "name": "Изолировщик на термоизоляции",
+      "ork_level": 4
+    },
+    {
+      "name": "Изолировщик, звукоизоляция",
+      "ork_level": 2
+    },
+    {
+      "name": "Изолировщик, звукоизоляция",
+      "ork_level": 3
+    },
+    {
+      "name": "Изолировщик, звукоизоляция",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43291"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/956",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/956/download"
+  },
+  "hashes": {
+    "metadata_sha256": "0e32d75443add206f484433a149c5f5e5f74b328a6b57927b642aa689a4e6085",
+    "pdf_sha256": "a1a7a0541a545bab6966b37e6d87d1b771802f0d7688c647f280eeae031a06d6",
+    "normalized_sha256": "c223d4458248b555332b27a23cd9a3da06850fde4908d69bd6d597311facb2ce"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 503,
+  "code": "R91012075",
+  "title": "Библиотекарь полиграфист",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "Профессиональный стандарт «Библиотекарь полиграфист» (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-01",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь-полиграфист",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/503",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/503/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1f65c2e82b3449d44d30c98cc4678d070193f38728393c26a623f9e9c84b5c78",
+    "pdf_sha256": "ab9dfaf5c5811a121b01bf43eff120ffd746055a7b732ba780053cffc573c867",
+    "normalized_sha256": "e96c9755f00440dcc9f5af2a1224d3ff4942e2b6464c622f41d75493037fbe5e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

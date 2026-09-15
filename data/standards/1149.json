@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1149,
+  "code": "B07102016",
+  "title": "Добыча руды открытым способом",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Добыча руды открытым способом с использованием роторного экскаватора и малолитражной драги",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "07102",
+    "subclass_name": "Добыча железных руд открытым способом"
+  },
+  "professions": [
+    {
+      "name": "Машинист экскаватора",
+      "ork_level": 3
+    },
+    {
+      "name": "Взрывник",
+      "ork_level": 3
+    },
+    {
+      "name": "Цементаторщик гидромедьустановки",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "07102"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1149",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1149/download"
+  },
+  "hashes": {
+    "metadata_sha256": "80a6a7db26b83d6e6c5203b2c916098928cbcd88227e2383d3c1214536e2df57",
+    "pdf_sha256": "7c432e1e6e67b3d9be22ccabaa7e27ec9378a8df2c50727c556f537d3c6e0fea",
+    "normalized_sha256": "6f99e9b81cfd9e217c5ec300d842fd82cf791d6c5fe7cf11901a472d75129a9b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

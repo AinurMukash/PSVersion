@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 994,
+  "code": "M71122033",
+  "title": "Применение геоинформационных технологий (Специалист по геоинформационным технологиям в геологии)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Проведение комплекса работ, интегрирующих и объединяющих геоинформационные технологии с целью ориентации на обработку пространственных данных",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Техник по геоинформационным технологиям в геологии",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист по информационным технологиям в геологии",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по информационным технологиям в геологии",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший специалист по информационным технологиям в геологии",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный специалист по информационным технологиям в геологии",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/994",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/994/download"
+  },
+  "hashes": {
+    "metadata_sha256": "66b27fa5c6c6d47c8477cc0c40079aacb06fcc574b87d22064e6dabb521dab3a",
+    "pdf_sha256": "29875e5471b00bd84ab7e330b04f1cd7b834cf9b788b033775f1faa00e1a247d",
+    "normalized_sha256": "7340159e2f8603baa230309343bab11b7c89d6a09406bff0adb1bcbdbdcad24f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

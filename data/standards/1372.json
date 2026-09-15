@@ -1,0 +1,91 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1372,
+  "code": "R93110121",
+  "title": "«Руководство спортивными и фитнес клубами (организациями)»",
+  "government_body": "Министерство туризма и спорта Республики Казахстан",
+  "description": "Профессиональный стандарт \"Руководство спортивными и фитнес клубами (организациями)\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\", в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области физической культуры и спорта в организациях и на предприятиях.",
+  "version": 2,
+  "year": 2024,
+  "revision_date": "2027-11-30",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "93110",
+    "subclass_name": "Эксплуатация спортивных сооружений"
+  },
+  "professions": [
+    {
+      "name": "Директор (заведующий) спортивного сооружения.",
+      "ork_level": 6
+    },
+    {
+      "name": "Директор фитнес-центра.",
+      "ork_level": 6
+    },
+    {
+      "name": "Заведующий спортивной базой.",
+      "ork_level": 6
+    },
+    {
+      "name": "Председатель спортивного клуба.",
+      "ork_level": 6
+    },
+    {
+      "name": "Директор (администратор) спортивного сооружения",
+      "ork_level": 6
+    },
+    {
+      "name": "Директор дворца спорта",
+      "ork_level": 6
+    },
+    {
+      "name": "Директор спортивного клуба.",
+      "ork_level": 6
+    },
+    {
+      "name": "Директор физкультурно-спортивной организации.",
+      "ork_level": 6
+    },
+    {
+      "name": "Руководитель спортивного центра.",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "93110"
+      ],
+      "government_body": "Министерство туризма и спорта Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1372",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1372/download"
+  },
+  "hashes": {
+    "metadata_sha256": "259a0e5a65d1defde3161b8eb19f13755406ce787369979aa867eed6f25119e8",
+    "pdf_sha256": "1f0cfde7181cb8c18cb1eb26fddc863eb74b00d8b44ad48b76c63420555c2df7",
+    "normalized_sha256": "a349e47c7a7ecc0122ff71083433a2ed6a8b16c4211e6cd99aa8a3e829749207"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 512,
+  "code": "R91020097",
+  "title": "Архивист (в музейном деле)",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Архивист (в музейном деле)\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91020",
+    "subclass_name": "Деятельность музеев"
+  },
+  "professions": [
+    {
+      "name": "Архивист (в музейном деле)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/512",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/512/download"
+  },
+  "hashes": {
+    "metadata_sha256": "634147c2a30461fa1a05af7725fbb631b2d37a9e3926c7451267514039c0a05a",
+    "pdf_sha256": "7db521dd8d66f430cf18f9331b062ec128f46aa82ef5fd491b56ad6f6235533f",
+    "normalized_sha256": "4cdc5231b50d82ef5eb0c6b5aa058f13631b6edaf46939a9030d12191eff223b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

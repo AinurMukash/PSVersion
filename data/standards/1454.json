@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1454,
+  "code": "J62011086",
+  "title": "Разработка технической документации",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Профессиональный стандарт «Разработка технической документации» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях",
+  "version": 3,
+  "year": 2025,
+  "revision_date": "2028-12-05",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Специалист по разработке технической документации (технический писатель)",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по разработке технической документации (технический писатель)",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        6,
+        7
+      ],
+      "year": 2025,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1454",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1454/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a1072f09bf783642fcddfda13d7fc5423fab640e24ab0668264b46ae6b0fb2ea",
+    "pdf_sha256": "4e89f0940a047a10a0b6937bc3b98e46152caa775dca3173b7175f3d8604f6f6",
+    "normalized_sha256": "b321ec5f41cfa430723af3bd473bcd566b0f59260cb2cf7d4f9030b4b943f911"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

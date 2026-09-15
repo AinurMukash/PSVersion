@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 244,
+  "code": "O84230031",
+  "title": "Судебная экологическая экспертиза",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "В соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" разработан профессиональный стандарт \"Судебная экологическая экспертиза\", который предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной экологической экспертизы и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебные эксперты",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/244",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/244/download"
+  },
+  "hashes": {
+    "metadata_sha256": "0a0322401ae128f7adf0648990edee0b2cd64d25efa07da8d299bfa4fcf265bd",
+    "pdf_sha256": "b96c5e933c0004b6f0f3ba6fdbc0d4881bb1e9641c5fd9c52a9149a63f5193ad",
+    "normalized_sha256": "f3a33e83aa5aa0afb43fdefc779161bd4dcd32831b9093f47e5c0f791a4538df"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

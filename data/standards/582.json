@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 582,
+  "code": "J63991041",
+  "title": "Инфраструктура компьютерных систем",
+  "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+  "description": "Проектирование архитектур ИТ-инфраструктур",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "63991",
+    "subclass_name": "Прочие виды деятельности, связанные с предоставлением компьютеризированных услуг телефонной связи"
+  },
+  "professions": [
+    {
+      "name": "Архитектор ИТ-инфраструктуры",
+      "ork_level": 5
+    },
+    {
+      "name": "Архитектор ИТ-инфраструктуры",
+      "ork_level": 6
+    },
+    {
+      "name": "Архитектор ИТ-инфраструктуры",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер инфраструктуры информационных технологий",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер инфраструктуры информационных технологий",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "63991"
+      ],
+      "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/582",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/582/download"
+  },
+  "hashes": {
+    "metadata_sha256": "5978357180436b0cd585639a06283a96a497c354e78c75fe8bafcb068999c1a8",
+    "pdf_sha256": "46d7fda8ec1a1c414bdcec47bac2ee04c872e0552f16c12f454ad958c3ab89b2",
+    "normalized_sha256": "97eaddf8f2fed2c13990cf826039d14a8b3d07929a8d05909095164a7f423850"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

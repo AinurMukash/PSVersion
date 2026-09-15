@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 763,
+  "code": "N81210025",
+  "title": "Обслуживание прилегающих территорий",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан, Подведомственные организации Комитета, Рабочая группа",
+  "description": "Профессиональный стандарт разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования широким кругом пользователей.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "81210",
+    "subclass_name": "Общая уборка зданий"
+  },
+  "professions": [
+    {
+      "name": "Ландшафтный дизайнер",
+      "ork_level": 6
+    },
+    {
+      "name": "Садовник",
+      "ork_level": 3
+    },
+    {
+      "name": "Дворник",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "81210"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан, Подведомственные организации Комитета, Рабочая группа",
+      "ork_levels": [
+        2,
+        3,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/763",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/763/download"
+  },
+  "hashes": {
+    "metadata_sha256": "cf135b57565c687b7d2852fbbf0ae02174ed57ebff15dda290c6cbb06cd38e94",
+    "pdf_sha256": "65777fcb9c2f8bf050e368c58199c220e75d292efc3618f2eac30e312a98b60e",
+    "normalized_sha256": "8f6d2cd82e13a104ec60f8f367cf207618e43267b7cdccf020e0ed2cb0718923"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

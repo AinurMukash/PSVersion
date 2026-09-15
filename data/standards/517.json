@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 517,
+  "code": "R91020057",
+  "title": "Хранитель фонда",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Хранитель фонда\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91020",
+    "subclass_name": "Деятельность музеев"
+  },
+  "professions": [
+    {
+      "name": "Хранитель фондов",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/517",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/517/download"
+  },
+  "hashes": {
+    "metadata_sha256": "3ae20327a18518720f502b9018d536487e0535e2ce6356a93347fe69a6f1266c",
+    "pdf_sha256": "8dd6fc01819c83ce5b9bd21a7913896a14c84d71062444fe4d1c9f8e01e744b7",
+    "normalized_sha256": "5e72d78e826e49adf219ba62fb42009e5e71e22e1f9c99833515cc0852d9cc6b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

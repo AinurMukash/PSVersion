@@ -1,0 +1,79 @@
+{
+  "schema_version": "1",
+  "enbek_id": 949,
+  "code": "H52211069",
+  "title": "Административное и диспетчерское управление хозяйством электроснабжения (ЦЭ)",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности по административному и диспетчерскому управлению хозяйством электроснабжения на жд (ЦЭ).",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52211",
+    "subclass_name": "Эксплуатация железных дорог"
+  },
+  "professions": [
+    {
+      "name": "Руководитель службы хозяйства электроснабжения",
+      "ork_level": 6
+    },
+    {
+      "name": "Заместитель руководителя службы по энергетике и электроснабжению",
+      "ork_level": 6
+    },
+    {
+      "name": "Заместитель руководителя службы по эксплуатации и безопасности",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный инженер службы хозяйства электроснабжения",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник управления службы по энергетике и электроснабжению",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник управления службы по эксплуатации",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52211"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/949",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/949/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b634551f5fad214049d069d2717e8b2aa272e25b180e89e9384797d6b1bebdd2",
+    "pdf_sha256": "9042724e66db4023debeaf81292fd1b65a3843e425827147f0c463df165fb594",
+    "normalized_sha256": "18ccee1ed358335f94d897305db57f649675a52558cf16dcac545164309d688e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

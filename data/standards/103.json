@@ -1,0 +1,90 @@
+{
+  "schema_version": "1",
+  "enbek_id": 103,
+  "code": "J62011002",
+  "title": "Тестирование программного обеспечения",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Подготовка и разработка дизайна, прототипа программного обеспечения, программирование, написание кода программы, проведение научных исследований в области ИКТ, публикация научных трудов",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-05",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Инженер-программист",
+      "ork_level": 7
+    },
+    {
+      "name": "Дизайнер программного обеспечения",
+      "ork_level": 5
+    },
+    {
+      "name": "Дизайнер программного обеспечения",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-программист",
+      "ork_level": 6
+    },
+    {
+      "name": "Научный исследователь в области ИКТ",
+      "ork_level": 7
+    },
+    {
+      "name": "Научный исследователь в области ИКТ",
+      "ork_level": 8
+    },
+    {
+      "name": "QA – Инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "QA – Инженер",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/103",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/103/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7436d5f252e8c7c9fa7059688b97a59da5201534c8c146b48c87ccde04ef3f5c",
+    "pdf_sha256": "eda2e58966e642a57bc8960757a024fe4a19c81fe5874090785118f2dae2438e",
+    "normalized_sha256": "aad0c9495ef91d9f7280f3bd0ea2f72f847b05a34675f26468ddea1b21102e1c"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

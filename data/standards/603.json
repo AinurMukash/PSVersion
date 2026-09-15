@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 603,
+  "code": "H52214012",
+  "title": "Деятельность автостанций и автовокзалов",
+  "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности услуг автостанции и автовокзала",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52214",
+    "subclass_name": "Деятельность автомобильных стоянок"
+  },
+  "professions": [
+    {
+      "name": "Управляющий автостанции и автовокзала",
+      "ork_level": 6
+    },
+    {
+      "name": "Дежурный по автовокзалу",
+      "ork_level": 4
+    },
+    {
+      "name": "Кассир (багажный)",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52214"
+      ],
+      "government_body": "Комитет транспорта Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/603",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/603/download"
+  },
+  "hashes": {
+    "metadata_sha256": "dcb03e2f10294890e3615c2117fd288f450e2a098e31229cac11fdf3df471e9a",
+    "pdf_sha256": "e0bae8e568ad84ed1fa1066f80baf374865e343b30462b1ebb4032e71c1a03e8",
+    "normalized_sha256": "1ca71578fe8ed1bdd03e7b739d8e90a66eb2a183cbcdf383dcf2eb94255d1cef"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

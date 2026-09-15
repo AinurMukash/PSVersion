@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 674,
+  "code": "S94120001",
+  "title": "Деятельность профессиональных общественных организаций",
+  "government_body": "ТОО «Оркен Медиа»",
+  "description": "Получение высококачественных, конкурентных публикаций. \nНа все профессии, описанные в данном стандарте, распространяются требования по знаниям:\nПравила и нормы охраны труда, техники безопасности, производственной санитарии и противопожарной защиты., правила документационного обеспечения управления и деловой переписки, этика деловых отношений, грамотная устная и письменная речь на государственном и русском языках, использование офисного программного обеспечения.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": null,
+  "oked": {
+    "section_code": "S",
+    "section_name": "Предоставление прочих видов услуг",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "94120",
+    "subclass_name": "Деятельность профессиональных общественных организаций"
+  },
+  "professions": [
+    {
+      "name": "Член редакционной коллегии (издательства, редакции газет и журналов)",
+      "ork_level": 8
+    },
+    {
+      "name": "Координатор по связям с государственными органами",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "S",
+        "94120"
+      ],
+      "government_body": "ТОО «Оркен Медиа»",
+      "ork_levels": [
+        6,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/674",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/674/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a7924c1ec2f614de511d92f6471528a6d9271e0d29e7aabb944fd50adf65c1f8",
+    "pdf_sha256": "904cc3cfae270c3c51a41508fcd5ac925c7d485d3043cb4f0db9be800de3c4d2",
+    "normalized_sha256": "d29241b84a8e8f8bda6743c50201a196dc8be6210f1b245869ae6cf89a80ef29"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

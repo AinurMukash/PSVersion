@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 121,
+  "code": "R90011104",
+  "title": "Артист музыкального театра",
+  "government_body": "ГККП «Музыкальный театр юного зрителя» акимата города Астаны",
+  "description": "Театральная деятельность:\n- постановка и показ театральных представлений, оперных спектаклей: деятельность театральных трупп.",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-20",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90011",
+    "subclass_name": "Театральная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Артист музыкального театра",
+      "ork_level": 8
+    },
+    {
+      "name": "Артист музыкального театра",
+      "ork_level": 4
+    },
+    {
+      "name": "Артист музыкального театра",
+      "ork_level": 6
+    },
+    {
+      "name": "Артист музыкального театра",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90011"
+      ],
+      "government_body": "ГККП «Музыкальный театр юного зрителя» акимата города Астаны",
+      "ork_levels": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/121",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/121/download"
+  },
+  "hashes": {
+    "metadata_sha256": "80a38ba7625475eb4a46f2a0d0c4be1c5ee16b2e104eba76352de5edb7563fe1",
+    "pdf_sha256": "2f190594dda2cc86c0b8e2909688a7fbd2e99645e4e344d4ed6d5f918c1fe7be",
+    "normalized_sha256": "7313ebb851a27bd6c27e265ef9292b575f00248463af28f863686c6e21706e9e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

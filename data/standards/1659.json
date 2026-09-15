@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1659,
+  "code": "A01132057",
+  "title": "Выращивание сахарной свеклы и ее семян",
+  "government_body": "Министерство сельского хозяйства Республики Казахстан",
+  "description": "Профессиональный стандарт «Выращивание сахарной свеклы и ее семян» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях». \nПрофессиональный стандарт предназначен для определения уровней квалификаций, необходимых для осуществления работниками определенного вида профессиональной деятельности, в том числе выполнения определенных трудовых функций, а также при разработке образовательных программ организаций высшего, послевузовского, технического и профессионального образования.",
+  "version": 1,
+  "year": 2026,
+  "revision_date": "2029-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01133",
+    "subclass_name": "Выращивание сахарной свеклы и ее семян"
+  },
+  "professions": [
+    {
+      "name": "Оператор по обслуживанию и эксплуатации дождевальной техники",
+      "ork_level": 3
+    },
+    {
+      "name": "Свекловод",
+      "ork_level": 4
+    },
+    {
+      "name": "Агроном по семеноводству",
+      "ork_level": 6
+    },
+    {
+      "name": "Работник по борьбе с сорняками",
+      "ork_level": 3
+    },
+    {
+      "name": "Семеновод",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер по сельскохозяйственной технике",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01133"
+      ],
+      "government_body": "Министерство сельского хозяйства Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        6
+      ],
+      "year": 2026,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1659",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1659/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9d75d77bb3e2bb7b21fa3b0ce932e475f40cf56c3f4cb832168ce9d8f596ac6b",
+    "pdf_sha256": "fab271b0f12bd4c3c5565e3b07b19de53eece7551a69a69c4d3bd319a3e6d481",
+    "normalized_sha256": "1f35a6f8d3fb54d95a3f633d4bdd24be3b002d65985a0b6136304b0aa1e94654"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

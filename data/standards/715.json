@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 715,
+  "code": "D35130014",
+  "title": "Смарт-менеджер",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Смарт-менеджер» предназначен для формирования образовательных программ, в том числе для обучения персонала на предприятиях, для сертификации работников и выпускников образовательных учреждений, для решения широкого круга задач в области управления персоналом.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "D",
+    "section_name": "Снабжение электроэнергией, газом, паром, горячей водой и  кондиционированным воздухом",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "35130",
+    "subclass_name": "Распределение электроэнергии"
+  },
+  "professions": [
+    {
+      "name": "Смарт-менеджер",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "D",
+        "35130"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/715",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/715/download"
+  },
+  "hashes": {
+    "metadata_sha256": "25350f3ca563c0c2e26a65e367c4cc150ec185f341570e44bb7771eb95fc558c",
+    "pdf_sha256": "eace9ed111ea2dd6d4854029cf9aa87d141aa992770badb7a69951ec562e8d11",
+    "normalized_sha256": "144f552cac0f841861e8cd5c983ef92115a3ae26c60b8498d2507a25ce5a95bb"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

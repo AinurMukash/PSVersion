@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 581,
+  "code": "I55101017",
+  "title": "Осуществление внутреннего контроля гостиницы",
+  "government_body": "Министерство туризма и спорта Республики Казахстан",
+  "description": "Осуществление внутреннего контроля гостиницы – является обеспечением безопасности проживающих гостей, сотрудников и имеющегося имущества на объекте",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "I",
+    "section_name": "Предоставление услуг по проживанию и питанию",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "55101",
+    "subclass_name": "Предоставление услуг гостиницами с ресторанами, за исключением гостиниц, находящихся на придорожной полосе"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела внутреннего контроля гостиницы",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "I",
+        "55101"
+      ],
+      "government_body": "Министерство туризма и спорта Республики Казахстан",
+      "ork_levels": [
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/581",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/581/download"
+  },
+  "hashes": {
+    "metadata_sha256": "749ce9c57092ae150f5b81f397dcd463dc7b1bffc35787f81f5aa7dd423c4e9d",
+    "pdf_sha256": "617ae60fb548040e931ad1ea6b9758a1033b9bd242ec325c7bb072f4384e7165",
+    "normalized_sha256": "6e9519ba6de75c3a3c321c2a7f1189a5b7f1e98d8f0a09e1edc0c9daeca4baa8"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

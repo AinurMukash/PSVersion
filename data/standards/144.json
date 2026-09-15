@@ -1,0 +1,76 @@
+{
+  "schema_version": "1",
+  "enbek_id": 144,
+  "code": "C24520012",
+  "title": "Сталеплавильное производство",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Организация работ и выполнения технологического процесса по получению стали в сталеплавильном производстве",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24520",
+    "subclass_name": "Литье стали"
+  },
+  "professions": [
+    {
+      "name": "Оператор загрузки конвертера",
+      "ork_level": 2
+    },
+    {
+      "name": "Сталевар конвертера",
+      "ork_level": 3
+    },
+    {
+      "name": "Сталевар электропечи",
+      "ork_level": 3
+    },
+    {
+      "name": "Подручный сталевара конвертера",
+      "ork_level": 3
+    },
+    {
+      "name": "Подручный сталевара электропечи",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24520"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/144",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/144/download"
+  },
+  "hashes": {
+    "metadata_sha256": "df54e1bd564aed800f744b25b87fd823d1422e92a3d3b044c5ca6563ed242c80",
+    "pdf_sha256": "046374faf2ec67370747a091388d0c12140ebaa3312b5f2337db4f58c4b28d0e",
+    "normalized_sha256": "7e430f29e1051484fb1bf50e5f36f6972b8e0c78cc52cc30437de0d8a05ba99f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

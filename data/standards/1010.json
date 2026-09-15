@@ -1,0 +1,146 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1010,
+  "code": "M71122044",
+  "title": "Геология и разведка недр",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Проведение геологических, гидрогеологических геофизических, буровых и горных работ при поиске и разведке месторождений твердых полезных ископаемых (ТПИ) и подземных вод (ПВ).",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Техник-геолог",
+      "ork_level": 4
+    },
+    {
+      "name": "Геолог",
+      "ork_level": 5
+    },
+    {
+      "name": "Геолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Геолог",
+      "ork_level": 7
+    },
+    {
+      "name": "Главный геолог",
+      "ork_level": 8
+    },
+    {
+      "name": "Геофизик",
+      "ork_level": 4
+    },
+    {
+      "name": "Геофизик",
+      "ork_level": 7
+    },
+    {
+      "name": "Геофизик",
+      "ork_level": 8
+    },
+    {
+      "name": "Гидрогеолог",
+      "ork_level": 4
+    },
+    {
+      "name": "Гидрогеолог",
+      "ork_level": 5
+    },
+    {
+      "name": "Гидрогеолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Техник по бурению",
+      "ork_level": 4
+    },
+    {
+      "name": "Технолог по бурению скважин",
+      "ork_level": 6
+    },
+    {
+      "name": "Технолог по бурению скважин",
+      "ork_level": 7
+    },
+    {
+      "name": "Технолог по бурению скважин",
+      "ork_level": 5
+    },
+    {
+      "name": "Рабочий",
+      "ork_level": 1
+    },
+    {
+      "name": "Рабочий",
+      "ork_level": 2
+    },
+    {
+      "name": "Рабочий",
+      "ork_level": 3
+    },
+    {
+      "name": "Геофизик",
+      "ork_level": 5
+    },
+    {
+      "name": "Геофизик",
+      "ork_level": 6
+    },
+    {
+      "name": "Технолог по бурению скважин",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1010",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1010/download"
+  },
+  "hashes": {
+    "metadata_sha256": "eaec41fce0562e32fb63c463456a0855cfe8f088f17f9e0220b53c425a5e882a",
+    "pdf_sha256": "f95befac8490935e4f1675526d47ebab3a7a5e9fe2a7130762add08922144da4",
+    "normalized_sha256": "d1b12da95e19e141a0e36ba624250757c429fe3a66e93480e17dd973276dda03"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

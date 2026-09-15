@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 397,
+  "code": "F43110004",
+  "title": "Рабочие по разборке и сносу зданий и сооружений",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт «Рабочие по разборке и сносу зданий и сооружений» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, осуществляющих деятельность в сфере строительства.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43110",
+    "subclass_name": "Разборка и снос зданий и сооружений"
+  },
+  "professions": [
+    {
+      "name": "Демонтажник зданий",
+      "ork_level": 2
+    },
+    {
+      "name": "Демонтажник зданий",
+      "ork_level": 3
+    },
+    {
+      "name": "Демонтажник зданий",
+      "ork_level": 4
+    },
+    {
+      "name": "Монтажник-высотник",
+      "ork_level": 2
+    },
+    {
+      "name": "Монтажник-высотник",
+      "ork_level": 3
+    },
+    {
+      "name": "Монтажник-высотник",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43110"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/397",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/397/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9be1cb8e03ac3f8a16a4ab0be7fc38f7d022b94ef9688dc75f67489319dbbec8",
+    "pdf_sha256": "555ebcb3f838229f227101afaec8d06628dfb042a177656a53e8e857d983f79a",
+    "normalized_sha256": "dcf06a5387264e0450eb581b6fc4058bab879286f80657dad9aa504143406dc1"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "enbek_id": 221,
+  "code": "O84230028",
+  "title": "Судебная экспертиза документов",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "В соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" разработан профессиональный стандарт \"Судебная экспертиза документов\", который предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной экспертизы документов и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2024-12-12",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебный эксперт",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебный эксперт",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебный эксперт",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/221",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/221/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e911af4b78221e22f63e048cd41c25721ad753837fc90a89c8976e1d73b49107",
+    "pdf_sha256": "21ab8c5380de69f8175570b3f8f2b5ab0ace12e5f6a3b77cbf183dedf1c31abe",
+    "normalized_sha256": "bba3ba32005e3d9e0dd17782b535adaae6ac9ca092d91ecc5512ee726f5104aa"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

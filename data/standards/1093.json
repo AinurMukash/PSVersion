@@ -1,0 +1,87 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1093,
+  "code": "B05103034",
+  "title": "Обогащение угля",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Отделение угля от пустой породы методами дробления, грохочения и сепарацией",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "05103",
+    "subclass_name": "Обогащение каменного угля"
+  },
+  "professions": [
+    {
+      "name": "Аппаратчик сгустителей",
+      "ork_level": 3
+    },
+    {
+      "name": "Аппаратчик углеобогащения",
+      "ork_level": 3
+    },
+    {
+      "name": "Грохотовщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Дробильщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Сепараторщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Сушильщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Контролер продукции обогащения",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист установок обогащения и брикетирования",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "05103"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1093",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1093/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7593ead9bab4a0ca355b78ae77ad06e681b087c4a117d2c4c12165be1c092ca7",
+    "pdf_sha256": "17e97806e8b9dcac653970dc0773659b92421277b0221cc1ab10603b80a0c2ce",
+    "normalized_sha256": "496f3757cd1cd6a00aab52872bd98b00f225a48849169839ad76d3a80679b5b1"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

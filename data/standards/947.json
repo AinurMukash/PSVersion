@@ -1,0 +1,89 @@
+{
+  "schema_version": "1",
+  "enbek_id": 947,
+  "code": "H52101043",
+  "title": "Складирование и хранение грузов",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний к рабочим и специалистам, занятым в организации и осуществлении складирования и хранения товаров",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52101",
+    "subclass_name": "Складирование и хранение зерна"
+  },
+  "professions": [
+    {
+      "name": "Начальник склада",
+      "ork_level": 5
+    },
+    {
+      "name": "Начальник смены",
+      "ork_level": 5
+    },
+    {
+      "name": "Заведующий складом",
+      "ork_level": 3
+    },
+    {
+      "name": "Кладовщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор механизированных и автоматизированных складов",
+      "ork_level": 3
+    },
+    {
+      "name": "Водитель погрузчика",
+      "ork_level": 3
+    },
+    {
+      "name": "Грузчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Водитель электроштабелера",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52101"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        2,
+        3,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/947",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/947/download"
+  },
+  "hashes": {
+    "metadata_sha256": "510bf68cddf196ae9cae899be643c372d8fdf16d8cd5f4876ea7602ce1df0ffb",
+    "pdf_sha256": "2f8a7004239666e1b2509c6c82aea548fa75d0f44cbeb0143cabd82281cbddc6",
+    "normalized_sha256": "ea9eaa3938fd557db282de32d79ad4b5c75a5a7b18996cec7a4195324ac78ea0"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

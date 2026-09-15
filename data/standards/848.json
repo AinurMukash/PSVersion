@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 848,
+  "code": "H52220045",
+  "title": "Судопропуск судоходного гидротехнического сооружения (шлюза)",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS»",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний профессий к специалистам основного вида деятельности по выполнению организационно-технологических операций по безопасному пропуску судов через судоходный шлюз, зарегулированный участок внутренних водных путей.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52220",
+    "subclass_name": "Вспомогательная деятельность водного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Судопропускник СГТС (шлюза)",
+      "ork_level": 3
+    },
+    {
+      "name": "Старший судопропускник СГТС (шлюза)",
+      "ork_level": 3
+    },
+    {
+      "name": "Диспетчер СГТС (шлюза)",
+      "ork_level": 5
+    },
+    {
+      "name": "Главный диспетчер СГТС (шлюза)",
+      "ork_level": 6
+    },
+    {
+      "name": "Заместитель начальника СГТС(шлюза)",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник СГТС (шлюза)",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52220"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS»",
+      "ork_levels": [
+        3,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/848",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/848/download"
+  },
+  "hashes": {
+    "metadata_sha256": "91c2fe2a65acdf4f31d32c829dba9d023544012ab573febf06af104790ac3979",
+    "pdf_sha256": "de74f6642060af0c2f09d8b90daf8d4f5474e3a06e5d1beff90f776eeb12a269",
+    "normalized_sha256": "677849f9bb90c9e10c62c2e6f3e895a5c88fc5c23e76cb9070176b4ab1007c43"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

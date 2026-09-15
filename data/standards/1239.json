@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1239,
+  "code": "F43999037",
+  "title": "Услуги промышленного альпинизма при содержании и ремонте многоэтажных жилых домов и зданий",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт \"Услуги промышленного альпинизма при содержании и ремонте многоэтажных жилых домов и зданий\" устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-08-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43999",
+    "subclass_name": "Прочие строительные работы, требующие специальной квалификации"
+  },
+  "professions": [
+    {
+      "name": "Рабочий по техническому содержанию и ремонту высотных частей зданий",
+      "ork_level": 2
+    },
+    {
+      "name": "Промышленный альпинист",
+      "ork_level": 3
+    },
+    {
+      "name": "Монтажник-высотник",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43999"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1239",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1239/download"
+  },
+  "hashes": {
+    "metadata_sha256": "341d44920317cb17f8c0dacd4306b84c0e54883f919b274dda1bf75dfa3921c4",
+    "pdf_sha256": "c80af42c466ae4eecd5d690dda05dfaf768399032a31cb2b494a888e810d584d",
+    "normalized_sha256": "6f6a72f6a40045b3b55757a506d335f39bc8df98c7baaf989b2ca5bbac3f8f1e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

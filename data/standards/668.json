@@ -1,0 +1,102 @@
+{
+  "schema_version": "1",
+  "enbek_id": 668,
+  "code": "F43110053",
+  "title": "Разборка и снос зданий и сооружений",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Разборка и снос зданий и сооружений определяет требования к уровню квалификации, профессионального образования и содержанию специалистов, занимающихся разборкой, сноса зданий и сооружений.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43110",
+    "subclass_name": "Разборка и снос зданий и сооружений"
+  },
+  "professions": [
+    {
+      "name": "Стропальщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист бульдозера",
+      "ork_level": 2
+    },
+    {
+      "name": "Машинист погрузочной машины",
+      "ork_level": 2
+    },
+    {
+      "name": "Инженер по подготовке производства",
+      "ork_level": 6
+    },
+    {
+      "name": "Стропальщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Стропальщик",
+      "ork_level": 4
+    },
+    {
+      "name": "Машинист бульдозера",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист бульдозера",
+      "ork_level": 4
+    },
+    {
+      "name": "Машинист погрузочной машины",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист погрузочной машины",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер-механик",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43110"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/668",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/668/download"
+  },
+  "hashes": {
+    "metadata_sha256": "aeb686541d11a621e9861967aa30b9d350ae78f41bb9be63dbc670ac33edbe81",
+    "pdf_sha256": "0362092babe9b0f0a5157bbc3bbfb48a860a8edc668c18339e05061cbc13989d",
+    "normalized_sha256": "40d9ac632424bc523f84d77bcf5db759a16e7861139211264457f96a486f4999"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

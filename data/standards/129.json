@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 129,
+  "code": "A01191004",
+  "title": "Кормопроизводство для сельскохозяйственных животных",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Выполнение работ по производству кормов и организация деятельности кормопроизводства для сельскохозяйственных животных",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01191",
+    "subclass_name": "Выращивание кормовых культур и их семян"
+  },
+  "professions": [
+    {
+      "name": "Рабочий по орошению, ирригации",
+      "ork_level": 2
+    },
+    {
+      "name": "Квалифицированный сельскохозяйственный рабочий (полевые культуры)",
+      "ork_level": 4
+    },
+    {
+      "name": "Квалифицированный рабочий по подготовке и приготовлению кормов",
+      "ork_level": 4
+    },
+    {
+      "name": "Агроном отделения (бригады, сельскохозяйственного участка, фермы, цеха) (средней квалификации)",
+      "ork_level": 5
+    },
+    {
+      "name": "Начальник лаборатории (в сельском хозяйстве)",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01191"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/129",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/129/download"
+  },
+  "hashes": {
+    "metadata_sha256": "868d8b6f71e890da96b13dd9f8a232fdd27e2626ac74dfae436338ddcf120c84",
+    "pdf_sha256": "1b916fd1dea29ddfb2db5041a0d81232df09382a1550914eb3ece83f87753adc",
+    "normalized_sha256": "d10ee8ce90fe156fc01bcc2f1eba63327de002d479ccc98658a26d07ca7606d3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

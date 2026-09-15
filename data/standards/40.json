@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "enbek_id": 40,
+  "code": "N79120002",
+  "title": "Продвижение туристского продукта",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Комплекс мер, направленных на продвижение туристского продукта, включающие рекламу, участие в специализированных выставках, ярмарках, организацию информационных центров, издание каталогов, буклетов и др.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "79120",
+    "subclass_name": "Деятельность туристских операторов"
+  },
+  "professions": [
+    {
+      "name": "Руководитель отдела маркетинга и рекламы в туристском предприятии",
+      "ork_level": 7
+    },
+    {
+      "name": "Специалист по рекламе и маркетингу в туристском предприятии",
+      "ork_level": 4
+    },
+    {
+      "name": "Специалист по работе с турагентствами",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "79120"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        4,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/40",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/40/download"
+  },
+  "hashes": {
+    "metadata_sha256": "f60da6b0f459f2fa5bf665ac91404e52d6760e5b565c307e4ed64f0d56dd5b70",
+    "pdf_sha256": "59a4728702bb9591995a9b76404adf572ddcee3e94d113228e2bf2d29aa4e2ca",
+    "normalized_sha256": "5ae6cde5057c31ca45b632a5b2b5a2d9b08c3cfe7c41d8210ea716445627774a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

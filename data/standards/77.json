@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 77,
+  "code": "I55101001",
+  "title": "Организация приготовления еды",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Организация приготовления еды - еда и напитки, включённые в стоимость проживания и предлагаемые клиенту во время проживания в гостинице, производимые на кухне гостиницы.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "I",
+    "section_name": "Предоставление услуг по проживанию и питанию",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "55101",
+    "subclass_name": "Предоставление услуг гостиницами с ресторанами, за исключением гостиниц, находящихся на придорожной полосе"
+  },
+  "professions": [
+    {
+      "name": "Су-шеф",
+      "ork_level": 5
+    },
+    {
+      "name": "Пекарь хлебобулочных изделий",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "I",
+        "55101"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        4,
+        5
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/77",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/77/download"
+  },
+  "hashes": {
+    "metadata_sha256": "376ba26ceb80b85fbbe232fa56ace53321e9f9423f6ce45bd41bcb26cdf541b9",
+    "pdf_sha256": "76fd813bd461c5de144e29108c4fc9cf4343fec1210f1d1189a35adaa2e0e773",
+    "normalized_sha256": "89869d2bdc28cb0cb5be830a52de4fd30f4abc5125c16116d87c70857a7ce10e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

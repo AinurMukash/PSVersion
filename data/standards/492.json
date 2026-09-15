@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 492,
+  "code": "R91030078",
+  "title": "Специалист по реставрации и консервации памятников",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Специалист по реставрации и консервации памятников\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91030",
+    "subclass_name": "Деятельность исторических мест и зданий и аналогичных туристических достопримечательностей"
+  },
+  "professions": [
+    {
+      "name": "Специалист по реставрации и консервации памятников",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91030"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/492",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/492/download"
+  },
+  "hashes": {
+    "metadata_sha256": "3be8035810069d0d126b5f3b1ab33760bc4ecd6be41ea434919040291ebd51bf",
+    "pdf_sha256": "ac3711bf1af1f80c59cbfc46f9899b9629b4e42670b83d031520747093b6ae75",
+    "normalized_sha256": "b60c3cc0cf331c712a3594c1c6326a4a8e3df9d8ef7920aefa0c1e98110b3596"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

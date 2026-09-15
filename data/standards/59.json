@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 59,
+  "code": "N79120004",
+  "title": "Организация деловых/бизнес поездок и MICE услуг",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Организация MICE услуг, координация и контроль   исполнения деловых услуг на качественном уровне первичными поставщиками (гостиницы, автотранспортные компании, ивент-компании, организаторы конгрессов, партнеры, кейтеринговые компании, др.), а также взаимодействие с другими подразделениями компании, обеспечивающих бронирование сопутствующих услуг.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "79120",
+    "subclass_name": "Деятельность туристских операторов"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела корпоративных и MICE услуг",
+      "ork_level": 7
+    },
+    {
+      "name": "MICE менеджер",
+      "ork_level": 6
+    },
+    {
+      "name": "Менеджер по работе с ключевыми/корпоративными клиентами",
+      "ork_level": 6
+    },
+    {
+      "name": "Менеджер по организации корпоративных услуг",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "79120"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/59",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/59/download"
+  },
+  "hashes": {
+    "metadata_sha256": "4709b2e8621854ed71948660110d56c63d77ed7c5c20e03103394a2ba9c37847",
+    "pdf_sha256": "aed67a6945e03a0ec50aa8c336bc004a7c924c153a814afbd4fb140685b386de",
+    "normalized_sha256": "ca4c4c87b606d2091d9bed24cd8cfca71838ee9e0593b20a19774b09c73a9e4a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

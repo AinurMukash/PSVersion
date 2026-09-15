@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 840,
+  "code": "H49200067",
+  "title": "Организация и условия перевозок",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Координация грузовой работы филиала, в том числе (отдела организации и условий перевозок, отдела подъездных путей, отдела логистики и организации перевозок, начальников грузовых станций), по выполнению заданных объемов перевозок, в соответствии с техническим планом.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49200",
+    "subclass_name": "Деятельность грузового железнодорожного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела организации и условий перевозок",
+      "ork_level": 6
+    },
+    {
+      "name": "Бригадир пункта коммерческого осмотра (освобожденный).",
+      "ork_level": 4
+    },
+    {
+      "name": "Приемщик поездов (включая рядового)",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49200"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        3,
+        4,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/840",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/840/download"
+  },
+  "hashes": {
+    "metadata_sha256": "40537555c105221cec0da8711d327a1bab652ddda7b9278f9a7c15415dbe0f7d",
+    "pdf_sha256": "96c475943756f313992bffd205c1193669cc451c732d7e93b83119603fe117b6",
+    "normalized_sha256": "57c6057e7c4ca0bc682d15f65df0127d677610661d9cb3e8d1863b17f7e54ad5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

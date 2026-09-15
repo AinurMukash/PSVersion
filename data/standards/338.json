@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 338,
+  "code": "O84230004",
+  "title": "Судебная портретная экспертиза",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "Профессиональный стандарт «Судебная портретная экспертиза» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной портретной экспертизы и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебные эксперты",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/338",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/338/download"
+  },
+  "hashes": {
+    "metadata_sha256": "639f6dd53dca8dd5c0b6e1622298bbb8544cf630e08ca1eaa1051dd38b5b4467",
+    "pdf_sha256": "31839b91141a899511f17ec1effe0ab0adcf5ed454a0ab42cb193f6df1ad2a4a",
+    "normalized_sha256": "b29dce9a267d0a8058f5cde7812ae1d5127e5c0f81de13801e834b1ec9286ba7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

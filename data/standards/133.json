@@ -1,0 +1,85 @@
+{
+  "schema_version": "1",
+  "enbek_id": 133,
+  "code": "A01471018",
+  "title": "Разведение птиц",
+  "government_body": "ОЮФЛ «Союз птицеводов Казахстана»",
+  "description": "Выполнение технологического процесса выращивания и содержания птицы разных видов, пород и кроссов для производства яиц и мяса",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01471",
+    "subclass_name": "Разведение птицы на мясо, племенной птицы и молодняка"
+  },
+  "professions": [
+    {
+      "name": "Птицевод",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор инкубатора",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор птицефабрик и механизированных ферм",
+      "ork_level": 3
+    },
+    {
+      "name": "Ветеринарно-санитарный врач",
+      "ork_level": 5
+    },
+    {
+      "name": "Ветеринарный врач",
+      "ork_level": 6
+    },
+    {
+      "name": "Зоотехник",
+      "ork_level": 5
+    },
+    {
+      "name": "Технолог-птицевод",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01471"
+      ],
+      "government_body": "ОЮФЛ «Союз птицеводов Казахстана»",
+      "ork_levels": [
+        3,
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/133",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/133/download"
+  },
+  "hashes": {
+    "metadata_sha256": "607d136f8eea84a84ca22300a1139b69d7df781daa36f6f5acce049ea81527de",
+    "pdf_sha256": "c3b5ac547e29a5962c803ec765ef09fa65431a2f56a90c90a0b5ec5354829118",
+    "normalized_sha256": "e04c149f5c14a7c95e79e427d572a61f232386bad1ee14bc1243fbe0b05b55a4"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 969,
+  "code": "M71122046",
+  "title": "Сейсмологические исследования (Сейсмолог)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Изучение распространения сейсмических волн в недрах Земли, землетрясений и связанных с ними явлений, а также составление долгосрочного прогноза очагов их возникновения, силы и повторяемости.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Техник-сейсмолог",
+      "ork_level": 4
+    },
+    {
+      "name": "Сейсмолог-специалист",
+      "ork_level": 5
+    },
+    {
+      "name": "Сейсмолог-инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший сейсмолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный сейсмолог",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/969",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/969/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e5c1c0c8d524bb0014057326e2754f50363450f4d1a65ab619ab974d4acd54bb",
+    "pdf_sha256": "51344328feca0fab191906fe435aa1ae262276a73e4ad9155dac68c0532ed635",
+    "normalized_sha256": "3ddea80c302b844226ae7be2069c838475b0f73d723eee536b592a7c15f72441"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

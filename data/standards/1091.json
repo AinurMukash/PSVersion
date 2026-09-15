@@ -1,0 +1,76 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1091,
+  "code": "B08992036",
+  "title": "Добыча и обогащение неметаллических руд",
+  "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+  "description": "Организация и выполнение работ в добыче и обогащении неметаллических руд",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "B",
+    "section_name": "Горнодобывающая промышленность и разработка карьеров",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "08992",
+    "subclass_name": "Добыча и обогащение неметаллических руд"
+  },
+  "professions": [
+    {
+      "name": "Машинист дробильно-помольных установок",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист подземного самоходного оборудования",
+      "ork_level": 3
+    },
+    {
+      "name": "Долотозаправщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Драгер",
+      "ork_level": 2
+    },
+    {
+      "name": "Моторист промывочного прибора по извлечению металла",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "B",
+        "08992"
+      ],
+      "government_body": "Объединения юридических лиц «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий»",
+      "ork_levels": [
+        2,
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1091",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1091/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d273e6b3465777cd46be13262797f3afb06dbb099271a932aecb10a5a8cc069b",
+    "pdf_sha256": "b9d2a0d3f5b811ca167c0a4ccef123f8a25ccde526213cf0d25fb397fdfafe49",
+    "normalized_sha256": "4d0fb79cfe051e9635c0e82e479d29ac1103b109fbd562e8770f1d8a1e394067"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

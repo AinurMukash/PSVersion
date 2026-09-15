@@ -1,0 +1,96 @@
+{
+  "schema_version": "1",
+  "enbek_id": 525,
+  "code": "M71123009",
+  "title": "Геодезия и картография",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Профессиональный стандарт \"Геодезия и картография\" (далее – Профессиональный стандарт) разработан в соответствии со статьей 5 Закона Республики Казахстан \"О профессиональных квалификациях\", устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71123",
+    "subclass_name": "Геодезическая деятельность"
+  },
+  "professions": [
+    {
+      "name": "Техник-геодезист",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник-картограф",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник-аэрофотогеодезист",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник-топограф",
+      "ork_level": 5
+    },
+    {
+      "name": "Геодезист",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-геодезист",
+      "ork_level": 6
+    },
+    {
+      "name": "Картограф",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-картограф",
+      "ork_level": 6
+    },
+    {
+      "name": "Аэрофотогеодезист",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-аэрофотогеодезист",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71123"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        5,
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/525",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/525/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7b7b97f65378b69f005b04362a69f63a8bea1f1a4565ef84d7fccfd53e17bcca",
+    "pdf_sha256": "a829610a5fa763b836b21e97b936e64d382a39bb05e3fab34ad36d7475810483",
+    "normalized_sha256": "966960e9fda722bc4571de77f5bc98959e7523d884b45a25581bdc1cde640e2e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

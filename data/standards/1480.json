@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1480,
+  "code": "J62012055",
+  "title": "Администрирование операционных систем",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Профессиональный стандарт «Администрирование операционных систем» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62012",
+    "subclass_name": "Сопровождение программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Администратор операционных систем",
+      "ork_level": 6
+    },
+    {
+      "name": "Администратор операционных систем",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62012"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        5,
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1480",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1480/download"
+  },
+  "hashes": {
+    "metadata_sha256": "697da5a150e7ebc9413f3ce1fe59f4f80cc2ace347bd0384c2fa378808d6b70f",
+    "pdf_sha256": "697ba69824c039ad380a92c3b60ffb14a0c3f44cda2cd09aa752c3f728bd0298",
+    "normalized_sha256": "f667724fc4b205045f251480ee97c643ffd3401a89a97a4f385e77cc50d86ced"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

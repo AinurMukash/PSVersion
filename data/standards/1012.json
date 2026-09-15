@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1012,
+  "code": "M71122028",
+  "title": "Литолого-седиментологические исследования",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Выполнение работ по определению (диагностике) и описанию осадочных пород в отношении их вещественного состава, внутреннего строения, элементов залегания и условий образования",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Литолог-седиментолог-специалист",
+      "ork_level": 5
+    },
+    {
+      "name": "Литолог-седиментолог-инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший литолог-седиментолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный литолог-седиментолог",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1012",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1012/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a86019aa2834378ea29cf862fedc7b6aafb4292d438a47979975f3aaaa934ec9",
+    "pdf_sha256": "d24559b505c7d6c96324474bde71c50bd1231b8cc1f3325a18d67150f22b2da3",
+    "normalized_sha256": "d306bd06d16fef87778ba57f3906d2b3ba31aa51d5ac3494e200a6e0f6951175"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1473,
+  "code": "J63910082",
+  "title": "Администрирование и сопровождение Web",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Профессиональный стандарт «Администрирование и сопровождение Web» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 1,
+  "year": 2025,
+  "revision_date": "2028-12-02",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "63910",
+    "subclass_name": "Деятельность информационных агентств"
+  },
+  "professions": [
+    {
+      "name": "Администратор Web-сайтов",
+      "ork_level": 5
+    },
+    {
+      "name": "Администратор Web-сайтов",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "63910"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        5
+      ],
+      "year": 2025,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1473",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1473/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d4c98a401cacfec44f821200da4e724dfebf204c17fece709172819cdcd71672",
+    "pdf_sha256": "d5cdadf7bfe440e235e9f1c246e2c8175a4252d99826ccee14d72a670f27db83",
+    "normalized_sha256": "d281ef013ca26229f0aa11946fb545d221e3e160b553f43dbbd47193e4944750"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1",
+  "enbek_id": 667,
+  "code": "J58140017",
+  "title": "Издание газет. Издание журналов и периодических публикаций",
+  "government_body": "ТОО «Оркен Медиа»",
+  "description": "Издание газет, журналов, периодических изданий, характеризующихся актуальностью, периодичностью, публичностью, универсальностью либо специализацией, мобильностью, общедоступностью.\nНа все профессии, описанные в данном стандарте, распространяются требования по знаниям:\nПравила и нормы охраны труда, техники безопасности, производственной санитарии и противопожарной защиты., правила документационного обеспечения управления и деловой переписки, этика деловых отношений, грамотная устная и письменная речь на государственном и русском языках, использование офисного программного обеспечения.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": null,
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "58140",
+    "subclass_name": "Издание журналов и периодических публикаций"
+  },
+  "professions": [
+    {
+      "name": "Корректор",
+      "ork_level": 5
+    },
+    {
+      "name": "Главный редактор (издательства, редакции газет и журналов)",
+      "ork_level": 8
+    },
+    {
+      "name": "Редактор (общий профиль)",
+      "ork_level": 7
+    },
+    {
+      "name": "Корреспондент издательства, редакции газет и журналов",
+      "ork_level": 6
+    },
+    {
+      "name": "Газетный обозреватель",
+      "ork_level": 6
+    },
+    {
+      "name": "Газетный репортер",
+      "ork_level": 6
+    },
+    {
+      "name": "Координатор по связям с государственными органами",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "58140"
+      ],
+      "government_body": "ТОО «Оркен Медиа»",
+      "ork_levels": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/667",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/667/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7f5c0003fe2e32f3def8f717b71d1783d115c6c9ce5e6590747a42d5f29d9ec0",
+    "pdf_sha256": "c388b7efe66769449a4ce3fe9b2844ec7fbc3647a6995c739d678f39d8c47c92",
+    "normalized_sha256": "1b54ad5c4123c4631bbb7ddc1c3ad3bf9c514810b4fa8ba5fe146a990fa3562f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

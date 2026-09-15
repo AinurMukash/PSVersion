@@ -1,0 +1,94 @@
+{
+  "schema_version": "1",
+  "enbek_id": 728,
+  "code": "H52104102",
+  "title": "Прием, хранение и поставка нефти",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Данный ПС охватывает сферу добычи, транспортировки и переработки нефти. Экономическая деятельность, связанная с этим стандартом, включает в себя процессы приема сырой нефти на терминалах и складах, ее хранения в соответствующих емкостях и последующей поставки к различным потребителям, включая нефтеперерабатывающие заводы, химические предприятия и другие промышленные объекты.",
+  "version": 3,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52104",
+    "subclass_name": "Хранение нефти"
+  },
+  "professions": [
+    {
+      "name": "Инженер по резервуарам",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по эксплуатации морских наливных причалов и сливной эстакады",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по эксплуатации машин и оборудований для приема, хранения и поставки нефти и нефтепродуктов",
+      "ork_level": 6
+    },
+    {
+      "name": "Мастер по эксплуатации сливо-наливных эстакад и подъездных путей",
+      "ork_level": 5
+    },
+    {
+      "name": "Осмотрщик нефтеналивных емкостей",
+      "ork_level": 2
+    },
+    {
+      "name": "2.1. Сливщик-разливщик",
+      "ork_level": 2
+    },
+    {
+      "name": "2.2. Сливщик-разливщик",
+      "ork_level": 2
+    },
+    {
+      "name": "2.3. Сливщик-разливщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Начальник эстакады (наливной, реагентного хозяйства)",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52104"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "year": 2024,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/728",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/728/download"
+  },
+  "hashes": {
+    "metadata_sha256": "0ba50b27d63a1b73d3d05fb0dd9082522196759f89fe1e0b680942b2a4ddb772",
+    "pdf_sha256": "8db975c714b73047262078c55547f6a26e079a802ea7332c73398073439fc389",
+    "normalized_sha256": "4d5e5e239bfe7feb9bbbf4e6293f272a3e828f31d8feb82bc8bb3e0136f9e03a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

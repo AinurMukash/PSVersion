@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 64,
+  "code": "I55101003",
+  "title": "Телефонное обслуживание гостей",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Телефонное обслуживание гостей – предоставляет услуги телефонной связи для проживающих в отеле гостей.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "I",
+    "section_name": "Предоставление услуг по проживанию и питанию",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "55101",
+    "subclass_name": "Предоставление услуг гостиницами с ресторанами, за исключением гостиниц, находящихся на придорожной полосе"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела телефонной службы гостиницы",
+      "ork_level": 6
+    },
+    {
+      "name": "Телефонный оператор отдела телефонной службы гостиницы",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "I",
+        "55101"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        2,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/64",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/64/download"
+  },
+  "hashes": {
+    "metadata_sha256": "c8ea9dd6eef6548f421af17908b38f52e001fac9cc4ce5df3748d67c9c264413",
+    "pdf_sha256": "0a2afca1788f90d73d094671b9f9666883834680469c14c9aa157f8b388bd891",
+    "normalized_sha256": "621ee6ed8c192c19bf6a410e796c8cc3388e2b7d067e5ff8381548dd541204c9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1166,
+  "code": "C25620052",
+  "title": "Нанесение лакокрасочных покрытий",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Нанесение лакокрасочных покрытий включает в себя окрашивание изделий, нанесение герметиков, пластизолей и мастик, настройка окрасочного оборудования, инструмента, приспособлений и оснастки, контроль технологических параметров лакокрасочных покрытий, ремонт дефектной поверхности кузова и деталей.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-01-01",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Маляр, промышленные изделия",
+      "ork_level": 2
+    },
+    {
+      "name": "Маляр, промышленные изделия",
+      "ork_level": 3
+    },
+    {
+      "name": "Маляр, автотранспортные средства",
+      "ork_level": 2
+    },
+    {
+      "name": "Маляр, автотранспортные средства",
+      "ork_level": 4
+    },
+    {
+      "name": "Маляр, автотранспортные средства",
+      "ork_level": 3
+    },
+    {
+      "name": "Эмалировщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Металлизатор",
+      "ork_level": 2
+    },
+    {
+      "name": "Маляр, промышленные изделия",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1166",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1166/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2c8054c7112ec64e512bf928575c9e6dbe36e3413f9a6c60c69536f4b2335ce3",
+    "pdf_sha256": "87bd772ded3c5d32b5a250e9fe6dd1408b6c78486d48774adf8096a33cff9d66",
+    "normalized_sha256": "082a2e02ef75e4be87d8075b9dbcb2a0961227883fc83052673c6c847b0214cd"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

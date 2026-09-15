@@ -1,0 +1,143 @@
+{
+  "schema_version": "1",
+  "enbek_id": 152,
+  "code": "C24100011",
+  "title": "Производство чугуна",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Организация\tработ и выполнения технологического процесса по получению чугуна в доменном производстве",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "24100",
+    "subclass_name": "Производство чугуна, стали и ферросплавов"
+  },
+  "professions": [
+    {
+      "name": "Директор завода",
+      "ork_level": 7
+    },
+    {
+      "name": "Начальник управления (обрабатывающая промышленность)",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник участка (обрабатывающая промышленность)",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник цеха (обрабатывающая промышленность)",
+      "ork_level": 6
+    },
+    {
+      "name": "Мастер контрольный (участка, цеха) (добывающая промышленность)",
+      "ork_level": 4
+    },
+    {
+      "name": "Бункеровщик доменных печей",
+      "ork_level": 2
+    },
+    {
+      "name": "Грануляторщик доменного шлака",
+      "ork_level": 2
+    },
+    {
+      "name": "Машинист вагон-весов",
+      "ork_level": 2
+    },
+    {
+      "name": "Транспортировщик шихты",
+      "ork_level": 2
+    },
+    {
+      "name": "Верховой доменной печи",
+      "ork_level": 3
+    },
+    {
+      "name": "Водопроводчик доменной печи",
+      "ork_level": 3
+    },
+    {
+      "name": "Газовщик доменной печи",
+      "ork_level": 3
+    },
+    {
+      "name": "Горновой доменной печи",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист кратцера",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист установки по расщеплению слюды",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист питателя",
+      "ork_level": 3
+    },
+    {
+      "name": "Машинист заправочной машины",
+      "ork_level": 3
+    },
+    {
+      "name": "Аппаратчик-гидрометаллург",
+      "ork_level": 3
+    },
+    {
+      "name": "Горновой ферросплавных печей",
+      "ork_level": 3
+    },
+    {
+      "name": "Автоклавщик на запарке брикетов",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор дробильщик",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "24100"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/152",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/152/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9a063355d982bcbfc5131c95244b239184244f5c52aa1866f2370c70a762b272",
+    "pdf_sha256": "c8ff4bd5a8aa7f47f3c31e0a40bf6d77f8be51135d02733257712a05f2064f08",
+    "normalized_sha256": "98a1f32755816752df4f7bdd894160b99b11eb1db740e20b08308c98677f7f74"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

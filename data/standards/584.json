@@ -1,0 +1,72 @@
+{
+  "schema_version": "1",
+  "enbek_id": 584,
+  "code": "J62011040",
+  "title": "Разработка IoT систем",
+  "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+  "description": "Разработка, проектирование, использование экосистемы, сетевых подключений, протоколы, датчики, шлюзы, архитектуру сетей и систем, облачные платформы, стандарты безопасности. Понимание встроенных систем,  применение IoT-подключений (5G, LTE, NB-IOT, 3GLoRA, SigFox, WiFI, Bluetooth). Работа на платформах IoT (IoTArchitects) и применение облачных  технологии.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Инженер облачных IoT систем",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер облачных IoT систем",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер-программист IoT систем",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-программист IoT систем",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+      "ork_levels": [
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/584",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/584/download"
+  },
+  "hashes": {
+    "metadata_sha256": "3e42eb5b2fa37e1e5ac0ac37ca0d4b8e518fd7a9c52f117b9c1bf4db457172b6",
+    "pdf_sha256": "e68806c828e73481bae1e275b0a908a73502bffb241b88dfb76a7be34f91c1cf",
+    "normalized_sha256": "d1c110bf358197888492c53bc1e00e3a385c2cf51f4dfa92656c77f2ab5bc0f7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

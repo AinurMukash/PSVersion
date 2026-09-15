@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1625,
+  "code": "F41100067",
+  "title": "Деятельность в области проектирования несущих конструкций",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт «Деятельность в области проектирования несущих конструкций» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях» в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров, осуществляющих проектирование конструктивных частей зданий и сооружений.",
+  "version": 1,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "41100",
+    "subclass_name": "Разработка строительных проектов"
+  },
+  "professions": [
+    {
+      "name": "Инженер-проектировщик (по несущим и ограждающим конструкциям)",
+      "ork_level": 5
+    },
+    {
+      "name": "Эксперт по экспертизе конструктивной части",
+      "ork_level": 8
+    },
+    {
+      "name": "Инженер-проектировщик (по несущим и ограждающим конструкциям)",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный конструктор проекта (в строительстве)",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер-конструктор",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник-конструктор",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "41100"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2025,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1625",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1625/download"
+  },
+  "hashes": {
+    "metadata_sha256": "658d8046bba90b52fb0bff361fa68be934208a38490c3ef1300239e0dc66f448",
+    "pdf_sha256": "8356a3d809ae012a55d91888abcce22f3463894ab7d58c905a8ce025b54d9f90",
+    "normalized_sha256": "35bae71412cff4320e925f5df21ebfc563fc88bf35657afec1e6c43f53d58ca4"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

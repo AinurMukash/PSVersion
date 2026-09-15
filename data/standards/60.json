@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 60,
+  "code": "N79120003",
+  "title": "Управление туристским предприятием",
+  "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+  "description": "Целенаправленное воздействие на трудовой коллектив туристской организации, обеспечивающее повышение эффективности ее работы, оптимизацию хозяйственного механизма в целях получения максимально возможного результата.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-06",
+  "oked": {
+    "section_code": "N",
+    "section_name": "Деятельность в области административного и вспомогательного обслуживания",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "79120",
+    "subclass_name": "Деятельность туристских операторов"
+  },
+  "professions": [
+    {
+      "name": "Первый руководитель туристского предприятия",
+      "ork_level": 8
+    },
+    {
+      "name": "Заместитель первого руководителя туристского предприятия",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "N",
+        "79120"
+      ],
+      "government_body": "Объединения юридических лиц «Казахстанская туристская ассоциация»",
+      "ork_levels": [
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/60",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/60/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6d6ea452b97e9e05df724109ad416c63bc626412b641b3157525a37409e46c9c",
+    "pdf_sha256": "7343d1f68b907ee86427e2418a737559c5c3638787d4610d85a36eb82de8a3d3",
+    "normalized_sha256": "153e696ef2300ba1685bedd00cecdc076fbf83ad64be6c793d2ce8fd7aac2ca0"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

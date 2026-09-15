@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 299,
+  "code": "O84230025",
+  "title": "Судебно-гистологическая экспертиза",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "В соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" разработан профессиональный стандарт \"Судебная гистологическая экспертиза\", который предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебной гистологической экспертизы в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2024-12-01",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Врач судебно-медицинской эксперт",
+      "ork_level": 6
+    },
+    {
+      "name": "Лаборант (средней квалификации)",
+      "ork_level": 4
+    },
+    {
+      "name": "Санитар, судебно-экспертный",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        2,
+        4,
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/299",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/299/download"
+  },
+  "hashes": {
+    "metadata_sha256": "46f1daa7fa36bd069b19a15dd7b1f54ec53cf6cd84191c3372609998b65d4559",
+    "pdf_sha256": "bfd861ae45335ffd6495ea5e82152d7f290a3a99b5d1c10cd42a5b4aa8f36bf1",
+    "normalized_sha256": "9408f9e1a92cd5fa384197a627cb48f52c7853786f52ab550c73403e1d177a58"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

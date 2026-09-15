@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1161,
+  "code": "S94910003",
+  "title": "Деятельность в сфере религии",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "Профессиональный стандарт \"Деятельность в области религии\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\", в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, применяется в области Министерства культуры и информации Республики Казахстан.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-10-01",
+  "oked": {
+    "section_code": "S",
+    "section_name": "Предоставление прочих видов услуг",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "94910",
+    "subclass_name": "Деятельность религиозных организаций"
+  },
+  "professions": [
+    {
+      "name": "Теолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Преподаватель теологии",
+      "ork_level": 6
+    },
+    {
+      "name": "Теолог",
+      "ork_level": 4
+    },
+    {
+      "name": "Имам",
+      "ork_level": 3
+    },
+    {
+      "name": "Преподаватель религии и религиоведения",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "S",
+        "94910"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        6
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1161",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1161/download"
+  },
+  "hashes": {
+    "metadata_sha256": "ab6ee10e9dbe2f883c82a8aafcafca4413e7676502f0246837290ff8829e85c8",
+    "pdf_sha256": "b7178759497b347bfb0658b4874dff1e2e6ad208d1bfa30bb9d4fae074589a6d",
+    "normalized_sha256": "35d3679303e8442afa92385e3bd016192520e59b9f68be9b7e4fd2c43fea765f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

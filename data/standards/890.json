@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 890,
+  "code": "H50200044",
+  "title": "Эксплуатация электроэнергетической системы морских судов",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Данный профессиональный стандарт включает требования к трудовым функциям, профессиональным задачам, умениям и знаниям  инженеров/специалистов основной вид деятельности, которых является техническая эксплуатация судовых электроэнергетических систем и средств автоматики.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "50200",
+    "subclass_name": "Деятельность морского и прибрежного грузового транспорта"
+  },
+  "professions": [
+    {
+      "name": "Электромеханик - наставник",
+      "ork_level": 7
+    },
+    {
+      "name": "Групповой электромеханик (Электромеханик флота)",
+      "ork_level": 6
+    },
+    {
+      "name": "Электромеханик судовой",
+      "ork_level": 6
+    },
+    {
+      "name": "Электромонтажник судовой",
+      "ork_level": 5
+    },
+    {
+      "name": "Электрик судовой",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "50200"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/890",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/890/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1cb9d656e956d846d8741d9297159593a778e119c503b467951ec1bae82b9c63",
+    "pdf_sha256": "5e01553a4b18246c0a14290e3173c057d77d931bf650a669a4ee28b398097d15",
+    "normalized_sha256": "d3248dfc478d2449b67bf6cc7dbc76db6908247bed2b846e0407b4b27c298fde"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

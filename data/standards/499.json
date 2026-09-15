@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 499,
+  "code": "R91012059",
+  "title": "Библиотекарь-методист",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "\"Библиотекарь-методист\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-01",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь-методист",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/499",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/499/download"
+  },
+  "hashes": {
+    "metadata_sha256": "634f3c6b9e2bacf730d6f297564f7ea2b5f2d7ddf4204d29c2cb59b4b342b35b",
+    "pdf_sha256": "b0976170ed18671c6eb2a95f1e10e93f6cfc83b92ffeff9dd7900e5852a29101",
+    "normalized_sha256": "73bb46b332c24534aa20600174aba4e45aba1b8bf83a088b62f682c5a326b367"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

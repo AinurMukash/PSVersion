@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 757,
+  "code": "C25620050",
+  "title": "Слесарные механосборочные работы",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Обеспечение качества и производительности слесарной обработки деталей, сборки машиностроительных изделий автотранспортных средств, трейлеров и полуприцепов",
+  "version": 1,
+  "year": 2019,
+  "revision_date": "2026-08-07",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Слесарь механосборочных работ",
+      "ork_level": 3
+    },
+    {
+      "name": "Сборщик автомобилей",
+      "ork_level": 2
+    },
+    {
+      "name": "Слесарь механосборочных работ",
+      "ork_level": 4
+    },
+    {
+      "name": "Сборщик автомобилей",
+      "ork_level": 3
+    },
+    {
+      "name": "Сборщик автомобилей",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2019,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/757",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/757/download"
+  },
+  "hashes": {
+    "metadata_sha256": "31b4160d6966e18dd88160c97d1acaa9e0c152a461416003983ffe08e1f4107a",
+    "pdf_sha256": "704ab78ab49cc96acef3e2a9a0a50c617297d126484787fccf4eb827a29208cd",
+    "normalized_sha256": "37c394e7293f442a20d3a0ae1fb6e31f6c6de6d373e02dbd759032b610c66a8a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 578,
+  "code": "J62011026",
+  "title": "Сопровождение программного обеспечения",
+  "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+  "description": "Настройка, конфигурирование, мониторинг, модернизация устранение сбоев программного обеспечения, проведение оценки адекватности и эффективности системы внутреннего контроля и системы управления рисками в области информационных технологий, проведение и участие в комплексных аудитах информационной безопасности, управление планированием и проведением аудиторских процедур, разработка программ, методик проверок по вопросам аудита информационных технологий.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Специалист по сопровождению программного обеспечения",
+      "ork_level": 5
+    },
+    {
+      "name": "Специалист по сопровождению программного обеспечения",
+      "ork_level": 6
+    },
+    {
+      "name": "ИКТ аудитор",
+      "ork_level": 6
+    },
+    {
+      "name": "ИКТ аудитор",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/578",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/578/download"
+  },
+  "hashes": {
+    "metadata_sha256": "f3c7878977e85f80204de38f675726c41b43c73a385d0e71d02dca199d9d0ab7",
+    "pdf_sha256": "dc683426f4abd8a28bbf9491f1330e30709194e046540e7fc2e3f5ee39681bf0",
+    "normalized_sha256": "24ec1de8f62f9a4a2099acc42ea9d9b1f2bff47507d824f7baf761f33ec9ef34"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

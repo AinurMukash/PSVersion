@@ -1,0 +1,95 @@
+{
+  "schema_version": "1",
+  "enbek_id": 669,
+  "code": "F42212039",
+  "title": "Строительство канализационных систем",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт «Строительство канализационных систем» определяет требования к уровню квалификации, профессионального образования и содержанию специалистов, занимающихся строительством объектов гражданского строительства: магистральных и городских трубопроводов, \nканализационных систем.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "42212",
+    "subclass_name": "Строительство трубопроводов для систем водоснабжения и канализации"
+  },
+  "professions": [
+    {
+      "name": "Монтажник технологических трубопроводов",
+      "ork_level": 2
+    },
+    {
+      "name": "Оператор машин по продавливанию трубопровода",
+      "ork_level": 2
+    },
+    {
+      "name": "Супервайзер (бригадир) строительства жилья",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер-сантехник",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник участка (в строительстве)",
+      "ork_level": 6
+    },
+    {
+      "name": "Монтажник технологических трубопроводов",
+      "ork_level": 3
+    },
+    {
+      "name": "Монтажник технологических трубопроводов",
+      "ork_level": 4
+    },
+    {
+      "name": "Оператор машин по продавливанию трубопровода",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор машин по продавливанию трубопровода",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "42212"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/669",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/669/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6af8ae3a6549b55687427f93e88650c092ee5233a4df34b991bc968ef0503d20",
+    "pdf_sha256": "b1f43aa39583e27675681163f38c75e5bb10df86d717abe0385c6bf08731d2eb",
+    "normalized_sha256": "eaf7a34b0a982092b4134137955ea6078f2f1837977cb8734ed8f92672af0a59"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

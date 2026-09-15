@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1303,
+  "code": "H52231076",
+  "title": "Управление аэронавигационной информацией",
+  "government_body": "Министерство транспорта Республики Казахстан",
+  "description": "Профессиональный стандарт \"Управление аэронавигационной информации\" разработан в соответствии со статьей 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и устанавливает требования к руководителям организаций и специалистам, осуществляющим деятельность в области обеспечения аэронавигационной информации.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52231",
+    "subclass_name": "Регулирование использования воздушного пространства"
+  },
+  "professions": [
+    {
+      "name": "Первые руководители учреждений, организаций и предприятий",
+      "ork_level": 8
+    },
+    {
+      "name": "Руководители (управляющие) специализированных воздушных транспортных подразделений",
+      "ork_level": 7
+    },
+    {
+      "name": "Руководители (управляющие) специализированных воздушных транспортных подразделений",
+      "ork_level": 6
+    },
+    {
+      "name": "Другие диспетчеры по транспорту и работники родственных занятий, н.в.д.г",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52231"
+      ],
+      "government_body": "Министерство транспорта Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1303",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1303/download"
+  },
+  "hashes": {
+    "metadata_sha256": "41c3a6594d3aefcdd85bdadd6e20fd34460c53fa3f7fa110d80706fa09eaed1c",
+    "pdf_sha256": "a9b3bc387d07d37f24d712be64c320f7cafd006863a10b2c671559036bf7cf43",
+    "normalized_sha256": "f9d307ead038c6843117d72b2d5a2685abfa4e38fbebe8a649f2f9831e18c9a9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

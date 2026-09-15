@@ -1,0 +1,101 @@
+{
+  "schema_version": "1",
+  "enbek_id": 586,
+  "code": "J62011023",
+  "title": "Разработки по облачным технологиям",
+  "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+  "description": "Проектирование, создание и администрирование облачных сервисов",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Специалист по облачным вычислениям",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по облачным вычислениям",
+      "ork_level": 7
+    },
+    {
+      "name": "Администратор облачных технологий",
+      "ork_level": 5
+    },
+    {
+      "name": "Администратор облачных технологий",
+      "ork_level": 6
+    },
+    {
+      "name": "Администратор облачных технологий",
+      "ork_level": 7
+    },
+    {
+      "name": "Архитектор облачных технологий",
+      "ork_level": 5
+    },
+    {
+      "name": "Архитектор облачных технологий",
+      "ork_level": 6
+    },
+    {
+      "name": "Архитектор облачных технологий",
+      "ork_level": 7
+    },
+    {
+      "name": "Разработчик облачных технологий",
+      "ork_level": 5
+    },
+    {
+      "name": "Разработчик облачных технологий",
+      "ork_level": 6
+    },
+    {
+      "name": "Разработчик облачных технологий",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/586",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/586/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e4ef27c24cf6533c69b8e9b9f59b1ae19469a3562940668215de2cfef33531c2",
+    "pdf_sha256": "b7909d64247b3bcf9dec645afa444ee63efc71974bc3bde4c997d95e45fbfd9e",
+    "normalized_sha256": "ff3af9e3cf13aac953ba0261455b870e7e5d0fea83ea5af75ae603cb15fcffaf"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

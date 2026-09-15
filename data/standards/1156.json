@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1156,
+  "code": "F43298031",
+  "title": "Лифтовое хозяйство и эскалаторы (по видам)",
+  "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан, Подведомственная организация Комитета (АО «Казахстан-ский центр модернизации и развития жилищно-коммунального хозяй-ства»)",
+  "description": "Обеспечение безопасной эксплуатации лифтов в соответствии с требованиями технического регламента;",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43298",
+    "subclass_name": "Прочие строительно-монтажные работы, не включенные в другие группировки"
+  },
+  "professions": [
+    {
+      "name": "Электромеханик по лифтам и эскалаторам",
+      "ork_level": 4
+    },
+    {
+      "name": "Техники-механики",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43298"
+      ],
+      "government_body": "Комитет по делам строительства и жилищно-коммунального хозяйства Министерства индустрии и инфраструктурного развития Республики Казахстан, Подведомственная организация Комитета (АО «Казахстан-ский центр модернизации и развития жилищно-коммунального хозяй-ства»)",
+      "ork_levels": [
+        4
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1156",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1156/download"
+  },
+  "hashes": {
+    "metadata_sha256": "ca8c233db0468ac4a3837e2c89845aeb69e23e0c4783846a8bd0550bfcdc3c29",
+    "pdf_sha256": "32239ba0bd1d9828cd83d5e4b3e59a3ed6db3e555eccf1aa472c69107bdc298c",
+    "normalized_sha256": "89db20cb2ef4bb8b4cb394ffd6dc329edd94ae3b1fb521b502597e2eee82e753"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

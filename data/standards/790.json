@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 790,
+  "code": "C25620043",
+  "title": "Термическая обработка",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Термическая обработка заготовок и деталей из металлов и сплавов, а также повышение эксплуатационных свойств деталей машин и приборов путем термической обработки.\nНаряду с требованиями к теоретическим и практическим знаниям, содержащимся в разделе \"знания\", рабочий должен знать: правила и нормы по охране труда, производственной санитарии и противопожарной безопасности, правила пользования средствами индивидуальной защиты, требования, предъявляемые к качеству выполняемых работ (услуг), к рациональной организации труда на рабочем месте, виды брака и способы его предупреждения и устранения, производственную сигнализацию",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-09-01",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Термист",
+      "ork_level": 2
+    },
+    {
+      "name": "Термист",
+      "ork_level": 3
+    },
+    {
+      "name": "Термист",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/790",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/790/download"
+  },
+  "hashes": {
+    "metadata_sha256": "368148a2d78f45b0d4d853c38e61b4035c8c107598042ad91117ac59ce36615e",
+    "pdf_sha256": "eb72a97a32c1a5ca0da6327406f49da8b3da84b68c3b02d9eb4cfbcbc381f9eb",
+    "normalized_sha256": "e29a8183b9735e1dc439588b445b1b124694fab023b3f64646c35d4a46bfead0"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

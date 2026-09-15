@@ -1,0 +1,90 @@
+{
+  "schema_version": "1",
+  "enbek_id": 892,
+  "code": "H52104079",
+  "title": "Прием, хранение и отпуск газа",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Прием, хранение и отпуск газа» применяется в газовой промышленности для обеспечения безопасного и эффективного управления процессами приема, хранения и отпуска газа. Экономическая деятельность включает инвестиции в инфраструктуру, обеспечение непрерывной работы системы, оптимизацию процессов и обслуживание клиентов.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52104",
+    "subclass_name": "Хранение нефти"
+  },
+  "professions": [
+    {
+      "name": "Инженер-геолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-технолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Оператор по добыче нефти и газа",
+      "ork_level": 3
+    },
+    {
+      "name": "Мастер по добыче нефти, газа и конденсата",
+      "ork_level": 5
+    },
+    {
+      "name": "Оператор по исследованию скважин",
+      "ork_level": 3
+    },
+    {
+      "name": "Мастер по ремонту и обслуживанию газового оборудования",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по эксплуатации оборудования подземных хранилищ газа",
+      "ork_level": 6
+    },
+    {
+      "name": "Оператор технологических установок",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52104"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/892",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/892/download"
+  },
+  "hashes": {
+    "metadata_sha256": "4d06340efb3fd815fe369f59c1bd2e9eaf826720f38a54f2a1587b0b5a81e540",
+    "pdf_sha256": "043715becfac40a6f380e96012b92cd4be118edf697319427758c38b76c35753",
+    "normalized_sha256": "c46da691b2ed7dac439f27f34b00f4c6f65ed1bad6a50c35ae568a2285ddac9e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

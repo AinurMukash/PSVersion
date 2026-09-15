@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 334,
+  "code": "O84230022",
+  "title": "Судебно-экспертное исследование специальных химических веществ",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "Профессиональный стандарт \"Судебно-экспертное исследование специальных химических веществ\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебно-экспертного исследования специальных химических веществ и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебные эксперты",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/334",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/334/download"
+  },
+  "hashes": {
+    "metadata_sha256": "adb5a64fe07046cba27875ec15426b23cb2ff1e6d4a9f68a8dc6fef70fe60180",
+    "pdf_sha256": "4fa8e24c78c9f89ae0af97fe22ad2ca5ffabfccf85eedddc2cc90ea86ee93048",
+    "normalized_sha256": "387c7c0521cceb2572a94769ca82a452d9106feb9d8ec776b2f70db388128834"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

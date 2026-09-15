@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1060,
+  "code": "C25620088",
+  "title": "Производство продукции на 3Dпринтере",
+  "government_body": "Учреждение «Профессиональная Академия  «Туран-Профи»",
+  "description": "Производство изделий  на 3D принтере  для машиностроения включает: осмотр, техническое обслуживание и профилак-тический ремонт установки, подготовку  для работы самого принтера, подготовку расходного материала из которого будет изготавливаться модель или прототип, изготовление, контроль качества изделия, соблюдение правил техники безопасности, пожарной безопасности, производственной санитарии и экологии",
+  "version": 2,
+  "year": 2023,
+  "revision_date": null,
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Помощник оператора 3D печати",
+      "ork_level": 2
+    },
+    {
+      "name": "Оператор 3D печати",
+      "ork_level": 3
+    },
+    {
+      "name": "Инженер-технолог 3D печати",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер-технолог 3D печати",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "Учреждение «Профессиональная Академия  «Туран-Профи»",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1060",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1060/download"
+  },
+  "hashes": {
+    "metadata_sha256": "c7e22a5d1c2eb5d6fa24857ae9a0ad2ab0a3418b545602dd1299ebf2ab8aa9f2",
+    "pdf_sha256": "318ca5e186a7d0a0d753e972e911d77e65b64ff7866aca2c893aa20cd7ffc526",
+    "normalized_sha256": "5de762918f2693436d266cc9257d343f437471a431ddd6e8ade1d4e27eb34a1f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

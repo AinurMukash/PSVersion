@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 952,
+  "code": "M71122039",
+  "title": "Гидрогеологические исследования (гидрогеолог)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Проведение работ по изучению подземных вод, условий их накопления и динамики",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Техник-гидрогеолог",
+      "ork_level": 4
+    },
+    {
+      "name": "Гидрогеолог-специалист",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер-гидрогеолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший гидрогеолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный гидрогеолог",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/952",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/952/download"
+  },
+  "hashes": {
+    "metadata_sha256": "3c38a35df903adfa8b417e495afdcd954579f27411693526afdc1d100be34a0e",
+    "pdf_sha256": "ffe5609ff382460a1f45143963f3c08b16c724112cd10a1d6d8b13b5ceec75b3",
+    "normalized_sha256": "7b4d131b06081d27c6a8576cf8faae45d8df8527636036e1454d2829f79bf1c8"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1571,
+  "code": "H52215149",
+  "title": "Эксплуатация и ремонт технологического оборудования",
+  "government_body": "Министерство энергетики Республики Казахстан",
+  "description": "Профессиональный стандарт «Эксплуатация и ремонт технологического оборудования» применяется в различных отраслях промышленности для обеспечения безопасной и эффективной работы оборудования. Экономическая деятельность включает инвестиции в оборудование, его эксплуатацию, регулярное обслуживание и проведение ремонтных работ.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52215",
+    "subclass_name": "Эксплуатация магистральных и иных трубопроводов, в том числе водоводов"
+  },
+  "professions": [
+    {
+      "name": "Слесарь по ремонту и обслуживанию технологического оборудования*",
+      "ork_level": 3
+    },
+    {
+      "name": "Электромонтер по ремонту и обслуживанию электрооборудования",
+      "ork_level": 3
+    },
+    {
+      "name": "Инженер-механик нефтеперекачивающей станции",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник БПО (базы производственного обслуживания)",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер по ремонту и обслуживанию технологического оборудования",
+      "ork_level": 6
+    },
+    {
+      "name": "Мастер по ремонту технологического оборудования",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52215"
+      ],
+      "government_body": "Министерство энергетики Республики Казахстан",
+      "ork_levels": [
+        3,
+        5,
+        6
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1571",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1571/download"
+  },
+  "hashes": {
+    "metadata_sha256": "80c6aa6ac19c625e1a0853c4fbd63a4a11d692601fcafdd3aec9996458b100ea",
+    "pdf_sha256": "1741f6b97ef55995aa66af98da32119a5b3e55d94524ac2746e563dac58f262f",
+    "normalized_sha256": "f5852e7512bcc8b48e4ed124e1f3dccf580964c00888c03d337ae65241e42a68"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

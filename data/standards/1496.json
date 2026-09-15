@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1496,
+  "code": "A02400038",
+  "title": "Агролесомелиорация",
+  "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+  "description": "Профессиональный стандарт «Агролесомелиорация» (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях»  и предназначен для формирования образовательных программ, в том числе обучения персонала на предприятиях, сертификации работников и выпускников организации образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-12-01",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "02400",
+    "subclass_name": "Услуги, связанные с лесоводство и лесозаготовками"
+  },
+  "professions": [
+    {
+      "name": "Агролесомелиоратор (средней квалификации)",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по лесным культурам",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник лесопитомника",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер-лесопатолог",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "02400"
+      ],
+      "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1496",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1496/download"
+  },
+  "hashes": {
+    "metadata_sha256": "42f898520319afef654f46ea6b8ff87886983bb549dd619deaa491291ae8e9f3",
+    "pdf_sha256": "31010f9bf6f91188b22e40743a78a8c228ea084fee914069be929d40a77c861d",
+    "normalized_sha256": "6d3eaf6fc2800f381d0adcd7dfb491bc9beb41c5bed91d6b55ae79dd9e241a30"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "enbek_id": 92,
+  "code": "A01490014",
+  "title": "Пчеловодство",
+  "government_body": "Министерство сельского хозяйства Республики Казахстан",
+  "description": "Отрась пчеловодства это разведение медоносных пчёл для получения мёда, пчелиного воска и других продуктов, а также опыление сельскохозяйственных культур с целью повышения их урожайности.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01490",
+    "subclass_name": "Разведение прочих видов животных"
+  },
+  "professions": [
+    {
+      "name": "Пчеловод",
+      "ork_level": 4
+    },
+    {
+      "name": "Пчеловод-техник",
+      "ork_level": 4
+    },
+    {
+      "name": "Фермер-пасечник",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник-технолог (общий профиль)",
+      "ork_level": 5
+    },
+    {
+      "name": "Агроном",
+      "ork_level": 6
+    },
+    {
+      "name": "Ветеринар",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01490"
+      ],
+      "government_body": "Министерство сельского хозяйства Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/92",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/92/download"
+  },
+  "hashes": {
+    "metadata_sha256": "3869420699e2105da1f3aa80c5d513f24e30eab13b65442fcb2f8e3e67006ef1",
+    "pdf_sha256": "1e4d1a0f6d8572a680b11bcef9a87cf6dacff085e3aae0ba2ba4918e6189a8f0",
+    "normalized_sha256": "c7c162adec49aba1a8234ed2226db66d2e1c169333cfe6562f016b6b607d7ea9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

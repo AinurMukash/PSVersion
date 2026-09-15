@@ -1,0 +1,105 @@
+{
+  "schema_version": "1",
+  "enbek_id": 664,
+  "code": "J59110019",
+  "title": "Деятельность по производству кино-, видеофильмов и телевизионных программ",
+  "government_body": "ТОО «Оркен Медиа»",
+  "description": "Создание и продвижение отечественных кино-, видео- и телевизионных программ, характеризующихся актуальностью,  публичностью, универсальностью либо специализацией, общедоступностью для максимально широкой зрительской аудитории.\nОбщие требования к знаниям: правила и нормы охраны труда, техники безопасности, производственной санитарии и противопожарной защиты., правила документационного обеспечения управления и деловой переписки, этика деловых отношений, грамотная устная и письменная речь на государственном и русском языках, использование офисного программного обеспечения.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": null,
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "59110",
+    "subclass_name": "Деятельность по производству кино-, видеофильмов и телевизионных программ"
+  },
+  "professions": [
+    {
+      "name": "Главный режиссер",
+      "ork_level": 8
+    },
+    {
+      "name": "Главный редактор творческого объединения",
+      "ork_level": 8
+    },
+    {
+      "name": "Генеральный продюсер",
+      "ork_level": 8
+    },
+    {
+      "name": "Режиссер",
+      "ork_level": 7
+    },
+    {
+      "name": "Ведущий программы",
+      "ork_level": 6
+    },
+    {
+      "name": "Диктор",
+      "ork_level": 6
+    },
+    {
+      "name": "Репортер телевизионных/радионовостей",
+      "ork_level": 6
+    },
+    {
+      "name": "Комментатор",
+      "ork_level": 6
+    },
+    {
+      "name": "Корреспондент",
+      "ork_level": 6
+    },
+    {
+      "name": "Обозреватель",
+      "ork_level": 6
+    },
+    {
+      "name": "Координатор по связям с государственными органами",
+      "ork_level": 6
+    },
+    {
+      "name": "Консультант по работе с мультимедийными изданиями",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "59110"
+      ],
+      "government_body": "ТОО «Оркен Медиа»",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/664",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/664/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7dbf7acbd4ccc0fc96b176eea3c00c22b09d1635946b320eebaeb47f9845e71e",
+    "pdf_sha256": "9bf05c4dcfb1ccaf16db177d26cb2be24a64d70cccdfa58b788e2249f961a49e",
+    "normalized_sha256": "2ccf885ed30b7b09c77bf52b4dbd9e2ab8571aacd6a50cda906ac5f23f8db67d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

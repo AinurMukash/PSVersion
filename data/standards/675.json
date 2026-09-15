@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 675,
+  "code": "F43390036",
+  "title": "Мастер сухого строительства (рабочая квалификация)",
+  "government_body": "ТОО «Кнауф Гипс Капчагай. Предприятие с участием ДЭГ»",
+  "description": ".Выполнение работ по устройству ограждающих конструкций, ремонту, реконструкции и отделки внутренних и наружных поверхностей зданий и сооружений.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43390",
+    "subclass_name": "Прочие отделочные работы"
+  },
+  "professions": [
+    {
+      "name": "Мастер сухого строительства (рабочая квалификация)",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43390"
+      ],
+      "government_body": "ТОО «Кнауф Гипс Капчагай. Предприятие с участием ДЭГ»",
+      "ork_levels": [
+        3
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/675",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/675/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b9843bbe0455c21db1119e6d62d6d3200b0b13f6259a51534d5ed1dbe176cd8f",
+    "pdf_sha256": "5dc4e6e9e1d6a23a6c399d35e083e2e4fd0a3288a9dbbb0c01701672ea572d88",
+    "normalized_sha256": "76b5f7c4b33a1257d1825c8f983b53cb34c37cb4af8779ac7d490fc26a365e48"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

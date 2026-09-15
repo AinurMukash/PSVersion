@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 321,
+  "code": "O84230005",
+  "title": "Судебно-товароведческая экспертиза продовольственных товаров",
+  "government_body": "Министерство юстиции Республики Казахстан",
+  "description": "Профессиональный стандарт «Судебно-экспертное товароведческое исследование продовольственных товаров» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях» и предназначен для определения требований к уровню квалификации, компетентности, к содержанию, качеству и условиям труда судебного эксперта по производству судебно-экспертного товароведческого исследования продовольственных товаров и применяется в области судебно-экспертной деятельности.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-01-04",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84230",
+    "subclass_name": "Деятельность в области юстиции и правосудия"
+  },
+  "professions": [
+    {
+      "name": "Начальник отдела (специализированного в прочих отраслях)",
+      "ork_level": 6
+    },
+    {
+      "name": "Судебные эксперты",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84230"
+      ],
+      "government_body": "Министерство юстиции Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/321",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/321/download"
+  },
+  "hashes": {
+    "metadata_sha256": "37e78fd6c5e4e6b6c1c7e72959e46676957fea359582c99652d75e78df8ec534",
+    "pdf_sha256": "375c4626539c41a0b9fa033a520a49afdfebeeb38c1ba5fd74bce18d67d40488",
+    "normalized_sha256": "461af6332ee1b7b3394a6f3bf2b0f9a12b17a416902f619f1feda250e35e907a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

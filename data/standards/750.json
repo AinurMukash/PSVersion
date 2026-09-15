@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 750,
+  "code": "C25620051",
+  "title": "Изготовление зубчатых передач",
+  "government_body": "ТОО «Казахстанский институт развития промышленности»",
+  "description": "Работы по нарезанию зубьев различного профиля и шага на разных деталях на зуборезных станках различных типов и моделей.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-01-09",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25620",
+    "subclass_name": "Основные технологические процессы машиностроения"
+  },
+  "professions": [
+    {
+      "name": "Зуборезчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Зуборезчик",
+      "ork_level": 3
+    },
+    {
+      "name": "Зуборезчик",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25620"
+      ],
+      "government_body": "ТОО «Казахстанский институт развития промышленности»",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/750",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/750/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b19024ab5374c88f32c672db9a9a001401be4be2e92c579d4c4e259ae72d6e72",
+    "pdf_sha256": "89c4e8e9b45302d01063d32e24185a8b0b291dc73a11dee9a7e3f7b0777fd1ff",
+    "normalized_sha256": "098a478a4855c4d983b3fdd04c89d2bc7f6eb96e53cb2aab6f278677e7bcf62d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

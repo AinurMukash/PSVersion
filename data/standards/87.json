@@ -1,0 +1,82 @@
+{
+  "schema_version": "1",
+  "enbek_id": 87,
+  "code": "A01161002",
+  "title": "Выращивание хлопка-сырца",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Осуществление организационно-технических мероприятий по выращиванию хлопчатника включает обеспечение рационального и регулярного ухода за посевами, ростом и развитием, а также осуществление контроля порядка, безопасности и качества хлопка-сырца.",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01162",
+    "subclass_name": "Выращивание прядильных культур и их семян"
+  },
+  "professions": [
+    {
+      "name": "Агроном по орошаемому земле- и водопользованию",
+      "ork_level": 6
+    },
+    {
+      "name": "Агроном по защите растений",
+      "ork_level": 5
+    },
+    {
+      "name": "Техник-мелиоратор",
+      "ork_level": 5
+    },
+    {
+      "name": "Протравщик хлопковых семян",
+      "ork_level": 4
+    },
+    {
+      "name": "Квалифицированный сельскохозяйственный рабочий (полевые культуры)",
+      "ork_level": 4
+    },
+    {
+      "name": "Работник по борьбе с вредителями",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01162"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/87",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/87/download"
+  },
+  "hashes": {
+    "metadata_sha256": "02fb0efab91ba606aa1dc0ae0b3f861770e38058aac633df58e85f7ae41d00ab",
+    "pdf_sha256": "c914773ac6ef8005c548cd28162320ffec66913dbc5966ae1c5312381307920c",
+    "normalized_sha256": "a975507abbc3861eeab63680367529689830cd633b4137f5c1b19e638f00c2a6"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

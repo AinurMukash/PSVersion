@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 36,
+  "code": "R90011014",
+  "title": "Артист балета",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "Театральная деятельность - деятельность по созданию, распространению и сохранению произведений театрального искусства.",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-20",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90011",
+    "subclass_name": "Театральная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Артист балета",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90011"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        4
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/36",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/36/download"
+  },
+  "hashes": {
+    "metadata_sha256": "e0671ab5757fc8449b3d4fda43e80031138d8b9a21d1d5531db15d880d48a9c3",
+    "pdf_sha256": "07fde3c8e6df69f8f54aad484ec86993ae8eae0a2dc40c05f3066dbc52187240",
+    "normalized_sha256": "9557263ba156b45a0a5c7b08c190842224fd49b66afacb6e7af6f666af089df5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

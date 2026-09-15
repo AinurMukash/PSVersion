@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 519,
+  "code": "R91012056",
+  "title": "Библиотекарь-редактор каталогов по Брайлю",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Библиотекарь-редактор каталогов по Брайлю\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь-редактор каталогов по Брайлю",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/519",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/519/download"
+  },
+  "hashes": {
+    "metadata_sha256": "1f0de289b42e81e9bd9a9c7351a6870d10be1691cfb17e3e04240b551f4c5c3d",
+    "pdf_sha256": "bfe14b7008cc678b81a5bcbd52c4ff0b7589206083d099e040494ce620871270",
+    "normalized_sha256": "177fb3adf91ae271cc9d12e4f574168785f388f41b3d60ccecab69b7f7fc88d6"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

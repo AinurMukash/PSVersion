@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 488,
+  "code": "R91012065",
+  "title": "Библиотекарь по тифлоинформационным технологиям",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Библиотекарь по тифлоинформационным технологиям\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91012",
+    "subclass_name": "Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов"
+  },
+  "professions": [
+    {
+      "name": "Библиотекарь по тифлоинформационным  технологиям",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/488",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/488/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b11224f09993e67a40a027f55b918c1d49355e94fac06caf2bfc8e3b759f713b",
+    "pdf_sha256": "a1f7aa2a5c9e731dad94c93998d219bcf8a76ac35aa324202dc2fed9c0a2a546",
+    "normalized_sha256": "73940f945b69b4a3d39b82b6b3ee1f9bac9f174996e00500a67c43c890af3da8"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

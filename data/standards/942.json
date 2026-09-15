@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "enbek_id": 942,
+  "code": "M71122040",
+  "title": "Геоэкологические исследования (Геоэколог)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Проведение наблюдений за природными и техногенными явлениями, их результатами, определение экологических рисков.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Геоэколог-техник",
+      "ork_level": 4
+    },
+    {
+      "name": "Геоэколог-специалист",
+      "ork_level": 5
+    },
+    {
+      "name": "Геолог-эколог",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший геоэколог",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный геоэколог",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/942",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/942/download"
+  },
+  "hashes": {
+    "metadata_sha256": "da688aa00c9e7aa5291da1f8e7163853ad5183831a2d886544acaf9e52a978b0",
+    "pdf_sha256": "82cfd9e583fb057b07acadc906793d34cc3e117ed79872395402f340addac237",
+    "normalized_sha256": "29af676c3894aa307614fdda1b333d5587831b20fa86ce70a4c2c2b85345b06a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

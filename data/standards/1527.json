@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1527,
+  "code": "A01611048",
+  "title": "Мелиорация деградированных земель",
+  "government_body": "Министерство сельского хозяйства Республики Казахстан",
+  "description": "Настоящий профессиональный стандарт определяет требования к уровню квалификации и компетентности, к содержанию, качеству и условиям труда, а также предназначен для решения широкого круга задач в организациях на работы по мелиорации деградированных земель.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2029-05-30",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01611",
+    "subclass_name": "Деятельность, способствующая растениеводству, кроме эксплуатации оросительных систем"
+  },
+  "professions": [
+    {
+      "name": "Агрохимик (средней квалификации)",
+      "ork_level": 4
+    },
+    {
+      "name": "Инженер по мелиорации и рекультивации",
+      "ork_level": 6
+    },
+    {
+      "name": "Рабочий по мелиорации земель",
+      "ork_level": 2
+    },
+    {
+      "name": "Агроном-почвовед",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-исследователь",
+      "ork_level": 7
+    },
+    {
+      "name": "Техник-гидротехник",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01611"
+      ],
+      "government_body": "Министерство сельского хозяйства Республики Казахстан",
+      "ork_levels": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1527",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1527/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b16f44e21a47db44c88e57dbffb44cf140b0f9e192b8263c7aed796bee0ba2bf",
+    "pdf_sha256": "9b187b7047427123a5fac42890b30174d702af85887c973f6883714733226f96",
+    "normalized_sha256": "54202e5b7d2c21ab136afc307c8a58eec4829784534c159c246734ae236f417f"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

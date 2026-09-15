@@ -1,0 +1,80 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1476,
+  "code": "J62011083",
+  "title": "Разработка графического и мультимедийного дизайна",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Профессиональный стандарт «Разработка графического и мультимедийного дизайна» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-01-01",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Графический дизайнер",
+      "ork_level": 6
+    },
+    {
+      "name": "Графический дизайнер",
+      "ork_level": 5
+    },
+    {
+      "name": "Мультимедийный дизайнер",
+      "ork_level": 5
+    },
+    {
+      "name": "Интерактивный дизайнер",
+      "ork_level": 5
+    },
+    {
+      "name": "Специалист по верстке графического интерфейса",
+      "ork_level": 5
+    },
+    {
+      "name": "Специалист по верстке графического интерфейса",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        5,
+        6
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1476",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1476/download"
+  },
+  "hashes": {
+    "metadata_sha256": "0537453b795fbedb7dde698dd92f514c2c47227fb4b840c77b04c1a96a6ead1e",
+    "pdf_sha256": "3df85d4996fbd78bbca3228a1ac0bc18a97cad370132c2765ad9cff9fa232c6d",
+    "normalized_sha256": "fd71f927e754ce467b83cc00fcd391774feca262236df94083de0c3f7551077a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

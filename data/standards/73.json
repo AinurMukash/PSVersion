@@ -1,0 +1,91 @@
+{
+  "schema_version": "1",
+  "enbek_id": 73,
+  "code": "R93120015",
+  "title": "Руководство спортивными и фитнес клубами (организациями)",
+  "government_body": "Министерство туризма и спорта Республики Казахстан",
+  "description": "Краткое описание профессионального стандарта\tРуководство деятельностью в области физической культуры и спорта по месту работы  и месту отдыха, а также в образовательных организациях, осуществляющих деятельность в области физической культуры и спорта.",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-31",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "93120",
+    "subclass_name": "Деятельность спортивных клубов"
+  },
+  "professions": [
+    {
+      "name": "Директор (администратор) спортивного сооружения",
+      "ork_level": 8
+    },
+    {
+      "name": "Директор (заведующий) спортивного сооружения",
+      "ork_level": 8
+    },
+    {
+      "name": "Директор дворца, спорта",
+      "ork_level": 8
+    },
+    {
+      "name": "Директор спортивного клуба",
+      "ork_level": 8
+    },
+    {
+      "name": "Директор физкультурно-спортивной организации",
+      "ork_level": 8
+    },
+    {
+      "name": "Директор фитнес-центра",
+      "ork_level": 8
+    },
+    {
+      "name": "Заведующий спортивной базой",
+      "ork_level": 8
+    },
+    {
+      "name": "Председатель спортивного клуба",
+      "ork_level": 8
+    },
+    {
+      "name": "Руководитель спортивного центра",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "93120"
+      ],
+      "government_body": "Министерство туризма и спорта Республики Казахстан",
+      "ork_levels": [
+        8
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/73",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/73/download"
+  },
+  "hashes": {
+    "metadata_sha256": "0570c44c1196b3d23aa26574098128ac01bd871748f57bf3964d137b7e4229ba",
+    "pdf_sha256": "6acfa15e7939c477e15b031da96c571cef5baae67d6237246c36d2582502d941",
+    "normalized_sha256": "cb2e5d40a85a2fb5c84cd62cfb3ab8c4b229a8beb2850b075ac175e862502b65"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

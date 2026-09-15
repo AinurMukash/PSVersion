@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 435,
+  "code": "R91011041",
+  "title": "Киновед",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Киновед\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" и в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91011",
+    "subclass_name": "Деятельность фильмо- и фонотек"
+  },
+  "professions": [
+    {
+      "name": "Киновед",
+      "ork_level": 6
+    },
+    {
+      "name": "Киновед",
+      "ork_level": 7
+    },
+    {
+      "name": "Киновед",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91011"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/435",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/435/download"
+  },
+  "hashes": {
+    "metadata_sha256": "99cca72fc488bf0ef131b60dcca5f87ce8e39385a980e507fe04973921f12e72",
+    "pdf_sha256": "2ade69023e6a27077cd1bc7298b4a6c1767a01c91690fdc8c0e273831d8d81b5",
+    "normalized_sha256": "5f3c65d59b08bf426c5da322a08dd60b4748f78a1e6327ba7fce15c4026060f3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

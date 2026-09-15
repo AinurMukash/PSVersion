@@ -1,0 +1,89 @@
+{
+  "schema_version": "1",
+  "enbek_id": 910,
+  "code": "H49200059",
+  "title": "Железнодорожные перевозки грузов: грузовая и коммерческая работа (станционный уровень)",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS»",
+  "description": "Описывает функциональные обязанности специалистов по технологии перевозки грузов, выполняемых в пунктах отправления, в пунктах следования и в пунктах назначения.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "49200",
+    "subclass_name": "Деятельность грузового железнодорожного транспорта"
+  },
+  "professions": [
+    {
+      "name": "Заместитель начальника станции по грузовой и коммерческой работе",
+      "ork_level": 6
+    },
+    {
+      "name": "Ведущий инженер (хозяйства грузовой и коммерческой работы).",
+      "ork_level": 6
+    },
+    {
+      "name": "Диспетчер грузовой",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший приемосдатчик груза и багажа.",
+      "ork_level": 5
+    },
+    {
+      "name": "Старший кассир товарный",
+      "ork_level": 5
+    },
+    {
+      "name": "Агент по розыску грузов и багажа",
+      "ork_level": 5
+    },
+    {
+      "name": "Кассир товарный",
+      "ork_level": 4
+    },
+    {
+      "name": "Приемосдатчик груза и багажа",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "49200"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS»",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/910",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/910/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7cc5ab8ef7aa102a09ae1a7fe15b0105c179f835122b935a471e4a322012c310",
+    "pdf_sha256": "e73a20d8e15f20c2aed45983eca3f8e748db127a6a9b0060bc93e75731d75abf",
+    "normalized_sha256": "e82bb80e502661d1ace6e9a3a2f90533842b417b151e9d1ebc89a5f820a262f0"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

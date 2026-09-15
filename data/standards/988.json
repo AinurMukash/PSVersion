@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "enbek_id": 988,
+  "code": "M71122035",
+  "title": "Петрографические исследования (Петрограф)",
+  "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+  "description": "Изучение горных пород, их минералогического и химического состава, структур и текстур, условий залегания, закономерностей распространения, происхождения и изменения в земной коре и на поверхности Земли.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Петрограф-специалист",
+      "ork_level": 5
+    },
+    {
+      "name": "Петрограф-инженер",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший петрограф",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный петрограф",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Объединение юридических лиц «Ассоциация производственных геологических организаций РК»",
+      "ork_levels": [
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/988",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/988/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2b9e3899f47397535b8b9081d978306e9942331f2e0d95a6c7bad49fbae16538",
+    "pdf_sha256": "b899181ebb9d866bdedf16a7efbbce6d9066aba706937e08551291be4270fc4f",
+    "normalized_sha256": "97ee54853e179c017f54dedb7e3af030f5555fcde08dbf2918f23b9c61145e7e"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

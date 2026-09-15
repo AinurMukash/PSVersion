@@ -1,0 +1,96 @@
+{
+  "schema_version": "1",
+  "enbek_id": 585,
+  "code": "J62011034",
+  "title": "Разработка систем обработки и хранения больших данных",
+  "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+  "description": "Большие данные нужны в маркетинге, перевозках, автомобилестроении, здравоохранении, науке, сельском хозяйстве и других сферах, в которых можно собрать и обработать нужные массивы информации",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "Специалист по Data Mining",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по Data Mining",
+      "ork_level": 7
+    },
+    {
+      "name": "Специалист по нейронным сетям",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по нейронным сетям",
+      "ork_level": 7
+    },
+    {
+      "name": "Специалист по машинному обучению",
+      "ork_level": 6
+    },
+    {
+      "name": "Специалист по машинному обучению",
+      "ork_level": 7
+    },
+    {
+      "name": "Инженер NLP (специалист по компьютерной лингвистике)",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер NLP (специалист по компьютерной лингвистике)",
+      "ork_level": 7
+    },
+    {
+      "name": "Программист компьютерного зрения",
+      "ork_level": 6
+    },
+    {
+      "name": "Программист компьютерного зрения",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Товарищество с ограниченной ответственностью «Компания системных исследований «Фактор»",
+      "ork_levels": [
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/585",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/585/download"
+  },
+  "hashes": {
+    "metadata_sha256": "14ddd7fb4664da48572b1921c0297adbda331b51ca2392c038a5f5f532a60d78",
+    "pdf_sha256": "9952acd4e273a3315fa94e8debae553e48f1d38fc33ca29279da23ad0eec76ee",
+    "normalized_sha256": "2f92f01e437b88d3c05570b7a7cb82ab9916cc11ee762ab7e8d53afdced3c2ba"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

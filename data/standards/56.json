@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 56,
+  "code": "R90030011",
+  "title": "Художник-монументалист",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "Деятельность скульпторов, художников, художников-мультипликаторов, граверов, офортистов и т.д., работающих индивидуально",
+  "version": 1,
+  "year": 2022,
+  "revision_date": "2025-12-20",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90030",
+    "subclass_name": "Художественное и литературное творчество"
+  },
+  "professions": [
+    {
+      "name": "Художник-монументалист",
+      "ork_level": 6
+    },
+    {
+      "name": "Художник-монументалист",
+      "ork_level": 7
+    },
+    {
+      "name": "Художник-монументалист",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90030"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2022,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/56",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/56/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7b9efd54a2755af640182598afc7528a8e53f833372e723a5c6cf18f9e3bcdd0",
+    "pdf_sha256": "405b30ed6fc80400b65aa9cce7aa9f9e3d589d6a47e9dd9ce72d83d01f74457c",
+    "normalized_sha256": "889ff3c418f68036afb50627fb2461f253d1d66d6d107c031277847d66548bd9"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

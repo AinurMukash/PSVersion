@@ -1,0 +1,90 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1459,
+  "code": "J62011053",
+  "title": "Архитекторы программного обеспечения",
+  "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+  "description": "Оценка и анализ систем, выработка системных решений, разработка ИТ-стратегий, концепций и архитектуры ИС, внедрение инноваций в бизнес-процессы, консультирование при выборе и внедрении оптимальных систем, с точки зрения ИТ- стратегии предприятия, ИТ и использования инвестиций в ИС с\nмаксимальной выгодой.",
+  "version": 3,
+  "year": 2024,
+  "revision_date": "2027-12-30",
+  "oked": {
+    "section_code": "J",
+    "section_name": "Информация и связь",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "62011",
+    "subclass_name": "Разработка программного обеспечения"
+  },
+  "professions": [
+    {
+      "name": "IT-дизайнер",
+      "ork_level": 5
+    },
+    {
+      "name": "IT-дизайнер",
+      "ork_level": 6
+    },
+    {
+      "name": "Системный архитектор",
+      "ork_level": 6
+    },
+    {
+      "name": "Системный архитектор",
+      "ork_level": 5
+    },
+    {
+      "name": "Архитектор программного обеспечения",
+      "ork_level": 6
+    },
+    {
+      "name": "Архитектор программного обеспечения",
+      "ork_level": 7
+    },
+    {
+      "name": "IT-дизайнер",
+      "ork_level": 4
+    },
+    {
+      "name": "Системный архитектор",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "J",
+        "62011"
+      ],
+      "government_body": "Министерство искусственного интеллекта и цифрового развития Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2024,
+      "version": 3,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1459",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1459/download"
+  },
+  "hashes": {
+    "metadata_sha256": "dad27ffc842b498e3afcdf37c3a2f9a7305fa8c99b581c0a4f5e5da127db23a1",
+    "pdf_sha256": "5bcaf61d42b24d627757886142b5ad3a202060c6f463745b7886689a544e8c95",
+    "normalized_sha256": "1a49ec969b6026f211e09afe9d7e2aad6c38396d329e7549fbe55506e2fca9a6"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

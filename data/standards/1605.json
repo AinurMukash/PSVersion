@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1605,
+  "code": "M71122097",
+  "title": "Геолог-экономист для субъектов  недропользования",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Профессиональный стандарт определяет работу в области  экономического анализа месторождений в деятельности недропользования, оценки их рентабельности и подсчета запасов для инвестиционного проектирования, для сдачи государственной отчетности в рамках экономики и налогов",
+  "version": 1,
+  "year": 2025,
+  "revision_date": "2028-08-22",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "71122",
+    "subclass_name": "Деятельность по проведению геологической разведки и изысканий (без научных исследований и разработок)"
+  },
+  "professions": [
+    {
+      "name": "Геолог-экономист",
+      "ork_level": 6
+    },
+    {
+      "name": "Геолог-экономист",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "71122"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        5,
+        6
+      ],
+      "year": 2025,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1605",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1605/download"
+  },
+  "hashes": {
+    "metadata_sha256": "d8c78c0ff46cb280488e9d6d0ae645dcc3787655f28f0832ace326587fd57712",
+    "pdf_sha256": "b05a4e986a9f15e0ac0eb7377f932b2002cb347e6533ba17b04c12536090a975",
+    "normalized_sha256": "7a3f26d5b57227a528084a192823037772d78bcac481e2037304d91b10b283ca"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

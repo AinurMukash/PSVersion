@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 777,
+  "code": "C25610099",
+  "title": "Конструкторское дело при разработке радиоэлектронной аппаратуры",
+  "government_body": "Комитет индустриального развития Министерства индустрии и инфраструктурного развития Республики Казахстан",
+  "description": "Разработка электронного, электромеханического, электрокоммутационного и электронно-информационного оборудования \nРазработка, отработка, техническое сопровождение при изготовлении, регулировке, испытаниях, создании, эксплуатации и ремонте электронного, электромеханического, электрокоммутационного и электронно-информационного оборудования.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": null,
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "25610",
+    "subclass_name": "Обработка металлов и нанесение покрытий на металлы"
+  },
+  "professions": [
+    {
+      "name": "Инженер-конструктор",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-технолог",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "25610"
+      ],
+      "government_body": "Комитет индустриального развития Министерства индустрии и инфраструктурного развития Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/777",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/777/download"
+  },
+  "hashes": {
+    "metadata_sha256": "625140158cba8496d392078f24533d051b7150985e2c9944f0b9f63149a8312f",
+    "pdf_sha256": "d7cecd84370232b2b1717e3b78511f3e87e83cf4d48c966eca1a011282e1d90e",
+    "normalized_sha256": "2f75dfc41f5a031c5534cd2e45fcd66756809e4a3190c48139af2247625ffd39"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

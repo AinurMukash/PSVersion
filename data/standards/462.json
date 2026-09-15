@@ -1,0 +1,110 @@
+{
+  "schema_version": "1",
+  "enbek_id": 462,
+  "code": "M75000004",
+  "title": "Ветеринарная деятельность",
+  "government_body": "Министерство сельского хозяйства Республики Казахстан",
+  "description": "Настоящий профессиональный стандарт применим для специалистов в области ветеринарной медицины и санитарии.",
+  "version": 1,
+  "year": 2023,
+  "revision_date": "2026-11-07",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "75000",
+    "subclass_name": "Ветеринарная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Санитар ветеринарный",
+      "ork_level": 3
+    },
+    {
+      "name": "Ветеринарный фельдшер",
+      "ork_level": 4
+    },
+    {
+      "name": "Ветеринарный врач",
+      "ork_level": 6
+    },
+    {
+      "name": "Ветеринарно-санитарный врач",
+      "ork_level": 6
+    },
+    {
+      "name": "Ветеринарный врач (серолог)",
+      "ork_level": 6
+    },
+    {
+      "name": "Ветеринарный врач (эпидемиолог)",
+      "ork_level": 6
+    },
+    {
+      "name": "Ветеринарный хирург",
+      "ork_level": 6
+    },
+    {
+      "name": "Заведующий ветеринарной лабораторией",
+      "ork_level": 7
+    },
+    {
+      "name": "Заведующий ветеринарной станцией",
+      "ork_level": 7
+    },
+    {
+      "name": "Заведующий ветеринарным пунктом",
+      "ork_level": 7
+    },
+    {
+      "name": "Заведующий ветеринарным участком",
+      "ork_level": 7
+    },
+    {
+      "name": "Заведующий ветеринарной аптекой",
+      "ork_level": 7
+    },
+    {
+      "name": "Заведующий ветеринарной клиникой (лечебницей, поликлиникой)",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "75000"
+      ],
+      "government_body": "Министерство сельского хозяйства Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/462",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/462/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a30c2168121db82b74d3d00a60b993b3d38a2bd594ea214673424fa8d9c4b193",
+    "pdf_sha256": "a8cd4bb41ee64e31a88878ff3bfb3b0f8f739ccc489f860cbcaf61ce325c47a2",
+    "normalized_sha256": "1e10141b4f526d15eed02910301cdaafaacb78d1a9bc90356e5a2c4d7c14dee6"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

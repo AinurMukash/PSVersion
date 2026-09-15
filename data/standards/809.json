@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "enbek_id": 809,
+  "code": "H52211115",
+  "title": "Техническое обслуживание приборов обнаружения нагрева буксы и дистанционно-информационной системы контроля",
+  "government_body": "Объединение юридических лиц «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана»)",
+  "description": "устанавливает трудовые функции работников, выполняющих организационно оперативное руководства, выполнение работ по техническому обслуживанию устройств КТСМ-01 и КТСМ-01Д. эксплуатационный штат данного направления находится в штате дистанции сигнализации и связи. Настоящий стандарт распространяется на работников хозяйств сигнализации и связи.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52211",
+    "subclass_name": "Эксплуатация железных дорог"
+  },
+  "professions": [
+    {
+      "name": "Начальник участка по обслуживанию устройств КТСМ",
+      "ork_level": 6
+    },
+    {
+      "name": "Старший электромеханик бригады по обслуживанию устройств КТСМ",
+      "ork_level": 5
+    },
+    {
+      "name": "Электромеханик по обслуживанию КТСМ",
+      "ork_level": 4
+    },
+    {
+      "name": "Электромеханик по ремонту приборов КТСМ",
+      "ork_level": 4
+    },
+    {
+      "name": "Электромеханик по обслуживанию подсистемы волочения",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52211"
+      ],
+      "government_body": "Объединение юридических лиц «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана»)",
+      "ork_levels": [
+        4,
+        5,
+        6
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/809",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/809/download"
+  },
+  "hashes": {
+    "metadata_sha256": "35ab2bfd8a167c926cedba4f126d57e582d61aaef3785157e93ff204f7952ec9",
+    "pdf_sha256": "84d12f0ebc91f0842378f0a680ca1cb2c391532be4da2877a3f6b4a8d9022d07",
+    "normalized_sha256": "d35765e89f90b13bdcee68cd4df6d7dc12c84988f8b96335768e039c3ae19b83"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

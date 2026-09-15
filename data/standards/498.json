@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 498,
+  "code": "R91020060",
+  "title": "Музеевед",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Музеевед\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "91020",
+    "subclass_name": "Деятельность музеев"
+  },
+  "professions": [
+    {
+      "name": "Музеевед",
+      "ork_level": 6
+    },
+    {
+      "name": "Музеевед",
+      "ork_level": 7
+    },
+    {
+      "name": "Музеевед",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "91020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/498",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/498/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2c8b3025ed0665aa749b60789ff980ef42e90445d19451ed135b061ce797ba3a",
+    "pdf_sha256": "e9fd324a89e15547a374fb3799192c68bb354a1af4464857aa0ce88e857260c0",
+    "normalized_sha256": "96abd796d3b7733be2087637414c5133cce9c8ec48b0169cadd2f78e9bf9b677"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

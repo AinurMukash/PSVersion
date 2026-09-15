@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1640,
+  "code": "M70210101",
+  "title": "Маркетинговая деятельность в оптовой и розничной торговле",
+  "government_body": "Министерство торговли и интеграции Республики Казахстан",
+  "description": "Профессиональный стандарт устанавливает общие требования к знаниям, умениям, навыкам в области анализа рынка и потребительского поведения, разработки и реализации стратегии продвижения товаров и услуг с целью повышения спроса, узнаваемости бренда и увеличения продаж.",
+  "version": 1,
+  "year": 2029,
+  "revision_date": "2029-12-31",
+  "oked": {
+    "section_code": "M",
+    "section_name": "Профессиональная, научная и техническая деятельность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "70210",
+    "subclass_name": "Деятельность по взаимоотношениям и связью с общественностью"
+  },
+  "professions": [
+    {
+      "name": "Аналитик-маркетолог",
+      "ork_level": 5
+    },
+    {
+      "name": "Маркетолог",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "M",
+        "70210"
+      ],
+      "government_body": "Министерство торговли и интеграции Республики Казахстан",
+      "ork_levels": [
+        4,
+        5
+      ],
+      "year": 2029,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1640",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1640/download"
+  },
+  "hashes": {
+    "metadata_sha256": "04e19b13cc14caad410b6c4999723b13eea2b5a292345733d0908f24e1759331",
+    "pdf_sha256": "70006fde6543c817eb86fc65987720de139335e9a668c5bd188f751650e1067c",
+    "normalized_sha256": "1449b5fc6090b2c6984b2c011b0fadb1d181fe98ead44d99c4f8e9932ac3c75b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

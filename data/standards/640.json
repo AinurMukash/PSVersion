@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "enbek_id": 640,
+  "code": "A02400026",
+  "title": "Агролесомелиорация",
+  "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+  "description": "Описания профессиональных знаний и умений работников лесного хозяйства в сфере агролесомелиорации; защитного лесоразведения; технологии выращивания защитных лесных насаждений; реконструкции лесных защитных насаждений",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-05-30",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "02400",
+    "subclass_name": "Услуги, связанные с лесоводство и лесозаготовками"
+  },
+  "professions": [
+    {
+      "name": "Неквалифицированный рабочий в лесном хозяйстве",
+      "ork_level": 1
+    },
+    {
+      "name": "Мастер лесокультурного производства",
+      "ork_level": 4
+    },
+    {
+      "name": "Агролесомелиоратор (средней квалификации)",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженер по лесным культурам",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-лесопатолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Начальник участка (в лесном хозяйстве)",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "02400"
+      ],
+      "government_body": "Консорциум «Комплекс агропромышленных ассоциаций»",
+      "ork_levels": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/640",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/640/download"
+  },
+  "hashes": {
+    "metadata_sha256": "f4d266ec61149c920b4eba981dc0ef00d17f287e03c972e0e758a94834b7d65a",
+    "pdf_sha256": "b10a71f4501e9474bbd8f10282a7076b01f5fd90553ca70f6ebcf12c60c3510b",
+    "normalized_sha256": "39458478dc22954e0d00196be36419828303693f30bfbeec7df2a5d2907f6895"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

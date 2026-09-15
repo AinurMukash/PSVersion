@@ -1,0 +1,100 @@
+{
+  "schema_version": "1",
+  "enbek_id": 128,
+  "code": "A02100016",
+  "title": "Лесное дело",
+  "government_body": "ОЮЛ «Ассоциация работников лесного хозяйства и лесопереработки РК»",
+  "description": "область хозяйственной деятельности, занимающаяся, выращиванием, защитой и использованием лесных ресурсов",
+  "version": 2,
+  "year": 2022,
+  "revision_date": "2025-12-21",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "02100",
+    "subclass_name": "Лесоводство и прочая лесохозяйственная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Трелевщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Чокеровщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Вальщик леса",
+      "ork_level": 2
+    },
+    {
+      "name": "Лесник",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник-таксатор",
+      "ork_level": 4
+    },
+    {
+      "name": "Мастер леса",
+      "ork_level": 5
+    },
+    {
+      "name": "Начальник лесничества",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер лесного хозяйства",
+      "ork_level": 6
+    },
+    {
+      "name": "Инженер-лесопатолог",
+      "ork_level": 6
+    },
+    {
+      "name": "Главный лесничий",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "02100"
+      ],
+      "government_body": "ОЮЛ «Ассоциация работников лесного хозяйства и лесопереработки РК»",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2022,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/128",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/128/download"
+  },
+  "hashes": {
+    "metadata_sha256": "bcc084c8c5ba62424bd7f23bab27ee8a8f6551d579613c642bab5a7b75787c09",
+    "pdf_sha256": "db17f1389d71a947bcc876c49f739bd495feefb59d842c22f026176cc4b96779",
+    "normalized_sha256": "a8605e1134ec92689b4b03e590d71a1313001fe26b6471debbcf3d2d65af9bed"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}

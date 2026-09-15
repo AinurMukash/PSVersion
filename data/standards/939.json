@@ -1,0 +1,85 @@
+{
+  "schema_version": "1",
+  "enbek_id": 939,
+  "code": "H52240048",
+  "title": "Погрузка и разгрузка судовых и других грузов",
+  "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+  "description": "Включает требования функций, профессиональных задач, умений и знаний к рабочим и специалистам, занятым в организации и осуществлении погрузочно-разгрузочных работ в порту",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "52240",
+    "subclass_name": "Транспортная обработка грузов"
+  },
+  "professions": [
+    {
+      "name": "Бункеровщик, морской и речной транспорт",
+      "ork_level": 3
+    },
+    {
+      "name": "Портовый грузчик",
+      "ork_level": 2
+    },
+    {
+      "name": "Оператор машинного крана",
+      "ork_level": 4
+    },
+    {
+      "name": "Оператор диспетчерской",
+      "ork_level": 4
+    },
+    {
+      "name": "Механизатор (докер-механизатор) комплексной бригады на погрузочно-разгрузочных работах, 1-й разряд (4 класс)",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор автопогрузчика",
+      "ork_level": 3
+    },
+    {
+      "name": "Оператор подъемника",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "52240"
+      ],
+      "government_body": "ОЮЛ «Союз транспортных и логистических организаций и ассоциаций «KAZLOGISTICS» (Союз транспортников Казахстана)",
+      "ork_levels": [
+        2,
+        3,
+        4
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/939",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/939/download"
+  },
+  "hashes": {
+    "metadata_sha256": "a2fe83c60bff1a50b829be5564e9fb8966833d74461385da51c672d760b2fb63",
+    "pdf_sha256": "5651b5808d5d12b3a1e726c915f85ef1882fbc62042544cb698ba852cb9cc02b",
+    "normalized_sha256": "b62f69dca2033abcbed16e02e743d383724924f00168585f401acabaac8e4ea5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_changed_at": "2026-09-15T11:49:27Z"
+  }
+}
