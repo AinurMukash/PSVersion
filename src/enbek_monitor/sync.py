@@ -120,13 +120,28 @@ class SyncPipeline:
     def fetch_detail_and_pdf(
         self,
         entry: RegistryEntry,
+        existing: NormalizedRecord | None = None,
         dry_run: bool = False,
     ) -> tuple[DetailPage | None, bytes | None, str | None]:
-        """Fetch standard detail JSON and PDF document."""
+        """Fetch standard detail JSON and PDF document.
+
+        Re-downloads the PDF if no local copy exists OR if the standard's metadata
+        (version, revision_date, title) has changed on Enbek.kz.
+        """
         detail_url = entry.detail_page_url
-        resp = self.client.get(detail_url)
-        if resp.status_code != 200:
-            print(f"  [WARN] Detail for ID {entry.enbek_id} returned HTTP {resp.status_code}")
+        resp = None
+        for attempt in range(3):
+            try:
+                resp = self.client.get(detail_url)
+                if resp.status_code == 200:
+                    break
+            except Exception as e:
+                if attempt == 2:
+                    print(f"  [WARN] Detail request error for ID {entry.enbek_id}: {e}")
+                time.sleep(0.5)
+
+        if not resp or resp.status_code != 200:
+            print(f"  [WARN] Detail for ID {entry.enbek_id} unavailable (HTTP {getattr(resp, 'status_code', 'error')})")
             return None, None, None
 
         source_resp = SourceResponse(
@@ -140,29 +155,45 @@ class SyncPipeline:
             print(f"  [WARN] Failed to parse detail for ID {entry.enbek_id}: {detail_page}")
             return None, None, None
 
-        # Check local PDF cache first
+        # Check local PDF cache
         pdf_file = self.pdf_dir / f"{entry.enbek_id}.pdf"
         pdf_bytes: bytes | None = None
         pdf_sha256: str | None = None
 
-        if pdf_file.exists() and pdf_file.stat().st_size > 0:
-            pdf_bytes = pdf_file.read_bytes()
-            pdf_sha256 = hashlib.sha256(pdf_bytes).hexdigest()
-        else:
+        should_download = True
+        if existing and pdf_file.exists() and pdf_file.stat().st_size > 0:
+            # Check if metadata appears unchanged
+            version_match = (str(existing.version or "") == str(detail_page.attributes.version or ""))
+            rev_date_match = (str(existing.revision_date or "") == str(detail_page.attributes.revision_date or ""))
+            title_match = ((existing.title or "").strip() == (detail_page.attributes.title or "").strip())
+            if version_match and rev_date_match and title_match:
+                should_download = False
+                pdf_bytes = pdf_file.read_bytes()
+                pdf_sha256 = hashlib.sha256(pdf_bytes).hexdigest()
+
+        if should_download:
             pdf_url = detail_page.attributes.pdf_url or f"https://career.enbek.kz/ru/api/professionalstandart/{entry.enbek_id}/download"
-            try:
-                pdf_resp = self.client.get(pdf_url)
-                if pdf_resp.status_code == 200 and pdf_resp.content.startswith(b"%PDF"):
-                    pdf_bytes = pdf_resp.content
+            for attempt in range(3):
+                try:
+                    pdf_resp = self.client.get(pdf_url)
+                    if pdf_resp.status_code == 200 and pdf_resp.content.startswith(b"%PDF"):
+                        pdf_bytes = pdf_resp.content
+                        pdf_sha256 = hashlib.sha256(pdf_bytes).hexdigest()
+                        if not dry_run:
+                            pdf_file.parent.mkdir(parents=True, exist_ok=True)
+                            pdf_file.write_bytes(pdf_bytes)
+                        break
+                except Exception as e:
+                    if attempt == 2:
+                        print(f"  [WARN] Could not download PDF for ID {entry.enbek_id}: {e}")
+                    time.sleep(0.5)
+
+            if not pdf_sha256:
+                if pdf_file.exists() and pdf_file.stat().st_size > 0:
+                    pdf_bytes = pdf_file.read_bytes()
                     pdf_sha256 = hashlib.sha256(pdf_bytes).hexdigest()
-                    if not dry_run:
-                        pdf_file.parent.mkdir(parents=True, exist_ok=True)
-                        pdf_file.write_bytes(pdf_bytes)
                 else:
                     pdf_sha256 = "0" * 64
-            except Exception as e:
-                print(f"  [WARN] Could not download PDF for ID {entry.enbek_id}: {e}")
-                pdf_sha256 = "0" * 64
 
         return detail_page, pdf_bytes, pdf_sha256
 
@@ -213,7 +244,12 @@ class SyncPipeline:
 
         print(f"\nProcessing {len(entries)} standards...")
         for i, entry in enumerate(entries, start=1):
-            detail_page, pdf_bytes, pdf_sha256 = self.fetch_detail_and_pdf(entry, dry_run=dry_run)
+            existing = existing_records.get(entry.enbek_id)
+            detail_page, pdf_bytes, pdf_sha256 = self.fetch_detail_and_pdf(
+                entry,
+                existing=existing,
+                dry_run=dry_run,
+            )
             if not detail_page:
                 continue
 
