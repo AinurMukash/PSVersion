@@ -36,6 +36,7 @@ class DocGenerator:
         self.generate_readme(records, events, run_report)
         self.generate_changelog()
         self.generate_standard_pages(records, events)
+        self.generate_oked_pages(records)
 
     def _load_all_records(self) -> list[dict[str, Any]]:
         records = []
@@ -96,14 +97,21 @@ class DocGenerator:
         new_count = run_report.get("new", 0) if run_report else 0
         updated_count = run_report.get("updated", 0) if run_report else 0
         removed_count = run_report.get("removed", 0) if run_report else 0
+        missing_pdf_count = sum(
+            not (self.workspace_root / "raw" / "pdf" / f"{record.get('enbek_id')}.pdf").is_file()
+            for record in records
+            if record.get("enbek_id")
+        )
+        if run_report and "missing_pdf" in run_report:
+            missing_pdf_count = run_report["missing_pdf"]
 
         lines = [
             "# Профессиональные стандарты Республики Казахстан",
             "",
             "> Автоматизированный Git-мониторинг реестра профессиональных стандартов с официального портала [career.enbek.kz](https://career.enbek.kz/ru/ps-registry).",
             "",
-            f"**Последняя синхронизация:** `{now_str}`  ",
-            f"**Всего стандартов в репозитории:** `{total}`  ",
+            f"**Последняя синхронизация:** `{now_str}`",
+            f"**Всего стандартов в репозитории:** `{total}`",
             "**Периодичность обновления:** еженедельно по понедельникам (GitHub Actions)",
             "",
             "## 📊 Состояние реестра",
@@ -114,6 +122,7 @@ class DocGenerator:
             f"| Новых в последнем запуске | {new_count} |",
             f"| Обновлено в последнем запуске | {updated_count} |",
             f"| Удалено / в архиве | {removed_count} |",
+            f"| Стандартов без локального PDF | {missing_pdf_count} |",
             "",
             "## 📢 Журнал изменений (Последние обновления)",
             "",
@@ -156,8 +165,14 @@ class DocGenerator:
             oked = r.get("oked") or {}
             sec = oked.get("section_code") or "-"
             gov = r.get("government_body") or "-"
+            pdf_path = self.workspace_root / "raw" / "pdf" / f"{enbek_id}.pdf"
+            pdf_link = (
+                f"[PDF 📄](raw/pdf/{enbek_id}.pdf)"
+                if pdf_path.is_file()
+                else "PDF отсутствует"
+            )
             lines.append(
-                f"| `{code}` | {title} | **{sec}** | {gov} | [Открыть](docs/standards/{enbek_id}.md) | [PDF 📄](raw/pdf/{enbek_id}.pdf) |"
+                f"| `{code}` | {title} | **{sec}** | {gov} | [Открыть](docs/standards/{enbek_id}.md) | {pdf_link} |"
             )
         if len(records) > 25:
             lines.append(f"\n*...и ещё {len(records) - 25} стандартов. Подробные карточки всех стандартов находятся в папке [`docs/standards/`](docs/standards/).*")
@@ -171,7 +186,9 @@ class DocGenerator:
         ])
         for sec_code in sorted(oked_counts.keys()):
             name = oked_names.get(sec_code, "-")
-            lines.append(f"| **{sec_code}** | {name} | {oked_counts[sec_code]} |")
+            lines.append(
+                f"| [**{sec_code}**](docs/oked/{sec_code}.md) | {name} | {oked_counts[sec_code]} |"
+            )
         lines.append("")
 
         lines.extend([
@@ -190,6 +207,7 @@ class DocGenerator:
             "| Директория / Файл | Назначение | Формат |",
             "|---|---|:---:|",
             "| [`docs/standards/`](docs/standards/) | Полные человекочитаемые карточки стандартов с профессиями и ОРК | `Markdown` |",
+            "| [`docs/oked/`](docs/oked/) | Каталоги стандартов с навигацией по секциям ОКЭД | `Markdown` |",
             "| [`CHANGELOG.md`](CHANGELOG.md) | Хронологический журнал всех зарегистрированных изменений | `Markdown` |",
             "| [`data/standards/`](data/standards/) | Нормализованные машиночитаемые карточки каждого стандарта | `JSON` |",
             "| [`data/registry.json`](data/registry.json) | Компактный реестр всех стандартов для поиска и аналитики | `JSON` |",
@@ -205,6 +223,51 @@ class DocGenerator:
 
         readme_path.write_text("\n".join(lines), encoding="utf-8")
         return readme_path
+
+    def generate_oked_pages(self, records: list[dict[str, Any]]) -> None:
+        """Generate one navigable standard catalog for every OKED section."""
+        oked_dir = self.docs_dir / "oked"
+        oked_dir.mkdir(parents=True, exist_ok=True)
+        grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        names: dict[str, str] = {}
+
+        for record in records:
+            oked = record.get("oked") or {}
+            section_code = oked.get("section_code") or "Без-секции"
+            grouped[section_code].append(record)
+            names.setdefault(section_code, oked.get("section_name") or "Без названия")
+
+        for section_code, section_records in sorted(grouped.items()):
+            section_name = names[section_code]
+            lines = [
+                f"# ОКЭД {section_code} — {section_name}",
+                "",
+                f"**Стандартов в разделе:** {len(section_records)}  ",
+                "",
+                "| Код | Стандарт | Госорган | Карточка | PDF |",
+                "|---|---|---|:---:|:---:|",
+            ]
+            for record in sorted(
+                section_records,
+                key=lambda item: (item.get("title") or "", item.get("enbek_id") or 0),
+            ):
+                enbek_id = record.get("enbek_id")
+                code = record.get("code") or f"ID {enbek_id}"
+                title = record.get("title") or "Без названия"
+                government_body = record.get("government_body") or "-"
+                pdf_path = self.workspace_root / "raw" / "pdf" / f"{enbek_id}.pdf"
+                pdf_link = (
+                    f"[PDF](../../raw/pdf/{enbek_id}.pdf)"
+                    if pdf_path.is_file()
+                    else "PDF отсутствует"
+                )
+                lines.append(
+                    f"| `{code}` | {title} | {government_body} | "
+                    f"[Открыть](../standards/{enbek_id}.md) | "
+                    f"{pdf_link} |"
+                )
+            lines.extend(["", "[Вернуться к сводке](../../README.md)", ""])
+            (oked_dir / f"{section_code}.md").write_text("\n".join(lines), encoding="utf-8")
 
     def generate_changelog(self) -> Path:
         changelog_path = self.workspace_root / "CHANGELOG.md"

@@ -16,6 +16,7 @@ import copy
 import hashlib
 import json
 import logging
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Mapping
@@ -300,7 +301,8 @@ class SyncPipeline:
         for enbek_id, candidate in candidates.items():
             existing = existing_records.get(enbek_id)
             if existing is None:
-                new_count += 1
+                if not bootstrap:
+                    new_count += 1
                 if not bootstrap:
                     ev = LifecycleEvent(
                         event_id=f"{run_date}-{enbek_id}-new",
@@ -347,6 +349,11 @@ class SyncPipeline:
                     # Keep existing record in snapshot marked as missing/archived
                     candidates[enbek_id] = existing
 
+        missing_pdf_count = sum(
+            record.hashes.pdf_sha256 == "0" * 64
+            for record in candidates.values()
+        )
+
         # Step 5: Persist data and history
         if not dry_run:
             print("\nPersisting updated records to disk...")
@@ -374,6 +381,7 @@ class SyncPipeline:
                 "updated_this_run": updated_count,
                 "unchanged": unchanged_count,
                 "missing": missing_count,
+                "missing_pdf": missing_pdf_count,
             }
             (self.data_dir / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -388,6 +396,7 @@ class SyncPipeline:
                 "updated": updated_count,
                 "unchanged": unchanged_count,
                 "missing": missing_count,
+                "missing_pdf": missing_pdf_count,
                 "removed": removed_count,
                 "events_count": len(new_events),
             }
@@ -412,4 +421,5 @@ class SyncPipeline:
             "updated": updated_count,
             "unchanged": unchanged_count,
             "missing": missing_count,
+            "missing_pdf": missing_pdf_count,
         }
