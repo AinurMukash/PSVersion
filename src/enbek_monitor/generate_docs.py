@@ -94,16 +94,26 @@ class DocGenerator:
             gov = r.get("government_body") or "Не указан"
             ministry_counts[gov] += 1
 
-        new_count = run_report.get("new", 0) if run_report else 0
-        updated_count = run_report.get("updated", 0) if run_report else 0
-        removed_count = run_report.get("removed", 0) if run_report else 0
+        metrics: Mapping[str, Any] = run_report or {}
+        if not metrics:
+            stats_path = self.data_dir / "stats.json"
+            try:
+                loaded_stats = json.loads(stats_path.read_text(encoding="utf-8"))
+                if isinstance(loaded_stats, dict):
+                    metrics = loaded_stats
+            except (OSError, UnicodeError, json.JSONDecodeError):
+                metrics = {}
+
+        new_count = metrics.get("new", metrics.get("new_this_run", 0))
+        updated_count = metrics.get("updated", metrics.get("updated_this_run", 0))
+        removed_count = metrics.get("removed", 0)
         missing_pdf_count = sum(
             not (self.workspace_root / "raw" / "pdf" / f"{record.get('enbek_id')}.pdf").is_file()
             for record in records
             if record.get("enbek_id")
         )
-        if run_report and "missing_pdf" in run_report:
-            missing_pdf_count = run_report["missing_pdf"]
+        if "missing_pdf" in metrics:
+            missing_pdf_count = metrics["missing_pdf"]
 
         lines = [
             "# Профессиональные стандарты Республики Казахстан",
