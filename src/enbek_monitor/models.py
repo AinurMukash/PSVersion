@@ -180,6 +180,8 @@ class ArtifactKind(_StringEnum):
     REGISTRY = "registry"
     DETAIL = "detail"
     PDF = "pdf"
+    HH_SEARCH = "hh_search"
+    HH_DETAIL = "hh_detail"
 
 
 class SourceKind(_StringEnum):

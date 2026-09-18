@@ -297,7 +297,7 @@ class RawArtifactStore:
         if staging_root is None:
             directory = self.guard.resolve_path(
                 self._raw_root()
-                / ("registry" if kind is ArtifactKind.REGISTRY else "detail")
+                / self._directory_name(kind)
                 / "runs"
                 / chosen_run,
                 allow_directory=True,
@@ -305,7 +305,7 @@ class RawArtifactStore:
         else:
             staging = self.guard.resolve_path(staging_root, allow_directory=True)
             directory = self.guard.resolve_path(
-                staging / self._raw_root() / ("registry" if kind is ArtifactKind.REGISTRY else "detail"),
+                staging / self._raw_root() / self._directory_name(kind),
                 allow_directory=True,
             )
 
@@ -330,6 +330,15 @@ class RawArtifactStore:
             if not candidate.exists():
                 return candidate, f"detail-{chosen_run}-{enbek_id}-{index}"
             index += 1
+
+    @staticmethod
+    def _directory_name(kind: ArtifactKind) -> str:
+        return {
+            ArtifactKind.REGISTRY: "registry",
+            ArtifactKind.DETAIL: "detail",
+            ArtifactKind.HH_SEARCH: "hh/search",
+            ArtifactKind.HH_DETAIL: "hh/detail",
+        }.get(kind, "detail")
 
     def _append_manifest(self, artifact: RawArtifact) -> None:
         path = self.manifest_path

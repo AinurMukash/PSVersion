@@ -8,11 +8,13 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
 from .generate_docs import DocGenerator
 from .sync import SyncPipeline
+from .vacancies.pipeline import VacancyPipeline
 
 
 def main() -> int:
@@ -56,6 +58,15 @@ def main() -> int:
         help="Workspace root path (defaults to current directory)",
     )
 
+    vacancies_parser = subparsers.add_parser(
+        "vacancies-sync", help="Synchronize weekly hh vacancy data"
+    )
+    vacancies_parser.add_argument("--query", required=True, help="hh vacancy search query")
+    vacancies_parser.add_argument("--area", default=None, help="hh area ID")
+    vacancies_parser.add_argument("--limit", type=int, default=100)
+    vacancies_parser.add_argument("--dry-run", action="store_true")
+    vacancies_parser.add_argument("--workspace", type=str, default=None)
+
     args = parser.parse_args()
 
     if not args.command or args.command == "sync":
@@ -74,6 +85,16 @@ def main() -> int:
         generator.generate_all()
         print("Documentation regenerated successfully.")
         return 0
+
+    elif args.command == "vacancies-sync":
+        report = VacancyPipeline(args.workspace).run(
+            query=args.query,
+            area=args.area,
+            limit=args.limit,
+            dry_run=args.dry_run,
+        )
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return 0 if report["status"] == "success" else 1
 
     return 0
 
