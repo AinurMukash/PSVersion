@@ -76,7 +76,7 @@ class VacancyPipeline:
         client = httpx.Client(
             timeout=30.0,
             headers={
-                "User-Agent": "enbek-professional-standards-monitor/0.1 (market research)",
+                "User-Agent": "enbek-professional-standards-monitor/0.1 (alenkz20001@gmail.com)",
                 "Accept": "application/json",
             },
             follow_redirects=True,
