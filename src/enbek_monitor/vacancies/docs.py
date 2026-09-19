@@ -20,8 +20,19 @@ END = "<!-- HH-VACANCIES:END -->"
 PAGE_PATH = Path("docs/vacancies.md")
 
 
-def render_section(report: Mapping[str, Any]) -> str:
+def render_section(report: Mapping[str, Any] | None) -> str:
     """Render the compact README block (without markers)."""
+    if not report:
+        return "\n".join([
+            "## 💼 Рынок труда: вакансии hh.kz",
+            "",
+            "> *Первый еженедельный срез вакансий hh.kz ещё не собран. "
+            "Секция заполнится автоматически после запуска `Weekly hh Vacancy Snapshot` "
+            "(по понедельникам, регион — Казахстан).*",
+            "",
+            "👉 *Подробности: [docs/vacancies.md](docs/vacancies.md).*",
+            "",
+        ])
     query = report.get("query", "?")
     area = report.get("area", "?")
     started = str(report.get("started_at", ""))[:10]
@@ -48,7 +59,7 @@ def render_section(report: Mapping[str, Any]) -> str:
     ])
 
 
-def update_readme(text: str, report: Mapping[str, Any]) -> str:
+def update_readme(text: str, report: Mapping[str, Any] | None) -> str:
     """Insert or refresh the vacancies block between markers."""
     block = f"{START}\n{render_section(report).rstrip()}\n{END}"
     if START in text and END in text:

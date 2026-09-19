@@ -240,11 +240,12 @@ class DocGenerator:
         return readme_path
 
     def _vacancies_section(self) -> list[str]:
-        """Render the hh vacancies README block (with markers), if a snapshot exists.
+        """Render the hh vacancies README block (with markers).
 
         The block carries the same START/END markers the vacancy pipeline
         uses for surgical updates, so either weekly job refreshes the same
-        place and neither wipes the other.
+        place and neither wipes the other. Without a snapshot yet, a
+        baseline placeholder is rendered instead of nothing.
         """
         try:
             from .vacancies import docs as vacancy_docs
@@ -253,8 +254,6 @@ class DocGenerator:
         try:
             report = vacancy_docs.latest_report(self.data_dir / "vacancies")
         except Exception:
-            return []
-        if not report:
             return []
         return [
             vacancy_docs.START,

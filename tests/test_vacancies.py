@@ -388,8 +388,11 @@ def test_docs_latest_report_is_none_without_snapshots(tmp_path: Path) -> None:
     assert vacancy_docs.latest_report(tmp_path / "vacancies") is None
 
 
-def test_generate_docs_skips_vacancies_block_without_snapshot(tmp_path: Path) -> None:
+def test_generate_docs_renders_placeholder_without_snapshot(tmp_path: Path) -> None:
     from enbek_monitor.generate_docs import DocGenerator
+    from enbek_monitor.vacancies import docs as vacancy_docs
 
     section = DocGenerator(tmp_path)._vacancies_section()
-    assert section == []
+    assert section[0] == vacancy_docs.START
+    assert section[2] == vacancy_docs.END
+    assert "ещё не собран" in section[1]
