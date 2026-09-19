@@ -125,7 +125,12 @@ class VacancyCollector:
                 if _last_page(items, page_info, page, per_page):
                     break
 
-        return VacancyCollectionResult(tuple(records.values()), tuple(artifacts), tuple(errors), search_ok)
+        return VacancyCollectionResult(
+            tuple(records[vacancy_id] for vacancy_id in sorted(records)),
+            tuple(artifacts),
+            tuple(errors),
+            search_ok,
+        )
 
     def _fetch_details(
         self,

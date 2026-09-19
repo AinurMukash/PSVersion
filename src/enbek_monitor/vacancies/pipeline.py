@@ -13,6 +13,7 @@ from ..network import NetworkClient
 from ..storage.raw import RawArtifactStore
 from .analytics import summarize
 from .collector import VacancyCollector
+from .docs import PAGE_PATH, render_page, update_readme
 from .history import diff_snapshots, load_previous, persist_snapshot
 from .matching import match_records
 
@@ -20,6 +21,34 @@ HH_API_URL = "https://api.hh.ru/vacancies"
 # hh area id for Kazakhstan (hh.kz). Keeps weekly snapshots KZ-focused
 # instead of searching the whole hh.ru database when area is not given.
 HH_KZ_AREA_ID = "40"
+
+
+class _HttpxTransport:
+    """Adapt httpx to the ``(url, method=..., params=...)`` transport contract.
+
+    ``NetworkClient`` calls ``transport.request(url, method=..., ...)`` while
+    ``httpx.Client.request`` takes ``(method, url)`` — passing the client
+    directly raises ``multiple values for argument 'method'`` on live runs.
+    """
+
+    def __init__(self, client: httpx.Client) -> None:
+        self._client = client
+
+    def request(self, url: str, **kwargs: Any) -> Any:
+        from types import SimpleNamespace
+
+        response = self._client.request(
+            kwargs.get("method", "GET"),
+            url,
+            params=kwargs.get("params"),
+            headers=kwargs.get("headers"),
+        )
+        return SimpleNamespace(
+            url=str(response.url),
+            status_code=response.status_code,
+            headers=dict(response.headers),
+            content=response.content,
+        )
 
 
 class VacancyPipeline:
@@ -54,7 +83,7 @@ class VacancyPipeline:
         )
         try:
             network = NetworkClient(
-                client,
+                _HttpxTransport(client),
                 registry_url=HH_API_URL,
                 allowed_hosts=("api.hh.ru",),
             )
@@ -111,4 +140,21 @@ class VacancyPipeline:
                 json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",
             )
+            events = list(changes.get("new", [])) + list(changes.get("updated", [])) + list(
+                changes.get("removed", [])
+            )
+            page_path = self.workspace_root / PAGE_PATH
+            page_path.parent.mkdir(parents=True, exist_ok=True)
+            page_path.write_text(
+                render_page(report, events, result.records), encoding="utf-8"
+            )
+            readme_path = self.workspace_root / "README.md"
+            if readme_path.is_file():
+                try:
+                    readme_path.write_text(
+                        update_readme(readme_path.read_text(encoding="utf-8"), report),
+                        encoding="utf-8",
+                    )
+                except OSError:
+                    pass
         return report

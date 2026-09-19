@@ -211,6 +211,8 @@ class DocGenerator:
             lines.append(f"| {gov} | {count} |")
         lines.append("")
 
+        lines.extend(self._vacancies_section())
+
         lines.extend([
             "## 📂 Структура данных в репозитории",
             "",
@@ -218,11 +220,14 @@ class DocGenerator:
             "|---|---|:---:|",
             "| [`docs/standards/`](docs/standards/) | Полные человекочитаемые карточки стандартов с профессиями и ОРК | `Markdown` |",
             "| [`docs/oked/`](docs/oked/) | Каталоги стандартов с навигацией по секциям ОКЭД | `Markdown` |",
+            "| [`docs/vacancies.md`](docs/vacancies.md) | Срез вакансий hh.kz: сводка, топы, изменения и мэтчинг со стандартами | `Markdown` |",
             "| [`CHANGELOG.md`](CHANGELOG.md) | Хронологический журнал всех зарегистрированных изменений | `Markdown` |",
             "| [`data/standards/`](data/standards/) | Нормализованные машиночитаемые карточки каждого стандарта | `JSON` |",
+            "| [`data/vacancies/`](data/vacancies/) | Снапшоты вакансий hh.kz (`current/`), отчёты (`reports/`) и лог изменений (`changes.jsonl`) | `JSON`+`JSONL` |",
             "| [`data/registry.json`](data/registry.json) | Компактный реестр всех стандартов для поиска и аналитики | `JSON` |",
             "| [`data/stats.json`](data/stats.json) | Сводная агрегированная статистика по отраслям и статусам | `JSON` |",
             "| [`raw/pdf/`](raw/pdf/) | Оригинальные официальные PDF-документы профессиональных стандартов | `PDF` |",
+            "| [`raw/hh/`](raw/hh/) | Сырые ответы hh API (поиск и детали вакансий) | `JSON` |",
             "| [`history/changes.jsonl`](history/changes.jsonl) | Построчный аудит-лог событий (`NEW`, `UPDATED`, `REMOVED`) с field-level diff | `JSONL` |",
             "| [`history/runs/`](history/runs/) | Технические отчёты о каждом еженедельном запуске краулера | `JSON` |",
             "",
@@ -233,6 +238,32 @@ class DocGenerator:
 
         readme_path.write_text("\n".join(lines), encoding="utf-8")
         return readme_path
+
+    def _vacancies_section(self) -> list[str]:
+        """Render the hh vacancies README block (with markers), if a snapshot exists.
+
+        The block carries the same START/END markers the vacancy pipeline
+        uses for surgical updates, so either weekly job refreshes the same
+        place and neither wipes the other.
+        """
+        try:
+            from .vacancies import docs as vacancy_docs
+        except Exception:
+            return []
+        try:
+            report = vacancy_docs.latest_report(self.data_dir / "vacancies")
+        except Exception:
+            return []
+        if not report:
+            return []
+        return [
+            vacancy_docs.START,
+            vacancy_docs.render_section(report).rstrip(),
+            vacancy_docs.END,
+            "",
+            "---",
+            "",
+        ]
 
     def generate_oked_pages(self, records: list[dict[str, Any]]) -> None:
         """Generate one navigable standard catalog for every OKED section."""

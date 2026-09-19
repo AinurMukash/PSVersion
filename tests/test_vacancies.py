@@ -304,3 +304,92 @@ def test_matching_uses_skills_and_precomputed_standard_tokens(tmp_path: Path) ->
     matches = match_records([record], standards)
     assert len(matches) == 1
     assert matches[0]["standard_id"] == 1
+
+
+def _report(**overrides) -> dict:
+    report = {
+        "schema_version": "1",
+        "run_id": "hh-1",
+        "started_at": "2026-09-19T00:00:00Z",
+        "status": "success",
+        "query": "тестировщик",
+        "area": "40",
+        "count": 1,
+        "new": 1,
+        "updated": 0,
+        "removed": 0,
+        "unchanged": 0,
+        "summary": {
+            "vacancies": 1,
+            "skills": [{"name": "sql", "count": 1, "share": 1.0}],
+            "areas": [],
+            "employers": [],
+            "experience": [],
+            "employment": [],
+            "currencies": [],
+        },
+        "matches": [],
+    }
+    report.update(overrides)
+    return report
+
+
+def test_docs_section_mentions_query_and_counts() -> None:
+    from enbek_monitor.vacancies import docs as vacancy_docs
+
+    section = vacancy_docs.render_section(_report())
+    assert "тестировщик" in section
+    assert "**1**" in section
+    assert "docs/vacancies.md" in section
+
+
+def test_docs_update_readme_inserts_and_replaces_idempotently() -> None:
+    from enbek_monitor.vacancies import docs as vacancy_docs
+
+    original = "# Title\n\n## 📂 Структура данных в репозитории\n\n tail\n"
+    once = vacancy_docs.update_readme(original, _report())
+    assert vacancy_docs.START in once and vacancy_docs.END in once
+    assert "## 📂 Структура данных в репозитории" in once
+    twice = vacancy_docs.update_readme(once, _report(count=5, new=5))
+    assert twice.count(vacancy_docs.START) == 1
+    assert "**5**" in twice
+
+
+def test_docs_page_has_separated_sections(tmp_path: Path) -> None:
+    from enbek_monitor.vacancies import docs as vacancy_docs
+
+    record = _record(
+        "101",
+        title="QA engineer",
+        employer="Acme",
+        area="Алматы",
+        salary={"from": 100000, "to": 200000, "currency": "KZT", "gross": False},
+        alternate_url="https://hh.kz/vacancy/101",
+    )
+    page = vacancy_docs.render_page(_report(), [], [record])
+    for header in (
+        "## 📊 Сводка",
+        "## 🔥 Топ навыков",
+        "## 🌍 Города",
+        "## 🏢 Работодатели",
+        "## 💰 Валюты зарплат",
+        "## 📢 Последние изменения",
+        "## 🎯 Соответствие профстандартам",
+        "## 📋 Текущие вакансии",
+    ):
+        assert header in page
+    assert page.count("\n---\n") >= 8
+    assert "Acme" in page and "100 000" in page and "hh.kz/vacancy/101" in page
+
+
+def test_docs_latest_report_is_none_without_snapshots(tmp_path: Path) -> None:
+    from enbek_monitor.vacancies import docs as vacancy_docs
+
+    assert vacancy_docs.latest_report(tmp_path / "vacancies") is None
+
+
+def test_generate_docs_skips_vacancies_block_without_snapshot(tmp_path: Path) -> None:
+    from enbek_monitor.generate_docs import DocGenerator
+
+    section = DocGenerator(tmp_path)._vacancies_section()
+    assert section == []
