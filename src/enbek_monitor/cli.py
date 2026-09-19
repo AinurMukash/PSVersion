@@ -62,8 +62,9 @@ def main() -> int:
         "vacancies-sync", help="Synchronize weekly hh vacancy data"
     )
     vacancies_parser.add_argument("--query", required=True, help="hh vacancy search query")
-    vacancies_parser.add_argument("--area", default=None, help="hh area ID")
+    vacancies_parser.add_argument("--area", default=None, help="hh area ID (default 40 = Kazakhstan)")
     vacancies_parser.add_argument("--limit", type=int, default=100)
+    vacancies_parser.add_argument("--max-pages", type=int, default=None)
     vacancies_parser.add_argument("--dry-run", action="store_true")
     vacancies_parser.add_argument("--workspace", type=str, default=None)
 
@@ -91,10 +92,11 @@ def main() -> int:
             query=args.query,
             area=args.area,
             limit=args.limit,
+            max_pages=getattr(args, "max_pages", None),
             dry_run=args.dry_run,
         )
         print(json.dumps(report, ensure_ascii=False, indent=2))
-        return 0 if report["status"] == "success" else 1
+        return 0 if report["status"] in ("success", "partial") else 1
 
     return 0
 

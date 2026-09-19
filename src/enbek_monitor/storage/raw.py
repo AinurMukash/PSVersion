@@ -129,6 +129,7 @@ class RawArtifactStore:
         content: bytes | bytearray | memoryview,
         *,
         enbek_id: int | None = None,
+        vacancy_id: str | None = None,
         http_status: int | None = 200,
         content_type: str | None = None,
         fetched_at: datetime | str | None = None,
@@ -151,7 +152,10 @@ class RawArtifactStore:
         status = self._coerce_status(http_status)
         media_type = self._normalise_content_type(content_type)
         record_id = self._coerce_enbek_id(enbek_id) if enbek_id is not None else None
+        vacancy_key = self._coerce_vacancy_id(vacancy_id) if vacancy_id is not None else None
         received = self._timestamp(fetched_at)
+        if extension is None:
+            extension = self._extension_from_content_type(media_type, artifact_kind)
         self._validate_response(
             artifact_kind,
             url=url,
@@ -159,11 +163,13 @@ class RawArtifactStore:
             status=status,
             content_type=media_type,
             enbek_id=record_id,
+            vacancy_id=vacancy_key,
         )
         physical, logical_key = self._choose_path(
             artifact_kind,
             body,
             record_id,
+            vacancy_id=vacancy_key,
             run_id=run_id,
             staging_root=staging_root,
             received_at=received,
@@ -177,6 +183,7 @@ class RawArtifactStore:
             source_url=url,
             fetched_at=received,
             enbek_id=record_id,
+            vacancy_id=vacancy_key,
             http_status=status,
             content_type=media_type,
             byte_length=len(body),
@@ -277,6 +284,7 @@ class RawArtifactStore:
         body: bytes,
         enbek_id: int | None,
         *,
+        vacancy_id: str | None = None,
         run_id: str | None,
         staging_root: str | Path | None,
         received_at: str,
@@ -310,13 +318,27 @@ class RawArtifactStore:
             )
 
         directory.mkdir(parents=True, exist_ok=True)
-        if kind is ArtifactKind.REGISTRY:
+        if kind in (ArtifactKind.REGISTRY, ArtifactKind.HH_SEARCH):
+            prefix = "hh-search" if kind is ArtifactKind.HH_SEARCH else "registry"
             index = 1
             while True:
                 filename = f"page-{index:06d}.{suffix}"
                 candidate = self.guard.resolve_path(directory / filename)
                 if not candidate.exists():
-                    return candidate, f"registry-{chosen_run}-page-{index:06d}"
+                    return candidate, f"{prefix}-{chosen_run}-page-{index:06d}"
+                index += 1
+        if kind is ArtifactKind.HH_DETAIL:
+            if vacancy_id is None:
+                raise ValueError("hh_detail artifacts require a vacancy_id")
+            base = self._path_component(vacancy_id, "vacancy_id")
+            candidate = self.guard.resolve_path(directory / f"{base}.{suffix}")
+            if not candidate.exists():
+                return candidate, f"hh-detail-{chosen_run}-{base}"
+            index = 2
+            while True:
+                candidate = self.guard.resolve_path(directory / f"{base}-{index}.{suffix}")
+                if not candidate.exists():
+                    return candidate, f"hh-detail-{chosen_run}-{base}-{index}"
                 index += 1
         if enbek_id is None:
             raise ValueError("detail artifacts require a positive enbek_id")
@@ -414,6 +436,7 @@ class RawArtifactStore:
         status: int | None,
         content_type: str | None,
         enbek_id: int | None,
+        vacancy_id: str | None = None,
     ) -> None:
         if status is not None and status != 200:
             raise SourceError(
@@ -452,6 +475,8 @@ class RawArtifactStore:
                 )
         elif kind is ArtifactKind.DETAIL and enbek_id is None:
             raise ValueError("detail artifacts require a positive enbek_id")
+        elif kind is ArtifactKind.HH_DETAIL and vacancy_id is None:
+            raise ValueError("hh_detail artifacts require a vacancy_id")
 
     @staticmethod
     def _coerce_kind(kind: ArtifactKind | str) -> ArtifactKind:
@@ -489,6 +514,15 @@ class RawArtifactStore:
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
             raise ValueError("enbek_id must be a positive integer")
         return value
+
+    @staticmethod
+    def _coerce_vacancy_id(value: Any) -> str:
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError("vacancy_id must be a non-empty string")
+        text = value.strip()
+        if text in {".", ".."} or "/" in text or "\\" in text or "\x00" in text:
+            raise ValueError("vacancy_id must be path-safe")
+        return text
 
     @staticmethod
     def _normalise_content_type(value: Any) -> str | None:

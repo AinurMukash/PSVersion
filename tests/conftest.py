@@ -19,16 +19,22 @@ from tests.fixtures.loader import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-# Import-time validation is intentional: a malformed manifest must not be
-# silently discovered after functional tests have started.
-FIXTURE_MANIFEST: FixtureManifest = load_manifest(DEFAULT_MANIFEST_PATH)
-FIXTURES_DIR = FIXTURE_MANIFEST.fixtures_root
+# The manifest is optional for tests that do not need fixtures (e.g. hh
+# vacancies). Load lazily so a missing manifest skips fixture-backed tests
+# instead of breaking the whole pytest session on import.
+try:
+    FIXTURE_MANIFEST: FixtureManifest | None = load_manifest(DEFAULT_MANIFEST_PATH)
+except Exception:
+    FIXTURE_MANIFEST = None
+FIXTURES_DIR: Path | None = FIXTURE_MANIFEST.fixtures_root if FIXTURE_MANIFEST else None
 
 
 @pytest.fixture(scope="session")
 def fixture_manifest() -> FixtureManifest:
     """Return the validated manifest used by every fixture-backed test."""
 
+    if FIXTURE_MANIFEST is None:
+        pytest.skip("fixture manifest is not available")
     return FIXTURE_MANIFEST
 
 

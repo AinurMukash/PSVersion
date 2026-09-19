@@ -1423,6 +1423,7 @@ class RawArtifact(SerializableModel):
     source_url: str = ""
     fetched_at: ISODateTime | None = None
     enbek_id: int | None = None
+    vacancy_id: str | None = None
     http_status: int | None = None
     content_type: str | None = None
     byte_length: int = 0
@@ -1436,6 +1437,7 @@ class RawArtifact(SerializableModel):
         "source_url",
         "fetched_at",
         "enbek_id",
+        "vacancy_id",
         "http_status",
         "content_type",
         "byte_length",
@@ -1451,6 +1453,9 @@ class RawArtifact(SerializableModel):
         self.fetched_at = _optional_datetime(self.fetched_at, "fetched_at")
         if self.enbek_id is not None:
             self.enbek_id = _positive_id(self.enbek_id)
+        self.vacancy_id = _optional_text(self.vacancy_id, "vacancy_id")
+        if self.vacancy_id is not None and not self.vacancy_id.strip():
+            raise ValueError("vacancy_id must be a non-empty string or None")
         if self.http_status is not None:
             self.http_status = _nonnegative_int(self.http_status, "http_status")
         self.content_type = _optional_text(self.content_type, "content_type")
