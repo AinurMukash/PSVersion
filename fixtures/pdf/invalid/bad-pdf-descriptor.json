@@ -1,0 +1,7 @@
+{
+  "enbek_id": 9999,
+  "url": "https://career.enbek.kz/ru/api/professionalstandart/9999/download",
+  "status": 404,
+  "content_type": "text/html",
+  "body_path": "pdf/invalid/bad-pdf.pdf"
+}

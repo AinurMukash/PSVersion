@@ -1,0 +1,26 @@
+{
+  "current_snapshot": {
+    "records": {},
+    "lifecycle": {}
+  },
+  "candidate_snapshot": {
+    "complete": true,
+    "records": {
+      "1002": "normalized/valid/standard-1002.json"
+    }
+  },
+  "expected": {
+    "classifications": {
+      "1002": "NEW"
+    },
+    "event_types": {
+      "1002": "NEW"
+    },
+    "lifecycle": {
+      "1002": {
+        "state": "ACTIVE",
+        "missing_count": 0
+      }
+    }
+  }
+}

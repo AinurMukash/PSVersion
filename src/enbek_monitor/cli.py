@@ -67,6 +67,7 @@ def main() -> int:
     vacancies_parser.add_argument("--max-pages", type=int, default=None)
     vacancies_parser.add_argument("--dry-run", action="store_true")
     vacancies_parser.add_argument("--workspace", type=str, default=None)
+    vacancies_parser.add_argument("--token", type=str, default=None, help="HeadHunter API OAuth access token")
 
     args = parser.parse_args()
 
@@ -94,6 +95,7 @@ def main() -> int:
             limit=args.limit,
             max_pages=getattr(args, "max_pages", None),
             dry_run=args.dry_run,
+            token=getattr(args, "token", None),
         )
         print(json.dumps(report, ensure_ascii=False, indent=2))
         return 0 if report["status"] in ("success", "partial") else 1

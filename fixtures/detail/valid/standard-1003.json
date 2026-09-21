@@ -1,0 +1,16 @@
+{
+  "data": {
+    "enbek_id": 1003,
+    "code": "C10110003",
+    "title": "Стандарт без ОКЭД и профессий",
+    "government_body": "Министерство промышленности РК",
+    "description": "Стандарт для демонстрации отсутствия ОКЭД.",
+    "version": 1,
+    "year": 2021,
+    "revision_date": null,
+    "oked": null,
+    "professions": [],
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1003/download",
+    "pdf_published": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "current_snapshot": {
+    "records": {
+      "1001": "normalized/valid/standard-1001.json"
+    },
+    "lifecycle": {
+      "1001": {
+        "state": "MISSING",
+        "missing_count": 1
+      }
+    }
+  },
+  "candidate_snapshot": {
+    "complete": true,
+    "records": {
+      "1001": "normalized/valid/standard-1001.json"
+    }
+  },
+  "expected": {
+    "classifications": {
+      "1001": "RESTORED"
+    },
+    "event_types": {
+      "1001": "RESTORED"
+    },
+    "lifecycle": {
+      "1001": {
+        "state": "ACTIVE",
+        "missing_count": 0
+      }
+    }
+  }
+}

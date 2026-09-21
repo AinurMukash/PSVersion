@@ -1,0 +1,16 @@
+{
+  "data": {
+    "enbek_id": "not-an-int",
+    "code": "D35220001",
+    "title": "Valid Title",
+    "government_body": 12345,
+    "description": 99999,
+    "version": "not-digit",
+    "year": "not-digit",
+    "revision_date": 20220315,
+    "oked": "should-be-object",
+    "professions": "should-be-array",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1001/download",
+    "pdf_published": true
+  }
+}

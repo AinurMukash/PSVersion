@@ -38,6 +38,7 @@ jobs:
           QUERY: ${{ github.event.inputs.query || 'тестировщик ПО' }}
           AREA: ${{ github.event.inputs.area || '40' }}
           LIMIT: ${{ github.event.inputs.limit || '100' }}
+          HH_API_TOKEN: ${{ secrets.HH_API_TOKEN }}
         run: |
           if [ -n "$AREA" ]; then
             python -m enbek_monitor.cli vacancies-sync --query "$QUERY" --area "$AREA" --limit "$LIMIT"

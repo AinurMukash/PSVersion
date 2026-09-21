@@ -1,0 +1,30 @@
+{
+  "data": {
+    "enbek_id": 1001,
+    "code": "D35220001",
+    "title": "Организация безопасной эксплуатации газораспределительных систем",
+    "government_body": "Министерство энергетики РК",
+    "description": "Организация безопасной эксплуатации газораспределительных систем.",
+    "version": 1,
+    "year": 2022,
+    "revision_date": "2022-03-15",
+    "oked": {
+      "section_code": "D",
+      "section_name": "Снабжение электроэнергией, газом, паром",
+      "division_code": "35",
+      "division_name": "Производство электроэнергии",
+      "group_code": "35.2",
+      "group_name": "Производство и распределение газа",
+      "class_code": "35.22",
+      "class_name": "Распределение газообразного топлива",
+      "subclass_code": "35.22.0",
+      "subclass_name": "Распределение газообразного топлива трубопроводами"
+    },
+    "professions": [
+      {"name": "Газовщик", "ork_level": 5},
+      {"name": "Старший газовщик", "ork_level": 6}
+    ],
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1001/download",
+    "pdf_published": true
+  }
+}

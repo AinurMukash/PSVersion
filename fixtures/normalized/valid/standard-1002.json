@@ -1,0 +1,38 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1002,
+  "code": null,
+  "title": "Производство стандартизированных продуктов питания",
+  "government_body": null,
+  "description": null,
+  "version": null,
+  "year": 2024,
+  "revision_date": null,
+  "oked": null,
+  "professions": [],
+  "categories": {
+    "official": {
+      "oked": [],
+      "government_body": null,
+      "ork_levels": [],
+      "year": 2024,
+      "version": null,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": "https://career.enbek.kz/ru/ps-registry",
+    "page_url": "https://career.enbek.kz/ru/professionalstandart/1002",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1002/download"
+  },
+  "hashes": {
+    "metadata_sha256": null,
+    "pdf_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "normalized_sha256": null
+  },
+  "timestamps": {
+    "first_seen_at": "2025-01-15T08:00:00Z",
+    "last_seen_at": null,
+    "last_changed_at": null
+  }
+}

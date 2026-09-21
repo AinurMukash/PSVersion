@@ -1,0 +1,37 @@
+{
+  "schema_version": "1",
+  "code": "D35220001",
+  "title": "Стандарт без enbek_id",
+  "government_body": null,
+  "description": null,
+  "version": null,
+  "year": null,
+  "revision_date": null,
+  "oked": null,
+  "professions": [],
+  "categories": {
+    "official": {
+      "oked": [],
+      "government_body": null,
+      "ork_levels": [],
+      "year": null,
+      "version": null,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": null,
+    "pdf_url": null
+  },
+  "hashes": {
+    "metadata_sha256": null,
+    "pdf_sha256": null,
+    "normalized_sha256": null
+  },
+  "timestamps": {
+    "first_seen_at": null,
+    "last_seen_at": null,
+    "last_changed_at": null
+  }
+}

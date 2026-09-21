@@ -1,0 +1,13 @@
+{
+  "data": {
+    "code": "D35220001",
+    "title": "Стандарт без enbek_id",
+    "government_body": "Министерство энергетики РК",
+    "description": "Описание стандарта.",
+    "version": 1,
+    "year": 2022,
+    "professions": [],
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/9999/download",
+    "pdf_published": true
+  }
+}

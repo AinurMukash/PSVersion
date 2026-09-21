@@ -67,18 +67,31 @@ class VacancyPipeline:
         limit: int = 100,
         max_pages: int | None = None,
         dry_run: bool = False,
+        token: str | None = None,
     ) -> dict[str, Any]:
+        import os
+
         started = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         run_id = "hh-" + started.replace(":", "").replace("-", "")
         resolved_area = area if area else HH_KZ_AREA_ID
         resolved_limit = max(1, int(limit))
         resolved_pages = max_pages if max_pages else max(1, (resolved_limit + 99) // 100)
+        auth_token = (
+            token
+            or os.environ.get("HH_API_TOKEN")
+            or os.environ.get("HH_ACCESS_TOKEN")
+            or os.environ.get("HH_TOKEN")
+        )
+        headers: dict[str, str] = {
+            "User-Agent": "enbek-professional-standards-monitor/0.1 (alenkz20001@gmail.com)",
+            "Accept": "application/json",
+        }
+        if auth_token:
+            headers["Authorization"] = f"Bearer {auth_token}"
+
         client = httpx.Client(
             timeout=30.0,
-            headers={
-                "User-Agent": "enbek-professional-standards-monitor/0.1 (alenkz20001@gmail.com)",
-                "Accept": "application/json",
-            },
+            headers=headers,
             follow_redirects=True,
         )
         try:
@@ -114,6 +127,16 @@ class VacancyPipeline:
         else:
             status = "failed"
 
+        errors = [error.to_report_dict() for error in result.errors]
+        if any(err.get("status") == 403 for err in errors) and not auth_token:
+            for err in errors:
+                if err.get("status") == 403:
+                    err["hint"] = (
+                        "HeadHunter API (api.hh.ru) закрыл публичный доступ к поиску вакансий "
+                        "и требует авторизации (OAuth bearer token). Укажите токен через параметр --token "
+                        "или переменную окружения HH_API_TOKEN / HH_ACCESS_TOKEN."
+                    )
+
         report = {
             "schema_version": "1",
             "run_id": run_id,
@@ -130,7 +153,7 @@ class VacancyPipeline:
             "changes": changes,
             "summary": summary,
             "matches": matches,
-            "errors": [error.to_report_dict() for error in result.errors],
+            "errors": errors,
         }
         if not dry_run and result.complete:
             persist_snapshot(self.data_dir, result.records, changes)

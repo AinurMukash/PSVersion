@@ -582,16 +582,21 @@ class NetworkClient:
         host_error = self._host_error(url)
         if host_error is not None:
             return host_error
-        kwargs = {
-            "url": url,
-            "method": str(kwargs.pop("method", "GET")).upper(),
-            "params": kwargs.pop("params", None),
-            "body": kwargs.pop("body", None),
-            "headers": kwargs.pop("headers", None),
-            "expected_kind": kwargs.pop("expected_kind", None),
-        }
+        method = str(kwargs.pop("method", "GET")).upper()
+        params = kwargs.pop("params", None)
+        body = kwargs.pop("body", None)
+        headers = kwargs.pop("headers", None)
+        expected_kind = kwargs.pop("expected_kind", None)
         if kwargs:
             raise TypeError(f"unexpected request arguments: {', '.join(sorted(kwargs))}")
+        kwargs = {
+            "url": url,
+            "method": method,
+            "params": params,
+            "body": body,
+            "headers": headers,
+            "expected_kind": expected_kind,
+        }
         for attempt in range(1, self.max_attempts + 1):
             result = await self._attempt_async(**kwargs, attempt=attempt)
             if result.response is not None:

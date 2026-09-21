@@ -1,0 +1,29 @@
+{
+  "data": {
+    "enbek_id": 1004,
+    "code": "C10110004",
+    "title": "Оператор технологической линии",
+    "government_body": "Министерство промышленности РК",
+    "description": "Управление линией и контроль качества.",
+    "version": 1,
+    "year": 2024,
+    "revision_date": "2024-02-29",
+    "oked": {
+      "section_code": "C",
+      "section_name": "Обрабатывающая промышленность",
+      "division_code": "10",
+      "division_name": "Производство продуктов питания",
+      "group_code": "10.1",
+      "group_name": "Переработка и консервирование мяса",
+      "class_code": "10.11",
+      "class_name": "Переработка и консервирование мяса",
+      "subclass_code": "10.11.0",
+      "subclass_name": "Переработка и консервирование мяса"
+    },
+    "professions": [
+      {"name": "Оператор технологической линии", "ork_level": 4}
+    ],
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1004/download",
+    "pdf_published": true
+  }
+}

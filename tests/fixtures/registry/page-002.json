@@ -1,0 +1,20 @@
+{
+  "data": {
+    "items": [
+      {
+        "enbek_id": 1003,
+        "detail_url": "https://career.enbek.kz/ru/professionalstandart/1003",
+        "code": "C10110003"
+      },
+      {
+        "enbek_id": 1004,
+        "detail_url": "https://career.enbek.kz/ru/professionalstandart/1004",
+        "code": "C10110004"
+      }
+    ],
+    "next": null,
+    "page": 2,
+    "page_size": 2,
+    "total": 4
+  }
+}

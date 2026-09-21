@@ -1,0 +1,14 @@
+{
+  "data": {
+    "enbek_id": 9998,
+    "code": "D35220001",
+    "title": "Стандарт с относительным URL PDF",
+    "government_body": "Министерство энергетики РК",
+    "description": "Описание стандарта.",
+    "version": 1,
+    "year": 2022,
+    "professions": [],
+    "pdf_url": "/relative/path/to/pdf",
+    "pdf_published": true
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "schema_version": "1",
+  "fixture_set": "enbek-profstandars-v1",
+  "network_required": false,
+  "expected_outcome_values": ["accept", "reject"],
+  "fixture_count_constraints": {
+    "minimum_valid_per_kind": 1,
+    "maximum_valid_per_kind": 10,
+    "minimum_invalid_per_kind": 1,
+    "maximum_invalid_per_kind": 10
+  },
+  "fixtures": {
+    "Registry_Page": {
+      "valid": [
+        {
+          "id": "registry-page-001-valid",
+          "kind": "Registry_Page",
+          "path": "registry/page-001.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        },
+        {
+          "id": "registry-page-002-valid",
+          "kind": "Registry_Page",
+          "path": "registry/page-002.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        }
+      ],
+      "invalid": [
+        {
+          "id": "registry-page-001-invalid",
+          "kind": "Registry_Page",
+          "path": "detail/invalid/malformed.json",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$"],
+          "expected_error_reasons": ["malformed JSON"]
+        }
+      ]
+    },
+    "Detail_Page": {
+      "valid": [
+        {
+          "id": "detail-1001-valid",
+          "kind": "Detail_Page",
+          "path": "detail/valid/standard-1001.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        },
+        {
+          "id": "detail-1002-valid",
+          "kind": "Detail_Page",
+          "path": "detail/valid/standard-1002.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        },
+        {
+          "id": "detail-1003-valid",
+          "kind": "Detail_Page",
+          "path": "detail/valid/standard-1003.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        },
+        {
+          "id": "detail-1004-valid",
+          "kind": "Detail_Page",
+          "path": "detail/valid/standard-1004.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        },
+        {
+          "id": "detail-1005-valid",
+          "kind": "Detail_Page",
+          "path": "detail/valid/standard-1005.html",
+          "format": "html",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        }
+      ],
+      "invalid": [
+        {
+          "id": "detail-wrong-types-invalid",
+          "kind": "Detail_Page",
+          "path": "detail/invalid/wrong-types.json",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$.data.enbek_id"],
+          "expected_error_reasons": ["wrong type for enbek_id"]
+        },
+        {
+          "id": "detail-missing-enbek-id-invalid",
+          "kind": "Detail_Page",
+          "path": "detail/invalid/missing-enbek-id.json",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$.data.enbek_id"],
+          "expected_error_reasons": ["missing enbek_id"]
+        },
+        {
+          "id": "detail-missing-title-invalid",
+          "kind": "Detail_Page",
+          "path": "detail/invalid/missing-title.json",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$.data.title"],
+          "expected_error_reasons": ["missing title"]
+        },
+        {
+          "id": "detail-relative-pdf-url-invalid",
+          "kind": "Detail_Page",
+          "path": "detail/invalid/relative-pdf-url.json",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$.data.pdf_url"],
+          "expected_error_reasons": ["relative pdf_url"]
+        },
+        {
+          "id": "detail-malformed-invalid",
+          "kind": "Detail_Page",
+          "path": "detail/invalid/malformed.json",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$"],
+          "expected_error_reasons": ["malformed JSON"]
+        }
+      ]
+    },
+    "PDF_Document": {
+      "valid": [
+        {
+          "id": "pdf-1001-valid",
+          "kind": "PDF_Document",
+          "path": "pdf/valid/standard-1001-descriptor.json",
+          "body_path": "pdf/valid/standard-1001.pdf",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        }
+      ],
+      "invalid": [
+        {
+          "id": "pdf-bad-descriptor-invalid",
+          "kind": "PDF_Document",
+          "path": "pdf/invalid/bad-pdf-descriptor.json",
+          "body_path": "pdf/invalid/bad-pdf.pdf",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$.status"],
+          "expected_error_reasons": ["HTTP 404 status"]
+        }
+      ]
+    },
+    "Normalized_Record": {
+      "valid": [
+        {
+          "id": "normalized-complete-1001",
+          "kind": "Normalized_Record",
+          "path": "normalized/valid/standard-1001.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        },
+        {
+          "id": "normalized-null-scalars-1002",
+          "kind": "Normalized_Record",
+          "path": "normalized/valid/standard-1002.json",
+          "expected_outcome": "accept",
+          "expected_error_paths": [],
+          "expected_error_reasons": []
+        }
+      ],
+      "invalid": [
+        {
+          "id": "normalized-missing-id-invalid",
+          "kind": "Normalized_Record",
+          "path": "normalized/invalid/missing-id.json",
+          "expected_outcome": "reject",
+          "expected_error_paths": ["$.enbek_id"],
+          "expected_error_reasons": ["missing enbek_id"]
+        }
+      ]
+    }
+  },
+  "snapshot_pairs": [
+    {
+      "id": "snapshot-new",
+      "kind": "Snapshot_Pair",
+      "scenario": "NEW",
+      "path": "snapshots/pairs/new.json",
+      "expected_outcome": "accept",
+      "expected_error_paths": [],
+      "expected_error_reasons": []
+    },
+    {
+      "id": "snapshot-updated",
+      "kind": "Snapshot_Pair",
+      "scenario": "UPDATED",
+      "path": "snapshots/pairs/updated.json",
+      "expected_outcome": "accept",
+      "expected_error_paths": [],
+      "expected_error_reasons": []
+    },
+    {
+      "id": "snapshot-unchanged",
+      "kind": "Snapshot_Pair",
+      "scenario": "UNCHANGED",
+      "path": "snapshots/pairs/unchanged.json",
+      "expected_outcome": "accept",
+      "expected_error_paths": [],
+      "expected_error_reasons": []
+    },
+    {
+      "id": "snapshot-missing",
+      "kind": "Snapshot_Pair",
+      "scenario": "MISSING",
+      "path": "snapshots/pairs/missing.json",
+      "expected_outcome": "accept",
+      "expected_error_paths": [],
+      "expected_error_reasons": []
+    },
+    {
+      "id": "snapshot-removed",
+      "kind": "Snapshot_Pair",
+      "scenario": "REMOVED",
+      "path": "snapshots/pairs/removed.json",
+      "expected_outcome": "accept",
+      "expected_error_paths": [],
+      "expected_error_reasons": []
+    },
+    {
+      "id": "snapshot-restored",
+      "kind": "Snapshot_Pair",
+      "scenario": "RESTORED",
+      "path": "snapshots/pairs/restored.json",
+      "expected_outcome": "accept",
+      "expected_error_paths": [],
+      "expected_error_reasons": []
+    }
+  ],
+  "fallback": {
+    "profile_path": "profiles/fallback.json",
+    "registry_page_paths": [
+      "registry/page-001.json",
+      "registry/page-002.json"
+    ],
+    "normalized_record_paths": [
+      "normalized/valid/standard-1001.json",
+      "normalized/valid/standard-1002.json"
+    ],
+    "detail_paths": {
+      "1001": "detail/valid/standard-1001.json",
+      "1002": "detail/valid/standard-1002.json",
+      "1003": "detail/valid/standard-1003.json",
+      "1004": "detail/valid/standard-1004.json"
+    },
+    "pdf_response_paths": {
+      "1001": "pdf/valid/standard-1001-descriptor.json",
+      "1002": "pdf/valid/standard-1002-descriptor.json"
+    }
+  }
+}

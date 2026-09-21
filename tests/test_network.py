@@ -45,7 +45,8 @@ def test_retryable_http_and_network_failures_use_exact_2_and_5_second_delays() -
             FakeResponse(500, body=b"temporary"),
             FakeNetworkError("connection reset"),
             FakeResponse(200, body=b"ok"),
-        ]}
+        ]},
+        clock=clock,
     )
     client = NetworkClient(transport, clock=clock, sleeper=sleeper, fixture_mode=True)
 

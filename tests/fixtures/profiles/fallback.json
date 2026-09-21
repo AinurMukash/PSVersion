@@ -1,0 +1,42 @@
+{
+  "schema_version": "1",
+  "kind": "fixture",
+  "confirmed": false,
+  "parser_mode": "json_api",
+  "registry": {
+    "url": "https://career.enbek.kz/ru/ps-registry",
+    "method": "GET",
+    "query": {
+      "page": 1,
+      "page_size": 2
+    },
+    "body": null,
+    "headers": {
+      "accept": "application/json"
+    }
+  },
+  "pagination": {
+    "request": {
+      "location": "fixture",
+      "page_parameter": "page",
+      "page_size_parameter": "page_size"
+    },
+    "records_selector": {
+      "type": "json_path",
+      "value": "$.data.items"
+    },
+    "next_selector": {
+      "type": "json_path",
+      "value": "$.data.next"
+    },
+    "terminal_condition": "null_or_empty"
+  },
+  "detail_link_selector": {
+    "type": "json_path",
+    "value": "$.detail_url"
+  },
+  "pdf_link_selector": {
+    "type": "json_path",
+    "value": "$.pdf_url"
+  }
+}

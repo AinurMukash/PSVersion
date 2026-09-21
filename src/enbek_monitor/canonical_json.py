@@ -76,6 +76,8 @@ def _object_issues(
     path: str,
     expected: Sequence[str],
     issues: list[_SchemaIssue],
+    *,
+    check_missing: bool = True,
 ) -> bool:
     """Check object shape and collect unknown/missing keys without partial use."""
 
@@ -88,9 +90,10 @@ def _object_issues(
             issues.append(_SchemaIssue(path, "object keys must be strings"))
         elif key not in expected_set:
             issues.append(_SchemaIssue(_path_field(path, key), "unknown field"))
-    for key in expected:
-        if key not in value:
-            issues.append(_SchemaIssue(_path_field(path, key), "field is required", missing=True))
+    if check_missing:
+        for key in expected:
+            if key not in value:
+                issues.append(_SchemaIssue(_path_field(path, key), "field is required", missing=True))
     return True
 
 
@@ -201,78 +204,68 @@ def _check_official(value: Any, path: str, issues: list[_SchemaIssue]) -> None:
         issues.append(_SchemaIssue(state_path, "unknown lifecycle state"))
 
 
-def _check_nested_objects(document: Mapping[str, Any], issues: list[_SchemaIssue]) -> None:
-    categories_path = "$.categories"
-    if "categories" in document and _object_issues(
-        document["categories"], categories_path, ("official",), issues
-    ):
-        if "official" in document["categories"]:
-            _check_official(document["categories"]["official"], "$.categories.official", issues)
-
-    source_path = "$.source"
-    if "source" in document and _object_issues(
-        document["source"], source_path, SOURCE_FIELDS, issues
-    ):
-        for name in SOURCE_FIELDS:
-            if name in document["source"]:
-                source_value = document["source"][name]
-                _check_optional_text(source_value, _path_field(source_path, name), issues)
-                _check_source_url(source_value, _path_field(source_path, name), issues)
-
-    hashes_path = "$.hashes"
-    if "hashes" in document and _object_issues(
-        document["hashes"], hashes_path, HASH_FIELDS, issues
-    ):
-        for name in HASH_FIELDS:
-            if name in document["hashes"]:
-                value = document["hashes"][name]
-                if value is not None and (
-                    not isinstance(value, str) or not _SHA256_RE.fullmatch(value)
-                ):
-                    issues.append(_SchemaIssue(_path_field(hashes_path, name), "expected a 64-character hexadecimal SHA-256 digest or null"))
-
-    timestamps_path = "$.timestamps"
-    if "timestamps" in document and _object_issues(
-        document["timestamps"], timestamps_path, TIMESTAMP_FIELDS, issues
-    ):
-        for name in TIMESTAMP_FIELDS:
-            if name in document["timestamps"]:
-                _check_datetime(document["timestamps"][name], _path_field(timestamps_path, name), issues)
-
-
 def _validate_document(document: Any) -> tuple[_SchemaIssue, ...]:
     """Validate the complete NormalizedRecord JSON shape and all leaf types."""
 
     issues: list[_SchemaIssue] = []
-    if not _object_issues(document, "$", NORMALIZED_RECORD_FIELDS, issues):
+    if not _object_issues(document, "$", NORMALIZED_RECORD_FIELDS, issues, check_missing=False):
         return tuple(issues)
 
-    if "schema_version" in document:
-        schema_version = document["schema_version"]
-        if not isinstance(schema_version, str) or not schema_version.strip():
-            issues.append(_SchemaIssue("$.schema_version", "expected a non-empty string"))
-
-    if "enbek_id" in document:
-        enbek_id = document["enbek_id"]
-        if isinstance(enbek_id, bool) or not isinstance(enbek_id, int) or enbek_id <= 0:
-            issues.append(_SchemaIssue("$.enbek_id", "expected an integer greater than zero"))
-
-    for name in ("code", "title", "government_body", "description"):
-        if name in document:
+    for name in NORMALIZED_RECORD_FIELDS:
+        if name not in document:
+            issues.append(_SchemaIssue(f"$.{name}", "field is required", missing=True))
+            continue
+        if name == "schema_version":
+            schema_version = document["schema_version"]
+            if not isinstance(schema_version, str) or not schema_version.strip():
+                issues.append(_SchemaIssue("$.schema_version", "expected a non-empty string"))
+        elif name == "enbek_id":
+            enbek_id = document["enbek_id"]
+            if isinstance(enbek_id, bool) or not isinstance(enbek_id, int) or enbek_id <= 0:
+                issues.append(_SchemaIssue("$.enbek_id", "expected an integer greater than zero"))
+        elif name in ("code", "title", "government_body", "description"):
             _check_optional_text(document[name], f"$.{name}", issues)
-    if "title" in document and isinstance(document["title"], str) and not document["title"].strip():
-        issues.append(_SchemaIssue("$.title", "expected a non-blank string or null"))
-    if "version" in document:
-        _check_optional_number(document["version"], "$.version", issues)
-    if "year" in document:
-        _check_optional_number(document["year"], "$.year", issues)
-    if "revision_date" in document:
-        _check_date(document["revision_date"], "$.revision_date", issues)
-    if "oked" in document:
-        _check_oked(document["oked"], "$.oked", issues)
-    if "professions" in document:
-        _check_professions(document["professions"], "$.professions", issues)
-    _check_nested_objects(document, issues)
+            if name == "title" and isinstance(document["title"], str) and not document["title"].strip():
+                issues.append(_SchemaIssue("$.title", "expected a non-blank string or null"))
+        elif name == "version":
+            _check_optional_number(document["version"], "$.version", issues)
+        elif name == "year":
+            _check_optional_number(document["year"], "$.year", issues)
+        elif name == "revision_date":
+            _check_date(document["revision_date"], "$.revision_date", issues)
+        elif name == "oked":
+            _check_oked(document["oked"], "$.oked", issues)
+        elif name == "professions":
+            _check_professions(document["professions"], "$.professions", issues)
+        elif name == "categories":
+            categories_path = "$.categories"
+            if _object_issues(document["categories"], categories_path, ("official",), issues):
+                if "official" in document["categories"]:
+                    _check_official(document["categories"]["official"], "$.categories.official", issues)
+        elif name == "source":
+            source_path = "$.source"
+            if _object_issues(document["source"], source_path, SOURCE_FIELDS, issues):
+                for s_name in SOURCE_FIELDS:
+                    if s_name in document["source"]:
+                        source_value = document["source"][s_name]
+                        _check_optional_text(source_value, _path_field(source_path, s_name), issues)
+                        _check_source_url(source_value, _path_field(source_path, s_name), issues)
+        elif name == "hashes":
+            hashes_path = "$.hashes"
+            if _object_issues(document["hashes"], hashes_path, HASH_FIELDS, issues):
+                for h_name in HASH_FIELDS:
+                    if h_name in document["hashes"]:
+                        value = document["hashes"][h_name]
+                        if value is not None and (
+                            not isinstance(value, str) or not _SHA256_RE.fullmatch(value)
+                        ):
+                            issues.append(_SchemaIssue(_path_field(hashes_path, h_name), "expected a 64-character hexadecimal SHA-256 digest or null"))
+        elif name == "timestamps":
+            timestamps_path = "$.timestamps"
+            if _object_issues(document["timestamps"], timestamps_path, TIMESTAMP_FIELDS, issues):
+                for t_name in TIMESTAMP_FIELDS:
+                    if t_name in document["timestamps"]:
+                        _check_datetime(document["timestamps"][t_name], _path_field(timestamps_path, t_name), issues)
     return tuple(issues)
 
 

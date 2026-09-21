@@ -1,0 +1,7 @@
+{
+  "enbek_id": 1001,
+  "url": "https://career.enbek.kz/ru/api/professionalstandart/1001/download",
+  "status": 200,
+  "content_type": "application/pdf",
+  "body_path": "pdf/valid/standard-1001.pdf"
+}

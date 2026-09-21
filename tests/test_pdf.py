@@ -25,6 +25,7 @@ def _build_collector(
     status: int,
     content_type: str | None,
 ) -> tuple[PdfCollector, FakeTransport]:
+    workspace.mkdir(parents=True, exist_ok=True)
     headers = {} if content_type is None else {"Content-Type": content_type}
     transport = FakeTransport(
         {url: FakeResponse(status, body=body, headers=headers, url=url)},
