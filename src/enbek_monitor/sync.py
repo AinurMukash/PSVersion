@@ -12,12 +12,12 @@ Executes the full pipeline:
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import copy
 import hashlib
 import json
 import logging
 import time
-import copy
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Mapping
@@ -56,8 +56,10 @@ class SyncPipeline:
         self,
         workspace_root: Path | str | None = None,
         client: httpx.Client | None = None,
+        max_workers: int = 8,
     ) -> None:
         self.workspace_root = Path(workspace_root).resolve() if workspace_root else Path.cwd().resolve()
+        self.max_workers = max(1, max_workers)
         self.data_dir = self.workspace_root / "data"
         self.standards_dir = self.data_dir / "standards"
         self.raw_dir = self.workspace_root / "raw"
@@ -67,6 +69,7 @@ class SyncPipeline:
 
         self.client = client or httpx.Client(
             timeout=30.0,
+            limits=httpx.Limits(max_connections=50, max_keepalive_connections=20),
             headers={
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) EnbekMonitor/1.0",
                 "Accept": "application/json",
@@ -258,8 +261,9 @@ class SyncPipeline:
         candidates: dict[int, NormalizedRecord] = {}
         processed_entries: list[dict[str, Any]] = []
 
-        print(f"\nProcessing {len(entries)} standards...")
-        for i, entry in enumerate(entries, start=1):
+        print(f"\nProcessing {len(entries)} standards (workers: {self.max_workers})...")
+
+        def _process_one(entry: RegistryEntry) -> tuple[int, NormalizedRecord, dict[str, Any]] | None:
             existing = existing_records.get(entry.enbek_id)
             detail_page, pdf_bytes, pdf_sha256 = self.fetch_detail_and_pdf(
                 entry,
@@ -267,9 +271,8 @@ class SyncPipeline:
                 dry_run=dry_run,
             )
             if not detail_page:
-                continue
+                return None
 
-            existing = existing_records.get(entry.enbek_id)
             ts_first = existing.timestamps.first_seen_at if existing else start_iso
             ts_last_changed = existing.timestamps.last_changed_at if existing else start_iso
 
@@ -285,24 +288,41 @@ class SyncPipeline:
             )
             if not isinstance(norm_result, NormalizedRecord):
                 print(f"  [WARN] Normalization error for ID {entry.enbek_id}: {norm_result}")
-                continue
+                return None
 
-            # Calculate and attach all 3 canonical sha256 digests
             complete_record = self.hashing_service.with_hashes(
                 norm_result,
                 pdf_bytes=pdf_bytes if pdf_bytes else (b"%PDF-mock" if not pdf_sha256 else None),
             )
-            candidates[entry.enbek_id] = complete_record
-            processed_entries.append({
+            entry_summary = {
                 "enbek_id": entry.enbek_id,
                 "code": complete_record.code,
                 "title": complete_record.title,
                 "version": complete_record.version,
                 "status": "active",
-            })
+            }
+            return (entry.enbek_id, complete_record, entry_summary)
 
-            if i % 10 == 0 or i == len(entries):
-                print(f"  Processed {i}/{len(entries)} standards...")
+        worker_count = min(self.max_workers, max(1, len(entries)))
+        processed_count = 0
+        with ThreadPoolExecutor(max_workers=worker_count) as pool:
+            future_to_entry = {pool.submit(_process_one, entry): entry for entry in entries}
+            for future in as_completed(future_to_entry):
+                processed_count += 1
+                try:
+                    res = future.result()
+                    if res is not None:
+                        enbek_id, complete_record, entry_summary = res
+                        candidates[enbek_id] = complete_record
+                        processed_entries.append(entry_summary)
+                except Exception as exc:
+                    entry = future_to_entry[future]
+                    print(f"  [WARN] Exception processing standard ID {entry.enbek_id}: {exc}")
+
+                if processed_count % 50 == 0 or processed_count == len(entries):
+                    print(f"  Processed {processed_count}/{len(entries)} standards...")
+
+        processed_entries.sort(key=lambda x: x["enbek_id"])
 
         # Step 4: Compare (Diff Engine & Lifecycle Tracker)
         new_events: list[LifecycleEvent] = []

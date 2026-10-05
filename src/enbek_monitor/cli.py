@@ -48,6 +48,12 @@ def main() -> int:
         default=None,
         help="Workspace root path (defaults to current directory)",
     )
+    sync_parser.add_argument(
+        "--workers",
+        type=int,
+        default=8,
+        help="Number of concurrent workers for detail fetching (default: 8)",
+    )
 
     # Command: docs
     docs_parser = subparsers.add_parser("docs", help="Regenerate README and Markdown documentation")
@@ -76,8 +82,9 @@ def main() -> int:
         dry_run = getattr(args, "dry_run", False)
         limit = getattr(args, "limit", None)
         workspace = getattr(args, "workspace", None)
+        workers = getattr(args, "workers", 8)
 
-        pipeline = SyncPipeline(workspace_root=workspace)
+        pipeline = SyncPipeline(workspace_root=workspace, max_workers=workers)
         result = pipeline.run(bootstrap=bootstrap, dry_run=dry_run, limit=limit)
         return 0 if result.get("status") == "success" else 1
 
