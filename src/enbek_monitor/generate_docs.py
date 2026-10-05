@@ -66,7 +66,7 @@ class DocGenerator:
                 continue
         return records
 
-    def _load_recent_events(self, limit: int = 50) -> list[dict[str, Any]]:
+    def _load_recent_events(self, limit: int | None = 50) -> list[dict[str, Any]]:
         changes_file = self.history_dir / "changes.jsonl"
         events = []
         if not changes_file.exists():
@@ -77,10 +77,63 @@ class DocGenerator:
                 line = line.strip()
                 if line:
                     events.append(json.loads(line))
-                if len(events) >= limit:
+                if limit is not None and len(events) >= limit:
                     break
         except Exception:
             pass
+        return events
+
+    def _load_latest_run_events(self) -> list[dict[str, Any]]:
+        """Read only the newest contiguous run from the append-only journal."""
+        changes_file = self.history_dir / "changes.jsonl"
+        if not changes_file.exists():
+            return []
+
+        events: list[dict[str, Any]] = []
+        run_id: str | None = None
+        chunk_size = 8192
+
+        try:
+            with changes_file.open("rb") as journal:
+                position = journal.seek(0, 2)
+                remainder = b""
+
+                while position > 0:
+                    size = min(chunk_size, position)
+                    position -= size
+                    journal.seek(position)
+                    lines = (journal.read(size) + remainder).split(b"\n")
+                    remainder = lines[0]
+
+                    for raw_line in reversed(lines[1:]):
+                        if not raw_line.strip():
+                            continue
+                        try:
+                            event = json.loads(raw_line)
+                        except (UnicodeDecodeError, json.JSONDecodeError):
+                            continue
+
+                        event_run_id = event.get("run_id")
+                        if not event_run_id:
+                            continue
+                        if run_id is None:
+                            run_id = event_run_id
+                        elif event_run_id != run_id:
+                            return events
+                        events.append(event)
+
+                if remainder.strip():
+                    try:
+                        event = json.loads(remainder)
+                    except (UnicodeDecodeError, json.JSONDecodeError):
+                        event = None
+                    if isinstance(event, dict):
+                        event_run_id = event.get("run_id")
+                        if event_run_id and (run_id is None or event_run_id == run_id):
+                            events.append(event)
+        except OSError:
+            return []
+
         return events
 
     def generate_readme(
@@ -470,3 +523,79 @@ class DocGenerator:
             ])
 
             doc_file.write_text("\n".join(lines), encoding="utf-8")
+
+    def generate_issue_summary(self, max_chars: int = 60000) -> str:
+        """Generate a concise Markdown summary for GitHub Issue notifications."""
+        events = self._load_latest_run_events()
+        if not events:
+            return "## Обновление профессиональных стандартов\n\nИзменения не зафиксированы."
+
+        # Keep one notification tied to one synchronization run. This stable
+        # marker lets the workflow retry safely after an issue API failure.
+        latest_run_id = events[0].get("run_id")
+        if not latest_run_id:
+            latest_date = (events[0].get("detected_at") or "")[:10]
+            recent = [event for event in events if (event.get("detected_at") or "")[:10] == latest_date]
+            latest_run_id = f"run-{latest_date}" if latest_date else "run-unknown"
+        else:
+            recent = events
+
+        latest_date = (recent[0].get("detected_at") or "")[:10] or latest_run_id.removeprefix("run-")
+        max_chars = max(256, max_chars)
+
+        lines = [
+            f"## Резюме обновления профессиональных стандартов ({latest_date})",
+            "",
+            f"Всего зафиксировано событий в данном обновлении: **{len(recent)}**.",
+            "",
+            f"<!-- enbek-run-id:{latest_run_id} -->",
+            "",
+            "| ID | Код | Событие | Измененные поля | Карточка |",
+            "|---|---|---|---|---|",
+        ]
+
+        omitted = 0
+        for index, ev in enumerate(recent):
+            enbek_id = ev.get("enbek_id")
+            code = _escape_table_cell(ev.get("code") or f"ID {enbek_id}")
+            etype = _escape_table_cell(ev.get("event_type") or "UNKNOWN")
+            changes = ev.get("changes") or []
+            change_fields = _format_change_fields(changes, etype)
+            fields_str = _escape_table_cell(", ".join(change_fields) if change_fields else etype)
+            card_url = _standard_url(enbek_id)
+            row = f"| {enbek_id} | `{code}` | `{etype}` | {fields_str} | [Enbek]({card_url}) |"
+            if len("\n".join(lines + [row])) > max_chars - 100:
+                omitted = len(recent) - index
+                break
+            lines.append(row)
+
+        if omitted:
+            lines.append(f"| ... | ... | ... | *(еще {omitted} событий опущено)* | |")
+
+        lines.extend([
+            "",
+            "Подробности доступны в [журнале изменений](https://github.com/"
+            "AinurMukash/enbek-profstandars/blob/main/CHANGELOG.md).",
+            "",
+        ])
+
+        return "\n".join(lines)
+
+
+def _escape_table_cell(value: Any) -> str:
+    """Keep registry-provided text from breaking the Markdown table."""
+    return (
+        str(value)
+        .replace("|", "&#124;")
+        .replace("`", "&#96;")
+        .replace("\r", " ")
+        .replace("\n", "<br>")
+    )
+
+
+def _standard_url(enbek_id: Any) -> str:
+    """Build the public Enbek card URL for a registry identifier."""
+    try:
+        return f"https://career.enbek.kz/ru/professionalstandart/{int(enbek_id)}"
+    except (TypeError, ValueError):
+        return "https://career.enbek.kz/ru/ps-registry"

@@ -58,22 +58,6 @@ jobs:
           fi
           python -m enbek_monitor.cli $ARGS
 
-      - name: Notify subscribers about registry changes
-        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.bootstrap != 'true' }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if ! git status --porcelain -- history/changes.jsonl | grep -q .; then
-            echo "No lifecycle events to notify about."
-            exit 0
-          fi
-
-          tail -n 50 history/changes.jsonl > /tmp/enbek-changes.diff
-          RUN_DATE=$(date -u +"%Y-%m-%d")
-          gh issue create \
-            --title "Обновление реестра профессиональных стандартов: ${RUN_DATE}" \
-            --body-file /tmp/enbek-changes.diff
-
       - name: Commit and push changes if any
         run: |
           git config user.name "github-actions[bot]"
@@ -89,3 +73,26 @@ jobs:
           COMMIT_DATE=$(date -u +"%Y-%m-%d")
           git commit -m "sync: weekly Enbek update ${COMMIT_DATE} [skip ci]"
           git push
+
+      - name: Notify subscribers about registry changes
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.bootstrap != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m enbek_monitor.cli issue-summary --output /tmp/enbek-changes.md
+          RUN_ID=$(sed -n 's/.*<!-- enbek-run-id:\([^ ]*\) -->.*/\1/p' /tmp/enbek-changes.md | head -n 1)
+          if [ -z "$RUN_ID" ]; then
+            echo "No lifecycle events to notify about."
+            exit 0
+          fi
+
+          if gh issue list --state all --limit 100 --search "$RUN_ID in:title" \
+            --json title --template '{{range .}}{{.title}}{{"\n"}}{{end}}' | grep -F "$RUN_ID" >/dev/null; then
+            echo "Notification for $RUN_ID already exists."
+            exit 0
+          fi
+
+          RUN_DATE=${RUN_ID#run-}
+          gh issue create \
+            --title "Обновление реестра профессиональных стандартов: ${RUN_DATE} (${RUN_ID})" \
+            --body-file /tmp/enbek-changes.md

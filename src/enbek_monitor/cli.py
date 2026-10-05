@@ -75,6 +75,13 @@ def main() -> int:
     vacancies_parser.add_argument("--workspace", type=str, default=None)
     vacancies_parser.add_argument("--token", type=str, default=None, help="HeadHunter API OAuth access token")
 
+    # Command: issue-summary
+    issue_parser = subparsers.add_parser(
+        "issue-summary", help="Generate Markdown summary for GitHub Issue notification"
+    )
+    issue_parser.add_argument("--workspace", type=str, default=None, help="Workspace root path")
+    issue_parser.add_argument("--output", type=str, default=None, help="Output file path")
+
     args = parser.parse_args()
 
     if not args.command or args.command == "sync":
@@ -106,6 +113,17 @@ def main() -> int:
         )
         print(json.dumps(report, ensure_ascii=False, indent=2))
         return 0 if report["status"] in ("success", "partial") else 1
+
+    elif args.command == "issue-summary":
+        workspace = getattr(args, "workspace", None)
+        generator = DocGenerator(workspace or Path.cwd())
+        summary = generator.generate_issue_summary()
+        output_path = getattr(args, "output", None)
+        if output_path:
+            Path(output_path).write_text(summary, encoding="utf-8")
+        else:
+            print(summary)
+        return 0
 
     return 0
 

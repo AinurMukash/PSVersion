@@ -147,3 +147,8 @@ def test_sync_pipeline_lifecycle_event_generation_and_persistence(tmp_path: Path
     assert (tmp_path / "docs" / "standards" / "1001.md").exists()
     assert (tmp_path / "docs" / "standards" / "1002.md").exists()
 
+    issue_summary = pipeline.doc_generator.generate_issue_summary()
+    assert "Резюме обновления" in issue_summary
+    assert "1001" in issue_summary
+    assert "1002" in issue_summary
+    assert len(issue_summary) < 60000
