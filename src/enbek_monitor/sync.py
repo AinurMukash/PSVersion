@@ -17,6 +17,7 @@ import hashlib
 import json
 import logging
 import time
+import copy
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Mapping
@@ -30,10 +31,12 @@ from .models import (
     EventType,
     FieldLevelDiff,
     LifecycleEvent,
+    LifecycleState,
     NormalizedRecord,
     RegistryEntry,
     RunMode,
     RunStatus,
+    SourceReference,
     Timestamps,
 )
 from .network import SourceResponse
@@ -41,6 +44,7 @@ from .normalize import Normalizer
 from .parsers.detail_json import DetailJsonParser
 from .parsers.registry_json import RegistryJsonParser
 from .parsers.source_schema import DetailPage, RegistryPage
+from .storage.history import HistoryStore
 
 logger = logging.getLogger("enbek_monitor.sync")
 
@@ -76,6 +80,7 @@ class SyncPipeline:
         self.hashing_service = HashingService()
         self.diff_engine = DiffEngine()
         self.doc_generator = DocGenerator(self.workspace_root)
+        self.history_store = HistoryStore(self.workspace_root)
 
     def _ensure_dirs(self) -> None:
         for d in (self.standards_dir, self.pdf_dir, self.runs_dir):
@@ -303,17 +308,18 @@ class SyncPipeline:
             if existing is None:
                 if not bootstrap:
                     new_count += 1
-                if not bootstrap:
+                    diff_res = self.diff_engine.synthetic_new(candidate)
                     ev = LifecycleEvent(
-                        event_id=f"{run_date}-{enbek_id}-new",
+                        event_id=f"run-{run_date}:{enbek_id}:NEW",
                         run_id=f"run-{run_date}",
                         enbek_id=enbek_id,
                         code=candidate.code,
                         event_type=EventType.NEW,
                         detected_at=start_iso,
-                        new_hashes=candidate.hashes,
-                        changes={},
-                        source={"title": candidate.title},
+                        new_hashes=copy.deepcopy(candidate.hashes),
+                        new_state=LifecycleState.ACTIVE,
+                        changes=diff_res,
+                        source=copy.deepcopy(candidate.source) if candidate.source else SourceReference(),
                     )
                     new_events.append(ev)
             else:
@@ -324,18 +330,20 @@ class SyncPipeline:
                     candidate.timestamps.last_changed_at = start_iso
 
                     if not bootstrap:
-                        changes_dict = diff_res.to_dict().get("changes", {})
+                        prev_state = getattr(existing.lifecycle, "state", LifecycleState.ACTIVE) if hasattr(existing, "lifecycle") and existing.lifecycle else LifecycleState.ACTIVE
                         ev = LifecycleEvent(
-                            event_id=f"{run_date}-{enbek_id}-updated",
+                            event_id=f"run-{run_date}:{enbek_id}:UPDATED",
                             run_id=f"run-{run_date}",
                             enbek_id=enbek_id,
                             code=candidate.code,
                             event_type=EventType.UPDATED,
                             detected_at=start_iso,
-                            old_hashes=existing.hashes,
-                            new_hashes=candidate.hashes,
-                            changes=changes_dict,
-                            source={"title": candidate.title},
+                            old_hashes=copy.deepcopy(existing.hashes),
+                            new_hashes=copy.deepcopy(candidate.hashes),
+                            previous_state=prev_state,
+                            new_state=LifecycleState.ACTIVE,
+                            changes=diff_res,
+                            source=copy.deepcopy(candidate.source) if candidate.source else SourceReference(),
                         )
                         new_events.append(ev)
                 else:
@@ -368,10 +376,10 @@ class SyncPipeline:
 
             # Append events to history/changes.jsonl
             if new_events:
-                changes_file = self.history_dir / "changes.jsonl"
-                with changes_file.open("a", encoding="utf-8") as f:
-                    for ev in new_events:
-                        f.write(ev.to_json())
+                existing_event_ids = self.history_store.event_ids()
+                events_to_append = [e for e in new_events if e.event_id not in existing_event_ids]
+                if events_to_append:
+                    self.history_store.append(events_to_append)
 
             # Save stats
             stats = {

@@ -186,3 +186,32 @@ def test_detail_attributes_are_structured_source_attributes() -> None:
     # Source parser accepts a source datetime and exposes the calendar date to
     # the typed contract; canonical normalization owns further transformations.
     assert result.attributes.revision_date == "2024-02-29"
+
+
+@pytest.mark.parametrize(
+    ("raw_version", "expected_version"),
+    [
+        (" 1 ", 1),
+        ("1 ", 1),
+        ("2 нұсқа", 2),
+        ("1 версия", 1),
+        ("Версия 2", 2),
+        ("версия 3", 3),
+        (4, 4),
+    ],
+)
+def test_detail_json_parser_normalizes_text_versions(
+    raw_version: str | int, expected_version: int
+) -> None:
+    document = json.loads((FIXTURES / "valid" / "standard-1001.json").read_text())
+    document["data"]["version"] = raw_version
+    response = SourceResponse(
+        url=BASE_URL,
+        status_code=200,
+        headers={"Content-Type": "application/json"},
+        content=json.dumps(document).encode(),
+    )
+    result = DetailJsonParser().parse(BASE_URL, response)
+    assert not isinstance(result, ParseError)
+    assert result.attributes.version == expected_version
+

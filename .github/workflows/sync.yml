@@ -4,6 +4,12 @@ on:
   schedule:
     # Run every Monday at 08:00 UTC (13:00 Asia/Almaty)
     - cron: "0 8 * * 1"
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - ".github/workflows/sync.yml"
   workflow_dispatch:
     inputs:
       limit:
@@ -44,7 +50,7 @@ jobs:
       - name: Run Enbek synchronization
         run: |
           ARGS="sync"
-          if [ "${{ github.event.inputs.bootstrap }}" = "true" ] || [ "${{ github.event_name }}" = "push" ]; then
+          if [ "${{ github.event.inputs.bootstrap }}" = "true" ]; then
             ARGS="$ARGS --bootstrap"
           fi
           if [ -n "${{ github.event.inputs.limit }}" ]; then

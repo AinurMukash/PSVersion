@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from collections.abc import Mapping
 from typing import Any
 
@@ -99,11 +100,21 @@ class DetailJsonParser:
             desc = data.get("applicationArea_ru") or data.get("description_ru")
             if desc:
                 result["description"] = desc
-        if "version" in data and isinstance(data["version"], str) and data["version"].isdigit():
-            result["version"] = int(data["version"])
+        if "version" in data and isinstance(data["version"], str):
+            v_str = data["version"].strip()
+            if v_str.isdigit():
+                result["version"] = int(v_str)
+            else:
+                m = re.search(r'\b\d+\b', v_str)
+                if m and any(kw in v_str.lower() for kw in ("версия", "нұсқа", "ver", "v", "ред")):
+                    result["version"] = int(m.group(0))
         if "year" not in data and "version_year" in data:
             yr = data["version_year"]
-            result["year"] = int(yr) if isinstance(yr, str) and yr.isdigit() else yr
+            if isinstance(yr, str):
+                yr_clean = yr.strip()
+                result["year"] = int(yr_clean) if yr_clean.isdigit() else yr
+            else:
+                result["year"] = yr
         if "oked" not in data and "okeds" in data and isinstance(data["okeds"], list) and data["okeds"]:
             first_oked = data["okeds"][0]
             if isinstance(first_oked, Mapping):
