@@ -208,21 +208,29 @@ class DocGenerator:
         ]
 
         if events:
+            records_by_id = {
+                record.get("enbek_id"): record
+                for record in records
+                if record.get("enbek_id") is not None
+            }
             lines.extend([
-                "| Дата | Тип события | Код | Стандарт | Измененные поля | Подробнее |",
+                "| Дата | Событие | Код | Название стандарта | Кратко об изменении | Карточка |",
                 "|:---:|:---:|:---:|---|---|:---:|",
             ])
             for ev in events[:15]:
                 dt = (ev.get("detected_at") or "")[:10]
                 etype = ev.get("event_type", "")
-                code = ev.get("code") or f"ID {ev.get('enbek_id')}"
                 enbek_id = ev.get("enbek_id")
-                link = f"[{code}](docs/standards/{enbek_id}.md)"
-                title = ev.get("title") or ev.get("source", {}).get("title", "")
-                changes = ev.get("changes") or []
-                change_fields = _format_change_fields(changes, etype)
-                change_desc = ", ".join(change_fields) if change_fields else etype
-                lines.append(f"| {dt} | `{etype}` | **{link}** | {title} | `{change_desc}` | [Карточка →](docs/standards/{enbek_id}.md) |")
+                code = _escape_table_cell(ev.get("code") or f"ID {enbek_id}")
+                record = records_by_id.get(enbek_id, {})
+                title = _escape_table_cell(
+                    record.get("title") or _event_title_from_changes(ev.get("changes")) or "Без названия"
+                )
+                change_desc = _escape_table_cell(_summarize_event(ev, record))
+                lines.append(
+                    f"| {dt} | `{_escape_table_cell(etype)}` | `{code}` | {title} | "
+                    f"{change_desc} | [Карточка →](docs/standards/{enbek_id}.md) |"
+                )
             lines.append("")
             lines.append("👉 *Полная хроника изменений доступна в файле [CHANGELOG.md](CHANGELOG.md).*")
             lines.append("")
