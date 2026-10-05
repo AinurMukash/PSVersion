@@ -95,9 +95,19 @@ class SyncPipeline:
         print("Fetching registry from Enbek.kz...")
         while next_url:
             print(f"  Fetching registry page {page_num}...")
-            resp = self.client.get(next_url)
-            if resp.status_code != 200:
-                print(f"  [ERROR] Registry page {page_num} returned HTTP {resp.status_code}")
+            resp = None
+            for attempt in range(5):
+                try:
+                    resp = self.client.get(next_url)
+                    if resp.status_code == 200:
+                        break
+                except httpx.RequestError as e:
+                    if attempt == 4:
+                        print(f"  [ERROR] Registry request error on page {page_num}: {e}")
+                    time.sleep(1.0 * (attempt + 1))
+
+            if not resp or resp.status_code != 200:
+                print(f"  [ERROR] Registry page {page_num} returned HTTP {getattr(resp, 'status_code', 'error')}")
                 break
 
             source_resp = SourceResponse(
