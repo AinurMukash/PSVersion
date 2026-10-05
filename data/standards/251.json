@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 251,
+  "code": "R90020029",
+  "title": "Художник-постановщик театральных декораций",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Художник-постановщик театральных декораций\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\", в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90020",
+    "subclass_name": "Деятельность, способствующая проведению культурно-зрелищных мероприятий"
+  },
+  "professions": [
+    {
+      "name": "Художник-постановщик театральных декораций",
+      "ork_level": 6
+    },
+    {
+      "name": "Художник-постановщик театральных декораций",
+      "ork_level": 7
+    },
+    {
+      "name": "Художник-постановщик театра",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/251",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/251/download"
+  },
+  "hashes": {
+    "metadata_sha256": "9c57674bde6ebda1035433b7ae9857294bcfa76d6f12d66fc8f6f9e58f38b86e",
+    "pdf_sha256": "262d6cce9cc5ffe995e767c90fa5a15916b96b511b0b5ffc7b384bf6da38f5af",
+    "normalized_sha256": "741150f5a2c5824c09daaecc3fb4e2cade18c119c30086b558904a974379c35a"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1530,
+  "code": "H50200145",
+  "title": "Профессиональный стандарт «Судоводитель (морской транспорт)»",
+  "government_body": "Министерство транспорта Республики Казахстан",
+  "description": "Профессиональный стандарт «Судоводитель (морской транспорт)» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и предприятиях.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-12-31",
+  "oked": {
+    "section_code": "H",
+    "section_name": "Транспорт и складирование",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "50200",
+    "subclass_name": "Деятельность морского и прибрежного грузового транспорта"
+  },
+  "professions": [
+    {
+      "name": "Матрос",
+      "ork_level": 3
+    },
+    {
+      "name": "Вахтенный помощник капитана",
+      "ork_level": 4
+    },
+    {
+      "name": "Помощник капитана",
+      "ork_level": 5
+    },
+    {
+      "name": "Диспетчер (общий профиль)",
+      "ork_level": 4
+    },
+    {
+      "name": "Матрос",
+      "ork_level": 2
+    },
+    {
+      "name": "Лоцман",
+      "ork_level": 5
+    },
+    {
+      "name": "Капитан-наставник",
+      "ork_level": 6
+    },
+    {
+      "name": "Капитан судна",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "H",
+        "50200"
+      ],
+      "government_body": "Министерство транспорта Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1530",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1530/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2b60241c6a024b5abe7b782e38b7e259a0801f2f360a587d53bca8472c67ecc6",
+    "pdf_sha256": "bfc029aa5c25484a03433102291d6c744f3f1670d7acda43d45131a859b4a61e",
+    "normalized_sha256": "560866838f3b13c511aaa9390f512df2f1f0b0b538e39107260d1f8d20eed2e8"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

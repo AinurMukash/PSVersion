@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 240,
+  "code": "R90020016",
+  "title": "Художник-постановщик по костюмам",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Художник-постановщик по костюмам\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90020",
+    "subclass_name": "Деятельность, способствующая проведению культурно-зрелищных мероприятий"
+  },
+  "professions": [
+    {
+      "name": "Художник по костюмам",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/240",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/240/download"
+  },
+  "hashes": {
+    "metadata_sha256": "cf6bbe55562c6159281a9a1e1553802838ac084a1402f7716c1cbe539d73ac4b",
+    "pdf_sha256": "8a17fb8f5bae06c3e74d716ca9747369c51c03635a011fa7f3d78a1ac6f142cf",
+    "normalized_sha256": "aeec5846cadd42ca46a7dbd9aa8d235e477506a84dcb93bd73d0f32988de66a6"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

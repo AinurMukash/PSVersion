@@ -1,0 +1,79 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1597,
+  "code": "F43220064",
+  "title": "Обслуживание по вентиляции и кондиционированию жилых и нежилых зданий",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "в сфере эксплуатации, технического обслуживания и ремонта систем вентиляции и кондиционирования воздуха в жилых и нежилых зданиях.",
+  "version": 2,
+  "year": 2025,
+  "revision_date": "2028-09-28",
+  "oked": {
+    "section_code": "F",
+    "section_name": "Строительство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "43220",
+    "subclass_name": "Монтаж систем водоснабжения, отопления и кондиционирования воздуха"
+  },
+  "professions": [
+    {
+      "name": "Инженер по технической эксплуатации вентиляционных систем и санитарно-технического оборудования",
+      "ork_level": 6
+    },
+    {
+      "name": "Слесарь по ремонту и обслуживанию систем вентиляции и кондиционирования",
+      "ork_level": 3
+    },
+    {
+      "name": "Техник по системам охлаждения и кондиционирования",
+      "ork_level": 5
+    },
+    {
+      "name": "Механик оборудования для кондиционирования воздуха",
+      "ork_level": 4
+    },
+    {
+      "name": "Рабочий по обслуживанию оборудования службы кондиционирования воздуха и отопления",
+      "ork_level": 2
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "F",
+        "43220"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "year": 2025,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1597",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1597/download"
+  },
+  "hashes": {
+    "metadata_sha256": "7a3eb1629a7f867e68faa44c876c390d126d10c092d505950546a9a5e4475c33",
+    "pdf_sha256": "ba3ae6f34ed9275df9518ff5e6cfb4ed38eb2306710c5abcaa189569fb715ab6",
+    "normalized_sha256": "efde4012bc59c88a9f4e2a5fe9547932dfa24f790826832592bb763a6a2cd656"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

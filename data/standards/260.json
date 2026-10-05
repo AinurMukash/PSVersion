@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 260,
+  "code": "R90030028",
+  "title": "Художник-реставратор (декоративно-прикладного искусства)",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "Художник-реставратор (декаративно-прикладного икусства) (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90030",
+    "subclass_name": "Художественное и литературное творчество"
+  },
+  "professions": [
+    {
+      "name": "Реставратор художественных изделий и декоративных предметов",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90030"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/260",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/260/download"
+  },
+  "hashes": {
+    "metadata_sha256": "bc930691f47e935a28f4a05fe7ea00f34da3bc6794b8f24be8f95ca9b9573286",
+    "pdf_sha256": "3470cdf941aa6c5a6434408dc6e5dbb10a950f7692cf3a4c16fac5d39b457843",
+    "normalized_sha256": "fde344e23bba387061f130e0590616e7a088a072d51a404606df2d8c3240da94"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

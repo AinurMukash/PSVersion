@@ -1,0 +1,82 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1222,
+  "code": "C28414065",
+  "title": "Производство металло- и деревообрабатывающего инструмента",
+  "government_body": "Министерство промышленности и строительства Республики Казахстан",
+  "description": "Производство металло- и деревообрабатывающего инструмента определяет в области профессиональной деятельности «Производство готовых металлических изделий, кроме машин и оборудования» требования к уровню квалификации, компетенции, содержанию, качеству и условиям труда.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "28414",
+    "subclass_name": "Производство частей и приспособлений к металлообрабатывающим станкам"
+  },
+  "professions": [
+    {
+      "name": "Слесарь-инструментальщик",
+      "ork_level": 2
+    },
+    {
+      "name": "Литейщик вакуумного, центробежно-вакуумного и центробежного литья",
+      "ork_level": 2
+    },
+    {
+      "name": "Техник-технолог (общий профиль)",
+      "ork_level": 5
+    },
+    {
+      "name": "Слесарь-инструментальщик",
+      "ork_level": 3
+    },
+    {
+      "name": "Слесарь-инструментальщик",
+      "ork_level": 4
+    },
+    {
+      "name": "Литейщик вакуумного, центробежно-вакуумного и центробежного литья",
+      "ork_level": 3
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "28414"
+      ],
+      "government_body": "Министерство промышленности и строительства Республики Казахстан",
+      "ork_levels": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1222",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1222/download"
+  },
+  "hashes": {
+    "metadata_sha256": "460c58a3c969d172d718f2a4fb21869772330e3c4a157e515e7e0d0962cbbcc4",
+    "pdf_sha256": "5c10ab455438e803b5f4a0c8a1787b246f6ab631d0040345d4248532b9559fa7",
+    "normalized_sha256": "b22cdd8b878c28dfa34971171df14abf0e5ddec185cea2461719c3d821d1fbc7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

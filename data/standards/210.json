@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 210,
+  "code": "R90011035",
+  "title": "Балетмейстер",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Балетмейстер\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90011",
+    "subclass_name": "Театральная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Балетмейстер",
+      "ork_level": 6
+    },
+    {
+      "name": "Балетмейстер",
+      "ork_level": 7
+    },
+    {
+      "name": "Балетмейстер",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90011"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/210",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/210/download"
+  },
+  "hashes": {
+    "metadata_sha256": "70cc0be5ac77ddfb6463777e57f6fa6655d82ada935428cbc7bf4324ab7a0105",
+    "pdf_sha256": "be9c8f7e5fdafc895164f89ac5c5633e8fabfd713bd280ed0a7f314cb383039f",
+    "normalized_sha256": "1207f5e703b4f75f4fcb2d1125111f4a4e63bce485a59b3edb94a14377e335d1"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

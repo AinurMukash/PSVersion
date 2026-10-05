@@ -1,8 +1,9 @@
 {
-  "last_sync": "2026-09-15T11:49:27Z",
-  "total_standards": 655,
-  "new_this_run": 652,
+  "last_sync": "2026-10-05T10:15:41Z",
+  "total_standards": 714,
+  "new_this_run": 59,
   "updated_this_run": 0,
-  "unchanged": 3,
-  "missing": 0
+  "unchanged": 655,
+  "missing": 0,
+  "missing_pdf": 0
 }

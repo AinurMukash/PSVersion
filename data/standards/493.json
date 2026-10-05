@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 493,
+  "code": "R90012046",
+  "title": "Арт-менеджер",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Арт-менеджер\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в области культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90012",
+    "subclass_name": "Концертная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Арт-менеджер",
+      "ork_level": 6
+    },
+    {
+      "name": "Арт-менеджер",
+      "ork_level": 7
+    },
+    {
+      "name": "Арт-менеджер",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/493",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/493/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b5da53e42f6cacc7ad73176216944ea9873f858ac98f66db54164755d15541fd",
+    "pdf_sha256": "64199bd7a3e227144e55c76a5940d0195f3d9c3bd62df0796f13744c404f85e1",
+    "normalized_sha256": "e813ff562f2e5d4fae2df919f1e1e2468987bb8279d21a3eba4bc54449ba97cb"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

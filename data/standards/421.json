@@ -69,12 +69,12 @@
   },
   "hashes": {
     "metadata_sha256": "0e6bb3f764b4b3acc9c1a4f0688f253c2f7b1831bcf5fc8a867647ab96f8da1a",
-    "pdf_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "pdf_sha256": "dfd90c0d948b4e64ea02dd346e69a9e4b051edb166b00aadbe747d792bfcdcaf",
     "normalized_sha256": "286a7f9bdc8ccbf7aed913ff79a56a0876a0472f92172f66f4dab59924111e5e"
   },
   "timestamps": {
     "first_seen_at": "2026-09-15T11:49:27Z",
-    "last_seen_at": "2026-09-15T11:49:27Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
     "last_changed_at": "2026-09-15T11:49:27Z"
   }
 }

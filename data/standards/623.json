@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 623,
+  "code": "O84117026",
+  "title": "Интервьюирование в области государственной статистики",
+  "government_body": "Агентство по стратегическому планированию и реформам Республики Казахстан",
+  "description": "Профессиональный стандарт \"Интервьюирование в области государственной статистики\" определяет требования к уровню квалификации и компетентности, к содержанию, качеству и условиям труда для привлечения специалистов для оказания услуг по проведению общегосударственных статистических наблюдений и национальных переписей (далее – статистические наблюдения).",
+  "version": 2,
+  "year": 2024,
+  "revision_date": "2027-05-01",
+  "oked": {
+    "section_code": "O",
+    "section_name": "Государственное управление и оборона; обязательное  социальное обеспечение",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "84117",
+    "subclass_name": "Деятельность в области статистики и социологии"
+  },
+  "professions": [
+    {
+      "name": "Интервьюер по проведению статистических наблюдений",
+      "ork_level": 4
+    },
+    {
+      "name": "Инструктор-контролер",
+      "ork_level": 5
+    },
+    {
+      "name": "Инструктор по подготовке и проведению национальных переписей",
+      "ork_level": 6
+    },
+    {
+      "name": "Руководитель отдела по подготовке и проведению национальных переписей",
+      "ork_level": 7
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "O",
+        "84117"
+      ],
+      "government_body": "Агентство по стратегическому планированию и реформам Республики Казахстан",
+      "ork_levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "year": 2024,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/623",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/623/download"
+  },
+  "hashes": {
+    "metadata_sha256": "72c87f2dbd42bbf64a5df11d5ea51cfc8d1857e9203a3f31b201afbf66314691",
+    "pdf_sha256": "3976304c42679e461ac4271932216eb24f6a39ab2ce7dbc1909d06036946604a",
+    "normalized_sha256": "bf67b20b1a48ee1894a6c3af4a46deaf0930bae57e0b425b79820962d26162a5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

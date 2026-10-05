@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 223,
+  "code": "R90020116",
+  "title": "Художник-реставратор монументальной живописи",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Художник-реставратор монументальной живописи\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в cфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-10-10",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90020",
+    "subclass_name": "Деятельность, способствующая проведению культурно-зрелищных мероприятий"
+  },
+  "professions": [
+    {
+      "name": "Художник-реставратор",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/223",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/223/download"
+  },
+  "hashes": {
+    "metadata_sha256": "07fa8886e9c92549a2f4c20cb88f63cae397afc7fc036bd15067bffdcf03f631",
+    "pdf_sha256": "e2ebfb0131f21e7d3e40878c4c1987b951d89bc05841234f682d667a0f84c2d9",
+    "normalized_sha256": "53c6f674b5cfb2cb237ade407b1901813b38fad3d36253654fa43b4161efae59"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

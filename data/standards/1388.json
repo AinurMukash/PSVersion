@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1388,
+  "code": "A01700034",
+  "title": "Фермерское охотничье хозяйство",
+  "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+  "description": "Профессиональный стандарт «Фермерское охотничье хозяйства» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях» и предназначен для формирования образовательных программ, в том числе обучения персонала на предприятиях, сертификации работников и выпускников организации образования и решений широкого круга задач в области управления персоналом в организациях и предприятиях.",
+  "version": 2,
+  "year": 2024,
+  "revision_date": "2027-12-31",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01700",
+    "subclass_name": "Охота и отлов, включая предоставление услуг в этих областях"
+  },
+  "professions": [
+    {
+      "name": "Рабочий по уходу за животными",
+      "ork_level": 2
+    },
+    {
+      "name": "Зверовод",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01700"
+      ],
+      "government_body": "Министерство экологии и природных ресурсов Республики Казахстан",
+      "ork_levels": [
+        2,
+        4
+      ],
+      "year": 2024,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1388",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1388/download"
+  },
+  "hashes": {
+    "metadata_sha256": "2339ffc1641194ca2a2601c836fb88e6f8bc1529f53de41cad1d5d63fc8bcd68",
+    "pdf_sha256": "296652d18d63d1fbd98722df2870a3cd706f64a82fb7b29a05875ba4492de786",
+    "normalized_sha256": "4738fc9b9f95bbb68d19c59d70728808415fe0a5875b93fe12d36c07d7b359e7"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

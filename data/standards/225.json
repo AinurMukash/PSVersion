@@ -1,0 +1,64 @@
+{
+  "schema_version": "1",
+  "enbek_id": 225,
+  "code": "R90020034",
+  "title": "Художник по керамике",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Художник по керамике\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90020",
+    "subclass_name": "Деятельность, способствующая проведению культурно-зрелищных мероприятий"
+  },
+  "professions": [
+    {
+      "name": "Художник народных художественных промыслов",
+      "ork_level": 4
+    },
+    {
+      "name": "Художник народных художественных промыслов",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        4,
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/225",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/225/download"
+  },
+  "hashes": {
+    "metadata_sha256": "6f014c8343f4b99f64a24921ed0a4e4af63291452d4bc11ae23e8a3aa58c1201",
+    "pdf_sha256": "86587850260c70fcca0ed938beb9de6b8367da390bdbbaa790cadfa8880bb198",
+    "normalized_sha256": "4a9f71d4214d8d11da0e2bcf50a644305297ca303fea46e9da4c386923c58aa5"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

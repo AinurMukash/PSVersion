@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 508,
+  "code": "R90020067",
+  "title": "Культорганизатор",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Культорганизатор\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90020",
+    "subclass_name": "Деятельность, способствующая проведению культурно-зрелищных мероприятий"
+  },
+  "professions": [
+    {
+      "name": "Культорганизатор",
+      "ork_level": 6
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90020"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/508",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/508/download"
+  },
+  "hashes": {
+    "metadata_sha256": "57d3af753287749b4eb3d1031401bc8cc9d4de60333fb1f339d77cffb82a6d1f",
+    "pdf_sha256": "af4c01e73d2c5721f10605881de6d94375ee2f03c2eae245b00e4c42f00d6cb3",
+    "normalized_sha256": "f99eee3955b2fbd11a8c1a1e197c28393a1af2471b24e0490b369fd00d01a127"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

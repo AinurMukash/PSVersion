@@ -1,0 +1,59 @@
+{
+  "schema_version": "1",
+  "enbek_id": 226,
+  "code": "R90013044",
+  "title": "Артист цирка по жанрам и направлениям, преподователь циркового жанра",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Артист цирка по жанрам и направлениям, преподаватель циркового жанра разработан\" в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90013",
+    "subclass_name": "Деятельность цирков"
+  },
+  "professions": [
+    {
+      "name": "Артист цирка",
+      "ork_level": 4
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90013"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        4
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/226",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/226/download"
+  },
+  "hashes": {
+    "metadata_sha256": "f7bba53eb7fd96d704f9c0d8d3f6090673961dcb04a24a71fcff635bcd891484",
+    "pdf_sha256": "09a5cbdc363ac3e9d46baed8601d2fd68b97aad7ef3d179e28a3fa4feb486944",
+    "normalized_sha256": "8b6c443a60b582ea13ced79d1f776d32a54602b7d9cd1d13e685b439021cde78"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

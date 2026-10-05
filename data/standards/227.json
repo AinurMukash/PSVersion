@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 227,
+  "code": "R90012023",
+  "title": "Балетовед",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Балетовед\" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90012",
+    "subclass_name": "Концертная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Балетовед",
+      "ork_level": 6
+    },
+    {
+      "name": "Балетовед",
+      "ork_level": 7
+    },
+    {
+      "name": "Балетовед",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/227",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/227/download"
+  },
+  "hashes": {
+    "metadata_sha256": "0b51a75f2b5b0d583cd2529c3852e9e6e5177789ce8a04bb585ad499dfc0875b",
+    "pdf_sha256": "e944a710b5663d23728c5fec07ab5d250d1983241177367a4c3f242cde69a518",
+    "normalized_sha256": "033171a74b7857fd4bba5720a1d63fc368e4c27483f3009f5a41c6ba63c974a3"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1698,
+  "code": "A01192059",
+  "title": "Пчеловодство",
+  "government_body": "Министерство сельского хозяйства Республики Казахстан",
+  "description": "Профессиональный стандарт «Пчеловодство» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях». \nПрофессиональный стандарт предназначен для определения уровней квалификаций, необходимых для осуществления работниками определенного вида профессиональной деятельности, в том числе выполнения определённых трудовых функций, а также для применения при разработке образовательных программ организаций высшего, послевузовского, технического и профессионального образования.",
+  "version": 2,
+  "year": 2026,
+  "revision_date": "2029-10-26",
+  "oked": {
+    "section_code": "A",
+    "section_name": "Сельское, лесное и рыбное хозяйство",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "01490",
+    "subclass_name": "Разведение прочих видов животных"
+  },
+  "professions": [
+    {
+      "name": "Пчеловод",
+      "ork_level": 4
+    },
+    {
+      "name": "Помощник пчеловода",
+      "ork_level": 3
+    },
+    {
+      "name": "Главный зоотехник (по пчеловодству)",
+      "ork_level": 8
+    },
+    {
+      "name": "Зоотехник (по пчеловодству)",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "A",
+        "01490"
+      ],
+      "government_body": "Министерство сельского хозяйства Республики Казахстан",
+      "ork_levels": [
+        3,
+        4,
+        5,
+        8
+      ],
+      "year": 2026,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1698",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1698/download"
+  },
+  "hashes": {
+    "metadata_sha256": "71a10b5f4168833e7a10160a36731459c2b1b079038197764ad53b1a7966444b",
+    "pdf_sha256": "52ff96f32362c770e84c6ad91a61688a45ccf65e2657ae4fa9818330ba69d930",
+    "normalized_sha256": "34912c29da9b7b4b3933f2d2c14019453fb4a6c37001e81c6da313ae4a1da66b"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

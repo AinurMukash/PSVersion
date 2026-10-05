@@ -2,4 +2,2573 @@
 
 > Все зафиксированные изменения в реестре профессиональных стандартов Enbek.kz.
 
-*История изменений пуста или находится на этапе первичного среза (baseline).*
+## 2026-10-05
+
+- **`NEW`** [H50200145](docs/standards/1530.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1530`
+  - `code`: `None` → `H50200145`
+  - `title`: `None` → `Профессиональный стандарт «Судоводитель (морской транспорт)»`
+  - `government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Судоводитель (морской транспорт)» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и предприятиях.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2025`
+  - `revision_date`: `None` → `2028-12-31`
+  - `oked.section_code`: `None` → `H`
+  - `oked.section_name`: `None` → `Транспорт и складирование`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `50200`
+  - `oked.subclass_name`: `None` → `Деятельность морского и прибрежного грузового транспорта`
+  - `professions[0].name`: `None` → `Матрос`
+  - `professions[0].ork_level`: `None` → `3`
+  - `professions[1].name`: `None` → `Вахтенный помощник капитана`
+  - `professions[1].ork_level`: `None` → `4`
+  - `professions[2].name`: `None` → `Помощник капитана`
+  - `professions[2].ork_level`: `None` → `5`
+  - `professions[3].name`: `None` → `Диспетчер (общий профиль)`
+  - `professions[3].ork_level`: `None` → `4`
+  - `professions[4].name`: `None` → `Матрос`
+  - `professions[4].ork_level`: `None` → `2`
+  - `professions[5].name`: `None` → `Лоцман`
+  - `professions[5].ork_level`: `None` → `5`
+  - `professions[6].name`: `None` → `Капитан-наставник`
+  - `professions[6].ork_level`: `None` → `6`
+  - `professions[7].name`: `None` → `Капитан судна`
+  - `professions[7].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `H`
+  - `categories.official.oked[1]`: `None` → `50200`
+  - `categories.official.government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `3`
+  - `categories.official.ork_levels[2]`: `None` → `4`
+  - `categories.official.ork_levels[3]`: `None` → `5`
+  - `categories.official.ork_levels[4]`: `None` → `6`
+  - `categories.official.year`: `None` → `2025`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1530`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1530/download`
+  - `hashes.metadata_sha256`: `None` → `2b60241c6a024b5abe7b782e38b7e259a0801f2f360a587d53bca8472c67ecc6`
+  - `hashes.pdf_sha256`: `None` → `bfc029aa5c25484a03433102291d6c744f3f1670d7acda43d45131a859b4a61e`
+  - `hashes.normalized_sha256`: `None` → `560866838f3b13c511aaa9390f512df2f1f0b0b538e39107260d1f8d20eed2e8`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [A01111060](docs/standards/1662.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1662`
+  - `code`: `None` → `A01111060`
+  - `title`: `None` → `Производство зерновых культур`
+  - `government_body`: `None` → `Министерство сельского хозяйства Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Производство зерновых культур» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях». 
+Профессиональный стандарт предназначен для определения уровней квалификаций, необходимых для осуществления работниками определенного вида профессиональной деятельности, в том числе выполнения определенных трудовых функций, а также при разработке образовательных программ организаций высшего, послевузовского, технического и профессионального образования.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2026`
+  - `revision_date`: `None` → `2029-10-26`
+  - `oked.section_code`: `None` → `A`
+  - `oked.section_name`: `None` → `Сельское, лесное и рыбное хозяйство`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `01111`
+  - `oked.subclass_name`: `None` → `Выращивание зерновых и зернобобовых культур, включая семеноводство`
+  - `professions[0].name`: `None` → `Техники по карантину растений`
+  - `professions[0].ork_level`: `None` → `5`
+  - `professions[1].name`: `None` → `Оператор линии замачивания семян`
+  - `professions[1].ork_level`: `None` → `3`
+  - `professions[2].name`: `None` → `Рабочий по защите растений`
+  - `professions[2].ork_level`: `None` → `4`
+  - `professions[3].name`: `None` → `Фермер по выращиванию хлебных злаков`
+  - `professions[3].ork_level`: `None` → `4`
+  - `professions[4].name`: `None` → `Квалифицированный сельскохозяйственный рабочий (смешанные культуры)`
+  - `professions[4].ork_level`: `None` → `3`
+  - `professions[5].name`: `None` → `Бригадир специализирующийся на выращивании различных сельскохозяйственных культур`
+  - `professions[5].ork_level`: `None` → `4`
+  - `professions[6].name`: `None` → `Инженер по внедрению новой техники и технологии`
+  - `professions[6].ork_level`: `None` → `6`
+  - `professions[7].name`: `None` → `Техник-агроном по выращиванию полевых культур`
+  - `professions[7].ork_level`: `None` → `5`
+  - `categories.official.oked[0]`: `None` → `A`
+  - `categories.official.oked[1]`: `None` → `01111`
+  - `categories.official.government_body`: `None` → `Министерство сельского хозяйства Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `3`
+  - `categories.official.ork_levels[1]`: `None` → `4`
+  - `categories.official.ork_levels[2]`: `None` → `5`
+  - `categories.official.ork_levels[3]`: `None` → `6`
+  - `categories.official.year`: `None` → `2026`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1662`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1662/download`
+  - `hashes.metadata_sha256`: `None` → `5c2fecd0b5f55efefa1b869087268eddaf02323a7a913df3fcfb5ccf06652405`
+  - `hashes.pdf_sha256`: `None` → `40c766c8857d38effdf55b9f43c94c9e974a599c22099b24a14458978df4f4fb`
+  - `hashes.normalized_sha256`: `None` → `a6e1b5bfbbe7bc2ea0a9fd2e60aca9fbbde3e30280746a95da60d186dfb0ee47`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [H50200144](docs/standards/1603.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1603`
+  - `code`: `None` → `H50200144`
+  - `title`: `None` → `Профессиональный стандарт «Механик (морской транспорт)»`
+  - `government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Механик (морской транспорт)» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и предприятиях.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2025`
+  - `revision_date`: `None` → `2028-12-31`
+  - `oked.section_code`: `None` → `H`
+  - `oked.section_name`: `None` → `Транспорт и складирование`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `50200`
+  - `oked.subclass_name`: `None` → `Деятельность морского и прибрежного грузового транспорта`
+  - `professions[0].name`: `None` → `Механик по судовым системам`
+  - `professions[0].ork_level`: `None` → `5`
+  - `professions[1].name`: `None` → `Моторист (машинист)`
+  - `professions[1].ork_level`: `None` → `2`
+  - `professions[2].name`: `None` → `Механик (общий профиль)`
+  - `professions[2].ork_level`: `None` → `4`
+  - `professions[3].name`: `None` → `Механик (судовой)`
+  - `professions[3].ork_level`: `None` → `5`
+  - `professions[4].name`: `None` → `Электромеханик (судовой)`
+  - `professions[4].ork_level`: `None` → `4`
+  - `professions[5].name`: `None` → `Моторист самостоятельного управления судовым двигателем`
+  - `professions[5].ork_level`: `None` → `3`
+  - `categories.official.oked[0]`: `None` → `H`
+  - `categories.official.oked[1]`: `None` → `50200`
+  - `categories.official.government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `3`
+  - `categories.official.ork_levels[2]`: `None` → `4`
+  - `categories.official.ork_levels[3]`: `None` → `5`
+  - `categories.official.year`: `None` → `2025`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1603`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1603/download`
+  - `hashes.metadata_sha256`: `None` → `f879b63913f5cf564e6366dbf3e7d315c2a35c981ef3cc225e404ad860fea738`
+  - `hashes.pdf_sha256`: `None` → `4b25ebd93771c5122d6b2e5c087b5e57227abfd752dcf2887fb3b80084c1a56f`
+  - `hashes.normalized_sha256`: `None` → `c0326ad036994fa2206a7dd1bb2d5227f64275794d1868f51f7f1b183aa14a90`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [O84117026](docs/standards/623.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `623`
+  - `code`: `None` → `O84117026`
+  - `title`: `None` → `Интервьюирование в области государственной статистики`
+  - `government_body`: `None` → `Агентство по стратегическому планированию и реформам Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт "Интервьюирование в области государственной статистики" определяет требования к уровню квалификации и компетентности, к содержанию, качеству и условиям труда для привлечения специалистов для оказания услуг по проведению общегосударственных статистических наблюдений и национальных переписей (далее – статистические наблюдения).`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-05-01`
+  - `oked.section_code`: `None` → `O`
+  - `oked.section_name`: `None` → `Государственное управление и оборона; обязательное  социальное обеспечение`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `84117`
+  - `oked.subclass_name`: `None` → `Деятельность в области статистики и социологии`
+  - `professions[0].name`: `None` → `Интервьюер по проведению статистических наблюдений`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Инструктор-контролер`
+  - `professions[1].ork_level`: `None` → `5`
+  - `professions[2].name`: `None` → `Инструктор по подготовке и проведению национальных переписей`
+  - `professions[2].ork_level`: `None` → `6`
+  - `professions[3].name`: `None` → `Руководитель отдела по подготовке и проведению национальных переписей`
+  - `professions[3].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `O`
+  - `categories.official.oked[1]`: `None` → `84117`
+  - `categories.official.government_body`: `None` → `Агентство по стратегическому планированию и реформам Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `5`
+  - `categories.official.ork_levels[2]`: `None` → `6`
+  - `categories.official.ork_levels[3]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/623`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/623/download`
+  - `hashes.metadata_sha256`: `None` → `72c87f2dbd42bbf64a5df11d5ea51cfc8d1857e9203a3f31b201afbf66314691`
+  - `hashes.pdf_sha256`: `None` → `3976304c42679e461ac4271932216eb24f6a39ab2ce7dbc1909d06036946604a`
+  - `hashes.normalized_sha256`: `None` → `bf67b20b1a48ee1894a6c3af4a46deaf0930bae57e0b425b79820962d26162a5`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [A01192059](docs/standards/1698.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1698`
+  - `code`: `None` → `A01192059`
+  - `title`: `None` → `Пчеловодство`
+  - `government_body`: `None` → `Министерство сельского хозяйства Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Пчеловодство» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях». 
+Профессиональный стандарт предназначен для определения уровней квалификаций, необходимых для осуществления работниками определенного вида профессиональной деятельности, в том числе выполнения определённых трудовых функций, а также для применения при разработке образовательных программ организаций высшего, послевузовского, технического и профессионального образования.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2026`
+  - `revision_date`: `None` → `2029-10-26`
+  - `oked.section_code`: `None` → `A`
+  - `oked.section_name`: `None` → `Сельское, лесное и рыбное хозяйство`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `01490`
+  - `oked.subclass_name`: `None` → `Разведение прочих видов животных`
+  - `professions[0].name`: `None` → `Пчеловод`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Помощник пчеловода`
+  - `professions[1].ork_level`: `None` → `3`
+  - `professions[2].name`: `None` → `Главный зоотехник (по пчеловодству)`
+  - `professions[2].ork_level`: `None` → `8`
+  - `professions[3].name`: `None` → `Зоотехник (по пчеловодству)`
+  - `professions[3].ork_level`: `None` → `5`
+  - `categories.official.oked[0]`: `None` → `A`
+  - `categories.official.oked[1]`: `None` → `01490`
+  - `categories.official.government_body`: `None` → `Министерство сельского хозяйства Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `3`
+  - `categories.official.ork_levels[1]`: `None` → `4`
+  - `categories.official.ork_levels[2]`: `None` → `5`
+  - `categories.official.ork_levels[3]`: `None` → `8`
+  - `categories.official.year`: `None` → `2026`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1698`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1698/download`
+  - `hashes.metadata_sha256`: `None` → `71a10b5f4168833e7a10160a36731459c2b1b079038197764ad53b1a7966444b`
+  - `hashes.pdf_sha256`: `None` → `52ff96f32362c770e84c6ad91a61688a45ccf65e2657ae4fa9818330ba69d930`
+  - `hashes.normalized_sha256`: `None` → `34912c29da9b7b4b3933f2d2c14019453fb4a6c37001e81c6da313ae4a1da66b`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [H52240148](docs/standards/1546.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1546`
+  - `code`: `None` → `H52240148`
+  - `title`: `None` → `Погрузка и разгрузка грузов или багажа пассажиров независимо от вида транспорта`
+  - `government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Погрузка и разгрузка грузов или багажа пассажиров независимо от вида транспорта» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях» и «Правилами разработки и (или) актуализации профессиональных стандартов», утвержденными приказом Министра труда и социальной защиты населения Республики Казахстан от 7 сентября 2023 года № 377 (зарегистрирован в Реестре государственной регистрации нормативных правовых актов под № 33401), устанавливают требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2025`
+  - `revision_date`: `None` → `2028-12-31`
+  - `oked.section_code`: `None` → `H`
+  - `oked.section_name`: `None` → `Транспорт и складирование`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `52240`
+  - `oked.subclass_name`: `None` → `Транспортная обработка грузов`
+  - `professions[0].name`: `None` → `Грузчик`
+  - `professions[0].ork_level`: `None` → `2`
+  - `professions[1].name`: `None` → `Мастер погрузочно-разгрузочных работ (Специалист по организации механизированных погрузочно-разгрузочных работ)`
+  - `professions[1].ork_level`: `None` → `5`
+  - `professions[2].name`: `None` → `Оператор загрузочной и разгрузочной установки (на транспорте)`
+  - `professions[2].ork_level`: `None` → `3`
+  - `professions[3].name`: `None` → `Машинист крана`
+  - `professions[3].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `H`
+  - `categories.official.oked[1]`: `None` → `52240`
+  - `categories.official.government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `3`
+  - `categories.official.ork_levels[2]`: `None` → `4`
+  - `categories.official.ork_levels[3]`: `None` → `5`
+  - `categories.official.year`: `None` → `2025`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1546`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1546/download`
+  - `hashes.metadata_sha256`: `None` → `f4db7783ff15280217a670c1856a43c6c6fa62fcb67effc0761d10effd92c68a`
+  - `hashes.pdf_sha256`: `None` → `977e0e8084b20371fca5e64c107dd5794fe18f54d2724e25b226dcedc4657a13`
+  - `hashes.normalized_sha256`: `None` → `b33b54b8d38cab677e5d0f5f7b27b1d165a0ace7e3f770207152a5025484d57a`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [D35111054](docs/standards/1228.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1228`
+  - `code`: `None` → `D35111054`
+  - `title`: `None` → `Эксплуатация тепломеханического оборудования тепловой электростанции`
+  - `government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Эксплуатация тепломеханического оборудования тепловой электростанции» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях», устанавливает требования  к формированию  образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в энергетических организациях и на предприятиях.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2025`
+  - `revision_date`: `None` → `2028-12-31`
+  - `oked.section_code`: `None` → `D`
+  - `oked.section_name`: `None` → `Снабжение электроэнергией, газом, паром, горячей водой и  кондиционированным воздухом`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `35111`
+  - `oked.subclass_name`: `None` → `Производство электроэнергии тепловыми электростанциями`
+  - `professions[0].name`: `None` → `Мастер участка (в прочих отраслях)`
+  - `professions[0].ork_level`: `None` → `5`
+  - `professions[1].name`: `None` → `Машинист блочной системы управления агрегатами (котел-турбина)`
+  - `professions[1].ork_level`: `None` → `3`
+  - `professions[2].name`: `None` → `Машинист газотурбинных установок`
+  - `professions[2].ork_level`: `None` → `3`
+  - `professions[3].name`: `None` → `Машинист блочной системы управления агрегатами (котел-турбина)`
+  - `professions[3].ork_level`: `None` → `4`
+  - `professions[4].name`: `None` → `Машинист газотурбинных установок`
+  - `professions[4].ork_level`: `None` → `4`
+  - `professions[5].name`: `None` → `Машинист котлов`
+  - `professions[5].ork_level`: `None` → `3`
+  - `professions[6].name`: `None` → `Машинист котлов`
+  - `professions[6].ork_level`: `None` → `2`
+  - `professions[7].name`: `None` → `Машинист котлов`
+  - `professions[7].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `D`
+  - `categories.official.oked[1]`: `None` → `35111`
+  - `categories.official.government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `3`
+  - `categories.official.ork_levels[2]`: `None` → `4`
+  - `categories.official.ork_levels[3]`: `None` → `5`
+  - `categories.official.year`: `None` → `2025`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1228`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1228/download`
+  - `hashes.metadata_sha256`: `None` → `b2bd15ebd267ed6ee04667107baa106231f7733dbc831aa572a6efb25543e8f5`
+  - `hashes.pdf_sha256`: `None` → `87b9ff52e3dd6383e47e1256ab9c9c65e401707ef8e66efd05ea99a78d2b0c39`
+  - `hashes.normalized_sha256`: `None` → `de2688fbbab15ec6aa4b25869da7de75de8a005d9f48ec7ac52d419b2de96765`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [C19201080](docs/standards/775.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `775`
+  - `code`: `None` → `C19201080`
+  - `title`: `None` → `Оперативно-диспетчерское управление`
+  - `government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт "Оперативно-диспетчерское управление"  применяется для эффективного управления оперативными процессами, такими как добыча, транспортировка и переработка нефти и газа. Специалисты в этой области отвечают за координацию работы на месторождениях, контроль за процессами транспортировки нефти и газа по магистральным трубопроводам, а также за оперативное реагирование на любые аварийные ситуации или неполадки в работе оборудования. Они также могут заниматься планированием и оптимизацией процессов добычи и транспортировки с целью повышения эффективности и снижения затрат.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-12-31`
+  - `oked.section_code`: `None` → `C`
+  - `oked.section_name`: `None` → `Обрабатывающая промышленность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `19201`
+  - `oked.subclass_name`: `None` → `Производство продуктов нефтепереработки`
+  - `professions[0].name`: `None` → `Инженер-диспетчер`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Электромонтер диспетчерского оборудования и телеавтоматики`
+  - `professions[1].ork_level`: `None` → `3`
+  - `professions[2].name`: `None` → `Главный диспетчер (в прочих отраслях)`
+  - `professions[2].ork_level`: `None` → `6`
+  - `professions[3].name`: `None` → `Начальник смены (обрабатывающая промышленность)`
+  - `professions[3].ork_level`: `None` → `7`
+  - `professions[4].name`: `None` → `Оператор диспетчерской службы`
+  - `professions[4].ork_level`: `None` → `4`
+  - `professions[5].name`: `None` → `Главный технолог (обрабатывающая промышленность)`
+  - `professions[5].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `C`
+  - `categories.official.oked[1]`: `None` → `19201`
+  - `categories.official.government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `3`
+  - `categories.official.ork_levels[1]`: `None` → `4`
+  - `categories.official.ork_levels[2]`: `None` → `6`
+  - `categories.official.ork_levels[3]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/775`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/775/download`
+  - `hashes.metadata_sha256`: `None` → `60aba2167c37aba9f3889d8e019bf309013e484425734e7deec8b00975b0889e`
+  - `hashes.pdf_sha256`: `None` → `8d6428b08c2ac908b7da19488c5686ceb199f84f6fbd9d0624bde8f1e456da26`
+  - `hashes.normalized_sha256`: `None` → `90e9032d22605cc081d95f394341f9e045bbd4e235459b5e8dd0fcd55d735603`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020032](docs/standards/246.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `246`
+  - `code`: `None` → `R90020032`
+  - `title`: `None` → `Театральная техника и оформление спектакля (художник-технолог)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Театральная техника и оформление спектакля (Художник-технолог)" (далее - профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `"Театральная техника и оформление спектакля (Художник-технолог)"`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/246`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/246/download`
+  - `hashes.metadata_sha256`: `None` → `04ef403273e19da20acbc1ba4c79f2ca314ddbda1eb09d006c538b47fc72d217`
+  - `hashes.pdf_sha256`: `None` → `0dc716f2d021013fa29740738bea05aa8624f233d6cf89d19a768442874f7489`
+  - `hashes.normalized_sha256`: `None` → `f262fd289bf7d823531853fa2f53a920c9b8f7b0a63dc0dbda3023fe93748785`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [M72194054](docs/standards/1342.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1342`
+  - `code`: `None` → `M72194054`
+  - `title`: `None` → `Радиационный контроль`
+  - `government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт применяется для использования пользователями: 
+1) работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения; 
+2) работодателями – для разработки используемых обязанностей (трудовых функций), требований к квалификации работников, формирования критериев при найме и аттестации персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров; 
+3) организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-12-31`
+  - `oked.section_code`: `None` → `M`
+  - `oked.section_name`: `None` → `Профессиональная, научная и техническая деятельность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `72194`
+  - `oked.subclass_name`: `None` → `Исследования и экспериментальные разработки в области мирного использования атомной энергии`
+  - `professions[0].name`: `None` → `Техник-дозиметрист`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Инженер-дозиметрист`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Начальник службы (функциональной в прочих областях деятельности)`
+  - `professions[2].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `M`
+  - `categories.official.oked[1]`: `None` → `72194`
+  - `categories.official.government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1342`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1342/download`
+  - `hashes.metadata_sha256`: `None` → `d04c9e68b1c58762f52b110d123aa50c61a69bcee763972b5ce2cf0253f17abe`
+  - `hashes.pdf_sha256`: `None` → `9267574cc7f689f536e3703b392f6f5bfc44d5c92aaf544a1f813290fc254094`
+  - `hashes.normalized_sha256`: `None` → `d04160ab3aa0e3183a326a13bd5d80640070b6834f2cd274a494745913e72576`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [A01700034](docs/standards/1388.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1388`
+  - `code`: `None` → `A01700034`
+  - `title`: `None` → `Фермерское охотничье хозяйство`
+  - `government_body`: `None` → `Министерство экологии и природных ресурсов Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Фермерское охотничье хозяйства» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях» и предназначен для формирования образовательных программ, в том числе обучения персонала на предприятиях, сертификации работников и выпускников организации образования и решений широкого круга задач в области управления персоналом в организациях и предприятиях.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-12-31`
+  - `oked.section_code`: `None` → `A`
+  - `oked.section_name`: `None` → `Сельское, лесное и рыбное хозяйство`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `01700`
+  - `oked.subclass_name`: `None` → `Охота и отлов, включая предоставление услуг в этих областях`
+  - `professions[0].name`: `None` → `Рабочий по уходу за животными`
+  - `professions[0].ork_level`: `None` → `2`
+  - `professions[1].name`: `None` → `Зверовод`
+  - `professions[1].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `A`
+  - `categories.official.oked[1]`: `None` → `01700`
+  - `categories.official.government_body`: `None` → `Министерство экологии и природных ресурсов Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `4`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1388`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1388/download`
+  - `hashes.metadata_sha256`: `None` → `2339ffc1641194ca2a2601c836fb88e6f8bc1529f53de41cad1d5d63fc8bcd68`
+  - `hashes.pdf_sha256`: `None` → `296652d18d63d1fbd98722df2870a3cd706f64a82fb7b29a05875ba4492de786`
+  - `hashes.normalized_sha256`: `None` → `4738fc9b9f95bbb68d19c59d70728808415fe0a5875b93fe12d36c07d7b359e7`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90030021](docs/standards/245.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `245`
+  - `code`: `None` → `R90030021`
+  - `title`: `None` → `Художник-аниматор`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-аниматор" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90030`
+  - `oked.subclass_name`: `None` → `Художественное и литературное творчество`
+  - `professions[0].name`: `None` → `Художник-аниматор`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90030`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/245`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/245/download`
+  - `hashes.metadata_sha256`: `None` → `ea18cc8794c794d49a8d2cfb110f128c25b916619f784e0eecb1518a744c4230`
+  - `hashes.pdf_sha256`: `None` → `281ef2c47aca0cca56f8d7eb3fe31e04c58c5e34c791f75528d95bcf472519a5`
+  - `hashes.normalized_sha256`: `None` → `06c0930138e806cd0765d41cdbe52efd29fc05faa6ef7d206e7a7ba161a37468`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90040119](docs/standards/256.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `256`
+  - `code`: `None` → `R90040119`
+  - `title`: `None` → `Художник по обработке дерева`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник по обработке дерева" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях", в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-07-06`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90040`
+  - `oked.subclass_name`: `None` → `Деятельность концертных и театральных залов`
+  - `professions[0].name`: `None` → `Художник народных художественных промыслов`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Художник народных художественных промыслов`
+  - `professions[1].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90040`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/256`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/256/download`
+  - `hashes.metadata_sha256`: `None` → `1eb0c065baa186bfa0745d7e4124fc8665feb855cf8b23c8f0211148b7b5f22f`
+  - `hashes.pdf_sha256`: `None` → `37b606c14205c008273ad9ff23f8bca1fe5f0fc9f7c078141533e80bdea9d30d`
+  - `hashes.normalized_sha256`: `None` → `72193b0a2f64dcb1ba3affd53a87937b55ef45966c00df528020c0979850df76`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [C28414065](docs/standards/1222.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1222`
+  - `code`: `None` → `C28414065`
+  - `title`: `None` → `Производство металло- и деревообрабатывающего инструмента`
+  - `government_body`: `None` → `Министерство промышленности и строительства Республики Казахстан`
+  - `description`: `None` → `Производство металло- и деревообрабатывающего инструмента определяет в области профессиональной деятельности «Производство готовых металлических изделий, кроме машин и оборудования» требования к уровню квалификации, компетенции, содержанию, качеству и условиям труда.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-12-31`
+  - `oked.section_code`: `None` → `C`
+  - `oked.section_name`: `None` → `Обрабатывающая промышленность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `28414`
+  - `oked.subclass_name`: `None` → `Производство частей и приспособлений к металлообрабатывающим станкам`
+  - `professions[0].name`: `None` → `Слесарь-инструментальщик`
+  - `professions[0].ork_level`: `None` → `2`
+  - `professions[1].name`: `None` → `Литейщик вакуумного, центробежно-вакуумного и центробежного литья`
+  - `professions[1].ork_level`: `None` → `2`
+  - `professions[2].name`: `None` → `Техник-технолог (общий профиль)`
+  - `professions[2].ork_level`: `None` → `5`
+  - `professions[3].name`: `None` → `Слесарь-инструментальщик`
+  - `professions[3].ork_level`: `None` → `3`
+  - `professions[4].name`: `None` → `Слесарь-инструментальщик`
+  - `professions[4].ork_level`: `None` → `4`
+  - `professions[5].name`: `None` → `Литейщик вакуумного, центробежно-вакуумного и центробежного литья`
+  - `professions[5].ork_level`: `None` → `3`
+  - `categories.official.oked[0]`: `None` → `C`
+  - `categories.official.oked[1]`: `None` → `28414`
+  - `categories.official.government_body`: `None` → `Министерство промышленности и строительства Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `3`
+  - `categories.official.ork_levels[2]`: `None` → `4`
+  - `categories.official.ork_levels[3]`: `None` → `5`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1222`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1222/download`
+  - `hashes.metadata_sha256`: `None` → `460c58a3c969d172d718f2a4fb21869772330e3c4a157e515e7e0d0962cbbcc4`
+  - `hashes.pdf_sha256`: `None` → `5c10ab455438e803b5f4a0c8a1787b246f6ab631d0040345d4248532b9559fa7`
+  - `hashes.normalized_sha256`: `None` → `b22cdd8b878c28dfa34971171df14abf0e5ddec185cea2461719c3d821d1fbc7`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R93299128](docs/standards/1758.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1758`
+  - `code`: `None` → `R93299128`
+  - `title`: `None` → `Деятельность фитнес-клубов`
+  - `government_body`: `None` → `Министерство туризма и спорта Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Деятельность фитнес-клубов» (далее — профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях», в том числе для обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников образовательных организаций, а также для решения задач в области физической культуры, фитнеса и спорта в организациях и на предприятиях, связанных с физической активностью и оздоровлением населения. Профессиональный стандарт применяется в рамках Министерства туризма и спорта Республики Казахстан и регулирует деятельность в области фитнес-индустрии`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2026`
+  - `revision_date`: `None` → `2029-05-29`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `93299`
+  - `oked.subclass_name`: `None` → `Прочие виды деятельности по организации отдыха и развлечений`
+  - `professions[0].name`: `None` → `Фитнес-тренер групповых программ`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Методист фитнес-направления`
+  - `professions[1].ork_level`: `None` → `5`
+  - `professions[2].name`: `None` → `Мастер-тренер`
+  - `professions[2].ork_level`: `None` → `5`
+  - `professions[3].name`: `None` → `Фитнес- тренер тренажерного зала`
+  - `professions[3].ork_level`: `None` → `4`
+  - `professions[4].name`: `None` → `Директор фитнес-центра`
+  - `professions[4].ork_level`: `None` → `6`
+  - `professions[5].name`: `None` → `Инструктор по фитнесу`
+  - `professions[5].ork_level`: `None` → `2`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `93299`
+  - `categories.official.government_body`: `None` → `Министерство туризма и спорта Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `4`
+  - `categories.official.ork_levels[2]`: `None` → `5`
+  - `categories.official.ork_levels[3]`: `None` → `6`
+  - `categories.official.year`: `None` → `2026`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1758`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1758/download`
+  - `hashes.metadata_sha256`: `None` → `04899c7177278356a34a120509875084971863ed60de63521e57608bde6ecb01`
+  - `hashes.pdf_sha256`: `None` → `d2329721299caa66460cee16f2770df7a17640a48d0689b1c85ec45bd569e2d1`
+  - `hashes.normalized_sha256`: `None` → `e7fb988a9ec95be8cbd73139956203689e424d95d007d3805349319a7e5928c9`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [F41100065](docs/standards/1607.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1607`
+  - `code`: `None` → `F41100065`
+  - `title`: `None` → `Разработка строительных проектов (в строительстве)`
+  - `government_body`: `None` → `Министерство промышленности и строительства Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Разработка строительных проектов (в строительстве)» разрабатывается в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и переподготовки кадров и предназначены для использования широким кругом пользователей.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2025`
+  - `revision_date`: `None` → `2028-10-30`
+  - `oked.section_code`: `None` → `F`
+  - `oked.section_name`: `None` → `Строительство`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `41100`
+  - `oked.subclass_name`: `None` → `Разработка строительных проектов`
+  - `professions[0].name`: `None` → `Инженер по проектированию`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Инженер по проектно-сметной работе`
+  - `professions[1].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `F`
+  - `categories.official.oked[1]`: `None` → `41100`
+  - `categories.official.government_body`: `None` → `Министерство промышленности и строительства Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2025`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1607`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1607/download`
+  - `hashes.metadata_sha256`: `None` → `d357e847323a0e70c0dcf452ec69c198e743ea9c970a21262a245afb878eee6a`
+  - `hashes.pdf_sha256`: `None` → `fb3884aaf475b174a016ba9e52baed80180dfdd9a36b57bb4695346bf56abde8`
+  - `hashes.normalized_sha256`: `None` → `f05fae6815f4cbae5047229622c22904979653cb3ffac1f17eeaa50fc61d9e35`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [F43220064](docs/standards/1597.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1597`
+  - `code`: `None` → `F43220064`
+  - `title`: `None` → `Обслуживание по вентиляции и кондиционированию жилых и нежилых зданий`
+  - `government_body`: `None` → `Министерство промышленности и строительства Республики Казахстан`
+  - `description`: `None` → `в сфере эксплуатации, технического обслуживания и ремонта систем вентиляции и кондиционирования воздуха в жилых и нежилых зданиях.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2025`
+  - `revision_date`: `None` → `2028-09-28`
+  - `oked.section_code`: `None` → `F`
+  - `oked.section_name`: `None` → `Строительство`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `43220`
+  - `oked.subclass_name`: `None` → `Монтаж систем водоснабжения, отопления и кондиционирования воздуха`
+  - `professions[0].name`: `None` → `Инженер по технической эксплуатации вентиляционных систем и санитарно-технического оборудования`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Слесарь по ремонту и обслуживанию систем вентиляции и кондиционирования`
+  - `professions[1].ork_level`: `None` → `3`
+  - `professions[2].name`: `None` → `Техник по системам охлаждения и кондиционирования`
+  - `professions[2].ork_level`: `None` → `5`
+  - `professions[3].name`: `None` → `Механик оборудования для кондиционирования воздуха`
+  - `professions[3].ork_level`: `None` → `4`
+  - `professions[4].name`: `None` → `Рабочий по обслуживанию оборудования службы кондиционирования воздуха и отопления`
+  - `professions[4].ork_level`: `None` → `2`
+  - `categories.official.oked[0]`: `None` → `F`
+  - `categories.official.oked[1]`: `None` → `43220`
+  - `categories.official.government_body`: `None` → `Министерство промышленности и строительства Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `3`
+  - `categories.official.ork_levels[2]`: `None` → `4`
+  - `categories.official.ork_levels[3]`: `None` → `5`
+  - `categories.official.ork_levels[4]`: `None` → `6`
+  - `categories.official.year`: `None` → `2025`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1597`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1597/download`
+  - `hashes.metadata_sha256`: `None` → `7a3eb1629a7f867e68faa44c876c390d126d10c092d505950546a9a5e4475c33`
+  - `hashes.pdf_sha256`: `None` → `ba3ae6f34ed9275df9518ff5e6cfb4ed38eb2306710c5abcaa189569fb715ab6`
+  - `hashes.normalized_sha256`: `None` → `efde4012bc59c88a9f4e2a5fe9547932dfa24f790826832592bb763a6a2cd656`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020049](docs/standards/446.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `446`
+  - `code`: `None` → `R90020049`
+  - `title`: `None` → `Художник-постановщик театра кукол`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-постановщик театра кукол" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях", в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-постановщик театра кукол`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/446`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/446/download`
+  - `hashes.metadata_sha256`: `None` → `e30e74cdb0d95704e722bc0060294030ff9cd3193a06f10c445a01eb98e37d4c`
+  - `hashes.pdf_sha256`: `None` → `de187bd7fe85ac861d6f1f0c9dae145aa4fff60936ac3bf08b2069bbb056120e`
+  - `hashes.normalized_sha256`: `None` → `545133875cd276922029d862a991b7109bbe1239ec95bf83137aeacc6e42c408`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [C28910090](docs/standards/1059.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1059`
+  - `code`: `None` → `C28910090`
+  - `title`: `None` → `3D моделирование, прототипирование и графический дизайн`
+  - `government_body`: `None` → `«Профессиональная Академия  «Туран-Профи»`
+  - `description`: `None` → `При 3D моделировании,прототипированиии графическом дизайне необходимо выбрать модельныйматериал подходящий для получения изделия с необходимыми потребительскими свойствами, для работы в нормальной и агрессивной средах приразличных температурах.  Строятся геометрически простые и сложные модели для авиационной, космической, автомобильной и медицинской промышленности и др. Разрабатывается дизайн и эргономика будущего изделия.  Это достигается с помощью современного программного обеспечениемтипаSimens NX7.5,10SolidWork,  Avtocad   при графическом дизайне  - 3D Makc.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2023`
+  - `revision_date`: `None` → `2026-01-01`
+  - `oked.section_code`: `None` → `C`
+  - `oked.section_name`: `None` → `Обрабатывающая промышленность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `28910`
+  - `oked.subclass_name`: `None` → `Производство машин и оборудования  для металлургии`
+  - `professions[0].name`: `None` → `Дизайнер промышленной продукции`
+  - `professions[0].ork_level`: `None` → `5`
+  - `professions[1].name`: `None` → `Инженеры по 3D моделированию`
+  - `professions[1].ork_level`: `None` → `5`
+  - `categories.official.oked[0]`: `None` → `C`
+  - `categories.official.oked[1]`: `None` → `28910`
+  - `categories.official.government_body`: `None` → `«Профессиональная Академия  «Туран-Профи»`
+  - `categories.official.ork_levels[0]`: `None` → `5`
+  - `categories.official.year`: `None` → `2023`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1059`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1059/download`
+  - `hashes.metadata_sha256`: `None` → `b7aaa3b57417bdeaef6c50cad360058ead91b1a92a186e987aeacc213e766535`
+  - `hashes.pdf_sha256`: `None` → `97fa9eba67ca50a7eab8c4cdf98e71ceaa09178d63d36d0086df0a05e770ed8f`
+  - `hashes.normalized_sha256`: `None` → `177c9d244f915a905d9d8104f184ba2ae112b9a24fc661f30ea72c167def8372`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020068](docs/standards/507.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `507`
+  - `code`: `None` → `R90020068`
+  - `title`: `None` → `Методист библиотеки, дома народного творчества, клубного учреждения, музея, центра (научно-методического, культурного и др.)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Методист библиотеки, дома народного творчества, клубного учреждения, музея, центра (научно-методического, культурного и др.)" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Методист библиотеки, дома народного творчества, клубного учреждения, музея, центра (научно-методического, культурного и др.)`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/507`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/507/download`
+  - `hashes.metadata_sha256`: `None` → `4ba3c3a69f7820a2c5a944cf500ff4f6665f5a08a6ac004103b33ba2ccdfcba1`
+  - `hashes.pdf_sha256`: `None` → `3e9ef0da993bec241d056cbe1d508cb11d4e2f7b92df0aa503748b94561f0a5e`
+  - `hashes.normalized_sha256`: `None` → `3e59eb45df243b7c42ff26581349f386d2c1e66731c8935a6f4d2bc61d1ac02b`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R91012101](docs/standards/554.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `554`
+  - `code`: `None` → `R91012101`
+  - `title`: `None` → `Библиотекарь-реабилитолог`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `"Библиотекарь-реабилитолог" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `91012`
+  - `oked.subclass_name`: `None` → `Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов`
+  - `professions[0].name`: `None` → `Библиотекарь`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `91012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/554`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/554/download`
+  - `hashes.metadata_sha256`: `None` → `3b90e3f1b1e801e5885547a2f8fabc052bd4d59eb7aeae7501d864dd9f183275`
+  - `hashes.pdf_sha256`: `None` → `3e7c90930105284c05c49f5ca2b543971e84406dadaae111c1eb06a81b13069f`
+  - `hashes.normalized_sha256`: `None` → `e8bbb349f75373b7a81a4f09bd65402e04853bd1bcdaf3f2f169d049b8774d46`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020067](docs/standards/508.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `508`
+  - `code`: `None` → `R90020067`
+  - `title`: `None` → `Культорганизатор`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Культорганизатор" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Культорганизатор`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/508`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/508/download`
+  - `hashes.metadata_sha256`: `None` → `57d3af753287749b4eb3d1031401bc8cc9d4de60333fb1f339d77cffb82a6d1f`
+  - `hashes.pdf_sha256`: `None` → `af4c01e73d2c5721f10605881de6d94375ee2f03c2eae245b00e4c42f00d6cb3`
+  - `hashes.normalized_sha256`: `None` → `f99eee3955b2fbd11a8c1a1e197c28393a1af2471b24e0490b369fd00d01a127`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90012046](docs/standards/493.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `493`
+  - `code`: `None` → `R90012046`
+  - `title`: `None` → `Арт-менеджер`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Арт-менеджер" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в области культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90012`
+  - `oked.subclass_name`: `None` → `Концертная деятельность`
+  - `professions[0].name`: `None` → `Арт-менеджер`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Арт-менеджер`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Арт-менеджер`
+  - `professions[2].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/493`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/493/download`
+  - `hashes.metadata_sha256`: `None` → `b5da53e42f6cacc7ad73176216944ea9873f858ac98f66db54164755d15541fd`
+  - `hashes.pdf_sha256`: `None` → `64199bd7a3e227144e55c76a5940d0195f3d9c3bd62df0796f13744c404f85e1`
+  - `hashes.normalized_sha256`: `None` → `e813ff562f2e5d4fae2df919f1e1e2468987bb8279d21a3eba4bc54449ba97cb`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90040017](docs/standards/439.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `439`
+  - `code`: `None` → `R90040017`
+  - `title`: `None` → `Музыковед`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Музыковед" применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации кадров в области культуры и искусства и предназначены для использования широким кругом пользователей:
+
+      работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения;
+
+      работодателями – для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и аттестации персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров;
+
+      организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия;
+
+      государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90040`
+  - `oked.subclass_name`: `None` → `Деятельность концертных и театральных залов`
+  - `professions[0].name`: `None` → `Музыковед`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Музыковед`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Музыковед`
+  - `professions[2].ork_level`: `None` → `8`
+  - `professions[3].name`: `None` → `Музыковед`
+  - `professions[3].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90040`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.ork_levels[3]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/439`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/439/download`
+  - `hashes.metadata_sha256`: `None` → `7bff1911e9ef02df802fab0ad965bbaca2e908f2c245c1c54ebcc929c91438b0`
+  - `hashes.pdf_sha256`: `None` → `4b68c16f19fbe78ae7450accbd002a47a959a680e4e293d1a8318cb72df64458`
+  - `hashes.normalized_sha256`: `None` → `e3568c9840014d11f0c95a492932333446caf78b92c1ea66477c97306fc3aef9`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R91020031](docs/standards/247.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `247`
+  - `code`: `None` → `R91020031`
+  - `title`: `None` → `Художник по текстилю и ткачеству`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник по текстилю и ткачеству" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90030`
+  - `oked.subclass_name`: `None` → `Художественное и литературное творчество`
+  - `professions[0].name`: `None` → `Художник по текстилю и ткачеству`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Художник по текстилю и ткачеству`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Художник по текстилю и ткачеству`
+  - `professions[2].ork_level`: `None` → `7`
+  - `professions[3].name`: `None` → `Художник по текстилю и ткачеству`
+  - `professions[3].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90030`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.ork_levels[3]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/247`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/247/download`
+  - `hashes.metadata_sha256`: `None` → `70490aa49e94b575b70f187abc2ce417758f941e21d32ed68354076403f0c9ce`
+  - `hashes.pdf_sha256`: `None` → `5e83e4ea847ce5beb6e1cb2522c0eb1f409ec02616b706eedaf6aff672aa393f`
+  - `hashes.normalized_sha256`: `None` → `f10d3f25d32f833044242688c0f8bcdd3711d69a1c9bc7d385411a7a797f5dd0`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R91012092](docs/standards/491.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `491`
+  - `code`: `None` → `R91012092`
+  - `title`: `None` → `Библиотекарь-диктор`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Библиотекарь-диктор" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `91012`
+  - `oked.subclass_name`: `None` → `Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов`
+  - `professions[0].name`: `None` → `Библиотекарь-диктор`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `91012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/491`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/491/download`
+  - `hashes.metadata_sha256`: `None` → `18a8da355e8de4e22fc5f1c581ad4ac6301fe146252d30b250e872a043232a2b`
+  - `hashes.pdf_sha256`: `None` → `e93deec5c87eb6ed41650b47bf6207fdf705a781b1055e621556a8c4d595974e`
+  - `hashes.normalized_sha256`: `None` → `1488aa011d19a895ae5065617d884601e21a63c32d85851ac78de0ec2be97b70`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R91012079](docs/standards/490.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `490`
+  - `code`: `None` → `R91012079`
+  - `title`: `None` → `Библиотекарь-аудиоредактор`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Библиотекарь-аудиоредактор" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `91012`
+  - `oked.subclass_name`: `None` → `Библиотечная деятельность, включая деятельность читальных залов, лекториев, демонстрационных залов`
+  - `professions[0].name`: `None` → `Библиотекарь-аудиоредактор`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `91012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/490`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/490/download`
+  - `hashes.metadata_sha256`: `None` → `3cd847b995da8ac302d40ea9812e489786a593c604ac96e45c5f22f2307e5522`
+  - `hashes.pdf_sha256`: `None` → `b10a07ab4a8581e0bdc57b93ba5056f835e49a398813e65aabac614ddb31226b`
+  - `hashes.normalized_sha256`: `None` → `df007686dc2e2b9d960111a1201c8237e617b48d06a1162413031040f567e491`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90012089](docs/standards/449.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `449`
+  - `code`: `None` → `R90012089`
+  - `title`: `None` → `Певец`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Певец" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90012`
+  - `oked.subclass_name`: `None` → `Концертная деятельность`
+  - `professions[0].name`: `None` → `Певец (академическое пение)`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Певец (по видам)`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Певец (по видам)`
+  - `professions[2].ork_level`: `None` → `7`
+  - `professions[3].name`: `None` → `Певец (по видам)`
+  - `professions[3].ork_level`: `None` → `8`
+  - `professions[4].name`: `None` → `Певец (традиционное пение)`
+  - `professions[4].ork_level`: `None` → `4`
+  - `professions[5].name`: `None` → `Певец (эстрадное пение)`
+  - `professions[5].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.ork_levels[3]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/449`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/449/download`
+  - `hashes.metadata_sha256`: `None` → `13321591c5ec179e3353e6aadf66d38949ca551dec48e461a22123d9b0188d7d`
+  - `hashes.pdf_sha256`: `None` → `dc2875e183ae4bcdefcce2636af2e8782e0adb0e3c66f7108e0deb7c78b73cd8`
+  - `hashes.normalized_sha256`: `None` → `dc7f43d1822b2e9e62314d9eb1a31692b72fa179d0da61b0d577b4abf4ca38d6`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [H52232075](docs/standards/1307.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1307`
+  - `code`: `None` → `H52232075`
+  - `title`: `None` → `Обеспечение авиационной безопасности`
+  - `government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт "Обеспечение авиационной безопасности" применяется в сфере гражданской авиации и охватывает деятельность всех участников авиационного процесса, включая аэропорты, авиакомпании, службы безопасности, а также государственные органы, ответственные за регулирование и контроль в области авиационной безопасности. Профессиональный стандарт устанавливает требования к квалификации и компетенциям специалистов, занимающихся обеспечением безопасности на всех этапах авиаперевозок, включая контроль за доступом, досмотр пассажиров и багажа, а также мониторинг и управление рисками. Он также используется в учебных заведениях и центрах подготовки кадров, занимающихся обучением в области авиационной безопасности, а также в рамках международного сотрудничества по вопросам безопасности в авиации.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-12-31`
+  - `oked.section_code`: `None` → `H`
+  - `oked.section_name`: `None` → `Транспорт и складирование`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `52232`
+  - `oked.subclass_name`: `None` → `Деятельность аэропортов`
+  - `professions[0].name`: `None` → `Аудитор контроля качества`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Инспектор по кибербезопасности`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Инструктор по авиационной безопасности`
+  - `professions[2].ork_level`: `None` → `6`
+  - `professions[3].name`: `None` → `Менеджер авиационной безопасности`
+  - `professions[3].ork_level`: `None` → `5`
+  - `professions[4].name`: `None` → `Инспектор по авиационной безопасности`
+  - `professions[4].ork_level`: `None` → `4`
+  - `professions[5].name`: `None` → `Инспектор пункта контроля и видеонаблюдения`
+  - `professions[5].ork_level`: `None` → `4`
+  - `professions[6].name`: `None` → `Руководитель службы авиационной безопасности`
+  - `professions[6].ork_level`: `None` → `7`
+  - `professions[7].name`: `None` → `Инспектор по авиационной безопасности`
+  - `professions[7].ork_level`: `None` → `5`
+  - `professions[8].name`: `None` → `Инспектор-вожатый служебных собак (проводник патрульно-розыскной собаки)`
+  - `professions[8].ork_level`: `None` → `4`
+  - `professions[9].name`: `None` → `Инспектор-вожатый служебных собак (проводник патрульно-розыскной собаки)`
+  - `professions[9].ork_level`: `None` → `5`
+  - `professions[10].name`: `None` → `Начальник подразделения авиационной безопасности`
+  - `professions[10].ork_level`: `None` → `6`
+  - `professions[11].name`: `None` → `Инспектор-профайлер`
+  - `professions[11].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `H`
+  - `categories.official.oked[1]`: `None` → `52232`
+  - `categories.official.government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `5`
+  - `categories.official.ork_levels[2]`: `None` → `6`
+  - `categories.official.ork_levels[3]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1307`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1307/download`
+  - `hashes.metadata_sha256`: `None` → `a33b8b3068d969a7df1f9f9b8ef8d3d0cb08363323d4a153b857ec6f2db4d044`
+  - `hashes.pdf_sha256`: `None` → `e1e2bc2941a4fbb11bae0ab775ca7b382d4ca53446ee75fb103cf091a23d7ace`
+  - `hashes.normalized_sha256`: `None` → `2a9cbc45758f30583cc9364e4372cdaadc972a4dabe0997a346eed1ef543eaf5`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020050](docs/standards/445.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `445`
+  - `code`: `None` → `R90020050`
+  - `title`: `None` → `Мастер-конструктор театральных кукол`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Мастер-конструктор театральных кукол" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях", а также в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-кукловод`
+  - `professions[0].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/445`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/445/download`
+  - `hashes.metadata_sha256`: `None` → `8798e0be7dc6a41739c1f1c368b83a1010d046ac681e581e81bbbcc6155dac2c`
+  - `hashes.pdf_sha256`: `None` → `f9ae0fcd014ef770722eedf256e6cd150e00d272b6a7ff3da96f00740968edc7`
+  - `hashes.normalized_sha256`: `None` → `35940187024d47a4b64e3d8dcf229093daadb0fa5afbdb589d876e342507d746`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90012039](docs/standards/440.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `440`
+  - `code`: `None` → `R90012039`
+  - `title`: `None` → `Композитор (по видам)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Композитор" (по видам) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90012`
+  - `oked.subclass_name`: `None` → `Концертная деятельность`
+  - `professions[0].name`: `None` → `Композитор (по видам)`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Композитор (по видам)`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Композитор (по видам)`
+  - `professions[2].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/440`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/440/download`
+  - `hashes.metadata_sha256`: `None` → `6aab0ebe1e73895bd2100e78b97e20f82391205170ff322e0ea907a571ad78f3`
+  - `hashes.pdf_sha256`: `None` → `5783f0b91c9bc5569a78cde28683c1493836c07b55c0d8b46201cf6121ea6e38`
+  - `hashes.normalized_sha256`: `None` → `60e3be71f3c013e1f067d4d2cab5f49df9febd1d02581d54136c59377d90514b`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90011037](docs/standards/448.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `448`
+  - `code`: `None` → `R90011037`
+  - `title`: `None` → `Театровед-педагог`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Театровед-педагог" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях", в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в культуры культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90011`
+  - `oked.subclass_name`: `None` → `Театральная деятельность`
+  - `professions[0].name`: `None` → `Театровед-педагог`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Театровед-педагог`
+  - `professions[1].ork_level`: `None` → `8`
+  - `professions[2].name`: `None` → `Театровед-педагог`
+  - `professions[2].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90011`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/448`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/448/download`
+  - `hashes.metadata_sha256`: `None` → `1366fe97f6304966a683c6702bf2938d26ba23da85fc94bba993e62700d6770c`
+  - `hashes.pdf_sha256`: `None` → `12e338a2ed557bddbaab57d1ce4c7fa6b056a512e7b2db9997c7a0eeebce9617`
+  - `hashes.normalized_sha256`: `None` → `c576c08e34d262ac33fd25811fa1adcec384350244025782bf3d5aa92f1ccdb6`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90011038](docs/standards/447.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `447`
+  - `code`: `None` → `R90011038`
+  - `title`: `None` → `Театровед`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Театровед" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90011`
+  - `oked.subclass_name`: `None` → `Театральная деятельность`
+  - `professions[0].name`: `None` → `Театровед`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Театровед`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Театровед`
+  - `professions[2].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90011`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/447`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/447/download`
+  - `hashes.metadata_sha256`: `None` → `35ad7af4917694c399970e0ffc535b173268481157be21d54b58cc28cf69be57`
+  - `hashes.pdf_sha256`: `None` → `248cc543f27a61a84e9d98eab80a577df953f419c88c0338c5a81e2e49eaa20e`
+  - `hashes.normalized_sha256`: `None` → `0dc9abdbec3ea5abe31e594d40c5d672c3d35767908af2dd5032c56a4b3d201d`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R91011024](docs/standards/444.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `444`
+  - `code`: `None` → `R91011024`
+  - `title`: `None` → `Режиссеры (по жанрам и видам деятельности)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Режиссеры (по жанрам и видам деятельности)" (далее – профессиональный стандарт) применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации кадров в области культуры и предназначены для использования широким кругом пользователей: работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения; работодателями – для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и аттестации персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров; организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия; государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `91011`
+  - `oked.subclass_name`: `None` → `Деятельность фильмо- и фонотек`
+  - `professions[0].name`: `None` → `Режиссер`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `91011`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/444`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/444/download`
+  - `hashes.metadata_sha256`: `None` → `662a5ddbad56779bda67beffad87034a2d168348252fbdfd936c045c549f35b2`
+  - `hashes.pdf_sha256`: `None` → `8f9cc2a9312758a2e8fd881358d41b63709fc6ae1fae5997bd2b5de3c469cefd`
+  - `hashes.normalized_sha256`: `None` → `a577cadba700cce32cdde40f074b1af10efd69a6529f63ddff87bf74f9a1f78c`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020066](docs/standards/510.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `510`
+  - `code`: `None` → `R90020066`
+  - `title`: `None` → `Руководитель кружка Дома народного творчества, клубного учреждения`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Руководитель кружка Дома народного творчества, клубного учреждения" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Руководитель кружка  Дома народного творчества, клубного учреждения, музея, центра (научно-методического, народной культуры и др.)`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/510`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/510/download`
+  - `hashes.metadata_sha256`: `None` → `971f073231619c3334c653c66b2ee49e5328f4b157dbe13fe096346a68aac389`
+  - `hashes.pdf_sha256`: `None` → `3f4bcd47d0d9537e7a471c019cf90967b8e98d57744ee269f78bec6f58371d8f`
+  - `hashes.normalized_sha256`: `None` → `9c0a8e09c0776013bec2138f284707ddc8744a9cee12561b65f299ffa8030de1`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020109](docs/standards/233.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `233`
+  - `code`: `None` → `R90020109`
+  - `title`: `None` → `Художник по свету`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник по свету" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник по свету`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/233`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/233/download`
+  - `hashes.metadata_sha256`: `None` → `f3827596464103b98aee9b1ec325ccea6c71adcb7e903833516f6f7461ba35e3`
+  - `hashes.pdf_sha256`: `None` → `b4225f3e149ae01c4af82e6a32c8ff43d25176cd83012a543a22cdafacac9751`
+  - `hashes.normalized_sha256`: `None` → `712e01dc290ee845b25dd8fec6878134ec5a2290da7f356240935b91af4cb4b5`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020025](docs/standards/346.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `346`
+  - `code`: `None` → `R90020025`
+  - `title`: `None` → `Художник-гример`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-гример" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-гример`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Художник-гример`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Художник-гример`
+  - `professions[2].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/346`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/346/download`
+  - `hashes.metadata_sha256`: `None` → `afcb4a5a810fccda1a0599d8e7139c654c7da200c3954d9d40b0deb6b4d33e48`
+  - `hashes.pdf_sha256`: `None` → `3f34d4cdee4ec7d4805c27812883de2698a6849437b289d7e63a1683874f4bbb`
+  - `hashes.normalized_sha256`: `None` → `e6fddeba15039bf16a3edc5e14fd0157a3fda503b400bed4456c2190c53f40d2`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020106](docs/standards/345.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `345`
+  - `code`: `None` → `R90020106`
+  - `title`: `None` → `Художник-декоратор`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-декоратор" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2023`
+  - `revision_date`: `None` → `2027-01-01`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-декоратор`
+  - `professions[0].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.year`: `None` → `2023`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/345`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/345/download`
+  - `hashes.metadata_sha256`: `None` → `00d5a68ae13773fb8f247ee52122c96e2e2c59a77d27b446352726b32dc35533`
+  - `hashes.pdf_sha256`: `None` → `0680b1830116c33bc006cf89389575969eaab09909be63a3102394b503a84973`
+  - `hashes.normalized_sha256`: `None` → `61227d75c2a1b0a391748fa06db48a58f5779be576dcefa10e327e65d202f1ff`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020114](docs/standards/344.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `344`
+  - `code`: `None` → `R90020114`
+  - `title`: `None` → `Гример-пастижер`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Гример-пастижер" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Гример-пастижер`
+  - `professions[0].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/344`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/344/download`
+  - `hashes.metadata_sha256`: `None` → `163a163e094188e5ca1ea44c6d7956bf3327bc8c7ecfd8aa7aff488726b2e32b`
+  - `hashes.pdf_sha256`: `None` → `1f7d74ebe1c0ada9bf489e43f042c40019ed15f4f8ed51a15a1115d31c2460cf`
+  - `hashes.normalized_sha256`: `None` → `6a13ad78b410d8958af18fd6c802219c7fc18861a0578a82cd000b2cc6eb3791`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R91011019](docs/standards/253.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `253`
+  - `code`: `None` → `R91011019`
+  - `title`: `None` → `Оператор (по видам)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Оператор (по видам)" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `91011`
+  - `oked.subclass_name`: `None` → `Деятельность фильмо- и фонотек`
+  - `professions[0].name`: `None` → `Оператор постановщик`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `91011`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/253`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/253/download`
+  - `hashes.metadata_sha256`: `None` → `f2693d8765949db4857e85c659fba7a70db1232fbca4b5f4cf50a20c258f85ff`
+  - `hashes.pdf_sha256`: `None` → `0f17f7e99d92c0976e5135c1b578b05414fc75f6883fc555b5da49f81cd0fbac`
+  - `hashes.normalized_sha256`: `None` → `3dc9c617a9301b2ef537749bd3e81542d5c4646f9896e497e0e979d017078a8a`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90012018](docs/standards/287.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `287`
+  - `code`: `None` → `R90012018`
+  - `title`: `None` → `Музыкальный звукорежиссер`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `Музыкальный звукорежиссер (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях", в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, применяется в области Министерства культуры и информации Республики Казахстан.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90012`
+  - `oked.subclass_name`: `None` → `Концертная деятельность`
+  - `professions[0].name`: `None` → `Звукорежиссер`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/287`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/287/download`
+  - `hashes.metadata_sha256`: `None` → `26120e45e325d48af2d1a1e7b5e60f61090d1454ec9dc32bfc6c2676a5b250c4`
+  - `hashes.pdf_sha256`: `None` → `ce5be676c4893f1d1f5df1a283573df5bf608f25c2e2b0d03cced7491f596136`
+  - `hashes.normalized_sha256`: `None` → `ffe447a936d536284375c5984b218356e4bdb3473de523d93080e80c797207c0`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020027](docs/standards/280.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `280`
+  - `code`: `None` → `R90020027`
+  - `title`: `None` → `Художник-ювелир`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-ювелир" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-ювелир`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Художник-ювелир`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Художник-ювелир`
+  - `professions[2].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/280`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/280/download`
+  - `hashes.metadata_sha256`: `None` → `49606e69132b79b124ab80acd49002480165396e854c49c871510f66f628243f`
+  - `hashes.pdf_sha256`: `None` → `669a6acca75960ffd826a0cc91ca1f0e29defc573ba6dbe6b9fa7ec600212db5`
+  - `hashes.normalized_sha256`: `None` → `f2935cb9bdf61d05a506be524912a485c2dafb2ed61a056e2948beb524db5157`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020105](docs/standards/265.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `265`
+  - `code`: `None` → `R90020105`
+  - `title`: `None` → `Художник-постановщик по гриму`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-постановщик по гриму" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-постановщик по гриму`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Художник-гример`
+  - `professions[1].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/265`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/265/download`
+  - `hashes.metadata_sha256`: `None` → `bece29fc10af06c1d226ee9d37be0f40b1a1dd46972d64b5f3f82a6ced9b7b45`
+  - `hashes.pdf_sha256`: `None` → `13a25f68b9418e031ed2c01b766d7a77364bcef6e83dbc28a8a64cc07cd95917`
+  - `hashes.normalized_sha256`: `None` → `43db7c5e61d375d8d274fbb810f5fdff1a14295275c5967a09b9dc35b1ef588b`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90030028](docs/standards/260.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `260`
+  - `code`: `None` → `R90030028`
+  - `title`: `None` → `Художник-реставратор (декоративно-прикладного искусства)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `Художник-реставратор (декаративно-прикладного икусства) (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90030`
+  - `oked.subclass_name`: `None` → `Художественное и литературное творчество`
+  - `professions[0].name`: `None` → `Реставратор художественных изделий и декоративных предметов`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90030`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/260`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/260/download`
+  - `hashes.metadata_sha256`: `None` → `bc930691f47e935a28f4a05fe7ea00f34da3bc6794b8f24be8f95ca9b9573286`
+  - `hashes.pdf_sha256`: `None` → `3470cdf941aa6c5a6434408dc6e5dbb10a950f7692cf3a4c16fac5d39b457843`
+  - `hashes.normalized_sha256`: `None` → `fde344e23bba387061f130e0590616e7a088a072d51a404606df2d8c3240da94`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020029](docs/standards/251.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `251`
+  - `code`: `None` → `R90020029`
+  - `title`: `None` → `Художник-постановщик театральных декораций`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-постановщик театральных декораций" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях", в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-постановщик театральных декораций`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Художник-постановщик театральных декораций`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Художник-постановщик театра`
+  - `professions[2].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/251`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/251/download`
+  - `hashes.metadata_sha256`: `None` → `9c57674bde6ebda1035433b7ae9857294bcfa76d6f12d66fc8f6f9e58f38b86e`
+  - `hashes.pdf_sha256`: `None` → `262d6cce9cc5ffe995e767c90fa5a15916b96b511b0b5ffc7b384bf6da38f5af`
+  - `hashes.normalized_sha256`: `None` → `741150f5a2c5824c09daaecc3fb4e2cade18c119c30086b558904a974379c35a`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020020](docs/standards/252.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `252`
+  - `code`: `None` → `R90020020`
+  - `title`: `None` → `Бутафор`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Бутафор" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Бутафор`
+  - `professions[0].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/252`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/252/download`
+  - `hashes.metadata_sha256`: `None` → `398c10b74d887860b85cedb8063989b53a0cd84d73041982cf6a9289b5824dea`
+  - `hashes.pdf_sha256`: `None` → `787d6f5ede17bccbc35ca83fc712f62f4598e4953ceb1b4bb38578496fb93832`
+  - `hashes.normalized_sha256`: `None` → `5e16d0c37ffeb58a54741004c86a7fdcebee5a5ae1c143df55e8cb2f2f13cfcc`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90030093](docs/standards/228.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `228`
+  - `code`: `None` → `R90030093`
+  - `title`: `None` → `Кинотеледраматург`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Кинотеледраматург" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90030`
+  - `oked.subclass_name`: `None` → `Художественное и литературное творчество`
+  - `professions[0].name`: `None` → `Кинотеледраматург`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Кинотеледраматург`
+  - `professions[1].ork_level`: `None` → `8`
+  - `professions[2].name`: `None` → `Кинотеледраматург`
+  - `professions[2].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90030`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/228`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/228/download`
+  - `hashes.metadata_sha256`: `None` → `3210aca415c7e563574bfb54f6e9cb6a5c0b91dfc2f7f2a952dcd685670a08cf`
+  - `hashes.pdf_sha256`: `None` → `298c5f286505760d06202f3a952306456fa8b956ab5f94367bc9c6f0a7ebd094`
+  - `hashes.normalized_sha256`: `None` → `b493995578028088a11dbd16b54ae32a9d225bb14dc2e7b1e19ff8b2a18e9440`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020016](docs/standards/240.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `240`
+  - `code`: `None` → `R90020016`
+  - `title`: `None` → `Художник-постановщик по костюмам`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-постановщик по костюмам" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник по костюмам`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/240`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/240/download`
+  - `hashes.metadata_sha256`: `None` → `cf6bbe55562c6159281a9a1e1553802838ac084a1402f7716c1cbe539d73ac4b`
+  - `hashes.pdf_sha256`: `None` → `8a17fb8f5bae06c3e74d716ca9747369c51c03635a011fa7f3d78a1ac6f142cf`
+  - `hashes.normalized_sha256`: `None` → `aeec5846cadd42ca46a7dbd9aa8d235e477506a84dcb93bd73d0f32988de66a6`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90012023](docs/standards/227.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `227`
+  - `code`: `None` → `R90012023`
+  - `title`: `None` → `Балетовед`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Балетовед" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90012`
+  - `oked.subclass_name`: `None` → `Концертная деятельность`
+  - `professions[0].name`: `None` → `Балетовед`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Балетовед`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Балетовед`
+  - `professions[2].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/227`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/227/download`
+  - `hashes.metadata_sha256`: `None` → `0b51a75f2b5b0d583cd2529c3852e9e6e5177789ce8a04bb585ad499dfc0875b`
+  - `hashes.pdf_sha256`: `None` → `e944a710b5663d23728c5fec07ab5d250d1983241177367a4c3f242cde69a518`
+  - `hashes.normalized_sha256`: `None` → `033171a74b7857fd4bba5720a1d63fc368e4c27483f3009f5a41c6ba63c974a3`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90012091](docs/standards/208.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `208`
+  - `code`: `None` → `R90012091`
+  - `title`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (по видам)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Исполнитель-инструменталист, преподаватель по музыкальному инструменту (по видам)" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90012`
+  - `oked.subclass_name`: `None` → `Концертная деятельность`
+  - `professions[0].name`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (по видам)`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (струнные, духовые и ударные инструменты)`
+  - `professions[1].ork_level`: `None` → `4`
+  - `professions[2].name`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (фортепиано)`
+  - `professions[2].ork_level`: `None` → `4`
+  - `professions[3].name`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (народные инструменты)`
+  - `professions[3].ork_level`: `None` → `4`
+  - `professions[4].name`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (по видам)`
+  - `professions[4].ork_level`: `None` → `7`
+  - `professions[5].name`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (по видам)`
+  - `professions[5].ork_level`: `None` → `8`
+  - `professions[6].name`: `None` → `Исполнитель-инструменталист, преподаватель по музыкальному инструменту (эстрадные инструменты)`
+  - `professions[6].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.ork_levels[3]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/208`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/208/download`
+  - `hashes.metadata_sha256`: `None` → `b358f078af9cef88fdefd8224cf4b76780102bcf650d7676da980b28457733b8`
+  - `hashes.pdf_sha256`: `None` → `077d89867e735a403bb05009c85ddb0ce510533743fa87799c2785c78ff3f750`
+  - `hashes.normalized_sha256`: `None` → `eb08816a49f92b2c59e3cb73242a15874286742d3b9f8e336e381cfa5508310a`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020108](docs/standards/235.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `235`
+  - `code`: `None` → `R90020108`
+  - `title`: `None` → `Дизайнер по одежде`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Дизайнер по одежде" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Дизайнер по одежде`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Дизайнер по одежде`
+  - `professions[1].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/235`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/235/download`
+  - `hashes.metadata_sha256`: `None` → `82238eb28bbe9c1ff1ff76c03c8c5de56860a5de60275d199fc03aadaeaae177`
+  - `hashes.pdf_sha256`: `None` → `c7f4261ea34bbf573dd623d02abe4a591e339e7b313efaa70909c2504ac5f23e`
+  - `hashes.normalized_sha256`: `None` → `a7a6730e871d1667a19402cec4da8d5a96e32fc9a14880d3b98dbb3cf922b51b`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020034](docs/standards/225.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `225`
+  - `code`: `None` → `R90020034`
+  - `title`: `None` → `Художник по керамике`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник по керамике" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник народных художественных промыслов`
+  - `professions[0].ork_level`: `None` → `4`
+  - `professions[1].name`: `None` → `Художник народных художественных промыслов`
+  - `professions[1].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/225`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/225/download`
+  - `hashes.metadata_sha256`: `None` → `6f014c8343f4b99f64a24921ed0a4e4af63291452d4bc11ae23e8a3aa58c1201`
+  - `hashes.pdf_sha256`: `None` → `86587850260c70fcca0ed938beb9de6b8367da390bdbbaa790cadfa8880bb198`
+  - `hashes.normalized_sha256`: `None` → `4a9f71d4214d8d11da0e2bcf50a644305297ca303fea46e9da4c386923c58aa5`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90013044](docs/standards/226.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `226`
+  - `code`: `None` → `R90013044`
+  - `title`: `None` → `Артист цирка по жанрам и направлениям, преподователь циркового жанра`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Артист цирка по жанрам и направлениям, преподаватель циркового жанра разработан" в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90013`
+  - `oked.subclass_name`: `None` → `Деятельность цирков`
+  - `professions[0].name`: `None` → `Артист цирка`
+  - `professions[0].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90013`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/226`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/226/download`
+  - `hashes.metadata_sha256`: `None` → `f7bba53eb7fd96d704f9c0d8d3f6090673961dcb04a24a71fcff635bcd891484`
+  - `hashes.pdf_sha256`: `None` → `09a5cbdc363ac3e9d46baed8601d2fd68b97aad7ef3d179e28a3fa4feb486944`
+  - `hashes.normalized_sha256`: `None` → `8b6c443a60b582ea13ced79d1f776d32a54602b7d9cd1d13e685b439021cde78`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90020116](docs/standards/223.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `223`
+  - `code`: `None` → `R90020116`
+  - `title`: `None` → `Художник-реставратор монументальной живописи`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Художник-реставратор монументальной живописи" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в cфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-10-10`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90020`
+  - `oked.subclass_name`: `None` → `Деятельность, способствующая проведению культурно-зрелищных мероприятий`
+  - `professions[0].name`: `None` → `Художник-реставратор`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90020`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/223`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/223/download`
+  - `hashes.metadata_sha256`: `None` → `07fa8886e9c92549a2f4c20cb88f63cae397afc7fc036bd15067bffdcf03f631`
+  - `hashes.pdf_sha256`: `None` → `e2ebfb0131f21e7d3e40878c4c1987b951d89bc05841234f682d667a0f84c2d9`
+  - `hashes.normalized_sha256`: `None` → `53c6f674b5cfb2cb237ade407b1901813b38fad3d36253654fa43b4161efae59`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90012094](docs/standards/212.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `212`
+  - `code`: `None` → `R90012094`
+  - `title`: `None` → `Педагог-хореограф`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Педагог-хореограф" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90012`
+  - `oked.subclass_name`: `None` → `Концертная деятельность`
+  - `professions[0].name`: `None` → `Педагог-хореограф`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Педагог-хореограф`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Педагог-хореограф`
+  - `professions[2].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90012`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/212`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/212/download`
+  - `hashes.metadata_sha256`: `None` → `b8cb963769a162200e79972b7b31f68cfd2e7822e569e1d2dbf779230e64cf88`
+  - `hashes.pdf_sha256`: `None` → `2b7fbbceab5d19c58ac78cba9c1efd9e90d6c0ac64c0345dc52c2445ea8667ca`
+  - `hashes.normalized_sha256`: `None` → `ecb87a3e3a52638ad28153e31f1ab5230731b4712af4553e4fa9e4e77e7cb09d`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90011115](docs/standards/211.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `211`
+  - `code`: `None` → `R90011115`
+  - `title`: `None` → `Хореограф`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Хореограф" (далее – Профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях", в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-01-18`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90011`
+  - `oked.subclass_name`: `None` → `Театральная деятельность`
+  - `professions[0].name`: `None` → `Хореограф`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90011`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/211`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/211/download`
+  - `hashes.metadata_sha256`: `None` → `c56cd1391442d16ee9029b9f2b9eb8948950fe043825f9d8c8365b1c814960c6`
+  - `hashes.pdf_sha256`: `None` → `f4275c728a606be7f9b144f351b6aba75a22bb5401f9783414477c255374f68e`
+  - `hashes.normalized_sha256`: `None` → `3ede2c639c747389260db063d3fe5955e40ac7e8c98af24ff8263710db0dddfa`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R91011026](docs/standards/286.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `286`
+  - `code`: `None` → `R91011026`
+  - `title`: `None` → `Художник-постановщик анимационного фильма`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации кадров в области кинематографии и предназначены для использования широким кругом пользователей: работниками - для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения; работодателями - для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и аттестации персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров; организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации - для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия; государственными органами - для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `91011`
+  - `oked.subclass_name`: `None` → `Деятельность фильмо- и фонотек`
+  - `professions[0].name`: `None` → `Художник-постановщик анимационного фильма`
+  - `professions[0].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `91011`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/286`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/286/download`
+  - `hashes.metadata_sha256`: `None` → `dbb43358dc999a8cf74d8fed8916c2432e4d54cb8abdac4825105d1d01e16e7c`
+  - `hashes.pdf_sha256`: `None` → `9f1892f488b94aab864ec2d6ced4cc05ebbadd63a3277a724e5b6a79bbe6854a`
+  - `hashes.normalized_sha256`: `None` → `36d08d50f7d381088b88f414bc1f7b41a79f183b8c02d60e2f01d64372f536df`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90011035](docs/standards/210.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `210`
+  - `code`: `None` → `R90011035`
+  - `title`: `None` → `Балетмейстер`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Балетмейстер" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-11-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90011`
+  - `oked.subclass_name`: `None` → `Театральная деятельность`
+  - `professions[0].name`: `None` → `Балетмейстер`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Балетмейстер`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Балетмейстер`
+  - `professions[2].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90011`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.ork_levels[2]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/210`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/210/download`
+  - `hashes.metadata_sha256`: `None` → `70cc0be5ac77ddfb6463777e57f6fa6655d82ada935428cbc7bf4324ab7a0105`
+  - `hashes.pdf_sha256`: `None` → `be9c8f7e5fdafc895164f89ac5c5633e8fabfd713bd280ed0a7f314cb383039f`
+  - `hashes.normalized_sha256`: `None` → `1207f5e703b4f75f4fcb2d1125111f4a4e63bce485a59b3edb94a14377e335d1`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`
+- **`NEW`** [R90040033](docs/standards/237.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `237`
+  - `code`: `None` → `R90040033`
+  - `title`: `None` → `Дизайнер по направлениям искусства (Арт дизайнер, графический дизайнер, дизайн интерьера, промышленный дизайнер и другие)`
+  - `government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `description`: `None` → `профессиональный стандарт "Дизайнер по направлениям искусства (Арт дизайнер, графический дизайнер, дизайн интерьера, промышленный дизайнер и другие)" (далее – профессиональный стандарт) разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан "О профессиональных квалификациях" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях и применяется в сфере культуры.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-12-03`
+  - `oked.section_code`: `None` → `R`
+  - `oked.section_name`: `None` → `Искусство, развлечения и отдых`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `90040`
+  - `oked.subclass_name`: `None` → `Деятельность концертных и театральных залов`
+  - `professions[0].name`: `None` → `Дизайнер по направлениям искусства (арт дизайнер, графический дизайнер, дизайн интерьера, промышленный дизайнер и др.)`
+  - `professions[0].ork_level`: `None` → `8`
+  - `professions[1].name`: `None` → `Дизайнер по направлениям искусства (арт дизайнер, графический дизайнер, дизайн интерьера, промышленный дизайнер и др.)`
+  - `professions[1].ork_level`: `None` → `4`
+  - `professions[2].name`: `None` → `Дизайнер по направлениям искусства (арт дизайнер, графический дизайнер, дизайн интерьера, промышленный дизайнер и др.)`
+  - `professions[2].ork_level`: `None` → `7`
+  - `professions[3].name`: `None` → `Дизайнер по направлениям искусства (арт дизайнер, графический дизайнер, дизайн интерьера, промышленный дизайнер и др.)`
+  - `professions[3].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `R`
+  - `categories.official.oked[1]`: `None` → `90040`
+  - `categories.official.government_body`: `None` → `Министерство культуры и информации Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.ork_levels[3]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/237`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/237/download`
+  - `hashes.metadata_sha256`: `None` → `1804eea75bcea30c509a60bceb0b9e3d44c16b40eaa8966b09b7494b0a0cb044`
+  - `hashes.pdf_sha256`: `None` → `63562121cb59a0faf74dafc31fb7b60cb3e14dbebc1a94c0ff69f403c5d83c4c`
+  - `hashes.normalized_sha256`: `None` → `becca59b1bd613f65657a7e8b68db65da2d573c56643fce2e6df97e88b32710f`
+  - `timestamps.first_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-05T10:15:41Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-05T10:15:41Z`

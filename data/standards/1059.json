@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "enbek_id": 1059,
+  "code": "C28910090",
+  "title": "3D моделирование, прототипирование и графический дизайн",
+  "government_body": "«Профессиональная Академия  «Туран-Профи»",
+  "description": "При 3D моделировании,прототипированиии графическом дизайне необходимо выбрать модельныйматериал подходящий для получения изделия с необходимыми потребительскими свойствами, для работы в нормальной и агрессивной средах приразличных температурах.  Строятся геометрически простые и сложные модели для авиационной, космической, автомобильной и медицинской промышленности и др. Разрабатывается дизайн и эргономика будущего изделия.  Это достигается с помощью современного программного обеспечениемтипаSimens NX7.5,10SolidWork,  Avtocad   при графическом дизайне  - 3D Makc.",
+  "version": 2,
+  "year": 2023,
+  "revision_date": "2026-01-01",
+  "oked": {
+    "section_code": "C",
+    "section_name": "Обрабатывающая промышленность",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "28910",
+    "subclass_name": "Производство машин и оборудования  для металлургии"
+  },
+  "professions": [
+    {
+      "name": "Дизайнер промышленной продукции",
+      "ork_level": 5
+    },
+    {
+      "name": "Инженеры по 3D моделированию",
+      "ork_level": 5
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "C",
+        "28910"
+      ],
+      "government_body": "«Профессиональная Академия  «Туран-Профи»",
+      "ork_levels": [
+        5
+      ],
+      "year": 2023,
+      "version": 2,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/1059",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1059/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b7aaa3b57417bdeaef6c50cad360058ead91b1a92a186e987aeacc213e766535",
+    "pdf_sha256": "97fa9eba67ca50a7eab8c4cdf98e71ceaa09178d63d36d0086df0a05e770ed8f",
+    "normalized_sha256": "177c9d244f915a905d9d8104f184ba2ae112b9a24fc661f30ea72c167def8372"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}

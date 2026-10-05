@@ -1,0 +1,69 @@
+{
+  "schema_version": "1",
+  "enbek_id": 212,
+  "code": "R90012094",
+  "title": "Педагог-хореограф",
+  "government_body": "Министерство культуры и информации Республики Казахстан",
+  "description": "профессиональный стандарт \"Педагог-хореограф\" разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан \"О профессиональных квалификациях\" в целях обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях, и применяется в сфере культуры.",
+  "version": 1,
+  "year": 2024,
+  "revision_date": "2027-11-03",
+  "oked": {
+    "section_code": "R",
+    "section_name": "Искусство, развлечения и отдых",
+    "division_code": null,
+    "division_name": null,
+    "group_code": null,
+    "group_name": null,
+    "class_code": null,
+    "class_name": null,
+    "subclass_code": "90012",
+    "subclass_name": "Концертная деятельность"
+  },
+  "professions": [
+    {
+      "name": "Педагог-хореограф",
+      "ork_level": 6
+    },
+    {
+      "name": "Педагог-хореограф",
+      "ork_level": 7
+    },
+    {
+      "name": "Педагог-хореограф",
+      "ork_level": 8
+    }
+  ],
+  "categories": {
+    "official": {
+      "oked": [
+        "R",
+        "90012"
+      ],
+      "government_body": "Министерство культуры и информации Республики Казахстан",
+      "ork_levels": [
+        6,
+        7,
+        8
+      ],
+      "year": 2024,
+      "version": 1,
+      "lifecycle_state": "ACTIVE"
+    }
+  },
+  "source": {
+    "registry_url": null,
+    "page_url": "https://career.enbek.kz/ru/api/professionalstandart/212",
+    "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/212/download"
+  },
+  "hashes": {
+    "metadata_sha256": "b8cb963769a162200e79972b7b31f68cfd2e7822e569e1d2dbf779230e64cf88",
+    "pdf_sha256": "2b7fbbceab5d19c58ac78cba9c1efd9e90d6c0ac64c0345dc52c2445ea8667ca",
+    "normalized_sha256": "ecb87a3e3a52638ad28153e31f1ab5230731b4712af4553e4fa9e4e77e7cb09d"
+  },
+  "timestamps": {
+    "first_seen_at": "2026-10-05T10:15:41Z",
+    "last_seen_at": "2026-10-05T10:15:41Z",
+    "last_changed_at": "2026-10-05T10:15:41Z"
+  }
+}
