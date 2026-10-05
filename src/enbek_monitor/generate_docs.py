@@ -550,20 +550,26 @@ class DocGenerator:
             "",
             f"<!-- enbek-run-id:{latest_run_id} -->",
             "",
-            "| ID | Код | Событие | Измененные поля | Карточка |",
-            "|---|---|---|---|---|",
+            "| ID | Код | Профессиональный стандарт | Событие | Кратко об изменении | Карточка |",
+            "|---|---|---|---|---|---|",
         ]
 
         omitted = 0
         for index, ev in enumerate(recent):
             enbek_id = ev.get("enbek_id")
             code = _escape_table_cell(ev.get("code") or f"ID {enbek_id}")
-            etype = _escape_table_cell(ev.get("event_type") or "UNKNOWN")
-            changes = ev.get("changes") or []
-            change_fields = _format_change_fields(changes, etype)
-            fields_str = _escape_table_cell(", ".join(change_fields) if change_fields else etype)
+            event_type = str(ev.get("event_type") or "UNKNOWN")
+            etype = _escape_table_cell(event_type)
+            record = self._load_standard_record(enbek_id)
+            title = _escape_table_cell(
+                record.get("title") or _event_title_from_changes(ev.get("changes")) or "Без названия"
+            )
+            change_summary = _escape_table_cell(_summarize_event(ev, record))
             card_url = _standard_url(enbek_id)
-            row = f"| {enbek_id} | `{code}` | `{etype}` | {fields_str} | [Enbek]({card_url}) |"
+            row = (
+                f"| {enbek_id} | `{code}` | {title} | `{etype}` | "
+                f"{change_summary} | [Enbek]({card_url}) |"
+            )
             if len("\n".join(lines + [row])) > max_chars - 100:
                 omitted = len(recent) - index
                 break
@@ -580,6 +586,21 @@ class DocGenerator:
         ])
 
         return "\n".join(lines)
+
+    def _load_standard_record(self, enbek_id: Any) -> dict[str, Any]:
+        """Load one normalized standard record for issue-summary context."""
+        try:
+            standard_id = int(enbek_id)
+        except (TypeError, ValueError):
+            return {}
+        if standard_id <= 0:
+            return {}
+        path = self.standards_dir / f"{standard_id}.json"
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return {}
+        return record if isinstance(record, dict) else {}
 
 
 def _escape_table_cell(value: Any) -> str:
@@ -599,3 +620,86 @@ def _standard_url(enbek_id: Any) -> str:
         return f"https://career.enbek.kz/ru/professionalstandart/{int(enbek_id)}"
     except (TypeError, ValueError):
         return "https://career.enbek.kz/ru/ps-registry"
+
+
+def _event_title_from_changes(changes: Any) -> str | None:
+    """Recover a standard title from the title field diff when needed."""
+    if not isinstance(changes, (list, tuple)):
+        return None
+    for change in changes:
+        if isinstance(change, Mapping):
+            path = change.get("path")
+            value = change.get("new") or change.get("old")
+        else:
+            path = getattr(change, "path", None)
+            value = getattr(change, "new", None) or getattr(change, "old", None)
+        if path in {"$.title", "title"} and isinstance(value, str) and value.strip():
+            return value.strip()
+    return None
+
+
+def _summarize_event(event: Mapping[str, Any], record: Mapping[str, Any]) -> str:
+    """Replace noisy JSON paths with a short, reader-friendly change summary."""
+    event_type = str(event.get("event_type") or "UNKNOWN")
+    if event_type == "NEW":
+        details = []
+        if record.get("version") is not None:
+            details.append(f"версия {record['version']}")
+        if record.get("year") is not None:
+            details.append(f"год {record['year']}")
+        professions = record.get("professions")
+        if isinstance(professions, list) and professions:
+            details.append(f"профессий: {len(professions)}")
+        return "Добавлен новый стандарт" + (f" ({', '.join(details)})" if details else "")
+    if event_type == "REMOVED":
+        return "Стандарт удалён из реестра"
+    if event_type == "RESTORED":
+        return "Стандарт вернулся в реестр"
+
+    labels = {
+        "title": "название",
+        "government_body": "госорган",
+        "version": "версия",
+        "year": "год",
+        "revision_date": "дата пересмотра",
+        "description": "описание",
+        "oked": "ОКЭД",
+        "professions": "профессии и уровни ОРК",
+    }
+    changes = event.get("changes") or []
+    if isinstance(changes, Mapping):
+        changes = [{"path": path, "old": None, "new": value} for path, value in changes.items()]
+
+    summaries: list[str] = []
+    seen_labels: set[str] = set()
+    if isinstance(changes, (list, tuple)):
+        for change in changes:
+            if isinstance(change, Mapping):
+                path = str(change.get("path") or "")
+                old, new = change.get("old"), change.get("new")
+            else:
+                path = str(getattr(change, "path", ""))
+                old, new = getattr(change, "old", None), getattr(change, "new", None)
+            normalized_path = path.removeprefix("$").lstrip(".")
+            root = normalized_path.split(".", 1)[0].split("[", 1)[0]
+            label = labels.get(root)
+            if not label or label in seen_labels:
+                continue
+            seen_labels.add(label)
+            if root in {"title", "professions", "oked", "description"}:
+                summaries.append(label)
+            else:
+                summaries.append(f"{label}: {_short_value(old)} → {_short_value(new)}")
+
+    return "; ".join(summaries) if summaries else "Изменений значимых полей нет"
+
+
+def _short_value(value: Any, max_chars: int = 70) -> str:
+    if value is None or value == "":
+        return "—"
+    if isinstance(value, (dict, list, tuple)):
+        value = json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+    text = str(value).replace("\r", " ").replace("\n", " ").strip()
+    if len(text) > max_chars:
+        return text[: max_chars - 1].rstrip() + "…"
+    return text

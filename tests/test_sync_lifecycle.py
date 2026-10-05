@@ -151,4 +151,8 @@ def test_sync_pipeline_lifecycle_event_generation_and_persistence(tmp_path: Path
     assert "Резюме обновления" in issue_summary
     assert "1001" in issue_summary
     assert "1002" in issue_summary
+    assert "Updated Standard Title" in issue_summary
+    assert "New Standard" in issue_summary
+    assert "hashes." not in issue_summary
+    assert "timestamps." not in issue_summary
     assert len(issue_summary) < 60000

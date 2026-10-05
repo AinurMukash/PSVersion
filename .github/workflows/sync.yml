@@ -86,13 +86,15 @@ jobs:
             exit 0
           fi
 
-          if gh issue list --state all --limit 100 --search "$RUN_ID in:title" \
-            --json title --template '{{range .}}{{.title}}{{"\n"}}{{end}}' | grep -F "$RUN_ID" >/dev/null; then
-            echo "Notification for $RUN_ID already exists."
-            exit 0
-          fi
-
           RUN_DATE=${RUN_ID#run-}
-          gh issue create \
-            --title "Обновление реестра профессиональных стандартов: ${RUN_DATE} (${RUN_ID})" \
-            --body-file /tmp/enbek-changes.md
+          EXISTING_ISSUE=$(gh issue list --state all --limit 100 --search "$RUN_ID in:title" \
+            --json number --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING_ISSUE" ]; then
+            gh issue edit "$EXISTING_ISSUE" --body-file /tmp/enbek-changes.md
+            echo "Updated notification issue #$EXISTING_ISSUE for $RUN_ID."
+          else
+            gh issue create \
+              --title "Обновление реестра профессиональных стандартов: ${RUN_DATE} (${RUN_ID})" \
+              --body-file /tmp/enbek-changes.md
+          fi
