@@ -197,6 +197,7 @@ def test_detail_attributes_are_structured_source_attributes() -> None:
         ("1 версия", 1),
         ("Версия 2", 2),
         ("версия 3", 3),
+        ("Выпуск 1 ", 1),
         (4, 4),
     ],
 )

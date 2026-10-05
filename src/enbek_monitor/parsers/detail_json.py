@@ -105,8 +105,8 @@ class DetailJsonParser:
             if v_str.isdigit():
                 result["version"] = int(v_str)
             else:
-                m = re.search(r'\b\d+\b', v_str)
-                if m and any(kw in v_str.lower() for kw in ("версия", "нұсқа", "ver", "v", "ред")):
+                m = re.search(r'\d+', v_str)
+                if m:
                     result["version"] = int(m.group(0))
         if "year" not in data and "version_year" in data:
             yr = data["version_year"]

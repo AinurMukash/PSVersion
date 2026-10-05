@@ -406,7 +406,7 @@ class SyncPipeline:
 
             # Append events to history/changes.jsonl
             if new_events:
-                existing_event_ids = self.history_store.event_ids()
+                existing_event_ids = self.history_store.event_ids
                 events_to_append = [e for e in new_events if e.event_id not in existing_event_ids]
                 if events_to_append:
                     self.history_store.append(events_to_append)
