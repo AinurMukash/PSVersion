@@ -136,3 +136,14 @@ def test_sync_pipeline_lifecycle_event_generation_and_persistence(tmp_path: Path
     assert parsed_events[0]["enbek_id"] == 1001
     assert parsed_events[1]["event_type"] == "NEW"
     assert parsed_events[1]["enbek_id"] == 1002
+
+    # Save candidates to standards_dir and verify doc generator runs smoothly
+    (pipeline.standards_dir / "1001.json").write_text(updated_rec.to_json(), encoding="utf-8")
+    (pipeline.standards_dir / "1002.json").write_text(new_rec.to_json(), encoding="utf-8")
+    pipeline.doc_generator.generate_all({"standards_total": 2, "updated_count": 1, "new_count": 1})
+
+    assert (tmp_path / "README.md").exists()
+    assert (tmp_path / "CHANGELOG.md").exists()
+    assert (tmp_path / "docs" / "standards" / "1001.md").exists()
+    assert (tmp_path / "docs" / "standards" / "1002.md").exists()
+

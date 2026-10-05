@@ -17,6 +17,22 @@ from typing import Any, Mapping
 from .models import NormalizedRecord
 
 
+def _format_change_fields(changes: Any, fallback: str = "") -> list[str]:
+    if not changes:
+        return [fallback] if fallback else []
+    if isinstance(changes, dict):
+        return list(changes.keys())
+    if isinstance(changes, (list, tuple)):
+        fields = []
+        for item in changes:
+            if isinstance(item, dict) and "path" in item:
+                fields.append(str(item["path"]).replace("$.", ""))
+            elif hasattr(item, "path"):
+                fields.append(str(item.path).replace("$.", ""))
+        return fields or ([fallback] if fallback else [])
+    return [fallback] if fallback else []
+
+
 class DocGenerator:
     """Generate Markdown dashboard and pages from repository state."""
 
@@ -150,8 +166,9 @@ class DocGenerator:
                 enbek_id = ev.get("enbek_id")
                 link = f"[{code}](docs/standards/{enbek_id}.md)"
                 title = ev.get("title") or ev.get("source", {}).get("title", "")
-                changes = ev.get("changes") or {}
-                change_desc = ", ".join(changes.keys()) if changes else etype
+                changes = ev.get("changes") or []
+                change_fields = _format_change_fields(changes, etype)
+                change_desc = ", ".join(change_fields) if change_fields else etype
                 lines.append(f"| {dt} | `{etype}` | **{link}** | {title} | `{change_desc}` | [Карточка →](docs/standards/{enbek_id}.md) |")
             lines.append("")
             lines.append("👉 *Полная хроника изменений доступна в файле [CHANGELOG.md](CHANGELOG.md).*")
@@ -346,6 +363,16 @@ class DocGenerator:
                                 lines.append(f"  - `{field_name}`: `{delta['old']}` → `{delta['new']}`")
                             else:
                                 lines.append(f"  - `{field_name}` изменено")
+                    elif isinstance(changes, (list, tuple)) and changes:
+                        for diff_item in changes:
+                            if isinstance(diff_item, dict):
+                                f_name = str(diff_item.get("path", "")).replace("$.", "")
+                                old_v = diff_item.get("old")
+                                new_v = diff_item.get("new")
+                                if old_v is not None or new_v is not None:
+                                    lines.append(f"  - `{f_name}`: `{old_v}` → `{new_v}`")
+                                else:
+                                    lines.append(f"  - `{f_name}` изменено")
                 lines.append("")
 
         changelog_path.write_text("\n".join(lines), encoding="utf-8")
@@ -421,7 +448,8 @@ class DocGenerator:
                 ])
                 for ev in st_events:
                     dt = (ev.get("detected_at") or "")[:10]
-                    lines.append(f"| {dt} | `{ev.get('event_type')}` | {list((ev.get('changes') or {}).keys())} |")
+                    change_fields = _format_change_fields(ev.get("changes"), ev.get("event_type", ""))
+                    lines.append(f"| {dt} | `{ev.get('event_type')}` | {', '.join(change_fields)} |")
             else:
                 lines.append(f"- Зафиксирован в базовом снимке: `{timestamps.get('first_seen_at') or '-'}`")
             lines.append("")
