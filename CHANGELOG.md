@@ -2,6 +2,13 @@
 
 > Все зафиксированные изменения в реестре профессиональных стандартов Enbek.kz.
 
+## 2026-10-12
+
+- **`UPDATED`** [C14199097](docs/standards/1403.md) — 
+  - `hashes.metadata_sha256`: `6fd8a46143baadf1e3a653cdc971d91310b9d60a3c11852806ff8393f65abac0` → `ea509e6fe162b95bae0586481785ab02a0ac526cd2e76c48932c1a4bdde95d8f`
+  - `hashes.normalized_sha256`: `6d4670bcdf9072033979e1e94f9f47f424b13582c7050d4fe4b1d0e647715cf0` → `e8f12bfac64a5c94637357866aab9d905f940af382add676e3b25a35ff75949b`
+  - `timestamps.last_seen_at`: `2026-10-05T16:43:22Z` → `2026-10-12T17:16:19Z`
+
 ## 2026-10-05
 
 - **`NEW`** [H50200145](docs/standards/1530.md) — 

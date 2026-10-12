@@ -30,10 +30,6 @@
       "ork_level": 3
     },
     {
-      "name": "Портной",
-      "ork_level": 2
-    },
-    {
       "name": "Контролер материалов, лекал и изделий",
       "ork_level": 2
     },
@@ -64,10 +60,6 @@
     {
       "name": "Оператор-швея",
       "ork_level": 3
-    },
-    {
-      "name": "Портной",
-      "ork_level": 2
     },
     {
       "name": "Плиссировщик-гофрировщик",
@@ -111,10 +103,6 @@
     },
     {
       "name": "Оператор-швея",
-      "ork_level": 3
-    },
-    {
-      "name": "Портной",
       "ork_level": 3
     },
     {
@@ -176,10 +164,6 @@
     {
       "name": "Термоотделочник швейных изделий",
       "ork_level": 2
-    },
-    {
-      "name": "Портной",
-      "ork_level": 3
     },
     {
       "name": "Оператор автоматической раскройной машины",
@@ -268,6 +252,22 @@
     {
       "name": "Модельер-конструктор",
       "ork_level": 6
+    },
+    {
+      "name": "Портной",
+      "ork_level": 3
+    },
+    {
+      "name": "Портной",
+      "ork_level": 2
+    },
+    {
+      "name": "Портной",
+      "ork_level": 2
+    },
+    {
+      "name": "Портной",
+      "ork_level": 3
     }
   ],
   "categories": {
@@ -297,13 +297,13 @@
     "pdf_url": "https://career.enbek.kz/ru/api/professionalstandart/1403/download"
   },
   "hashes": {
-    "metadata_sha256": "6fd8a46143baadf1e3a653cdc971d91310b9d60a3c11852806ff8393f65abac0",
+    "metadata_sha256": "ea509e6fe162b95bae0586481785ab02a0ac526cd2e76c48932c1a4bdde95d8f",
     "pdf_sha256": "1bd69501318d670dd137092166029913f9049028758b87ffd23326c48d91dfa3",
-    "normalized_sha256": "6d4670bcdf9072033979e1e94f9f47f424b13582c7050d4fe4b1d0e647715cf0"
+    "normalized_sha256": "e8f12bfac64a5c94637357866aab9d905f940af382add676e3b25a35ff75949b"
   },
   "timestamps": {
     "first_seen_at": "2026-09-15T11:49:27Z",
-    "last_seen_at": "2026-10-05T16:43:22Z",
-    "last_changed_at": "2026-09-15T11:49:27Z"
+    "last_seen_at": "2026-10-12T17:16:19Z",
+    "last_changed_at": "2026-10-12T17:16:19Z"
   }
 }
