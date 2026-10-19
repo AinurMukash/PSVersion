@@ -2,6 +2,454 @@
 
 > Все зафиксированные изменения в реестре профессиональных стандартов Enbek.kz.
 
+## 2026-10-19
+
+- **`NEW`** [M71209104](docs/standards/1407.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1407`
+  - `code`: `None` → `M71209104`
+  - `title`: `None` → `Деятельность в сфере санитарно-эпидемиологического благополучия населения`
+  - `government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Деятельность в сфере санитарно-эпидемиологического благополучия населения» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях» и Национального классификатора Республики Казахстан. Классификатор занятий (НК РК 01-2017), устанавливает требования к формированию образовательных программ, в том числе обучению персонала на предприятиях, признанию профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления персоналом в организациях и на предприятиях. Осуществление деятельности в области санитарно-эпидемиологического контроля, в области эпидемиологического благополучия населения, санитарно-эпидемиологического аудита, аккредитация медицинских организаций здравоохранения, деятельность лабораторий и испытательных центров в сфере санитарно-эпидемиологического благополучия, санитарно-эпидемиологическая экспертиза. Разработка профилактических и противоэпидемических мероприятий в том числе в условиях чрезвычайных ситуаций. Деятельность в области охраны окружающей среды, гигиены и эпидемиологии.`
+  - `version` изменено
+  - `year` изменено
+  - `revision_date`: `None` → `2028-11-30`
+  - `oked.section_code`: `None` → `P`
+  - `oked.section_name`: `None` → `Образование`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `85421`
+  - `oked.subclass_name`: `None` → `Высшее образование`
+  - `professions[0].name`: `None` → `7.3 Врач (специалист) радиационной гигиены`
+  - `professions[0].ork_level`: `None` → `7`
+  - `professions[1].name`: `None` → `7.1 Врач (специалист) гигиены детей и подростков`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `4.2. Помощник врача гигиениста-эпидемиолога`
+  - `professions[2].ork_level`: `None` → `4`
+  - `professions[3].name`: `None` → `7.3 Врач (специалист)  паразитолог`
+  - `professions[3].ork_level`: `None` → `7`
+  - `professions[4].name`: `None` → `7.3 Врач (специалист) микробиолог`
+  - `professions[4].ork_level`: `None` → `7`
+  - `professions[5].name`: `None` → `7.2 Врач (специалист) микробиолог`
+  - `professions[5].ork_level`: `None` → `7`
+  - `professions[6].name`: `None` → `7.2 Врач (специалист) радиационной гигиены`
+  - `professions[6].ork_level`: `None` → `7`
+  - `professions[7].name`: `None` → `7.2 Врач (специалист) вирусолог`
+  - `professions[7].ork_level`: `None` → `7`
+  - `professions[8].name`: `None` → `7.2 Врач (специалист) гигиены питания`
+  - `professions[8].ork_level`: `None` → `7`
+  - `professions[9].name`: `None` → `7.2 Врач (специалист) эпидемиолог`
+  - `professions[9].ork_level`: `None` → `7`
+  - `professions[10].name`: `None` → `7.2 Врач (специалист) паразитолог`
+  - `professions[10].ork_level`: `None` → `7`
+  - `professions[11].name`: `None` → `7.1 Врач (специалист) радиационной гигиены`
+  - `professions[11].ork_level`: `None` → `7`
+  - `professions[12].name`: `None` → `7.1 Врач (специалист) коммунальной гигиены`
+  - `professions[12].ork_level`: `None` → `7`
+  - `professions[13].name`: `None` → `6.2 Врач (специалист) санитарно-эпидемиологической службы`
+  - `professions[13].ork_level`: `None` → `6`
+  - `professions[14].name`: `None` → `7.1 Врач (специалист) микробиолог`
+  - `professions[14].ork_level`: `None` → `7`
+  - `professions[15].name`: `None` → `7.2 Врач (специалист) коммунальной гигиены`
+  - `professions[15].ork_level`: `None` → `7`
+  - `professions[16].name`: `None` → `6.1 Врач (специалист) гигиенист`
+  - `professions[16].ork_level`: `None` → `6`
+  - `professions[17].name`: `None` → `7.3 Врач (специалист) коммунальной гигиены`
+  - `professions[17].ork_level`: `None` → `7`
+  - `professions[18].name`: `None` → `7.2 Врач (специалист) бактериолог`
+  - `professions[18].ork_level`: `None` → `7`
+  - `professions[19].name`: `None` → `7.3 Врач (специалист) бактериолог`
+  - `professions[19].ork_level`: `None` → `7`
+  - `professions[20].name`: `None` → `7.3 Врач (специалист) гигиены питания`
+  - `professions[20].ork_level`: `None` → `7`
+  - `professions[21].name`: `None` → `7.1 Врач (специалист) бактериолог`
+  - `professions[21].ork_level`: `None` → `7`
+  - `professions[22].name`: `None` → `7.1 Врач (специалист) вирусолог`
+  - `professions[22].ork_level`: `None` → `7`
+  - `professions[23].name`: `None` → `7.1 Врач (специалист) паразитолог`
+  - `professions[23].ork_level`: `None` → `7`
+  - `professions[24].name`: `None` → `6.2 Врач (специалист) гигиенист`
+  - `professions[24].ork_level`: `None` → `6`
+  - `professions[25].name`: `None` → `6.1 Врач (специалист) санитарно-эпидемиологической службы`
+  - `professions[25].ork_level`: `None` → `6`
+  - `professions[26].name`: `None` → `7.3 Врач  (специалист) вирусолог`
+  - `professions[26].ork_level`: `None` → `7`
+  - `professions[27].name`: `None` → `7.3 Врач (специалист) гигиены труда`
+  - `professions[27].ork_level`: `None` → `7`
+  - `professions[28].name`: `None` → `6.3 Врач (специалист) гигиенист`
+  - `professions[28].ork_level`: `None` → `6`
+  - `professions[29].name`: `None` → `6.1 Врач (специалист) эпидемиолог`
+  - `professions[29].ork_level`: `None` → `6`
+  - `professions[30].name`: `None` → `7.1 Врач (специалист) гигиены труда`
+  - `professions[30].ork_level`: `None` → `7`
+  - `professions[31].name`: `None` → `7.2 Врач (специалист) гигиены труда`
+  - `professions[31].ork_level`: `None` → `7`
+  - `professions[32].name`: `None` → `7.1 Врач (специалист) эпидемиолог`
+  - `professions[32].ork_level`: `None` → `7`
+  - `professions[33].name`: `None` → `7.3 Врач (специалист) эпидемиолог`
+  - `professions[33].ork_level`: `None` → `7`
+  - `professions[34].name`: `None` → `6.3 Врач (специалист) санитарно-эпидемиологической службы`
+  - `professions[34].ork_level`: `None` → `6`
+  - `professions[35].name`: `None` → `6.3 Врач (специалист) эпидемиолог`
+  - `professions[35].ork_level`: `None` → `6`
+  - `professions[36].name`: `None` → `6.2 Врач (специалист) эпидемиолог`
+  - `professions[36].ork_level`: `None` → `6`
+  - `professions[37].name`: `None` → `4.3 Помощник врача гигиениста-эпидемиолога`
+  - `professions[37].ork_level`: `None` → `4`
+  - `professions[38].name`: `None` → `4.1 Помощник врача гигиениста-эпидемиолога`
+  - `professions[38].ork_level`: `None` → `4`
+  - `professions[39].name`: `None` → `7.1 Врач (специалист) гигиены питания`
+  - `professions[39].ork_level`: `None` → `7`
+  - `professions[40].name`: `None` → `7.3 Врач (специалист) гигиены детей и подростков`
+  - `professions[40].ork_level`: `None` → `7`
+  - `professions[41].name`: `None` → `7.2 Врач (специалист) гигиены детей и подростков`
+  - `professions[41].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `P`
+  - `categories.official.oked[1]`: `None` → `85421`
+  - `categories.official.government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.year` изменено
+  - `categories.official.version` изменено
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1407`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1407/download`
+  - `hashes.metadata_sha256`: `None` → `31674cd3ba6db8ee0da88c10fb6721096cc4ef31f9bb03a6c26ab3cd70182d54`
+  - `hashes.pdf_sha256`: `None` → `3cf4a4014e8c35414bfda4edb163c6627a5269df70d44c37303eaba8872098e9`
+  - `hashes.normalized_sha256`: `None` → `fe84e736a2790d8cc145256f9c76be8e5f1b9a34f6a92dca08666982d50f422c`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+- **`NEW`** [D35130070](docs/standards/1739.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1739`
+  - `code`: `None` → `D35130070`
+  - `title`: `None` → `Цифровизация и применение искусственного интеллекта в энергетике`
+  - `government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Цифровизация и применение искусственного интеллекта в энергетике» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях» и применяется в сфере электроэнергетики и теплоэнергетики и охватывает виды экономической деятельности, связанные с цифровой трансформацией энергетической отрасли, включая внедрение и эксплуатацию цифровых технологий, систем автоматизации, анализа данных, разработку и применение решений на основе искусственного интеллекта при производстве, передаче, хранении, распределении и потреблении электрической и тепловой энергии.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2026`
+  - `revision_date`: `None` → `2029-12-31`
+  - `oked.section_code`: `None` → `J`
+  - `oked.section_name`: `None` → `Информация и связь`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `62092`
+  - `oked.subclass_name`: `None` → `Деятельность в области кибербезопасности`
+  - `professions[0].name`: `None` → `Специалист по кибербезопасности комплексных сетей в энергетике`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Инженер по разработке и внедрению искусственного интеллекта в энергетике`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Проектировщик умных сетей`
+  - `professions[2].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `J`
+  - `categories.official.oked[1]`: `None` → `62092`
+  - `categories.official.government_body`: `None` → `Министерство энергетики Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.year`: `None` → `2026`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1739`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1739/download`
+  - `hashes.metadata_sha256`: `None` → `ba34d2c92150121b49cf814b6451ce2ce02a5188fdcf552fa571ee6801e22712`
+  - `hashes.pdf_sha256`: `None` → `15469ff10cfa3ddd635004adb1f51f162c6376a686068efdf0b84d2a3c6e666f`
+  - `hashes.normalized_sha256`: `None` → `e62491fe764ecba4fb7a8a4f3f7af4498cfb7d59bf925782a82cd04fca59b098`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+- **`NEW`** [Q86101073](docs/standards/1370.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1370`
+  - `code`: `None` → `Q86101073`
+  - `title`: `None` → `Радиационная онкология`
+  - `government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации кадров здравоохранения и предназначены для использования широким кругом пользователей:
+1) работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения;
+2) работодателями – для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и аттестации персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров;
+3) организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия;
+4) государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда.
+5) медицинскими организациями образованиями – для использования в разработке образовательных программ резидентуры, магистратуры, курсов повышения квалификации и др.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-12-05`
+  - `oked.section_code`: `None` → `Q`
+  - `oked.section_name`: `None` → `Здравоохранение и социальное обслуживание населения`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `86101`
+  - `oked.subclass_name`: `None` → `Деятельность больниц широкого профиля и специализированных больниц`
+  - `professions[0].name`: `None` → `Врач-онколог радиационный`
+  - `professions[0].ork_level`: `None` → `7`
+  - `professions[1].name`: `None` → `Врач-онколог радиационный`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Врач-онколог радиационный`
+  - `professions[2].ork_level`: `None` → `7`
+  - `professions[3].name`: `None` → `Врач-онколог радиационный`
+  - `professions[3].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `Q`
+  - `categories.official.oked[1]`: `None` → `86101`
+  - `categories.official.government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1370`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1370/download`
+  - `hashes.metadata_sha256`: `None` → `c7a1fda5c08a0305b9e9c59f723e0e1235a93b41d6fe23faa8f47a3c85243871`
+  - `hashes.pdf_sha256`: `None` → `5d9c72d55b5122cb75d5660c866253f5107912b89a01dfffa0ef3941566ddb23`
+  - `hashes.normalized_sha256`: `None` → `9192fc1612aef541a3187ea3eed2ead3b8b59ea4d99cd5bbfa15a30421a65d98`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+- **`NEW`** [M70221012](docs/standards/534.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `534`
+  - `code`: `None` → `M70221012`
+  - `title`: `None` → `Управление человеческими ресурсами (HR бизнес-партнер)`
+  - `government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Управление человеческими ресурсами (HR бизнес-партнер)" устанавливает требования к формированию образовательных программ, в том числе повышения квалификации, признания профессиональной квалификации работников и выпускников организаций образования, а также предназначен для определения требований к уровню квалификации и компетентности, а также решения широкого круга задач в области управления человеческими ресурсами в организациях и на предприятиях. Настоящий профессиональный стандарт определяет роль HR бизнес-партнера, выступающего посредником между HR руководством и представителями бизнеса в рамках управления человеческими ресурсами.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-03-31`
+  - `oked.section_code`: `None` → `M`
+  - `oked.section_name`: `None` → `Профессиональная, научная и техническая деятельность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `70221`
+  - `oked.subclass_name`: `None` → `Консультирование по вопросам коммерческой деятельности и управления`
+  - `professions[0].name`: `None` → `HR бизнес-партнер`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `HR бизнес-партнер`
+  - `professions[1].ork_level`: `None` → `8`
+  - `categories.official.oked[0]`: `None` → `M`
+  - `categories.official.oked[1]`: `None` → `70221`
+  - `categories.official.government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `8`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/534`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/534/download`
+  - `hashes.metadata_sha256`: `None` → `58a2d7af057b745074ff4099c6a9d4334313c30057a07652bcd65bade0e29f26`
+  - `hashes.pdf_sha256`: `None` → `bc8e4f5a91f4e64d41cdfd8abdcfc4dc59a402029020e48848803127e2c22413`
+  - `hashes.normalized_sha256`: `None` → `1c8a38dd6dd7fda69488f4d569bedb8bd5fe7833bec62bddf67f46622390824e`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+- **`NEW`** [O84120034](docs/standards/1409.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1409`
+  - `code`: `None` → `O84120034`
+  - `title`: `None` → `Общественное здоровье/Общественное здравоохранение`
+  - `government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Общественное здравоохранение» разработан в соответствии со статьей 5 Закона Республики Казахстан «О профессиональных квалификациях» и предназначен для: абитуриентов, осуществляющих выбор своей профессиональной деятельности; студентов ВУЗов; работников системы здравоохранения по специальности «Общественное здравоохранение» в качестве ориентира дальнейшего профессионального развития; работников сферы медицинского образования, как ориентир для совершенствования образовательных программ; кадровых служб организаций здравоохранения; совершенствования управления человеческими ресурсами службы общественного здравоохранения, организаций здравоохранения и Министерства здравоохранения РК; осуществления рациональной кадровой политики и планирования развития человеческих ресурсов, как отдельных организаций, так и отрасли в целом.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2025`
+  - `revision_date`: `None` → `2028-12-31`
+  - `oked.section_code`: `None` → `O`
+  - `oked.section_name`: `None` → `Государственное управление и оборона; обязательное  социальное обеспечение`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `84300`
+  - `oked.subclass_name`: `None` → `Деятельность в области обязательного социального страхования`
+  - `professions[0].name`: `None` → `Врач общественного здравоохранения-эпидемиолог`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Врач общественного здравоохранения`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Врач общественного здравоохранения`
+  - `professions[2].ork_level`: `None` → `7`
+  - `professions[3].name`: `None` → `Врач-валеолог`
+  - `professions[3].ork_level`: `None` → `6`
+  - `professions[4].name`: `None` → `Врач общественного здравоохранения`
+  - `professions[4].ork_level`: `None` → `6`
+  - `professions[5].name`: `None` → `Врач общественного здравоохранения`
+  - `professions[5].ork_level`: `None` → `7`
+  - `professions[6].name`: `None` → `Врач-методолог`
+  - `professions[6].ork_level`: `None` → `6`
+  - `professions[7].name`: `None` → `Врач-статистик`
+  - `professions[7].ork_level`: `None` → `6`
+  - `categories.official.oked[0]`: `None` → `O`
+  - `categories.official.oked[1]`: `None` → `84300`
+  - `categories.official.government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `6`
+  - `categories.official.ork_levels[1]`: `None` → `7`
+  - `categories.official.year`: `None` → `2025`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1409`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1409/download`
+  - `hashes.metadata_sha256`: `None` → `b7ad1751522e5c8720d40b6d36c7590fdc9c786bd049511656591369f30523f7`
+  - `hashes.pdf_sha256`: `None` → `106600ae892a71668bbe07615f3fe04b60385dc743ced8740f6f01a7dbadcd95`
+  - `hashes.normalized_sha256`: `None` → `a2b41bbc9b87c273c6f8c6e51bd01bb7570655afc263619841d5e954a5bc484e`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+- **`NEW`** [M70221020](docs/standards/540.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `540`
+  - `code`: `None` → `M70221020`
+  - `title`: `None` → `Адаптация, обучение и развитие персонала`
+  - `government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Адаптация, обучение и развитие персонала» предназначен для определения требований к уровню квалификации и компетентности работников в сфере управления человеческими ресурсами организации, отвечающих за вопросы адаптации, развития и обучения персонала организации, и применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации и подготовки кадров в области обучения и развития персонала. Профессиональный стандарт предназначен для использования: 1) работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения; 2) работодателями – для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и аттестации персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров; 3) организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия; 4) государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-10-31`
+  - `oked.section_code`: `None` → `M`
+  - `oked.section_name`: `None` → `Профессиональная, научная и техническая деятельность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `70221`
+  - `oked.subclass_name`: `None` → `Консультирование по вопросам коммерческой деятельности и управления`
+  - `professions[0].name`: `None` → `Специалист по обучению и развитию персонала`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Инженер по профессиональной адаптации`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Руководитель по развитию персонала`
+  - `professions[2].ork_level`: `None` → `7`
+  - `professions[3].name`: `None` → `Служащий по обучению и развитию персонала`
+  - `professions[3].ork_level`: `None` → `5`
+  - `categories.official.oked[0]`: `None` → `M`
+  - `categories.official.oked[1]`: `None` → `70221`
+  - `categories.official.government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `5`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/540`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/540/download`
+  - `hashes.metadata_sha256`: `None` → `0d94843092f8be6bfbe16199baf3540d3a170ba317c5ed51c60eb6e7d152fbb8`
+  - `hashes.pdf_sha256`: `None` → `181c4a9b183d2f85c29274143aefc991a8fb28f9e21c77c2e8646c31f5e6e244`
+  - `hashes.normalized_sha256`: `None` → `a011f14b9a53cf24e0da6936a2b0ce585e516e9964ba8bab7c15278c525fae7d`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+- **`NEW`** [M70221048](docs/standards/541.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `541`
+  - `code`: `None` → `M70221048`
+  - `title`: `None` → `Поиск и подбор персонала (рекрутинг)`
+  - `government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации специалистов в области поиска и подбора персонала (рекрутинг) и предназначены для использования широким кругом пользователей: 1) работниками – для понимания предъявляемых требований к профессии, планирования повышения своей квалификации и карьерного продвижения; 2) работодателями – для планирования, управления, реализации и координации процессов, направленных на поиск и подбор необходимых организации сотрудников. Для разработки требований, инструкций, обязанностей к работникам, занятых поиском и подбором персонала,  формирования критериев при их найме и аттестации и составления программ повышения их квалификации; 3) организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия; 4) государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-07-30`
+  - `oked.section_code`: `None` → `M`
+  - `oked.section_name`: `None` → `Профессиональная, научная и техническая деятельность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `70221`
+  - `oked.subclass_name`: `None` → `Консультирование по вопросам коммерческой деятельности и управления`
+  - `professions[0].name`: `None` → `Руководитель подразделения по поиску и подбору персонала`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Специалист по подбору персонала`
+  - `professions[1].ork_level`: `None` → `5`
+  - `professions[2].name`: `None` → `Служащий по поиску и подбору персонала`
+  - `professions[2].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `M`
+  - `categories.official.oked[1]`: `None` → `70221`
+  - `categories.official.government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `5`
+  - `categories.official.ork_levels[2]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/541`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/541/download`
+  - `hashes.metadata_sha256`: `None` → `ceb127b9fafa45a327c2a305ef6d2b576a72d457e7836c1bccc85ede4cadf681`
+  - `hashes.pdf_sha256`: `None` → `6c5110ac3ee88aa6c20874c39116293bc340dd567a483e6f58cb9b5fd953a8fe`
+  - `hashes.normalized_sha256`: `None` → `224af42a14615fa6354e6cc69a03bfb3c82bc69e2d18b8b21488870420b09d9e`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+- **`NEW`** [M70221047](docs/standards/545.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `545`
+  - `code`: `None` → `M70221047`
+  - `title`: `None` → `Кадровое администрирование`
+  - `government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Кадровое администрирование» применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации кадров в сфере управления человеческими ресурсами и предназначены для использования широким кругом пользователей: 1) работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения; 2) работодателями – для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и оценке персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров; 3) организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия; 4) государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда. Настоящий профессиональный стандарт включает управление человеческими ресурсами (многопрофильного направления).`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-05-03`
+  - `oked.section_code`: `None` → `M`
+  - `oked.section_name`: `None` → `Профессиональная, научная и техническая деятельность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `70221`
+  - `oked.subclass_name`: `None` → `Консультирование по вопросам коммерческой деятельности и управления`
+  - `professions[0].name`: `None` → `Руководитель по кадровому администрированию (делопроизводству)`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Специалист по кадровому администрированию (делопроизводству)`
+  - `professions[1].ork_level`: `None` → `5`
+  - `professions[2].name`: `None` → `Служащий по учету кадров`
+  - `professions[2].ork_level`: `None` → `4`
+  - `professions[3].name`: `None` → `Специалист по управлению аутстаффингом персонала`
+  - `professions[3].ork_level`: `None` → `5`
+  - `professions[4].name`: `None` → `Координатор по привлечению иностранной рабочей силы`
+  - `professions[4].ork_level`: `None` → `5`
+  - `categories.official.oked[0]`: `None` → `M`
+  - `categories.official.oked[1]`: `None` → `70221`
+  - `categories.official.government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `4`
+  - `categories.official.ork_levels[1]`: `None` → `5`
+  - `categories.official.ork_levels[2]`: `None` → `6`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/545`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/545/download`
+  - `hashes.metadata_sha256`: `None` → `87987dd364e2fe654f9f3eab7796558cb7e47dfb4bc3092e994b4f17b0db0924`
+  - `hashes.pdf_sha256`: `None` → `4f2a4c7ef2188fdfeea5eebe61f272a347d96ba1b9979cb7bd789bc45ee6a127`
+  - `hashes.normalized_sha256`: `None` → `7646301327df8e4168f8d00065b3173f4e22a4512b4e95e850f7c2bc832054e9`
+  - `timestamps.first_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_seen_at`: `None` → `2026-10-19T15:13:21Z`
+  - `timestamps.last_changed_at`: `None` → `2026-10-19T15:13:21Z`
+
 ## 2026-10-12
 
 - **`UPDATED`** [C14199097](docs/standards/1403.md) — 
