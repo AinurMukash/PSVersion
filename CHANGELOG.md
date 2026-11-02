@@ -2,6 +2,60 @@
 
 > Все зафиксированные изменения в реестре профессиональных стандартов Enbek.kz.
 
+## 2026-11-02
+
+- **`NEW`** [M70221022](docs/standards/615.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `615`
+  - `code`: `None` → `M70221022`
+  - `title`: `None` → `Управление корпоративной культурой`
+  - `government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Управление корпоративной культурой и благополучием работников» в сфере «Управления человеческими ресурсами» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях», применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации кадров в сфере управления человеческими ресурсами и предназначены для использования широким кругом пользователей: 
+1) работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения; 
+2) работодателями – для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и оценке персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров; 
+3) организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия; 
+4) государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда. 
+Настоящий профессиональный стандарт включает управление человеческими ресурсами (многопрофильного направления).`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2024`
+  - `revision_date`: `None` → `2027-10-30`
+  - `oked.section_code`: `None` → `M`
+  - `oked.section_name`: `None` → `Профессиональная, научная и техническая деятельность`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `70221`
+  - `oked.subclass_name`: `None` → `Консультирование по вопросам коммерческой деятельности и управления`
+  - `professions[0].name`: `None` → `Менеджер по развитию корпоративной культуры`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Менеджер по управлению HR брендом`
+  - `professions[1].ork_level`: `None` → `6`
+  - `professions[2].name`: `None` → `Специалист по развитию корпоративной культуры`
+  - `professions[2].ork_level`: `None` → `5`
+  - `professions[3].name`: `None` → `Менеджер по внутренним коммуникациям`
+  - `professions[3].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `M`
+  - `categories.official.oked[1]`: `None` → `70221`
+  - `categories.official.government_body`: `None` → `Министерство труда и социальной защиты населения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `5`
+  - `categories.official.ork_levels[1]`: `None` → `6`
+  - `categories.official.ork_levels[2]`: `None` → `7`
+  - `categories.official.year`: `None` → `2024`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/615`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/615/download`
+  - `hashes.metadata_sha256`: `None` → `5dd75e6609b3ede7f97a8cca8a83e17c4b77c764bcae986de2f882ff70c02398`
+  - `hashes.pdf_sha256`: `None` → `781e0dad0bd8c235fa1c33218bf161567b324df53aab312b6e94b3ff66c92200`
+  - `hashes.normalized_sha256`: `None` → `b80c4fd15e9015a272f072a00fe30f1769739d2b555c982e936d013ab5a1a227`
+  - `timestamps.first_seen_at`: `None` → `2026-11-02T17:43:28Z`
+  - `timestamps.last_seen_at`: `None` → `2026-11-02T17:43:28Z`
+  - `timestamps.last_changed_at`: `None` → `2026-11-02T17:43:28Z`
+
 ## 2026-10-19
 
 - **`NEW`** [M71209104](docs/standards/1407.md) — 
