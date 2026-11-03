@@ -72,6 +72,7 @@ jobs:
 
           COMMIT_DATE=$(date -u +"%Y-%m-%d")
           git commit -m "sync: weekly Enbek update ${COMMIT_DATE} [skip ci]"
+          git pull --rebase origin main
           git push
 
       - name: Notify subscribers about registry changes
