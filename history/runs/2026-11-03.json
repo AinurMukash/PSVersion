@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-11-03T07:15:35Z",
+  "finished_at": "2026-11-03T07:18:28Z",
+  "status": "success",
+  "bootstrap": false,
+  "total": 723,
+  "new": 0,
+  "updated": 0,
+  "unchanged": 723,
+  "missing": 0,
+  "missing_pdf": 0,
+  "removed": 0,
+  "events_count": 0
+}
