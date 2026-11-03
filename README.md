@@ -2,8 +2,7 @@
 
 > Автоматизированный Git-мониторинг реестра профессиональных стандартов с официального портала [career.enbek.kz](https://career.enbek.kz/ru/ps-registry).
 
-**Последняя синхронизация:** `02.11.2026 17:45 UTC`
-**Всего стандартов в репозитории:** `723`
+📋 *Полный каталог всех стандартов опубликован в [GitHub Issues — Каталог стандартов](https://github.com/AinurMukash/enbek-profstandars/issues?q=is%3Aissue+label%3Acatalog). Карточки в папке [docs/standards/](docs/standards/).*
 **Периодичность обновления:** еженедельно по понедельникам (GitHub Actions)
 
 ## 📊 Состояние реестра
@@ -38,6 +37,7 @@
 
 👉 *Полная хроника изменений доступна в файле [CHANGELOG.md](CHANGELOG.md).*
 
+<<<<<<< HEAD
 ## 📋 Каталог стандартов в базе
 
 | Код | Название стандарта | Секция ОКЭД | Госорган | Карточка | Документ |
@@ -69,6 +69,9 @@
 | `C19100076` | Управление коксохимическим процессом | **C** | «Республиканская ассоциация горнодобывающих и горно-металлургических предприятий» | [Открыть](docs/standards/1088.md) | [PDF 📄](raw/pdf/1088.pdf) |
 
 *...и ещё 698 стандартов. Подробные карточки всех стандартов находятся в папке [`docs/standards/`](docs/standards/).*
+=======
+📋 *Полный каталог всех стандартов опубликован в [GitHub Issues — Каталог стандартов](https://github.com/AinurMukash/enbek-profstandars/issues?q=is%3Aissue+label%3Acatalog). Карточки в папке [`docs/standards/`](docs/standards/).*
+>>>>>>> 4cd8ba4 (feat: move full standards catalog from README to multi-part GitHub Issues)
 
 ## 🏭 Распределение по отраслям (ОКЭД)
 

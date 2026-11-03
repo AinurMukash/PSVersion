@@ -98,3 +98,41 @@ jobs:
               --title "Обновление реестра профессиональных стандартов: ${RUN_DATE} (${RUN_ID})" \
               --body-file /tmp/enbek-changes.md
           fi
+
+      - name: Create or update full standards catalog issue
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.bootstrap != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m enbek_monitor.cli issue-summary --output /tmp/enbek-changes.md
+          RUN_ID=$(sed -n 's/.*<!-- enbek-run-id:\([^ ]*\) -->.*/\1/p' /tmp/enbek-changes.md | head -n 1)
+          if [ -z "$RUN_ID" ]; then
+            echo "No run ID found; skipping catalog issue."
+            exit 0
+          fi
+
+          RUN_DATE=${RUN_ID#run-}
+          python -m enbek_monitor.cli catalog-issue --output /tmp/enbek-catalog.md
+
+          CATALOG_TITLE="Каталог профессиональных стандартов: ${RUN_DATE} (${RUN_ID})"
+          EXISTING_CATALOG=$(gh issue list --state all --limit 100 --search "Каталог $RUN_ID in:title" \
+            --json number --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING_CATALOG" ]; then
+            gh issue edit "$EXISTING_CATALOG" --body-file /tmp/enbek-catalog.md
+            echo "Updated catalog issue #$EXISTING_CATALOG for $RUN_ID."
+          else
+            NEW_CATALOG=$(gh issue create \
+              --title "$CATALOG_TITLE" \
+              --body-file /tmp/enbek-catalog.md \
+              --label "catalog" \
+              --json number --jq '.number')
+            echo "Created catalog issue #$NEW_CATALOG for $RUN_ID."
+
+            for PART_FILE in /tmp/enbek-catalog-part-*.md; do
+              if [ -f "$PART_FILE" ]; then
+                gh issue comment "$NEW_CATALOG" --body-file "$PART_FILE"
+                echo "Added catalog comment from $PART_FILE to issue #$NEW_CATALOG."
+              fi
+            done
+          fi
