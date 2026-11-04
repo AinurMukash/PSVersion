@@ -53,7 +53,18 @@ def test_readme_does_not_contain_catalog_table(tmp_path: Path) -> None:
     content = readme_path.read_text(encoding="utf-8")
 
     assert "## 📋 Каталог стандартов в базе" not in content
-    assert "GitHub Issues — Каталог стандартов" in content
+    assert "GitHub Issues — Каталог стандартов" not in content
+    assert "docs/standards/" in content
+
+
+def test_issue_summary_no_changes_when_latest_run_has_zero_events(tmp_path: Path) -> None:
+    workspace = Path(__file__).resolve().parent.parent
+    generator = DocGenerator(workspace)
+
+    summary = generator.generate_issue_summary()
+    # The latest run in repo (2026-11-03) had 0 events
+    assert "Изменения не зафиксированы" in summary
+    assert "<!-- enbek-run-id:" not in summary
 
 
 def test_cli_catalog_issue_writes_parts(tmp_path: Path) -> None:

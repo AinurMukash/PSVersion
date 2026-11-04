@@ -41,6 +41,7 @@ class DocGenerator:
         self.data_dir = self.workspace_root / "data"
         self.standards_dir = self.data_dir / "standards"
         self.history_dir = self.workspace_root / "history"
+        self.runs_dir = self.history_dir / "runs"
         self.docs_dir = self.workspace_root / "docs"
         self.standards_docs_dir = self.docs_dir / "standards"
 
@@ -85,6 +86,21 @@ class DocGenerator:
 
     def _load_latest_run_events(self) -> list[dict[str, Any]]:
         """Read only the newest contiguous run from the append-only journal."""
+        # If the latest run in history/runs had 0 events, there are no new changes
+        if self.runs_dir.exists():
+            run_files = sorted(self.runs_dir.glob("*.json"))
+            if run_files:
+                latest_run_file = run_files[-1]
+                try:
+                    report = json.loads(latest_run_file.read_text(encoding="utf-8"))
+                    if isinstance(report, dict):
+                        if report.get("events_count", 0) == 0 and not (
+                            report.get("new", 0) or report.get("updated", 0) or report.get("removed", 0)
+                        ):
+                            return []
+                except (OSError, json.JSONDecodeError):
+                    pass
+
         changes_file = self.history_dir / "changes.jsonl"
         if not changes_file.exists():
             return []
@@ -241,7 +257,7 @@ class DocGenerator:
             ])
 
         lines.extend([
-            "📋 *Полный каталог всех стандартов опубликован в [GitHub Issues — Каталог стандартов](https://github.com/AinurMukash/enbek-profstandars/issues?q=is%3Aissue+label%3Acatalog). Карточки в папке [`docs/standards/`](docs/standards/).*",
+            "📋 *Карточки всех стандартов доступны в папке [`docs/standards/`](docs/standards/), а также по отраслям в [`docs/oked/`](docs/oked/). Полный реестр в JSON: [`data/registry.json`](data/registry.json).*",
             "",
         ])
 

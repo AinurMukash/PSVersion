@@ -2,7 +2,7 @@
 
 > Автоматизированный Git-мониторинг реестра профессиональных стандартов с официального портала [career.enbek.kz](https://career.enbek.kz/ru/ps-registry).
 
-**Последняя синхронизация:** `03.11.2026 07:18 UTC`
+**Последняя синхронизация:** `04.11.2026 05:31 UTC`
 **Всего стандартов в репозитории:** `723`
 **Периодичность обновления:** еженедельно по понедельникам (GitHub Actions)
 
@@ -38,7 +38,7 @@
 
 👉 *Полная хроника изменений доступна в файле [CHANGELOG.md](CHANGELOG.md).*
 
-📋 *Полный каталог всех стандартов опубликован в [GitHub Issues — Каталог стандартов](https://github.com/AinurMukash/enbek-profstandars/issues?q=is%3Aissue+label%3Acatalog). Карточки в папке [`docs/standards/`](docs/standards/).*
+📋 *Карточки всех стандартов доступны в папке [`docs/standards/`](docs/standards/), а также по отраслям в [`docs/oked/`](docs/oked/). Полный реестр в JSON: [`data/registry.json`](data/registry.json).*
 
 ## 🏭 Распределение по отраслям (ОКЭД)
 
