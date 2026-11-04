@@ -82,13 +82,6 @@ def main() -> int:
     issue_parser.add_argument("--workspace", type=str, default=None, help="Workspace root path")
     issue_parser.add_argument("--output", type=str, default=None, help="Output file path")
 
-    # Command: catalog-issue
-    catalog_parser = subparsers.add_parser(
-        "catalog-issue", help="Generate full catalog of all standards for GitHub Issue"
-    )
-    catalog_parser.add_argument("--workspace", type=str, default=None, help="Workspace root path")
-    catalog_parser.add_argument("--output", type=str, default=None, help="Output file path")
-
     args = parser.parse_args()
 
     if not args.command or args.command == "sync":
@@ -130,22 +123,6 @@ def main() -> int:
             Path(output_path).write_text(summary, encoding="utf-8")
         else:
             print(summary)
-        return 0
-
-    elif args.command == "catalog-issue":
-        workspace = getattr(args, "workspace", None)
-        generator = DocGenerator(workspace or Path.cwd())
-        parts = generator.generate_catalog_parts()
-        output_path = getattr(args, "output", None)
-        if output_path:
-            out_p = Path(output_path)
-            out_p.parent.mkdir(parents=True, exist_ok=True)
-            out_p.write_text(parts[0], encoding="utf-8")
-            for idx, part_content in enumerate(parts[1:], start=2):
-                part_file = out_p.parent / f"{out_p.stem}-part-{idx}{out_p.suffix}"
-                part_file.write_text(part_content, encoding="utf-8")
-        else:
-            print(parts[0])
         return 0
 
     return 0
