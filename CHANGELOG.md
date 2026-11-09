@@ -2,6 +2,53 @@
 
 > Все зафиксированные изменения в реестре профессиональных стандартов Enbek.kz.
 
+## 2026-11-09
+
+- **`NEW`** [O84250035](docs/standards/2001.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `2001`
+  - `code`: `None` → `O84250035`
+  - `title`: `None` → `Деятельность в области диспетчерской службы при чрезвычайных ситуациях`
+  - `government_body`: `None` → `Министерство по чрезвычайным ситуациям Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Деятельность в области диспетчерской службы при чрезвычайных ситуациях» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях» и предназначен для установления единых требований к квалификации, уровню компетентности, содержанию, качеству и условиям труда специалистов, осуществляющих профессиональную деятельность в сфере экстренного реагирования на чрезвычайные ситуации, ликвидации последствий происшествий, а также при возникновении непосредственных угроз жизни, безопасности и причинения вреда здоровью граждан. Разрабатывают актуальные образовательные программы, профессиональные квалификационные требования и должностные инструкции, формируют, координируют и реализуют комплексные системы непрерывной подготовки, переподготовки и планового повышения квалификации работников, а также применяют его в качестве базового инструментария при подборе, расстановке, объективной оценке, сертификации и аттестации персонала диспетчерских служб экстренного реагирования, функционирующих в рамках Единой дежурно-диспетчерской службы - 112`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2026`
+  - `revision_date` изменено
+  - `oked.section_code`: `None` → `O`
+  - `oked.section_name`: `None` → `Государственное управление и оборона; обязательное  социальное обеспечение`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `84250`
+  - `oked.subclass_name`: `None` → `Деятельность по обеспечению безопасности в чрезвычайных ситуациях`
+  - `professions[0].name`: `None` → `Оператор дежурной службы («Единой дежурно диспетчерской службы – 112»)`
+  - `professions[0].ork_level`: `None` → `6`
+  - `professions[1].name`: `None` → `Оператор дежурной службы («Единой дежурно диспетчерской службы – 112»)`
+  - `professions[1].ork_level`: `None` → `2`
+  - `professions[2].name`: `None` → `Оператор дежурной службы («Единой дежурно диспетчерской службы – 112»)`
+  - `professions[2].ork_level`: `None` → `4`
+  - `categories.official.oked[0]`: `None` → `O`
+  - `categories.official.oked[1]`: `None` → `84250`
+  - `categories.official.government_body`: `None` → `Министерство по чрезвычайным ситуациям Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `4`
+  - `categories.official.ork_levels[2]`: `None` → `6`
+  - `categories.official.year`: `None` → `2026`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/2001`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/2001/download`
+  - `hashes.metadata_sha256`: `None` → `cc17aea3287043686a67f6390cc943b9145f3b7346e4596a6524f737006abef9`
+  - `hashes.pdf_sha256`: `None` → `a6421fe4701388c8748318555acd2faca7514fddef418ee8a31646ecba486f8d`
+  - `hashes.normalized_sha256`: `None` → `ffadced851284041d3c3621703085e20d3f59f9d95f7532a7eaf30dfb099c8aa`
+  - `timestamps.first_seen_at`: `None` → `2026-11-09T10:16:27Z`
+  - `timestamps.last_seen_at`: `None` → `2026-11-09T10:16:27Z`
+  - `timestamps.last_changed_at`: `None` → `2026-11-09T10:16:27Z`
+
 ## 2026-11-02
 
 - **`NEW`** [M70221022](docs/standards/615.md) — 
