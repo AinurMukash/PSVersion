@@ -88,8 +88,8 @@ jobs:
           fi
 
           RUN_DATE=${RUN_ID#run-}
-          EXISTING_ISSUE=$(gh issue list --state all --limit 100 --search "$RUN_ID in:title" \
-            --json number --jq '.[0].number // empty')
+          EXISTING_ISSUE=$(gh issue list --state all --limit 100 --json number,title \
+            --jq ".[] | select(.title | contains(\"(${RUN_ID})\")) | .number" | head -n 1)
 
           if [ -n "$EXISTING_ISSUE" ]; then
             gh issue edit "$EXISTING_ISSUE" --body-file /tmp/enbek-changes.md

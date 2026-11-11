@@ -2,21 +2,23 @@ name: Keepalive
 
 on:
   schedule:
-    # Run every 50 days to prevent GitHub from disabling scheduled workflows
-    - cron: "0 8 */50 * *"
+    # Check every Sunday at 00:00 UTC
+    - cron: "0 0 * * 0"
   workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
 
 jobs:
   keepalive:
     runs-on: ubuntu-latest
     steps:
-      - name: Keep workflows alive
-        uses: actions/github-script@v7
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@v2
         with:
-          script: |
-            await github.rest.actions.enableWorkflow({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'sync.yml'
-            });
-            console.log('sync.yml workflow re-enabled successfully');
+          use_api: true
+          time_elapsed: 45

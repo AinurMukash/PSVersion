@@ -8,9 +8,10 @@ from enbek_monitor.cli import main
 from enbek_monitor.generate_docs import DocGenerator
 
 
-def test_readme_does_not_contain_catalog_table_or_issue_link() -> None:
+def test_readme_does_not_contain_catalog_table_or_issue_link(tmp_path: Path) -> None:
     workspace = Path(__file__).resolve().parent.parent
     generator = DocGenerator(workspace)
+    generator.workspace_root = tmp_path
 
     readme_path = generator.generate_readme(
         records=generator._load_all_records(),
@@ -26,12 +27,23 @@ def test_readme_does_not_contain_catalog_table_or_issue_link() -> None:
     assert "data/registry.json" in content
 
 
-def test_issue_summary_no_changes_when_latest_run_has_zero_events() -> None:
-    workspace = Path(__file__).resolve().parent.parent
-    generator = DocGenerator(workspace)
+def test_issue_summary_no_changes_when_latest_run_has_zero_events(tmp_path: Path) -> None:
+    history_dir = tmp_path / "history"
+    runs_dir = history_dir / "runs"
+    runs_dir.mkdir(parents=True)
 
+    run_report = {
+        "started_at": "2026-11-04T08:00:00Z",
+        "finished_at": "2026-11-04T08:03:00Z",
+        "events_count": 0,
+        "new": 0,
+        "updated": 0,
+        "removed": 0,
+    }
+    (runs_dir / "2026-11-04.json").write_text(json.dumps(run_report), encoding="utf-8")
+
+    generator = DocGenerator(tmp_path)
     summary = generator.generate_issue_summary()
-    # The latest run in repo (2026-11-04) had 0 events
     assert "Изменения не зафиксированы" in summary
     assert "<!-- enbek-run-id:" not in summary
 
@@ -89,7 +101,14 @@ def test_issue_summary_formats_events_when_changes_occur(tmp_path: Path) -> None
 
 
 def test_cli_issue_summary_writes_output_file(tmp_path: Path) -> None:
-    workspace = Path(__file__).resolve().parent.parent
+    workspace = tmp_path / "ws"
+    history_dir = workspace / "history"
+    runs_dir = history_dir / "runs"
+    runs_dir.mkdir(parents=True)
+    (runs_dir / "2026-11-04.json").write_text(
+        json.dumps({"events_count": 0, "new": 0, "updated": 0, "removed": 0}),
+        encoding="utf-8",
+    )
     output_file = tmp_path / "issue_summary.md"
 
     with patch(
@@ -109,3 +128,4 @@ def test_cli_issue_summary_writes_output_file(tmp_path: Path) -> None:
     assert output_file.is_file()
     content = output_file.read_text(encoding="utf-8")
     assert "## Обновление профессиональных стандартов" in content
+    assert "Изменения не зафиксированы" in content
