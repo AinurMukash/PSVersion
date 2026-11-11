@@ -2,6 +2,63 @@
 
 > Все зафиксированные изменения в реестре профессиональных стандартов Enbek.kz.
 
+## 2026-11-11
+
+- **`NEW`** [Q86101080](docs/standards/2195.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `2195`
+  - `code`: `None` → `Q86101080`
+  - `title`: `None` → `Общая врачебная практика, семейная медицина (взрослая, детская)`
+  - `government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт применяется в качестве основы для оценки, аттестации, сертификации и подтверждения квалификации, подготовки и специализации кадров здравоохранения и предназначены для использования широким кругом пользователей:
+1) работниками – для понимания предъявляемых требований к профессии в отрасли, планирования повышения своей квалификации и карьерного продвижения;
+2) работодателями – для разработки используемых требований, инструкций, обязанностей к работникам, формирования критериев при найме и аттестации персонала, а также составления программ повышения квалификации, развития, продвижения и ротации кадров;
+3) организациями (органами), осуществляющими деятельность по сертификации и присвоению квалификации – для разработки оценочных материалов при сертификации персонала и выработки критериев квалификации работников по уровню соответствия;
+4) государственными органами – для использования профессионального стандарта в качестве критериев для мониторинга и прогнозирования рынка труда.`
+  - `version`: `None` → `1`
+  - `year`: `None` → `2023`
+  - `revision_date`: `None` → `2026-11-30`
+  - `oked.section_code`: `None` → `Q`
+  - `oked.section_name`: `None` → `Здравоохранение и социальное обслуживание населения`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `86101`
+  - `oked.subclass_name`: `None` → `Деятельность больниц широкого профиля и специализированных больниц`
+  - `professions[0].name`: `None` → `Врач общей практики`
+  - `professions[0].ork_level`: `None` → `7`
+  - `professions[1].name`: `None` → `Врач семейной медицины`
+  - `professions[1].ork_level`: `None` → `7`
+  - `professions[2].name`: `None` → `Врач семейной медицины`
+  - `professions[2].ork_level`: `None` → `7`
+  - `professions[3].name`: `None` → `Врач семейной медицины`
+  - `professions[3].ork_level`: `None` → `7`
+  - `professions[4].name`: `None` → `Врач общей практики`
+  - `professions[4].ork_level`: `None` → `7`
+  - `professions[5].name`: `None` → `Врач семейной медицины`
+  - `professions[5].ork_level`: `None` → `7`
+  - `professions[6].name`: `None` → `Врач общей практики`
+  - `professions[6].ork_level`: `None` → `7`
+  - `categories.official.oked[0]`: `None` → `Q`
+  - `categories.official.oked[1]`: `None` → `86101`
+  - `categories.official.government_body`: `None` → `Министерство здравоохранения Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `7`
+  - `categories.official.year`: `None` → `2023`
+  - `categories.official.version`: `None` → `1`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/2195`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/2195/download`
+  - `hashes.metadata_sha256`: `None` → `6cb26fca8a62aa68818ec42e49283165b602fb32345ab76751ce06f00e177a8e`
+  - `hashes.pdf_sha256`: `None` → `55a6ef633156f701a988d690e775ccfe1f3af95775ac6f5587182ad2709c700e`
+  - `hashes.normalized_sha256`: `None` → `ead42f843c905a9a73f5aa9345ae2f890390b628b0f4eb3fe9b2209a3bb48086`
+  - `timestamps.first_seen_at`: `None` → `2026-11-11T11:16:45Z`
+  - `timestamps.last_seen_at`: `None` → `2026-11-11T11:16:45Z`
+  - `timestamps.last_changed_at`: `None` → `2026-11-11T11:16:45Z`
+
 ## 2026-11-09
 
 - **`NEW`** [O84250035](docs/standards/2001.md) — 
