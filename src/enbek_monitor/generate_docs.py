@@ -584,7 +584,7 @@ class DocGenerator:
         lines.extend([
             "",
             "Подробности доступны в [журнале изменений](https://github.com/"
-            "AinurMukash/enbek-profstandars/blob/main/CHANGELOG.md).",
+            "AinurMukash/PSVersion/blob/main/CHANGELOG.md).",
             "",
         ])
 
