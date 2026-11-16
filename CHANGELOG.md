@@ -2,6 +2,58 @@
 
 > Все зафиксированные изменения в реестре профессиональных стандартов Enbek.kz.
 
+## 2026-11-16
+
+- **`NEW`** [H49312165](docs/standards/1961.md) — 
+  - `schema_version`: `None` → `1`
+  - `enbek_id`: `None` → `1961`
+  - `code`: `None` → `H49312165`
+  - `title`: `None` → `Перевозка пассажиров и багажа трамваями`
+  - `government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `description`: `None` → `Профессиональный стандарт «Перевозка пассажиров и багажа трамваями» разработан в соответствии с пунктом 5 статьи 5 Закона Республики Казахстан «О профессиональных квалификациях» и Правилами разработки и (или) актуализации профессиональных стандартов, утвержденными приказом Министра труда и социальной защиты населения Республики Казахстан от 7 сентября 2023 года № 377, устанавливают требования к формированию образовательных программ, в том числе обучения персонала на предприятиях, признания профессиональной квалификации работников и выпускников организаций образования и решений широкого круга задач в области управления и персоналом в организациях и на предприятиях.`
+  - `version`: `None` → `2`
+  - `year`: `None` → `2026`
+  - `revision_date`: `None` → `2029-12-31`
+  - `oked.section_code`: `None` → `H`
+  - `oked.section_name`: `None` → `Транспорт и складирование`
+  - `oked.division_code` изменено
+  - `oked.division_name` изменено
+  - `oked.group_code` изменено
+  - `oked.group_name` изменено
+  - `oked.class_code` изменено
+  - `oked.class_name` изменено
+  - `oked.subclass_code`: `None` → `49312`
+  - `oked.subclass_name`: `None` → `Перевозки трамваями`
+  - `professions[0].name`: `None` → `Ревизор по безопасности движения`
+  - `professions[0].ork_level`: `None` → `5`
+  - `professions[1].name`: `None` → `Техник по ведению эксплуатационной документации службы организации движения`
+  - `professions[1].ork_level`: `None` → `4`
+  - `professions[2].name`: `None` → `Диспетчер службы движения`
+  - `professions[2].ork_level`: `None` → `5`
+  - `professions[3].name`: `None` → `Инженер по организации перевозок`
+  - `professions[3].ork_level`: `None` → `6`
+  - `professions[4].name`: `None` → `Водитель трамвая`
+  - `professions[4].ork_level`: `None` → `2`
+  - `categories.official.oked[0]`: `None` → `H`
+  - `categories.official.oked[1]`: `None` → `49312`
+  - `categories.official.government_body`: `None` → `Министерство транспорта Республики Казахстан`
+  - `categories.official.ork_levels[0]`: `None` → `2`
+  - `categories.official.ork_levels[1]`: `None` → `4`
+  - `categories.official.ork_levels[2]`: `None` → `5`
+  - `categories.official.ork_levels[3]`: `None` → `6`
+  - `categories.official.year`: `None` → `2026`
+  - `categories.official.version`: `None` → `2`
+  - `categories.official.lifecycle_state`: `None` → `ACTIVE`
+  - `source.registry_url` изменено
+  - `source.page_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1961`
+  - `source.pdf_url`: `None` → `https://career.enbek.kz/ru/api/professionalstandart/1961/download`
+  - `hashes.metadata_sha256`: `None` → `1864574ee4cccf22e125f7304c918c99dbe940802287a352cd63ffb22790a739`
+  - `hashes.pdf_sha256`: `None` → `adc3246f84c25d5d71334392dd0a8cef2e1af86338cd264a8ff3e672634a6d71`
+  - `hashes.normalized_sha256`: `None` → `39680d37995e4a8ea843fce588490a5b130c4ddcaaef5d28270787fb9f1365c9`
+  - `timestamps.first_seen_at`: `None` → `2026-11-16T17:49:56Z`
+  - `timestamps.last_seen_at`: `None` → `2026-11-16T17:49:56Z`
+  - `timestamps.last_changed_at`: `None` → `2026-11-16T17:49:56Z`
+
 ## 2026-11-11
 
 - **`NEW`** [Q86101080](docs/standards/2195.md) — 
